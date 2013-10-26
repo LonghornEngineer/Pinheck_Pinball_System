@@ -2369,8 +2369,8 @@ design rules under a new name.</description>
 <element name="R118" library="PP_Passives" package="0805" value="360" x="112.776" y="73.406" smashed="yes" rot="R270">
 <attribute name="NAME" x="111.379" y="74.9935" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="TCBTWDN" library="PP_Connectors" package="HEADER_01X09_PTH" value="" x="303.276" y="113.284" smashed="yes" rot="R180">
-<attribute name="NAME" x="298.904" y="117.662" size="1.4224" layer="21" font="vector"/>
+<element name="TCBTWDN_PORT" library="PP_Connectors" package="HEADER_01X09_PTH" value="" x="303.276" y="113.284" smashed="yes" rot="R180">
+<attribute name="NAME" x="296.11" y="117.662" size="1.4224" layer="21" font="vector"/>
 </element>
 <element name="U36" library="PP_DigitalIC" package="SOP-14" value="WS2801" x="167.64" y="138.938" rot="R180"/>
 <element name="U38" library="PP_DigitalIC" package="SOP-14" value="WS2801" x="140.716" y="139.192" rot="R180"/>
@@ -2631,7 +2631,7 @@ design rules under a new name.</description>
 <contactref element="R115" pad="1"/>
 <contactref element="R117" pad="1"/>
 <contactref element="R118" pad="2"/>
-<contactref element="TCBTWDN" pad="2"/>
+<contactref element="TCBTWDN_PORT" pad="2"/>
 <contactref element="U38" pad="7"/>
 <contactref element="U36" pad="7"/>
 <contactref element="U38" pad="3"/>
@@ -4028,7 +4028,7 @@ design rules under a new name.</description>
 <contactref element="C36" pad="1"/>
 <contactref element="PSU_PWR" pad="A"/>
 <contactref element="AUX_PORT" pad="P$6"/>
-<contactref element="TCBTWDN" pad="1"/>
+<contactref element="TCBTWDN_PORT" pad="1"/>
 <contactref element="U38" pad="14"/>
 <contactref element="U36" pad="14"/>
 <contactref element="R119" pad="2"/>
@@ -5550,7 +5550,7 @@ design rules under a new name.</description>
 <signal name="AUX_6">
 <contactref element="U11" pad="6"/>
 <contactref element="R42" pad="1"/>
-<contactref element="TCBTWDN" pad="6"/>
+<contactref element="TCBTWDN_PORT" pad="6"/>
 <wire x1="300.736" y1="113.284" x2="300.736" y2="114.3135" width="0.254" layer="1"/>
 <wire x1="300.736" y1="109.866" x2="300.736" y2="113.284" width="0.254" layer="1"/>
 <wire x1="300.736" y1="114.3135" x2="305.562" y2="119.1395" width="0.254" layer="1"/>
@@ -5562,7 +5562,7 @@ design rules under a new name.</description>
 <signal name="AUX_5">
 <contactref element="U11" pad="5"/>
 <contactref element="R41" pad="1"/>
-<contactref element="TCBTWDN" pad="7"/>
+<contactref element="TCBTWDN_PORT" pad="7"/>
 <wire x1="307.288" y1="125.603" x2="306.0085" y2="125.603" width="0.254" layer="1"/>
 <wire x1="298.196" y1="113.284" x2="298.196" y2="114.3135" width="0.254" layer="1"/>
 <wire x1="306.0085" y1="125.603" x2="298.196" y2="117.7905" width="0.254" layer="1"/>
@@ -5572,7 +5572,7 @@ design rules under a new name.</description>
 <signal name="AUX_4">
 <contactref element="U11" pad="4"/>
 <contactref element="R40" pad="1"/>
-<contactref element="TCBTWDN" pad="8"/>
+<contactref element="TCBTWDN_PORT" pad="8"/>
 <wire x1="307.288" y1="126.873" x2="306.0085" y2="126.873" width="0.254" layer="1"/>
 <wire x1="306.0085" y1="126.873" x2="295.656" y2="116.5205" width="0.254" layer="1"/>
 <wire x1="295.656" y1="116.5205" x2="295.656" y2="113.284" width="0.254" layer="1"/>
@@ -5581,7 +5581,7 @@ design rules under a new name.</description>
 <signal name="AUX_3">
 <contactref element="U11" pad="3"/>
 <contactref element="R39" pad="1"/>
-<contactref element="TCBTWDN" pad="9"/>
+<contactref element="TCBTWDN_PORT" pad="9"/>
 <wire x1="307.288" y1="128.143" x2="306.0085" y2="128.143" width="0.254" layer="1"/>
 <wire x1="306.0085" y1="128.143" x2="293.116" y2="115.2505" width="0.254" layer="1"/>
 <wire x1="293.116" y1="115.2505" x2="293.116" y2="113.284" width="0.254" layer="1"/>
@@ -5590,7 +5590,7 @@ design rules under a new name.</description>
 <signal name="AUX_1">
 <contactref element="U11" pad="12"/>
 <contactref element="R36" pad="1"/>
-<contactref element="TCBTWDN" pad="4"/>
+<contactref element="TCBTWDN_PORT" pad="4"/>
 <wire x1="305.816" y1="113.284" x2="305.816" y2="114.3135" width="0.254" layer="1"/>
 <wire x1="313.488" y1="125.603" x2="312.2085" y2="125.603" width="0.254" layer="1"/>
 <wire x1="305.816" y1="109.866" x2="305.816" y2="113.284" width="0.254" layer="1"/>
@@ -5601,7 +5601,7 @@ design rules under a new name.</description>
 <signal name="AUX_0">
 <contactref element="U11" pad="11"/>
 <contactref element="R35" pad="1"/>
-<contactref element="TCBTWDN" pad="3"/>
+<contactref element="TCBTWDN_PORT" pad="3"/>
 <wire x1="313.488" y1="124.333" x2="312.2085" y2="124.333" width="0.254" layer="1"/>
 <wire x1="308.356" y1="113.284" x2="308.356" y2="114.3135" width="0.254" layer="1"/>
 <wire x1="308.356" y1="109.866" x2="308.356" y2="113.284" width="0.254" layer="1"/>
@@ -5613,7 +5613,7 @@ design rules under a new name.</description>
 <signal name="AUX_2">
 <contactref element="U11" pad="13"/>
 <contactref element="R37" pad="1"/>
-<contactref element="TCBTWDN" pad="5"/>
+<contactref element="TCBTWDN_PORT" pad="5"/>
 <wire x1="313.488" y1="126.873" x2="312.2085" y2="126.873" width="0.254" layer="1"/>
 <wire x1="303.276" y1="109.866" x2="303.276" y2="113.284" width="0.254" layer="1"/>
 <wire x1="312.2085" y1="126.873" x2="308.8641" y2="123.5286" width="0.254" layer="1"/>
