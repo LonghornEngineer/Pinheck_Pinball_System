@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -12421,15 +12421,15 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="IC" package="SSOP28L" value="FT232RQ" x="54.864" y="161.036" smashed="yes" rot="R90">
+<element name="IC1" library="IC" package="SSOP28L" value="FT232RQ-REEL" x="54.864" y="161.036" smashed="yes" rot="R90">
 <attribute name="NAME" x="52.294" y="154.902" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="IC2" library="Microchip" package="TQ100-PT" value="PIC32MX7X5FL-PT" x="98.044" y="120.65" rot="R180"/>
-<element name="D1" library="Discrete" package="SOT-323" value="BAV99W" x="125.222" y="118.618" smashed="yes" rot="R90">
+<element name="D1" library="Discrete" package="SOT-323" value="BAV99W,115" x="125.222" y="118.618" smashed="yes" rot="R90">
 <attribute name="NAME" x="123.306" y="120.182" size="0.8128" layer="25"/>
 </element>
 <element name="J11" library="Mechanical" package="HDR-1X6_OFFSET" value="No Load" x="129.794" y="122.936" rot="R180"/>
-<element name="D8" library="Discrete" package="SOT-323-5" value="NSQA6V8" x="124.968" y="125.476" smashed="yes" rot="R270">
+<element name="D8" library="Discrete" package="SOT-323-5" value="NSQA6V8AW5T2G" x="124.968" y="125.476" smashed="yes" rot="R270">
 <attribute name="NAME" x="122.702" y="126.751" size="0.8128" layer="21"/>
 </element>
 <element name="X1" library="Discrete" package="FQ7050B" value="FQ7050B-8.000" x="75.692" y="121.666"/>
@@ -12438,8 +12438,8 @@ design rules under a new name.</description>
 <element name="J1" library="PP_Connectors" package="500075-1517" value="500075-1517" x="54.864" y="170.942" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.5" y="172.418" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="PIC_TX" library="PP_LED" package="LED_0402" value="" x="72.644" y="169.926" rot="R90"/>
-<element name="PIC_RX" library="PP_LED" package="LED_0402" value="" x="70.104" y="169.926" rot="R90"/>
+<element name="PIC_TX" library="PP_LED" package="LED_0402" value="VLMG1500-GS08" x="72.644" y="169.926" rot="R90"/>
+<element name="PIC_RX" library="PP_LED" package="LED_0402" value="VLMG1500-GS08" x="70.104" y="169.926" rot="R90"/>
 <element name="R7" library="PP_Passives" package="0805" value="360" x="72.644" y="166.37" rot="R90"/>
 <element name="R9" library="PP_Passives" package="0805" value="360" x="70.104" y="166.37" rot="R90"/>
 <element name="C1" library="PP_Passives" package="0805" value=".1uF" x="64.516" y="154.178"/>
@@ -12447,7 +12447,7 @@ design rules under a new name.</description>
 <element name="R1" library="PP_Passives" package="0805" value="1K" x="64.516" y="161.036"/>
 <element name="R2" library="PP_Passives" package="0805" value="1K" x="64.516" y="151.892"/>
 <element name="C12" library="PP_Passives" package="0805" value=".1uF" x="60.706" y="166.37" rot="R270"/>
-<element name="PIC_USB" library="PP_LED" package="LED_0402" value="" x="67.31" y="169.926" rot="R90"/>
+<element name="PIC_USB" library="PP_LED" package="LED_0402" value="VLMG1500-GS08" x="67.31" y="169.926" rot="R90"/>
 <element name="R11" library="PP_Passives" package="0805" value="470" x="67.31" y="166.37" rot="R90"/>
 <element name="C2" library="PP_Passives" package="0805" value=".1uF" x="100.33" y="133.858"/>
 <element name="C3" library="PP_Passives" package="0805" value=".1uF" x="110.49" y="122.428"/>
@@ -12478,19 +12478,19 @@ design rules under a new name.</description>
 <element name="R14" library="PP_Passives" package="0805" value="50" x="124.968" y="129.032" rot="R270"/>
 <element name="C13" library="PP_Passives" package="0805" value="30pF" x="70.612" y="121.666" rot="R90"/>
 <element name="C14" library="PP_Passives" package="0805" value="30pF" x="80.772" y="121.666" rot="R270"/>
-<element name="PROP_USB" library="led" package="SML0603" value="" x="269.494" y="168.402" smashed="yes" rot="R90">
+<element name="PROP_USB" library="led" package="SML0603" value="VLMG1500-GS08" x="269.494" y="168.402" smashed="yes" rot="R90">
 <attribute name="NAME" x="268.494" y="167.402" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="271.494" y="167.402" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U2" library="PP_DigitalIC" package="SSOP-16" value="FT230X" x="261.62" y="160.528" rot="R270"/>
+<element name="U2" library="PP_DigitalIC" package="SSOP-16" value="FT230XS-R" x="261.62" y="160.528" rot="R270"/>
 <element name="C15" library="PP_Passives" package="0805" value=".1uF" x="265.684" y="165.608" rot="R270"/>
 <element name="C16" library="PP_Passives" package="0805" value=".1uF" x="266.7" y="159.258" rot="R90"/>
 <element name="R5" library="PP_Passives" package="0805" value="330" x="269.494" y="165.354" rot="R90"/>
-<element name="PROP_RX" library="led" package="SML0603" value="" x="272.288" y="168.402" smashed="yes" rot="R90">
+<element name="PROP_RX" library="led" package="SML0603" value="VLMG1500-GS08" x="272.288" y="168.402" smashed="yes" rot="R90">
 <attribute name="NAME" x="271.288" y="167.402" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="274.288" y="167.402" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="PROP_TX" library="led" package="SML0603" value="" x="275.082" y="168.402" smashed="yes" rot="R90">
+<element name="PROP_TX" library="led" package="SML0603" value="VLMG1500-GS08" x="275.082" y="168.402" smashed="yes" rot="R90">
 <attribute name="NAME" x="274.082" y="167.402" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="277.082" y="167.402" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -12516,7 +12516,7 @@ design rules under a new name.</description>
 <element name="R16" library="PP_Passives" package="0805" value="10K" x="308.356" y="155.28925" rot="R90"/>
 <element name="R17" library="PP_Passives" package="0805" value="10K" x="305.84775" y="155.321" rot="R90"/>
 <element name="C24" library="PP_Passives" package="0805" value=".1uF" x="292.1" y="150.876" rot="R90"/>
-<element name="DMD_CON" library="PP_Connectors" package="HEADER_02X07_PTH" value="" x="296.164" y="132.08" smashed="yes" rot="R270">
+<element name="DMD_CON" library="PP_Connectors" package="HEADER_02X07_PTH" value="1-1634688-4" x="296.164" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="303.156" y="127.708" size="1.4224" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="SD0" library="PP_Connectors" package="SD-RSMT-2-MQ" value="SD-RSMT-2-MQ" x="228.092" y="141.732" rot="R180"/>
@@ -12533,9 +12533,8 @@ design rules under a new name.</description>
 <element name="R27" library="PP_Passives" package="0805" value="10K" x="204.216" y="133.858" rot="R90"/>
 <element name="R28" library="PP_Passives" package="0805" value="10K" x="186.944" y="133.858" rot="R90"/>
 <element name="R29" library="PP_Passives" package="0805" value="10K" x="184.404" y="133.858" rot="R90"/>
-<element name="PROP_ACT" library="led" package="SML0603" value="" x="262.382" y="146.558" smashed="yes">
+<element name="PROP_ACT" library="led" package="SML0603" value="VLMG1500-GS08" x="262.382" y="146.558" smashed="yes">
 <attribute name="NAME" x="259.604" y="144.764" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="261.382" y="144.558" size="1.27" layer="27"/>
 </element>
 <element name="R30" library="PP_Passives" package="0805" value="360" x="259.08" y="146.558"/>
 <element name="J6" library="PP_Connectors" package="161-3507-E" value="161-3507-E" x="292.354" y="173.228" smashed="yes" rot="R270">
@@ -12564,7 +12563,7 @@ design rules under a new name.</description>
 <element name="U12" library="PP_DigitalIC" package="SO-16" value="74HC165D,652" x="310.388" y="144.018" smashed="yes" rot="R270">
 <attribute name="NAME" x="305.896" y="149.526" size="0.8128" layer="21" font="vector"/>
 </element>
-<element name="CABINET" library="PP_Connectors" package="MOLEX_KK_12" value="" x="324.612" y="133.096" smashed="yes" rot="R90">
+<element name="CABINET" library="PP_Connectors" package="MOLEX_KK_12" value="26-60-4120" x="324.612" y="133.096" smashed="yes" rot="R90">
 <attribute name="NAME" x="334.772" y="129.1844" size="1.4224" layer="21" font="vector" rot="R90"/>
 </element>
 <element name="R35" library="PP_Passives" package="0805" value="10K" x="308.356" y="108.966" rot="R270"/>
@@ -12591,43 +12590,43 @@ design rules under a new name.</description>
 <element name="U17" library="PP_DigitalIC" package="SOIC-14" value="MC74HC08ADG" x="148.844" y="75.692" rot="R270"/>
 <element name="U18" library="PP_DigitalIC" package="SOIC-14" value="MC74HC08ADG" x="187.452" y="75.692" rot="R270"/>
 <element name="U19" library="PP_DigitalIC" package="SOIC-14" value="MC74HC08ADG" x="226.06" y="75.692" rot="R270"/>
-<element name="SOL_0" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="122.682" y="64.516" rot="R90"/>
-<element name="SOL_1" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="127.508" y="53.34" rot="R90"/>
-<element name="SOL_2" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="132.334" y="64.516" rot="R90"/>
-<element name="SOL_3" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="137.16" y="53.34" rot="R90"/>
-<element name="SOL_4" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="141.986" y="64.516" rot="R90"/>
-<element name="SOL_5" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="146.812" y="53.34" rot="R90"/>
-<element name="SOL_6" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="151.638" y="64.516" rot="R90"/>
-<element name="SOL_7" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="156.464" y="53.34" rot="R90"/>
-<element name="SOL_8" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="161.29" y="64.516" rot="R90"/>
-<element name="SOL_9" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="166.116" y="53.34" rot="R90"/>
-<element name="SOL_10" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="170.942" y="64.516" rot="R90"/>
-<element name="SOL_11" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="175.768" y="53.34" rot="R90"/>
-<element name="SOL_12" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="180.594" y="64.516" rot="R90"/>
-<element name="SOL_13" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="185.42" y="53.34" rot="R90"/>
-<element name="SOL_14" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="190.246" y="64.516" rot="R90"/>
-<element name="SOL_15" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="195.072" y="53.34" rot="R90"/>
-<element name="SOL_16" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="199.898" y="64.516" rot="R90"/>
-<element name="SOL_17" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="204.724" y="53.34" rot="R90"/>
-<element name="SOL_18" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="209.55" y="64.516" rot="R90"/>
-<element name="SOL_19" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="214.376" y="53.34" rot="R90"/>
-<element name="SOL_20" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="219.202" y="64.516" rot="R90"/>
-<element name="SOL_21" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="224.028" y="53.34" rot="R90"/>
-<element name="SOL_22" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="228.854" y="64.516" rot="R90"/>
-<element name="SOL_23" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530" x="233.68" y="53.34" rot="R90"/>
-<element name="SOL_BANK_2" library="PP_Connectors" package="MOLEX_KK_10" value="" x="215.392" y="28.702" smashed="yes">
+<element name="SOL_0" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="122.682" y="64.516" rot="R90"/>
+<element name="SOL_1" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="127.508" y="53.34" rot="R90"/>
+<element name="SOL_2" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="132.334" y="64.516" rot="R90"/>
+<element name="SOL_3" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="137.16" y="53.34" rot="R90"/>
+<element name="SOL_4" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="141.986" y="64.516" rot="R90"/>
+<element name="SOL_5" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="146.812" y="53.34" rot="R90"/>
+<element name="SOL_6" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="151.638" y="64.516" rot="R90"/>
+<element name="SOL_7" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="156.464" y="53.34" rot="R90"/>
+<element name="SOL_8" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="161.29" y="64.516" rot="R90"/>
+<element name="SOL_9" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="166.116" y="53.34" rot="R90"/>
+<element name="SOL_10" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="170.942" y="64.516" rot="R90"/>
+<element name="SOL_11" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="175.768" y="53.34" rot="R90"/>
+<element name="SOL_12" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="180.594" y="64.516" rot="R90"/>
+<element name="SOL_13" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="185.42" y="53.34" rot="R90"/>
+<element name="SOL_14" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="190.246" y="64.516" rot="R90"/>
+<element name="SOL_15" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="195.072" y="53.34" rot="R90"/>
+<element name="SOL_16" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="199.898" y="64.516" rot="R90"/>
+<element name="SOL_17" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="204.724" y="53.34" rot="R90"/>
+<element name="SOL_18" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="209.55" y="64.516" rot="R90"/>
+<element name="SOL_19" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="214.376" y="53.34" rot="R90"/>
+<element name="SOL_20" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="219.202" y="64.516" rot="R90"/>
+<element name="SOL_21" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="224.028" y="53.34" rot="R90"/>
+<element name="SOL_22" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="228.854" y="64.516" rot="R90"/>
+<element name="SOL_23" library="PP_DiscreteSemi" package="TO-220AB" value="IRL530PBF" x="233.68" y="53.34" rot="R90"/>
+<element name="SOL_BANK_2" library="PP_Connectors" package="MOLEX_KK_10" value="26-64-4100" x="215.392" y="28.702" smashed="yes">
 <attribute name="NAME" x="210.566" y="35.7632" size="1.4224" layer="21" font="vector"/>
 </element>
-<element name="SOL_BANK_1" library="PP_Connectors" package="MOLEX_KK_10" value="" x="164.846" y="28.702" smashed="yes">
+<element name="SOL_BANK_1" library="PP_Connectors" package="MOLEX_KK_10" value="26-64-4100" x="164.846" y="28.702" smashed="yes">
 <attribute name="NAME" x="160.274" y="35.7632" size="1.4224" layer="21" font="vector"/>
 </element>
-<element name="SOL_BANK_0" library="PP_Connectors" package="MOLEX_KK_10" value="" x="112.268" y="28.702" smashed="yes">
+<element name="SOL_BANK_0" library="PP_Connectors" package="MOLEX_KK_10" value="26-64-4100" x="112.268" y="28.702" smashed="yes">
 <attribute name="NAME" x="107.442" y="35.7632" size="1.4224" layer="21" font="vector"/>
 </element>
-<element name="F1" library="PP_Passives" package="4245K" value="" x="244.856" y="66.294" rot="R270"/>
-<element name="F2" library="PP_Passives" package="4245K" value="" x="257.048" y="66.294" rot="R270"/>
-<element name="F3" library="PP_Passives" package="4245K" value="" x="269.24" y="66.294" rot="R270"/>
-<element name="SOL_PWR" library="PP_Connectors" package="MOLEX_KK_4" value="" x="257.556" y="28.702" smashed="yes">
+<element name="F1" library="PP_Passives" package="4245K" value="4245K" x="244.856" y="66.294" rot="R270"/>
+<element name="F2" library="PP_Passives" package="4245K" value="4245K" x="257.048" y="66.294" rot="R270"/>
+<element name="F3" library="PP_Passives" package="4245K" value="4245K" x="269.24" y="66.294" rot="R270"/>
+<element name="SOL_PWR" library="PP_Connectors" package="MOLEX_KK_4" value="26-62-4040" x="257.556" y="28.702" smashed="yes">
 <attribute name="NAME" x="252.857" y="35.941" size="1.4224" layer="25" font="vector"/>
 </element>
 <element name="R51" library="PP_Passives" package="0805" value="10K" x="153.924" y="84.074" rot="R270"/>
@@ -12654,13 +12653,13 @@ design rules under a new name.</description>
 <element name="R72" library="PP_Passives" package="0805" value="10K" x="208.534" y="84.074" rot="R270"/>
 <element name="R73" library="PP_Passives" package="0805" value="10K" x="204.978" y="84.074" rot="R270"/>
 <element name="R74" library="PP_Passives" package="0805" value="10K" x="201.676" y="84.074" rot="R270"/>
-<element name="AUX_PORT" library="PP_Connectors" package="MOLEX_KK_12" value="" x="101.854" y="167.894" smashed="yes">
+<element name="AUX_PORT" library="PP_Connectors" package="MOLEX_KK_12" value="26-60-4120" x="101.854" y="167.894" smashed="yes">
 <attribute name="NAME" x="97.6884" y="155.702" size="1.4224" layer="21" font="vector"/>
 </element>
-<element name="SW_ROW" library="PP_Connectors" package="MOLEX_KK_10" value="" x="59.436" y="76.454" smashed="yes">
+<element name="SW_ROW" library="PP_Connectors" package="MOLEX_KK_10" value="26-64-4100" x="59.436" y="76.454" smashed="yes">
 <attribute name="NAME" x="56.642" y="83.2612" size="1.4224" layer="21" font="vector"/>
 </element>
-<element name="SW_COL" library="PP_Connectors" package="MOLEX_KK_10" value="" x="59.436" y="28.702" smashed="yes">
+<element name="SW_COL" library="PP_Connectors" package="MOLEX_KK_10" value="26-64-4100" x="59.436" y="28.702" smashed="yes">
 <attribute name="NAME" x="56.896" y="36.2712" size="1.4224" layer="21" font="vector"/>
 </element>
 <element name="IC3" library="74xx-us" package="DIL20" value="CD74HCT244E" x="60.96" y="96.52" rot="R180"/>
@@ -12673,10 +12672,10 @@ design rules under a new name.</description>
 <element name="R80" library="PP_Passives" package="0805" value="10K" x="70.104" y="68.58" rot="R270"/>
 <element name="R81" library="PP_Passives" package="0805" value="10K" x="73.914" y="68.58" rot="R270"/>
 <element name="R82" library="PP_Passives" package="0805" value="10K" x="77.978" y="68.58" rot="R270"/>
-<element name="LIGHT_COL" library="PP_Connectors" package="MOLEX_KK_10" value="" x="7.874" y="76.454" smashed="yes">
+<element name="LIGHT_COL" library="PP_Connectors" package="MOLEX_KK_10" value="26-64-4100" x="7.874" y="76.454" smashed="yes">
 <attribute name="NAME" x="3.81" y="83.5152" size="1.4224" layer="21" font="vector"/>
 </element>
-<element name="LIGHT_ROW" library="PP_Connectors" package="MOLEX_KK_10" value="" x="7.874" y="28.702" smashed="yes">
+<element name="LIGHT_ROW" library="PP_Connectors" package="MOLEX_KK_10" value="26-64-4100" x="7.874" y="28.702" smashed="yes">
 <attribute name="NAME" x="3.556" y="36.0172" size="1.4224" layer="21" font="vector"/>
 </element>
 <element name="U20" library="PP_DiscreteSemi" package="TO-220AB" value="TIP107" x="-5.588" y="93.218" rot="R90"/>
@@ -12720,7 +12719,7 @@ design rules under a new name.</description>
 <element name="R112" library="PP_Passives" package="0805" value="360" x="23.114" y="66.548" rot="R270"/>
 <element name="U35" library="PP_DiscreteSemi" package="TO-220AB" value="TIP102" x="27.94" y="59.69" rot="R90"/>
 <element name="R114" library="PP_Passives" package="0805" value="360" x="27.94" y="66.548" rot="R270"/>
-<element name="C34" library="PP_Passives" package="6.3MM_CAP_SMD" value="100uF" x="32.258" y="156.464" smashed="yes" rot="R270">
+<element name="C34" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="32.258" y="156.464" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.858" y="159.071" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C35" library="PP_Passives" package="1206" value="10uF" x="32.258" y="150.876" smashed="yes" rot="R180">
@@ -12732,7 +12731,7 @@ design rules under a new name.</description>
 <element name="C37" library="PP_Passives" package="0805" value=".1uF" x="32.258" y="145.796" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.163" y="145.3515" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C38" library="PP_Passives" package="6.3MM_CAP_SMD" value="100uF" x="23.114" y="156.464" smashed="yes" rot="R270">
+<element name="C38" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="23.114" y="156.464" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.714" y="159.071" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C39" library="PP_Passives" package="1206" value="10uF" x="23.114" y="151.13" smashed="yes" rot="R180">
@@ -12744,7 +12743,7 @@ design rules under a new name.</description>
 <element name="C41" library="PP_Passives" package="0805" value=".1uF" x="23.114" y="146.05" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.019" y="145.6055" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C42" library="PP_Passives" package="6.3MM_CAP_SMD" value="100uF" x="12.954" y="156.464" smashed="yes" rot="R270">
+<element name="C42" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="12.954" y="156.464" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.554" y="159.071" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C43" library="PP_Passives" package="1206" value="10uF" x="12.954" y="151.13" smashed="yes" rot="R180">
@@ -12756,28 +12755,28 @@ design rules under a new name.</description>
 <element name="C45" library="PP_Passives" package="0805" value=".1uF" x="12.954" y="146.05" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.859" y="145.6055" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="KNOCKER" library="PP_Connectors" package="MOLEX_KK_3" value="" x="97.028" y="56.896" rot="R270"/>
+<element name="KNOCKER" library="PP_Connectors" package="MOLEX_KK_3" value="26-64-4030" x="97.028" y="56.896" rot="R270"/>
 <element name="U37" library="PP_DiscreteSemi" package="TO-220AB" value="TIP102" x="284.48" y="111.76" rot="R90"/>
 <element name="R115" library="PP_Passives" package="0805" value="10K" x="284.48" y="118.872" rot="R270"/>
 <element name="R116" library="PP_Passives" package="0805" value="360" x="282.194" y="118.872" rot="R90"/>
-<element name="DMD_PWR" library="PP_Connectors" package="MOLEX_KK_2" value="" x="324.612" y="167.132" smashed="yes" rot="R90">
+<element name="DMD_PWR" library="PP_Connectors" package="MOLEX_KK_2" value="26-60-4020" x="324.612" y="167.132" smashed="yes" rot="R90">
 <attribute name="NAME" x="320.04" y="160.2232" size="1.4224" layer="21" font="vector"/>
 </element>
-<element name="PSU_PWR" library="led" package="SML0603" value="" x="37.846" y="163.83" smashed="yes" rot="R270">
+<element name="PSU_PWR" library="led" package="SML0603" value="VLMG1500-GS08" x="37.846" y="163.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.624" y="163.306" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="35.846" y="164.83" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R117" library="PP_Passives" package="0805" value="360" x="37.846" y="167.132" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.211" y="168.7195" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="WATCHDOG" library="led" package="SML0603" value="" x="115.57" y="73.406" smashed="yes" rot="R90">
+<element name="WATCHDOG" library="led" package="SML0603" value="VLMG1500-GS08" x="115.57" y="73.406" smashed="yes" rot="R90">
 <attribute name="NAME" x="116.602" y="72.628" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="117.57" y="72.406" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R118" library="PP_Passives" package="0805" value="360" x="112.776" y="73.406" smashed="yes" rot="R270">
 <attribute name="NAME" x="111.379" y="74.9935" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="TCBTWDN_PORT" library="PP_Connectors" package="HEADER_01X09_PTH" value="" x="303.276" y="113.284" smashed="yes" rot="R180">
+<element name="TCBTWDN_PORT" library="PP_Connectors" package="HEADER_01X09_PTH" value="N/A" x="303.276" y="113.284" smashed="yes" rot="R180">
 <attribute name="NAME" x="296.11" y="117.662" size="1.4224" layer="21" font="vector"/>
 </element>
 <element name="U36" library="PP_DigitalIC" package="SOP-14" value="WS2801" x="167.64" y="138.938" rot="R180"/>
@@ -12794,15 +12793,15 @@ design rules under a new name.</description>
 <element name="R122" library="PP_Passives" package="0805" value="10K" x="155.956" y="146.05" rot="R270"/>
 <element name="R123" library="PP_Passives" package="0805" value="10K" x="159.766" y="146.05" rot="R270"/>
 <element name="R124" library="PP_Passives" package="0805" value="10K" x="163.576" y="146.05" rot="R270"/>
-<element name="RGB_CONN" library="PP_Connectors" package="MOLEX_KK_8" value="" x="154.432" y="167.894" smashed="yes">
+<element name="RGB_CONN" library="PP_Connectors" package="MOLEX_KK_8" value="26-60-4080" x="154.432" y="167.894" smashed="yes">
 <attribute name="NAME" x="149.987" y="160.909" size="1.4224" layer="25" font="vector"/>
 </element>
 <element name="C46" library="PP_Passives" package="0805" value=".1uF" x="227.33" y="133.858" rot="R270"/>
 <element name="C47" library="PP_Passives" package="0805" value=".1uF" x="193.04" y="133.858" rot="R270"/>
-<element name="BOARD_POWER" library="PP_Connectors" package="MOLEX_KK_4" value="" x="18.288" y="167.894" smashed="yes">
+<element name="BOARD_POWER" library="PP_Connectors" package="MOLEX_KK_4" value="26-62-4040" x="18.288" y="167.894" smashed="yes">
 <attribute name="NAME" x="10.033" y="160.909" size="1.4224" layer="25" font="vector"/>
 </element>
-<element name="U39" library="PP_PowerIC" package="SOT-223" value="" x="32.258" y="162.56"/>
+<element name="U39" library="PP_PowerIC" package="SOT-223" value="LM2937IMP-3.3/NOPB" x="32.258" y="162.56"/>
 <element name="C48" library="PP_Passives" package="0805" value="1uF" x="98.044" y="86.36"/>
 <element name="C51" library="PP_Passives" package="1206" value="10uF" x="311.912" y="167.132" smashed="yes" rot="R90">
 <attribute name="NAME" x="310.896" y="163.195" size="0.8128" layer="25" font="vector"/>
@@ -12813,7 +12812,7 @@ design rules under a new name.</description>
 <element name="C53" library="PP_Passives" package="0805" value=".1uF" x="316.865" y="167.132" smashed="yes" rot="R90">
 <attribute name="NAME" x="314.071" y="164.0205" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C50" library="PP_Passives" package="6.3MM_CAP_SMD" value="100uF" x="306.54625" y="167.16375" rot="R180"/>
+<element name="C50" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="306.54625" y="167.16375" rot="R180"/>
 <element name="H1" library="holes" package="3,2" value="MOUNT-HOLE3.2" x="-16.002" y="26.67"/>
 <element name="H2" library="holes" package="3,2" value="MOUNT-HOLE3.2" x="34.798" y="26.67"/>
 <element name="H3" library="holes" package="3,2" value="MOUNT-HOLE3.2" x="86.36" y="26.67"/>
@@ -12880,7 +12879,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="108.077" y="70.9295" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="D2" library="PP_Passives" package="SOD-123" value="CGRM4001-HF" x="108.966" y="89.408"/>
-<element name="J3" library="PP_Connectors" package="HEADER_01X04_PTH" value="" x="277.622" y="98.044"/>
+<element name="J3" library="PP_Connectors" package="HEADER_01X04_PTH" value="N/A" x="277.622" y="98.044"/>
 <element name="R136" library="PP_Passives" package="0805" value="0" x="237.49" y="70.866" rot="R270"/>
 <element name="LOGO1" library="PP_Aesthetics" package="SPOOKY_LOGO" value="SPOOKY_LOGOSPOOKY_LOGO" x="37.338" y="123.698"/>
 </elements>

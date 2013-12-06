@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18700,17 +18700,17 @@ ULN and UDN Series&lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="IC1" library="IC" deviceset="FT232R" device="L" value="FT232RQ"/>
+<part name="IC1" library="IC" deviceset="FT232R" device="L" value="FT232RQ-REEL"/>
 <part name="IC2" library="Microchip" deviceset="PIC32MX7X5F*L" device="-PT"/>
-<part name="D1" library="Discrete" deviceset="BAV99W" device=""/>
+<part name="D1" library="Discrete" deviceset="BAV99W" device="" value="BAV99W,115"/>
 <part name="J11" library="Mechanical" deviceset="HDR-1X6-OFFSET" device="" value="No Load"/>
-<part name="D8" library="Discrete" deviceset="NSQA6V8" device=""/>
+<part name="D8" library="Discrete" deviceset="NSQA6V8" device="" value="NSQA6V8AW5T2G"/>
 <part name="X1" library="Discrete" deviceset="XTAL" device="-FQ7050B" value="FQ7050B-8.000"/>
 <part name="C18" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
 <part name="C19" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
 <part name="J1" library="PP_Connectors" deviceset="USB" device="500075-1517" value="500075-1517"/>
-<part name="PIC_TX" library="PP_LED" deviceset="LED_SINGLE" device="0402"/>
-<part name="PIC_RX" library="PP_LED" deviceset="LED_SINGLE" device="0402"/>
+<part name="PIC_TX" library="PP_LED" deviceset="LED_SINGLE" device="0402" value="VLMG1500-GS08"/>
+<part name="PIC_RX" library="PP_LED" deviceset="LED_SINGLE" device="0402" value="VLMG1500-GS08"/>
 <part name="R7" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
 <part name="R9" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
 <part name="C1" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
@@ -18718,7 +18718,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="R1" library="PP_Passives" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="R2" library="PP_Passives" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="C12" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
-<part name="PIC_USB" library="PP_LED" deviceset="LED_SINGLE" device="0402"/>
+<part name="PIC_USB" library="PP_LED" deviceset="LED_SINGLE" device="0402" value="VLMG1500-GS08"/>
 <part name="R11" library="PP_Passives" deviceset="RESISTOR" device="0805" value="470"/>
 <part name="C2" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
 <part name="C3" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
@@ -18739,13 +18739,13 @@ ULN and UDN Series&lt;p&gt;
 <part name="R14" library="PP_Passives" deviceset="RESISTOR" device="0805" value="50"/>
 <part name="C13" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="30pF"/>
 <part name="C14" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="30pF"/>
-<part name="PROP_USB" library="led" deviceset="LED" device="SML0603"/>
-<part name="U2" library="PP_DigitalIC" deviceset="FT230X" device="SSOP-16" value="FT230X"/>
+<part name="PROP_USB" library="led" deviceset="LED" device="SML0603" value="VLMG1500-GS08"/>
+<part name="U2" library="PP_DigitalIC" deviceset="FT230X" device="SSOP-16" value="FT230XS-R"/>
 <part name="C15" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
 <part name="C16" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
 <part name="R5" library="PP_Passives" deviceset="RESISTOR" device="0805" value="330"/>
-<part name="PROP_RX" library="led" deviceset="LED" device="SML0603"/>
-<part name="PROP_TX" library="led" deviceset="LED" device="SML0603"/>
+<part name="PROP_RX" library="led" deviceset="LED" device="SML0603" value="VLMG1500-GS08"/>
+<part name="PROP_TX" library="led" deviceset="LED" device="SML0603" value="VLMG1500-GS08"/>
 <part name="R6" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
 <part name="R15" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
 <part name="C17" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
@@ -18764,7 +18764,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="R16" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R17" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="C24" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
-<part name="DMD_CON" library="PP_Connectors" deviceset="PH_2X07" device="PTH"/>
+<part name="DMD_CON" library="PP_Connectors" deviceset="PH_2X07" device="PTH" value="1-1634688-4"/>
 <part name="SD0" library="PP_Connectors" deviceset="SD_CARD" device="SD-RSMT-2-MQ" value="SD-RSMT-2-MQ"/>
 <part name="SD1" library="PP_Connectors" deviceset="SD_CARD" device="SD-RSMT-2-MQ" value="SD-RSMT-2-MQ"/>
 <part name="R18" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
@@ -18779,7 +18779,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="R27" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R28" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R29" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
-<part name="PROP_ACT" library="led" deviceset="LED" device="SML0603"/>
+<part name="PROP_ACT" library="led" deviceset="LED" device="SML0603" value="VLMG1500-GS08"/>
 <part name="R30" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
 <part name="J6" library="PP_Connectors" deviceset="TRS_JACK" device="161-3507-E" value="161-3507-E"/>
 <part name="R31" library="PP_Passives" deviceset="RESISTOR" device="0805" value="4.7K"/>
@@ -18795,7 +18795,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="GI_1" library="PP_Connectors" deviceset="PH_1X09" device="MOLEX_KK_9" value="26-60-4090"/>
 <part name="U11" library="PP_DigitalIC" deviceset="74HC165" device="SO-16" value="74HC165D,652"/>
 <part name="U12" library="PP_DigitalIC" deviceset="74HC165" device="SO-16" value="74HC165D,652"/>
-<part name="CABINET" library="PP_Connectors" deviceset="PH_1X12" device="KK_12"/>
+<part name="CABINET" library="PP_Connectors" deviceset="PH_1X12" device="KK_12" value="26-60-4120"/>
 <part name="R35" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R36" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R37" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
@@ -18820,37 +18820,37 @@ ULN and UDN Series&lt;p&gt;
 <part name="U17" library="PP_DigitalIC" deviceset="MC74HC08ADG" device="SOIC-14" value="MC74HC08ADG"/>
 <part name="U18" library="PP_DigitalIC" deviceset="MC74HC08ADG" device="SOIC-14" value="MC74HC08ADG"/>
 <part name="U19" library="PP_DigitalIC" deviceset="MC74HC08ADG" device="SOIC-14" value="MC74HC08ADG"/>
-<part name="SOL_0" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_1" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_2" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_3" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_4" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_5" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_6" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_7" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_8" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_9" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_10" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_11" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_12" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_13" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_14" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_15" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_16" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_17" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_18" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_19" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_20" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_21" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_22" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_23" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530"/>
-<part name="SOL_BANK_2" library="PP_Connectors" deviceset="PH_1X10" device="KK_10"/>
-<part name="SOL_BANK_1" library="PP_Connectors" deviceset="PH_1X10" device="KK_10"/>
-<part name="SOL_BANK_0" library="PP_Connectors" deviceset="PH_1X10" device="KK_10"/>
-<part name="F1" library="PP_Passives" deviceset="PTC_FUSE" device="4245K"/>
-<part name="F2" library="PP_Passives" deviceset="PTC_FUSE" device="4245K"/>
-<part name="F3" library="PP_Passives" deviceset="PTC_FUSE" device="4245K"/>
-<part name="SOL_PWR" library="PP_Connectors" deviceset="PH_1X04" device="KK_4"/>
+<part name="SOL_0" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_1" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_2" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_3" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_4" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_5" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_6" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_7" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_8" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_9" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_10" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_11" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_12" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_13" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_14" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_15" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_16" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_17" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_18" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_19" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_20" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_21" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_22" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_23" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="IRL530PBF"/>
+<part name="SOL_BANK_2" library="PP_Connectors" deviceset="PH_1X10" device="KK_10" value="26-64-4100"/>
+<part name="SOL_BANK_1" library="PP_Connectors" deviceset="PH_1X10" device="KK_10" value="26-64-4100"/>
+<part name="SOL_BANK_0" library="PP_Connectors" deviceset="PH_1X10" device="KK_10" value="26-64-4100"/>
+<part name="F1" library="PP_Passives" deviceset="PTC_FUSE" device="4245K" value="4245K"/>
+<part name="F2" library="PP_Passives" deviceset="PTC_FUSE" device="4245K" value="4245K"/>
+<part name="F3" library="PP_Passives" deviceset="PTC_FUSE" device="4245K" value="4245K"/>
+<part name="SOL_PWR" library="PP_Connectors" deviceset="PH_1X04" device="KK_4" value="26-62-4040"/>
 <part name="R51" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R52" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R53" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
@@ -18875,9 +18875,9 @@ ULN and UDN Series&lt;p&gt;
 <part name="R72" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R73" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R74" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
-<part name="AUX_PORT" library="PP_Connectors" deviceset="PH_1X12" device="KK_12"/>
-<part name="SW_ROW" library="PP_Connectors" deviceset="PH_1X10" device="KK_10"/>
-<part name="SW_COL" library="PP_Connectors" deviceset="PH_1X10" device="KK_10"/>
+<part name="AUX_PORT" library="PP_Connectors" deviceset="PH_1X12" device="KK_12" value="26-60-4120"/>
+<part name="SW_ROW" library="PP_Connectors" deviceset="PH_1X10" device="KK_10" value="26-64-4100"/>
+<part name="SW_COL" library="PP_Connectors" deviceset="PH_1X10" device="KK_10" value="26-64-4100"/>
 <part name="IC3" library="74xx-us" deviceset="74*244" device="N" technology="LS" value="CD74HCT244E"/>
 <part name="IC4" library="74xx-us" deviceset="74*244" device="N" technology="LS" value="CD74HCT244E"/>
 <part name="R75" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
@@ -18888,8 +18888,8 @@ ULN and UDN Series&lt;p&gt;
 <part name="R80" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R81" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R82" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
-<part name="LIGHT_COL" library="PP_Connectors" deviceset="PH_1X10" device="KK_10"/>
-<part name="LIGHT_ROW" library="PP_Connectors" deviceset="PH_1X10" device="KK_10"/>
+<part name="LIGHT_COL" library="PP_Connectors" deviceset="PH_1X10" device="KK_10" value="26-64-4100"/>
+<part name="LIGHT_ROW" library="PP_Connectors" deviceset="PH_1X10" device="KK_10" value="26-64-4100"/>
 <part name="U20" library="PP_DiscreteSemi" deviceset="BJT_PNP_SINGLE" device="TO-220" value="TIP107"/>
 <part name="R83" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R84" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
@@ -18931,28 +18931,28 @@ ULN and UDN Series&lt;p&gt;
 <part name="R112" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
 <part name="U35" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="TO-220" value="TIP102"/>
 <part name="R114" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
-<part name="C34" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="100uF"/>
+<part name="C34" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="EEE-1VA101XP"/>
 <part name="C35" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="1206" value="10uF"/>
 <part name="C36" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="1uF"/>
 <part name="C37" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
-<part name="C38" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="100uF"/>
+<part name="C38" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="EEE-1VA101XP"/>
 <part name="C39" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="1206" value="10uF"/>
 <part name="C40" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="1uF"/>
 <part name="C41" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
-<part name="C42" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="100uF"/>
+<part name="C42" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="EEE-1VA101XP"/>
 <part name="C43" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="1206" value="10uF"/>
 <part name="C44" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="1uF"/>
 <part name="C45" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
-<part name="KNOCKER" library="PP_Connectors" deviceset="PH_1X03" device="KK_3"/>
+<part name="KNOCKER" library="PP_Connectors" deviceset="PH_1X03" device="KK_3" value="26-64-4030"/>
 <part name="U37" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="TO-220" value="TIP102"/>
 <part name="R115" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R116" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
-<part name="DMD_PWR" library="PP_Connectors" deviceset="PH_1X02" device="MOLEX_26-61-4020"/>
-<part name="PSU_PWR" library="led" deviceset="LED" device="SML0603"/>
+<part name="DMD_PWR" library="PP_Connectors" deviceset="PH_1X02" device="MOLEX_26-61-4020" value="26-60-4020"/>
+<part name="PSU_PWR" library="led" deviceset="LED" device="SML0603" value="VLMG1500-GS08"/>
 <part name="R117" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
-<part name="WATCHDOG" library="led" deviceset="LED" device="SML0603"/>
+<part name="WATCHDOG" library="led" deviceset="LED" device="SML0603" value="VLMG1500-GS08"/>
 <part name="R118" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
-<part name="TCBTWDN_PORT" library="PP_Connectors" deviceset="PH_1X09" device="PTH"/>
+<part name="TCBTWDN_PORT" library="PP_Connectors" deviceset="PH_1X09" device="PTH" value="N/A"/>
 <part name="U36" library="PP_DigitalIC" deviceset="WS2801" device="SOP-14" value="WS2801"/>
 <part name="U38" library="PP_DigitalIC" deviceset="WS2801" device="SOP-14" value="WS2801"/>
 <part name="RGB_0" library="PP_DiscreteSemi" deviceset="MOSFET_N-CHANNEL_SINGLE" device="TO-220AB" value="RFP12N10L"/>
@@ -18967,16 +18967,16 @@ ULN and UDN Series&lt;p&gt;
 <part name="R122" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R123" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R124" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
-<part name="RGB_CONN" library="PP_Connectors" deviceset="PH_1X08" device="MOLEX_KK_8"/>
+<part name="RGB_CONN" library="PP_Connectors" deviceset="PH_1X08" device="MOLEX_KK_8" value="26-60-4080"/>
 <part name="C46" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
 <part name="C47" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
-<part name="BOARD_POWER" library="PP_Connectors" deviceset="PH_1X04" device="KK_4"/>
-<part name="U39" library="PP_PowerIC" deviceset="FIXED_VOLTAGE_REG" device="SOT-223"/>
+<part name="BOARD_POWER" library="PP_Connectors" deviceset="PH_1X04" device="KK_4" value="26-62-4040"/>
+<part name="U39" library="PP_PowerIC" deviceset="FIXED_VOLTAGE_REG" device="SOT-223" value="LM2937IMP-3.3/NOPB"/>
 <part name="C48" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="1uF"/>
 <part name="C51" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="1206" value="10uF"/>
 <part name="C52" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="1uF"/>
 <part name="C53" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
-<part name="C50" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="100uF"/>
+<part name="C50" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="EEE-1VA101XP"/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
@@ -19025,7 +19025,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="P1" library="PP_Passives" deviceset="TC33X-1" device="TC33X-1" value="TC33X-2-103E"/>
 <part name="R135" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="D2" library="PP_Passives" deviceset="DIODE" device="SOD-123" value="CGRM4001-HF"/>
-<part name="J3" library="PP_Connectors" deviceset="PH_1X04" device="HEADER_PTH"/>
+<part name="J3" library="PP_Connectors" deviceset="PH_1X04" device="HEADER_PTH" value="N/A"/>
 <part name="R136" library="PP_Passives" deviceset="RESISTOR" device="0805" value="0"/>
 <part name="LOGO1" library="PP_Aesthetics" deviceset="SPOOKY_LOGO" device="SPOOKY_LOGO"/>
 </parts>
@@ -19089,7 +19089,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="C14" gate="G$1" x="213.36" y="144.78"/>
 <instance part="PROP_USB" gate="G$1" x="-78.74" y="-2.54" smashed="yes">
 <attribute name="NAME" x="-75.184" y="-7.112" size="0.8128" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="-73.025" y="-7.112" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-73.025" y="-7.112" size="0.8128" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="U2" gate="G$1" x="2.54" y="-15.24"/>
 <instance part="C15" gate="G$1" x="-68.58" y="-10.16"/>
@@ -19097,11 +19097,11 @@ ULN and UDN Series&lt;p&gt;
 <instance part="R5" gate="G$1" x="-78.74" y="-15.24" rot="R90"/>
 <instance part="PROP_RX" gate="G$1" x="-50.8" y="-2.54" smashed="yes">
 <attribute name="NAME" x="-47.244" y="-7.112" size="0.8128" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="-45.085" y="-7.112" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-45.085" y="-7.112" size="0.8128" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="PROP_TX" gate="G$1" x="-40.64" y="-2.54" smashed="yes">
 <attribute name="NAME" x="-34.544" y="-7.112" size="0.8128" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="-32.385" y="-7.112" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-32.385" y="-7.112" size="0.8128" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="R6" gate="G$1" x="-50.8" y="-15.24" rot="R90"/>
 <instance part="R15" gate="G$1" x="-40.64" y="-15.24" rot="R90"/>
@@ -19124,7 +19124,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="R16" gate="G$1" x="134.62" y="20.32" rot="R90"/>
 <instance part="R17" gate="G$1" x="127" y="20.32" rot="R90"/>
 <instance part="C24" gate="G$1" x="119.38" y="17.78" rot="R180"/>
-<instance part="DMD_CON" gate="G$1" x="144.78" y="-25.4"/>
+<instance part="DMD_CON" gate="G$1" x="144.78" y="-20.32"/>
 <instance part="SD0" gate="G$1" x="231.14" y="20.32"/>
 <instance part="SD1" gate="G$1" x="231.14" y="-20.32"/>
 <instance part="R18" gate="G$1" x="195.58" y="15.24" rot="R90"/>
@@ -19141,7 +19141,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="R29" gate="G$1" x="185.42" y="-25.4" rot="R90"/>
 <instance part="PROP_ACT" gate="G$1" x="137.16" y="-43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="141.732" y="-39.624" size="0.8128" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="141.732" y="-37.465" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="141.732" y="-37.465" size="0.8128" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="R30" gate="G$1" x="149.86" y="-43.18" rot="R180"/>
 <instance part="J6" gate="G$1" x="284.48" y="30.48" rot="R180"/>
@@ -19335,12 +19335,12 @@ ULN and UDN Series&lt;p&gt;
 <instance part="DMD_PWR" gate="G$1" x="914.4" y="38.1"/>
 <instance part="PSU_PWR" gate="G$1" x="795.02" y="134.62" smashed="yes">
 <attribute name="NAME" x="798.576" y="130.048" size="0.8128" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="800.735" y="130.048" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="800.735" y="130.048" size="0.8128" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="R117" gate="G$1" x="795.02" y="119.38" rot="R90"/>
 <instance part="WATCHDOG" gate="G$1" x="535.94" y="-33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="531.368" y="-36.576" size="0.8128" layer="95" font="vector"/>
-<attribute name="VALUE" x="531.368" y="-38.735" size="1.778" layer="96"/>
+<attribute name="VALUE" x="531.368" y="-38.735" size="0.8128" layer="96" font="vector"/>
 </instance>
 <instance part="R118" gate="G$1" x="520.7" y="-33.02" rot="R180"/>
 <instance part="IC2" gate="PA" x="68.58" y="165.1"/>
@@ -19643,28 +19643,28 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DMD_CON" gate="G$1" pin="14"/>
+<wire x1="152.4" y1="-12.7" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
+<label x="157.48" y="-12.7" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="DMD_CON" gate="G$1" pin="13"/>
+<wire x1="162.56" y1="-15.24" x2="152.4" y2="-15.24" width="0.1524" layer="91"/>
+<label x="157.48" y="-15.24" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="DMD_CON" gate="G$1" pin="12"/>
 <wire x1="152.4" y1="-17.78" x2="162.56" y2="-17.78" width="0.1524" layer="91"/>
 <label x="157.48" y="-17.78" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="DMD_CON" gate="G$1" pin="13"/>
+<pinref part="DMD_CON" gate="G$1" pin="11"/>
 <wire x1="162.56" y1="-20.32" x2="152.4" y2="-20.32" width="0.1524" layer="91"/>
 <label x="157.48" y="-20.32" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="DMD_CON" gate="G$1" pin="12"/>
+<pinref part="DMD_CON" gate="G$1" pin="10"/>
 <wire x1="152.4" y1="-22.86" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
 <label x="157.48" y="-22.86" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="DMD_CON" gate="G$1" pin="11"/>
-<wire x1="162.56" y1="-25.4" x2="152.4" y2="-25.4" width="0.1524" layer="91"/>
-<label x="157.48" y="-25.4" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="DMD_CON" gate="G$1" pin="10"/>
-<wire x1="152.4" y1="-27.94" x2="162.56" y2="-27.94" width="0.1524" layer="91"/>
-<label x="157.48" y="-27.94" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="SD1" gate="G$1" pin="GND"/>
@@ -21807,8 +21807,8 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DMD_CON" gate="G$1" pin="1"/>
-<wire x1="127" y1="-17.78" x2="137.16" y2="-17.78" width="0.1524" layer="91"/>
-<label x="127" y="-17.78" size="0.8128" layer="95" font="vector"/>
+<wire x1="127" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
+<label x="127" y="-12.7" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P20" class="0">
@@ -21819,8 +21819,8 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DMD_CON" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="-20.32" x2="127" y2="-20.32" width="0.1524" layer="91"/>
-<label x="127" y="-20.32" size="0.8128" layer="95" font="vector"/>
+<wire x1="137.16" y1="-15.24" x2="127" y2="-15.24" width="0.1524" layer="91"/>
+<label x="127" y="-15.24" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P19" class="0">
@@ -21831,8 +21831,8 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DMD_CON" gate="G$1" pin="3"/>
-<wire x1="127" y1="-22.86" x2="137.16" y2="-22.86" width="0.1524" layer="91"/>
-<label x="127" y="-22.86" size="0.8128" layer="95" font="vector"/>
+<wire x1="127" y1="-17.78" x2="137.16" y2="-17.78" width="0.1524" layer="91"/>
+<label x="127" y="-17.78" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P18" class="0">
@@ -21843,8 +21843,8 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DMD_CON" gate="G$1" pin="4"/>
-<wire x1="137.16" y1="-25.4" x2="127" y2="-25.4" width="0.1524" layer="91"/>
-<label x="127" y="-25.4" size="0.8128" layer="95" font="vector"/>
+<wire x1="137.16" y1="-20.32" x2="127" y2="-20.32" width="0.1524" layer="91"/>
+<label x="127" y="-20.32" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P17" class="0">
@@ -21855,8 +21855,8 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DMD_CON" gate="G$1" pin="5"/>
-<wire x1="127" y1="-27.94" x2="137.16" y2="-27.94" width="0.1524" layer="91"/>
-<label x="127" y="-27.94" size="0.8128" layer="95" font="vector"/>
+<wire x1="127" y1="-22.86" x2="137.16" y2="-22.86" width="0.1524" layer="91"/>
+<label x="127" y="-22.86" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P16" class="0">
@@ -21867,8 +21867,8 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DMD_CON" gate="G$1" pin="6"/>
-<wire x1="137.16" y1="-30.48" x2="127" y2="-30.48" width="0.1524" layer="91"/>
-<label x="127" y="-30.48" size="0.8128" layer="95" font="vector"/>
+<wire x1="137.16" y1="-25.4" x2="127" y2="-25.4" width="0.1524" layer="91"/>
+<label x="127" y="-25.4" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P1" class="0">
@@ -21928,8 +21928,8 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DMD_CON" gate="G$1" pin="9"/>
-<wire x1="162.56" y1="-30.48" x2="152.4" y2="-30.48" width="0.1524" layer="91"/>
-<label x="157.48" y="-30.48" size="0.8128" layer="95" font="vector"/>
+<wire x1="162.56" y1="-25.4" x2="152.4" y2="-25.4" width="0.1524" layer="91"/>
+<label x="157.48" y="-25.4" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P9" class="0">
@@ -21940,8 +21940,8 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DMD_CON" gate="G$1" pin="8"/>
-<wire x1="152.4" y1="-33.02" x2="162.56" y2="-33.02" width="0.1524" layer="91"/>
-<label x="157.48" y="-33.02" size="0.8128" layer="95" font="vector"/>
+<wire x1="152.4" y1="-27.94" x2="162.56" y2="-27.94" width="0.1524" layer="91"/>
+<label x="157.48" y="-27.94" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P8" class="0">
@@ -21952,8 +21952,8 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DMD_CON" gate="G$1" pin="7"/>
-<wire x1="127" y1="-33.02" x2="137.16" y2="-33.02" width="0.1524" layer="91"/>
-<label x="127" y="-33.02" size="0.8128" layer="95" font="vector"/>
+<wire x1="127" y1="-27.94" x2="137.16" y2="-27.94" width="0.1524" layer="91"/>
+<label x="127" y="-27.94" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="X0" class="0">
@@ -22639,11 +22639,10 @@ ULN and UDN Series&lt;p&gt;
 <net name="!AN_BLANK" class="0">
 <segment>
 <pinref part="U10" gate="G$1" pin="2Y"/>
-<wire x1="505.46" y1="25.4" x2="515.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="25.4" x2="523.24" y2="25.4" width="0.1524" layer="91"/>
 <label x="510.54" y="25.4" size="0.8128" layer="95" font="vector"/>
-<wire x1="515.62" y1="25.4" x2="528.32" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="25.4" x2="528.32" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="33.02" x2="530.86" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="25.4" x2="523.24" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="33.02" x2="530.86" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 </net>
