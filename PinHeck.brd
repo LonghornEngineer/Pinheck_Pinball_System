@@ -12424,7 +12424,7 @@ design rules under a new name.</description>
 <element name="IC1" library="IC" package="SSOP28L" value="FT232RQ-REEL" x="54.864" y="161.036" smashed="yes" rot="R90">
 <attribute name="NAME" x="52.294" y="154.902" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="IC2" library="Microchip" package="TQ100-PT" value="PIC32MX7X5FL-PT" x="98.044" y="120.65" rot="R180"/>
+<element name="IC2" library="Microchip" package="TQ100-PT" value="PIC32MX795F512L-80I/PT" x="98.044" y="120.65" rot="R180"/>
 <element name="D1" library="Discrete" package="SOT-323" value="BAV99W,115" x="125.222" y="118.618" smashed="yes" rot="R90">
 <attribute name="NAME" x="123.306" y="120.182" size="0.8128" layer="25"/>
 </element>
@@ -12480,7 +12480,6 @@ design rules under a new name.</description>
 <element name="C14" library="PP_Passives" package="0805" value="30pF" x="80.772" y="121.666" rot="R270"/>
 <element name="PROP_USB" library="led" package="SML0603" value="VLMG1500-GS08" x="269.494" y="168.402" smashed="yes" rot="R90">
 <attribute name="NAME" x="268.494" y="167.402" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="271.494" y="167.402" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U2" library="PP_DigitalIC" package="SSOP-16" value="FT230XS-R" x="261.62" y="160.528" rot="R270"/>
 <element name="C15" library="PP_Passives" package="0805" value=".1uF" x="265.684" y="165.608" rot="R270"/>
@@ -12488,11 +12487,9 @@ design rules under a new name.</description>
 <element name="R5" library="PP_Passives" package="0805" value="330" x="269.494" y="165.354" rot="R90"/>
 <element name="PROP_RX" library="led" package="SML0603" value="VLMG1500-GS08" x="272.288" y="168.402" smashed="yes" rot="R90">
 <attribute name="NAME" x="271.288" y="167.402" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="274.288" y="167.402" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="PROP_TX" library="led" package="SML0603" value="VLMG1500-GS08" x="275.082" y="168.402" smashed="yes" rot="R90">
 <attribute name="NAME" x="274.082" y="167.402" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="277.082" y="167.402" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R6" library="PP_Passives" package="0805" value="360" x="272.288" y="165.354" rot="R90"/>
 <element name="R15" library="PP_Passives" package="0805" value="360" x="275.082" y="165.354" rot="R90"/>
@@ -12764,14 +12761,12 @@ design rules under a new name.</description>
 </element>
 <element name="PSU_PWR" library="led" package="SML0603" value="VLMG1500-GS08" x="37.846" y="163.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.624" y="163.306" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="35.846" y="164.83" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R117" library="PP_Passives" package="0805" value="360" x="37.846" y="167.132" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.211" y="168.7195" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="WATCHDOG" library="led" package="SML0603" value="VLMG1500-GS08" x="115.57" y="73.406" smashed="yes" rot="R90">
 <attribute name="NAME" x="116.602" y="72.628" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="117.57" y="72.406" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R118" library="PP_Passives" package="0805" value="360" x="112.776" y="73.406" smashed="yes" rot="R270">
 <attribute name="NAME" x="111.379" y="74.9935" size="0.8128" layer="25" font="vector"/>

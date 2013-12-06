@@ -18701,7 +18701,7 @@ ULN and UDN Series&lt;p&gt;
 </classes>
 <parts>
 <part name="IC1" library="IC" deviceset="FT232R" device="L" value="FT232RQ-REEL"/>
-<part name="IC2" library="Microchip" deviceset="PIC32MX7X5F*L" device="-PT"/>
+<part name="IC2" library="Microchip" deviceset="PIC32MX7X5F*L" device="-PT" value="PIC32MX795F512L-80I/PT"/>
 <part name="D1" library="Discrete" deviceset="BAV99W" device="" value="BAV99W,115"/>
 <part name="J11" library="Mechanical" deviceset="HDR-1X6-OFFSET" device="" value="No Load"/>
 <part name="D8" library="Discrete" deviceset="NSQA6V8" device="" value="NSQA6V8AW5T2G"/>
