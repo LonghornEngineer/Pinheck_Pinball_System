@@ -12448,7 +12448,7 @@ design rules under a new name.</description>
 <element name="R2" library="PP_Passives" package="0805" value="1K" x="64.516" y="151.892"/>
 <element name="C12" library="PP_Passives" package="0805" value=".1uF" x="60.706" y="166.37" rot="R270"/>
 <element name="PIC_USB" library="PP_LED" package="LED_0402" value="VLMG1500-GS08" x="67.31" y="169.926" rot="R90"/>
-<element name="R11" library="PP_Passives" package="0805" value="470" x="67.31" y="166.37" rot="R90"/>
+<element name="R11" library="PP_Passives" package="0805" value="360" x="67.31" y="166.37" rot="R90"/>
 <element name="C2" library="PP_Passives" package="0805" value=".1uF" x="100.33" y="133.858"/>
 <element name="C3" library="PP_Passives" package="0805" value=".1uF" x="110.49" y="122.428"/>
 <element name="C4" library="PP_Passives" package="0805" value=".1uF" x="108.712" y="115.316" rot="R180"/>
@@ -12484,7 +12484,7 @@ design rules under a new name.</description>
 <element name="U2" library="PP_DigitalIC" package="SSOP-16" value="FT230XS-R" x="261.62" y="160.528" rot="R270"/>
 <element name="C15" library="PP_Passives" package="0805" value=".1uF" x="265.684" y="165.608" rot="R270"/>
 <element name="C16" library="PP_Passives" package="0805" value=".1uF" x="266.7" y="159.258" rot="R90"/>
-<element name="R5" library="PP_Passives" package="0805" value="330" x="269.494" y="165.354" rot="R90"/>
+<element name="R5" library="PP_Passives" package="0805" value="360" x="269.494" y="165.354" rot="R90"/>
 <element name="PROP_RX" library="led" package="SML0603" value="VLMG1500-GS08" x="272.288" y="168.402" smashed="yes" rot="R90">
 <attribute name="NAME" x="271.288" y="167.402" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
