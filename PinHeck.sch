@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17391,7 +17391,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="C8" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="1uF"/>
 <part name="C9" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
 <part name="C11" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
-<part name="C10" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="10uF"/>
+<part name="C10" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="1206" value="10uF"/>
 <part name="R12" library="PP_Passives" deviceset="RESISTOR" device="0805" value="50"/>
 <part name="R8" library="PP_Passives" deviceset="RESISTOR" device="0805" value="200"/>
 <part name="SW1" library="PP_Electromechanical" deviceset="SPST" device="101-0134-EV" value="101-0134-EV"/>
@@ -17507,7 +17507,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="F1" library="PP_Passives" deviceset="PTC_FUSE" device="4245K" value="4245K"/>
 <part name="F2" library="PP_Passives" deviceset="PTC_FUSE" device="4245K" value="4245K"/>
 <part name="F3" library="PP_Passives" deviceset="PTC_FUSE" device="4245K" value="4245K"/>
-<part name="SOL_PWR" library="PP_Connectors" deviceset="PH_1X04" device="KK_4" value="26-62-4040"/>
+<part name="SOL_PWR" library="PP_Connectors" deviceset="PH_1X04" device="KK_4" value="26-60-4040"/>
 <part name="R51" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R52" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R53" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
@@ -17625,7 +17625,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="RGB_CONN" library="PP_Connectors" deviceset="PH_1X08" device="MOLEX_KK_8" value="26-60-4080"/>
 <part name="C46" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
 <part name="C47" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
-<part name="BOARD_POWER" library="PP_Connectors" deviceset="PH_1X04" device="KK_4" value="26-62-4040"/>
+<part name="BOARD_POWER" library="PP_Connectors" deviceset="PH_1X04" device="KK_4" value="26-60-4040"/>
 <part name="U39" library="PP_PowerIC" deviceset="FIXED_VOLTAGE_REG" device="SOT-223" value="LM2937IMP-3.3/NOPB"/>
 <part name="C48" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="1uF"/>
 <part name="C51" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="1206" value="10uF"/>
