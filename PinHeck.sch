@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21096,14 +21096,14 @@ ULN and UDN Series&lt;p&gt;
 <label x="320.04" y="-10.16" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="ROW_ZERO_DATA" class="0">
+<net name="RG6" class="0">
 <segment>
 <wire x1="358.14" y1="167.64" x2="370.84" y2="167.64" width="0.1524" layer="91"/>
 <label x="365.76" y="167.64" size="0.8128" layer="95" font="vector"/>
 <pinref part="IC2" gate="PG" pin="ECOL/SCK2A/U2BTXU2ARTS/PMA5/CN8/RG6"/>
 </segment>
 </net>
-<net name="ROW_ONE_DATA" class="0">
+<net name="RG9" class="0">
 <segment>
 <wire x1="358.14" y1="154.94" x2="370.84" y2="154.94" width="0.1524" layer="91"/>
 <label x="365.76" y="154.94" size="0.8128" layer="95" font="vector"/>
@@ -24349,6 +24349,13 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="R134" gate="G$1" pin="1"/>
 <pinref part="P1" gate="G$1" pin="2_WIPER"/>
 <wire x1="563.88" y1="0" x2="566.42" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RC1" class="0">
+<segment>
+<pinref part="IC2" gate="PC" pin="T2CK/RC1"/>
+<wire x1="193.04" y1="177.8" x2="205.74" y2="177.8" width="0.1524" layer="91"/>
+<label x="198.12" y="177.8" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 </nets>
