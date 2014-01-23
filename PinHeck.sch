@@ -18109,6 +18109,8 @@ ULN and UDN Series&lt;p&gt;
 <part name="SW4" library="PP_Electromechanical" deviceset="SPDT" device="0S102011MS2QS1" value="0S102011MS2QS1"/>
 <part name="R138" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R139" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
+<part name="R140" library="PP_Passives" deviceset="RESISTOR" device="0805" value="4.7K"/>
+<part name="R141" library="PP_Passives" deviceset="RESISTOR" device="0805" value="4.7K"/>
 </parts>
 <sheets>
 <sheet>
@@ -18502,6 +18504,8 @@ ULN and UDN Series&lt;p&gt;
 <instance part="SW4" gate="G$1" x="520.7" y="-68.58"/>
 <instance part="R138" gate="G$1" x="535.94" y="-58.42" rot="MR270"/>
 <instance part="R139" gate="G$1" x="535.94" y="-78.74" rot="MR270"/>
+<instance part="R140" gate="G$1" x="248.92" y="17.78" rot="R90"/>
+<instance part="R141" gate="G$1" x="274.32" y="17.78" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -19453,6 +19457,16 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="535.94" y1="-83.82" x2="535.94" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="535.94" y1="-86.36" x2="543.56" y2="-86.36" width="0.1524" layer="91"/>
 <label x="541.02" y="-86.36" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="DMD_CON" gate="G$1" pin="9"/>
+<wire x1="162.56" y1="-25.4" x2="152.4" y2="-25.4" width="0.1524" layer="91"/>
+<label x="157.48" y="-25.4" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="DMD_CON" gate="G$1" pin="8"/>
+<wire x1="152.4" y1="-27.94" x2="162.56" y2="-27.94" width="0.1524" layer="91"/>
+<label x="157.48" y="-27.94" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -21111,6 +21125,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="55.88" y1="-15.24" x2="66.04" y2="-15.24" width="0.1524" layer="91"/>
 <label x="55.88" y="-15.24" size="0.8128" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="R141" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="12.7" x2="274.32" y2="7.62" width="0.1524" layer="91"/>
+<label x="274.32" y="7.62" size="0.8128" layer="95" font="vector" rot="R90"/>
+</segment>
 </net>
 <net name="P10" class="0">
 <segment>
@@ -21119,9 +21138,9 @@ ULN and UDN Series&lt;p&gt;
 <label x="55.88" y="-12.7" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="DMD_CON" gate="G$1" pin="9"/>
-<wire x1="162.56" y1="-25.4" x2="152.4" y2="-25.4" width="0.1524" layer="91"/>
-<label x="157.48" y="-25.4" size="0.8128" layer="95" font="vector"/>
+<pinref part="R140" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="12.7" x2="248.92" y2="7.62" width="0.1524" layer="91"/>
+<label x="248.92" y="7.62" size="0.8128" layer="95" font="vector" rot="R90"/>
 </segment>
 </net>
 <net name="P9" class="0">
@@ -21129,11 +21148,6 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="U1" gate="G$1" pin="P9"/>
 <wire x1="55.88" y1="-10.16" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
 <label x="55.88" y="-10.16" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="DMD_CON" gate="G$1" pin="8"/>
-<wire x1="152.4" y1="-27.94" x2="162.56" y2="-27.94" width="0.1524" layer="91"/>
-<label x="157.48" y="-27.94" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P8" class="0">
@@ -21384,15 +21398,18 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="256.54" y1="25.4" x2="259.08" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="25.4" x2="259.08" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="25.4" x2="256.54" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="33.02" x2="274.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="33.02" x2="279.4" y2="33.02" width="0.1524" layer="91"/>
 <junction x="256.54" y="25.4"/>
 <pinref part="J6" gate="G$1" pin="T"/>
-<wire x1="274.32" y1="33.02" x2="279.4" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="R140" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="22.86" x2="248.92" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="25.4" x2="254" y2="25.4" width="0.1524" layer="91"/>
+<junction x="254" y="25.4"/>
 </segment>
 </net>
 <net name="S_R" class="0">
 <segment>
-<wire x1="274.32" y1="30.48" x2="266.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="30.48" x2="266.7" y2="30.48" width="0.1524" layer="91"/>
 <label x="271.78" y="30.48" size="0.8128" layer="95" font="vector"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="22.86" x2="264.16" y2="25.4" width="0.1524" layer="91"/>
@@ -21403,7 +21420,10 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="266.7" y1="25.4" x2="266.7" y2="30.48" width="0.1524" layer="91"/>
 <junction x="266.7" y="25.4"/>
 <pinref part="J6" gate="G$1" pin="R"/>
-<wire x1="279.4" y1="30.48" x2="274.32" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="R141" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="22.86" x2="274.32" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="25.4" x2="269.24" y2="25.4" width="0.1524" layer="91"/>
+<junction x="269.24" y="25.4"/>
 </segment>
 </net>
 <net name="5V" class="0">
