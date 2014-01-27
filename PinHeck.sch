@@ -2192,10 +2192,10 @@
 <wire x1="3.975" y1="0.875" x2="3.325" y2="0.875" width="0.127" layer="46" curve="180"/>
 <wire x1="3.325" y1="-0.875" x2="3.325" y2="0.875" width="0.127" layer="46"/>
 <wire x1="3.975" y1="-0.875" x2="3.325" y2="-0.875" width="0.127" layer="46" curve="-180"/>
-<smd name="P$1" x="-3.65" y="0" dx="3.9" dy="1.4" layer="1" roundness="100" rot="R90"/>
-<smd name="P$2" x="3.65" y="0" dx="3.9" dy="1.4" layer="1" roundness="100" rot="R90"/>
-<smd name="P$3" x="-3.65" y="0" dx="3.9" dy="1.4" layer="16" roundness="100" rot="R90"/>
-<smd name="P$4" x="3.65" y="0" dx="3.9" dy="1.4" layer="16" roundness="100" rot="R90"/>
+<smd name="P$1" x="-3.65" y="0" dx="3.9" dy="1.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="P$2" x="3.65" y="0" dx="3.9" dy="1.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="P$3" x="-3.65" y="0" dx="3.9" dy="1.4" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="P$4" x="3.65" y="0" dx="3.9" dy="1.4" layer="16" roundness="100" rot="R90" cream="no"/>
 <wire x1="-3.85" y1="2.4" x2="3.85" y2="2.4" width="0.127" layer="21"/>
 <wire x1="-3.85" y1="-2.3" x2="3.85" y2="-2.3" width="0.127" layer="21"/>
 <text x="-4" y="3" size="0.8128" layer="25" font="vector">&gt;NAME</text>
@@ -2208,7 +2208,6 @@
 <hole x="3.65" y="-0.3" drill="0.6"/>
 <hole x="3.65" y="-0.6" drill="0.6"/>
 <hole x="3.65" y="-0.9" drill="0.6"/>
-<hole x="-3.65" y="0.3" drill="0.6"/>
 <hole x="-3.65" y="0.6" drill="0.6"/>
 <hole x="-3.65" y="0.9" drill="0.6"/>
 <hole x="-3.65" y="-0.3" drill="0.6"/>
