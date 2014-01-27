@@ -21069,9 +21069,9 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="IC2" gate="PF" pin="SDA1A/SDI1A/U1ARX/RF2"/>
 </segment>
 <segment>
-<pinref part="BT_RX" gate="G$1" pin="2"/>
-<wire x1="561.34" y1="-53.34" x2="568.96" y2="-53.34" width="0.1524" layer="91"/>
-<label x="566.42" y="-53.34" size="0.8128" layer="95" font="vector"/>
+<pinref part="BT_TX" gate="G$1" pin="2"/>
+<wire x1="561.34" y1="-63.5" x2="568.96" y2="-63.5" width="0.1524" layer="91"/>
+<label x="566.42" y="-63.5" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="AVCC" class="0">
@@ -21179,9 +21179,9 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="IC2" gate="PF" pin="SCL1A/SDO1A/U1ATX/RF8"/>
 </segment>
 <segment>
-<pinref part="BT_TX" gate="G$1" pin="2"/>
-<wire x1="561.34" y1="-63.5" x2="568.96" y2="-63.5" width="0.1524" layer="91"/>
-<label x="566.42" y="-63.5" size="0.8128" layer="95" font="vector"/>
+<pinref part="BT_RX" gate="G$1" pin="2"/>
+<wire x1="561.34" y1="-53.34" x2="568.96" y2="-53.34" width="0.1524" layer="91"/>
+<label x="566.42" y="-53.34" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$32" class="0">
