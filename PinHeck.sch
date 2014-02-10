@@ -2713,6 +2713,16 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <wire x1="3.85" y1="-1.8" x2="-3.85" y2="-1.8" width="0.127" layer="21"/>
 <wire x1="-3.85" y1="-1.8" x2="-3.85" y2="8.7" width="0.127" layer="21"/>
 </package>
+<package name="HEADER_01X02_PTH_SCREWTERM">
+<pad name="1" x="0" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1" shape="long" rot="R90"/>
+<wire x1="-1.5" y1="3.2" x2="-1.5" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-3.25" x2="4.04" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="4.04" y1="-3.25" x2="4.04" y2="3.2" width="0.127" layer="21"/>
+<wire x1="4.04" y1="3.2" x2="-1.5" y2="3.2" width="0.127" layer="21"/>
+<text x="-1.27" y="-4.21" size="0.8128" layer="21" font="vector">&gt;NAME</text>
+<rectangle x1="-1.4478" y1="2.5146" x2="-0.8128" y2="3.1496" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB_5PIN">
@@ -3306,6 +3316,15 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <technology name=""/>
 </technologies>
 </device>
+<device name="SCREW_TERM" package="HEADER_01X02_PTH_SCREWTERM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PH_1X08" prefix="J" uservalue="yes">
@@ -3424,6 +3443,21 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <vertex x="-2.1" y="-1.05"/>
 </polygon>
 </package>
+<package name="APA3010">
+<smd name="2" x="1.75" y="0" dx="1.5" dy="1.5" layer="1" rot="R180"/>
+<smd name="1" x="-1.75" y="0" dx="1.5" dy="1.5" layer="1" rot="R180"/>
+<smd name="3" x="0" y="-0.65" dx="0.9" dy="0.9" layer="1" rot="R270"/>
+<wire x1="3" y1="-1.5" x2="3" y2="1" width="0.127" layer="21"/>
+<wire x1="3" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-3" y2="1" width="0.127" layer="21"/>
+<wire x1="-3" y1="1" x2="-3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.5" x2="3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1" y1="1.5" x2="1" y2="1" width="0.127" layer="21"/>
+<text x="-3" y="-2.5" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LED_SINGLE">
@@ -3476,6 +3510,15 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <connects>
 <connect gate="G$1" pin="ANODE" pad="ANODE"/>
 <connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="APA3010" package="APA3010">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="2"/>
+<connect gate="G$1" pin="CATHODE" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4960,9 +5003,9 @@ Description: USB Interface IC USB to Basic Serial UART IC SSOP-16</description>
 <text x="2.286" y="0.127" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="TO-220AB">
-<pad name="S" x="-2.54" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
-<pad name="D" x="0" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
-<pad name="G" x="2.54" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="S" x="-2.54" y="0" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D" x="0" y="0" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="G" x="2.54" y="0" drill="1" diameter="1.6764" shape="long" rot="R90"/>
 <wire x1="-5.08" y1="2.032" x2="5.08" y2="2.032" width="0.127" layer="21"/>
 <wire x1="5.08" y1="2.032" x2="5.08" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-1.524" x2="5.08" y2="-2.794" width="0.127" layer="21"/>
@@ -5804,9 +5847,9 @@ ULN and UDN Series&lt;p&gt;
 </device>
 <device name="SOT-223_ALT" package="SOT-223">
 <connects>
-<connect gate="G$1" pin="GND" pad="COM2 IN"/>
+<connect gate="G$1" pin="GND" pad="IN"/>
 <connect gate="G$1" pin="IN" pad="OUT"/>
-<connect gate="G$1" pin="OUT" pad="COM1"/>
+<connect gate="G$1" pin="OUT" pad="COM1 COM2"/>
 </connects>
 <technologies>
 <technology name=""/>

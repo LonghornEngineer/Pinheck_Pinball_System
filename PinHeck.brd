@@ -1136,9 +1136,9 @@ SCL</text>
 <library name="PP_DiscreteSemi">
 <packages>
 <package name="TO-220AB">
-<pad name="S" x="-2.54" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
-<pad name="D" x="0" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
-<pad name="G" x="2.54" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="S" x="-2.54" y="0" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D" x="0" y="0" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="G" x="2.54" y="0" drill="1" diameter="1.6764" shape="long" rot="R90"/>
 <wire x1="-5.08" y1="2.032" x2="5.08" y2="2.032" width="0.127" layer="21"/>
 <wire x1="5.08" y1="2.032" x2="5.08" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-1.524" x2="5.08" y2="-2.794" width="0.127" layer="21"/>
