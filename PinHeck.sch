@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -19326,6 +19326,184 @@ ULN and UDN Series&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="MF_Passives">
+<packages>
+<package name="CP4MM">
+<description>&lt;b&gt;Description:&lt;/b&gt; 4MM Round Package for Electrolytic Capacitors. Based on Panasonic Electrolytic Capacitors.&lt;br&gt;</description>
+<smd name="P$2" x="0" y="1.75" dx="2.5" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$1" x="0" y="-1.75" dx="2.5" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-1.2" y1="2.2" x2="-2.2" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="2.2" x2="-2.2" y2="-1.56360625" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.56360625" x2="-1.56360625" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-1.56360625" y1="-2.2" x2="-1.1" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="1.2" y1="2.2" x2="2.2" y2="2.2" width="0.127" layer="21"/>
+<wire x1="2.2" y1="2.2" x2="2.2" y2="-1.56360625" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.56360625" x2="1.56360625" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="1.56360625" y1="-2.2" x2="1.2" y2="-2.2" width="0.127" layer="21"/>
+<text x="-2.2" y="3.5" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<wire x1="1.5" y1="-0.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
+</package>
+<package name="CP6.3MM">
+<description>&lt;b&gt;Description:&lt;/b&gt; 6.3MM Round Package for Electrolytic Capacitors. Based on Panasonic Electrolytic Capacitors.&lt;br&gt;</description>
+<smd name="P$1" x="0" y="-2.7" dx="3.2" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="2.7" dx="3.2" dy="1.6" layer="1" rot="R90"/>
+<wire x1="1.1" y1="3.3" x2="3.3" y2="3.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="3.3" x2="3.3" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="-2.3" x2="2.3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="2.3" y1="-3.3" x2="1.1" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="3.3" x2="-3.3" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="3.3" x2="-3.3" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-2.3" x2="-2.3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-3.3" x2="-1.1" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.5" x2="2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2" x2="2.5" y2="-2" width="0.127" layer="21"/>
+<text x="-3.3" y="5" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="CP8MM">
+<description>&lt;b&gt;Description:&lt;/b&gt; 8MM Round Package for Electrolytic Capacitors. Based on Panasonic Electrolytic Capacitors.&lt;br&gt;</description>
+<smd name="P$1" x="0" y="-3.1" dx="4" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="3.1" dx="4" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="4.15" x2="-4.15" y2="4.15" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="4.15" x2="-4.15" y2="-2.88" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="-2.88" x2="-2.88" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="-2.88" y1="-4.15" x2="-1.5" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-4.15" x2="2.88" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="2.88" y1="-4.15" x2="4.15" y2="-2.88" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-2.88" x2="4.15" y2="4.15" width="0.127" layer="21"/>
+<wire x1="4.15" y1="4.15" x2="1.5" y2="4.15" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="3" y1="-2.5" x2="2" y2="-2.5" width="0.127" layer="21"/>
+<text x="-4.15" y="6" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="CP10MM">
+<description>&lt;b&gt;Description:&lt;/b&gt; 10MM Round Package for Electrolytic Capacitors. Based on Panasonic Electrolytic Capacitors.
+&lt;br/&gt;</description>
+<smd name="P$1" x="0" y="-4.35" dx="4.1" dy="2" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="4.35" dx="4.1" dy="2" layer="1" rot="R90"/>
+<text x="-5.15" y="7.5" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<wire x1="-1.5" y1="5.15" x2="-5.15" y2="5.15" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="5.15" x2="-5.15" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="-3.15" x2="-3.15" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-5.15" x2="-1.5" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="1.5" y1="5.15" x2="5.15" y2="5.15" width="0.127" layer="21"/>
+<wire x1="5.15" y1="5.15" x2="5.15" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="5.15" y1="-3.15" x2="3.15" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-5.15" x2="1.5" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="3" y1="-2.5" x2="3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-3" x2="3.5" y2="-3" width="0.127" layer="21"/>
+</package>
+<package name="CP12.5MM">
+<description>&lt;b&gt;Description:&lt;/b&gt; 12.5MM Round Package for Electrolytic Capacitors. Based on Panasonic Electrolytic Capacitors.&lt;br&gt;</description>
+<smd name="P$1" x="0" y="-4.85" dx="5.7" dy="2" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="4.85" dx="5.7" dy="2" layer="1" rot="R90"/>
+<wire x1="-1.75" y1="6.75" x2="-6.75" y2="6.75" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="6.75" x2="-6.75" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="-4.25" x2="-4.25" y2="-6.75" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="-6.75" x2="-1.75" y2="-6.75" width="0.127" layer="21"/>
+<wire x1="1.75" y1="6.75" x2="6.75" y2="6.75" width="0.127" layer="21"/>
+<wire x1="6.75" y1="6.75" x2="6.75" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="6.75" y1="-4.25" x2="4.25" y2="-6.75" width="0.127" layer="21"/>
+<wire x1="4.25" y1="-6.75" x2="1.75" y2="-6.75" width="0.127" layer="21"/>
+<wire x1="4" y1="-3.5" x2="4" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="5" y1="-4.5" x2="3" y2="-4.5" width="0.127" layer="21"/>
+<text x="-6.75" y="9" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPACITOR_P">
+<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Passives&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Symbol for Polarized Capacitors&lt;br/&gt;</description>
+<pin name="P$1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="P$2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="2.54" y="2.54" size="1.016" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.016" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="0" y1="2.54" x2="0" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.778" x2="2.54" y2="-1.778" width="0.254" layer="94" curve="-100"/>
+<wire x1="-2.54" y1="0.762" x2="0" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="0.762" x2="2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.778" x2="0.762" y2="1.778" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CAPACITOR_P" prefix="C" uservalue="yes">
+<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Passives&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Device for Polarized Capacitors. Manufacture part number (MFG#), Voltage Rating, and Tolerance can be added via Attributes.&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_4MM" package="CP4MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG#" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VOLTAGE" value="N/A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_6.3MM" package="CP6.3MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG#" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VOTLAGE" value="N/A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_8MM" package="CP8MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG#" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VOLTAGE" value="N/A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_10MM" package="CP10MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MGF#" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VOLTAGE" value="N/A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_12.5MM" package="CP12.5MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG#" value="N/A" constant="no"/>
+<attribute name="TOLERANCE" value="N/A" constant="no"/>
+<attribute name="VOLTAGE" value="N/A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19595,14 +19773,14 @@ ULN and UDN Series&lt;p&gt;
 <part name="C52" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value="1uF"/>
 <part name="C53" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
 <part name="C50" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="EEE-1VA101XP"/>
-<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H5" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H6" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H7" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H18" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
+<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
+<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
+<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
+<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
+<part name="H5" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
+<part name="H6" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
+<part name="H7" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
+<part name="H18" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
 <part name="U$1" library="PP_Aesthetics" deviceset="LHE_LOGO" device="LHE_LOGO"/>
 <part name="U6" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="TO-220" value="TIP102"/>
 <part name="R99" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
@@ -19668,6 +19846,8 @@ ULN and UDN Series&lt;p&gt;
 <part name="NEO_PIXEL" library="PP_Connectors" deviceset="PH_1X03" device="KK_3" value="26-64-4030"/>
 <part name="R24" library="PP_Passives" deviceset="RESISTOR" device="0805" value="360"/>
 <part name="BOARD_POWER" library="PP_Connectors" deviceset="PH_1X08" device="MOLEX_KK_8"/>
+<part name="C30" library="MF_Passives" deviceset="CAPACITOR_P" device="_12.5MM"/>
+<part name="AUX_PWR" library="PP_Connectors" deviceset="PH_1X04" device="KK_4" value="26-60-4040"/>
 </parts>
 <sheets>
 <sheet>
@@ -20051,6 +20231,8 @@ ULN and UDN Series&lt;p&gt;
 <instance part="NEO_PIXEL" gate="G$1" x="723.9" y="-43.18"/>
 <instance part="R24" gate="G$1" x="701.04" y="-48.26"/>
 <instance part="BOARD_POWER" gate="G$1" x="800.1" y="187.96"/>
+<instance part="C30" gate="G$1" x="746.76" y="116.84"/>
+<instance part="AUX_PWR" gate="G$1" x="723.9" y="-58.42"/>
 </instances>
 <busses>
 </busses>
@@ -20628,7 +20810,8 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="C38" gate="G$1" pin="NEG"/>
 <wire x1="774.7" y1="109.22" x2="767.08" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="767.08" y1="109.22" x2="756.92" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="756.92" y1="109.22" x2="751.84" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="109.22" x2="746.76" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="746.76" y1="109.22" x2="736.6" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="756.92" y1="111.76" x2="756.92" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C39" gate="G$1" pin="2"/>
 <wire x1="767.08" y1="111.76" x2="767.08" y2="109.22" width="0.1524" layer="91"/>
@@ -20637,7 +20820,10 @@ ULN and UDN Series&lt;p&gt;
 <junction x="756.92" y="109.22"/>
 <junction x="767.08" y="109.22"/>
 <junction x="774.7" y="109.22"/>
-<label x="751.84" y="109.22" size="0.8128" layer="95" font="vector"/>
+<label x="736.6" y="109.22" size="0.8128" layer="95" font="vector"/>
+<pinref part="C30" gate="G$1" pin="P$2"/>
+<wire x1="746.76" y1="111.76" x2="746.76" y2="109.22" width="0.1524" layer="91"/>
+<junction x="746.76" y="109.22"/>
 </segment>
 <segment>
 <pinref part="C45" gate="G$1" pin="2"/>
@@ -21025,6 +21211,16 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="BOARD_POWER" gate="G$1" pin="8"/>
 <wire x1="795.02" y1="177.8" x2="784.86" y2="177.8" width="0.1524" layer="91"/>
 <label x="784.86" y="177.8" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="AUX_PWR" gate="G$1" pin="1"/>
+<wire x1="723.9" y1="-58.42" x2="706.12" y2="-58.42" width="0.1524" layer="91"/>
+<label x="706.12" y="-58.42" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="AUX_PWR" gate="G$1" pin="3"/>
+<wire x1="723.9" y1="-63.5" x2="706.12" y2="-63.5" width="0.1524" layer="91"/>
+<label x="706.12" y="-63.5" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -22610,6 +22806,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="55.88" y1="2.54" x2="66.04" y2="2.54" width="0.1524" layer="91"/>
 <label x="55.88" y="2.54" size="0.8128" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="695.96" y1="-48.26" x2="688.34" y2="-48.26" width="0.1524" layer="91"/>
+<label x="688.34" y="-48.26" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="P11" class="0">
 <segment>
@@ -22919,7 +23120,8 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="C38" gate="G$1" pin="POS"/>
 <wire x1="774.7" y1="121.92" x2="767.08" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="767.08" y1="121.92" x2="756.92" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="756.92" y1="121.92" x2="751.84" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="121.92" x2="746.76" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="746.76" y1="121.92" x2="736.6" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="756.92" y1="121.92" x2="756.92" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C39" gate="G$1" pin="1"/>
 <wire x1="767.08" y1="121.92" x2="767.08" y2="119.38" width="0.1524" layer="91"/>
@@ -22928,7 +23130,9 @@ ULN and UDN Series&lt;p&gt;
 <junction x="756.92" y="121.92"/>
 <junction x="767.08" y="121.92"/>
 <junction x="774.7" y="121.92"/>
-<label x="751.84" y="121.92" size="0.8128" layer="95" font="vector"/>
+<label x="736.6" y="121.92" size="0.8128" layer="95" font="vector"/>
+<pinref part="C30" gate="G$1" pin="P$1"/>
+<junction x="746.76" y="121.92"/>
 </segment>
 <segment>
 <pinref part="AUX_PORT" gate="G$1" pin="7"/>
@@ -23022,6 +23226,11 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="BOARD_POWER" gate="G$1" pin="6"/>
 <wire x1="795.02" y1="182.88" x2="784.86" y2="182.88" width="0.1524" layer="91"/>
 <label x="784.86" y="182.88" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="AUX_PWR" gate="G$1" pin="2"/>
+<wire x1="723.9" y1="-60.96" x2="706.12" y2="-60.96" width="0.1524" layer="91"/>
+<label x="706.12" y="-60.96" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="DATA_LAT" class="0">
@@ -24997,6 +25206,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="784.86" y="193.04" size="0.8128" layer="95" font="vector"/>
 <pinref part="BOARD_POWER" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="AUX_PWR" gate="G$1" pin="4"/>
+<wire x1="723.9" y1="-66.04" x2="706.12" y2="-66.04" width="0.1524" layer="91"/>
+<label x="706.12" y="-66.04" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="LIGHT_C_B_0" class="0">
 <segment>
@@ -26409,13 +26623,6 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="716.28" y1="-48.26" x2="706.12" y2="-48.26" width="0.1524" layer="91"/>
 <label x="706.12" y="-48.26" size="0.8128" layer="95" font="vector"/>
 <pinref part="R24" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="695.96" y1="-48.26" x2="688.34" y2="-48.26" width="0.1524" layer="91"/>
-<label x="688.34" y="-48.26" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 </nets>
