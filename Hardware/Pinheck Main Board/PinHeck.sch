@@ -2361,44 +2361,6 @@
 <vertex x="2.54" y="-5.08"/>
 </polygon>
 </package>
-<package name="47219-2001">
-<smd name="8" x="0" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="7" x="1.1" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="6" x="2.2" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="5" x="3.3" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="4" x="4.4" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="3" x="5.5" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="6.6" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="1" x="7.7" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="P$1" x="-2.38" y="5.7" dx="1.4" dy="2" layer="1"/>
-<smd name="P$2" x="11.37" y="5.7" dx="1.4" dy="2" layer="1"/>
-<smd name="P$3" x="11.37" y="-2.6" dx="1.4" dy="2" layer="1"/>
-<smd name="P$4" x="-2.38" y="-2.6" dx="1.4" dy="2" layer="1"/>
-<wire x1="-2.305" y1="9.35" x2="-2.305" y2="-5.15" width="0.127" layer="21"/>
-<wire x1="11.295" y1="9.35" x2="11.295" y2="-5.15" width="0.127" layer="21"/>
-<wire x1="-2.305" y1="9.35" x2="11.295" y2="9.35" width="0.127" layer="21"/>
-<wire x1="-2.305" y1="-5.15" x2="11.295" y2="-5.15" width="0.127" layer="21"/>
-<text x="-3" y="-1" size="0.8128" layer="21" font="vector" rot="R90">&gt;NAME</text>
-</package>
-<package name="502570-0893">
-<smd name="8" x="0" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="7" x="1.1" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="6" x="2.2" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="5" x="3.3" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="4" x="4.4" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="3" x="5.5" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="6.6" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="1" x="7.7" y="0" dx="1.5" dy="0.8" layer="1" rot="R90"/>
-<smd name="SHIELD0" x="-3.75" y="2.9" dx="1.4" dy="1.73" layer="1" rot="R180"/>
-<smd name="SHIELD1" x="9.15" y="2.9" dx="1.4" dy="1.73" layer="1" rot="R180"/>
-<smd name="SHIELD3" x="-0.2" y="-11.575" dx="1.5" dy="1.15" layer="1"/>
-<smd name="SHIELD2" x="8.7" y="-11.575" dx="1.5" dy="1.15" layer="1"/>
-<wire x1="-5.08" y1="4.445" x2="10.795" y2="4.445" width="0.127" layer="21"/>
-<wire x1="10.795" y1="4.445" x2="10.795" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="10.795" y1="-12.7" x2="-5.08" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="4.445" width="0.127" layer="21"/>
-<text x="-5.08" y="5.08" size="0.8128" layer="21" font="vector">&gt;NAME</text>
-</package>
 <package name="SD-RSMT-2-MQ">
 <smd name="WP" x="-12.25" y="0" dx="0.7" dy="1.5" layer="1" rot="R180"/>
 <smd name="CARD_DETECT" x="-11.05" y="0" dx="0.7" dy="1.5" layer="1" rot="R180"/>
@@ -2420,27 +2382,6 @@
 <wire x1="14.5" y1="-31.6" x2="14.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="14.5" y1="-1" x2="-13" y2="-1" width="0.127" layer="21"/>
 <text x="10.9" y="-0.8" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-</package>
-<package name="SJ1-2503A">
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.6764" shape="long" rot="R90"/>
-<hole x="-0.14" y="0" drill="1.2"/>
-<pad name="3" x="2.36" y="1.85" drill="1" rot="R180"/>
-<pad name="2" x="2.36" y="-1.85" drill="1" rot="R180"/>
-<pad name="4" x="4.36" y="0" drill="1" rot="R90"/>
-<wire x1="-3.64" y1="2.5" x2="-3.64" y2="2" width="0.127" layer="21"/>
-<wire x1="-3.64" y1="2" x2="-3.64" y2="-2" width="0.127" layer="21"/>
-<wire x1="-3.64" y1="-2" x2="-3.64" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.64" y1="-2.5" x2="1.26" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.64" y1="2.5" x2="1.26" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.46" y1="2.5" x2="4.36" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4.36" y1="2.5" x2="4.36" y2="1.3" width="0.127" layer="21"/>
-<wire x1="3.46" y1="-2.5" x2="4.36" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="4.36" y1="-2.5" x2="4.36" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="-3.64" y1="2" x2="-6.64" y2="2" width="0.127" layer="21"/>
-<wire x1="-6.64" y1="2" x2="-6.64" y2="-2" width="0.127" layer="21"/>
-<wire x1="-6.64" y1="-2" x2="-3.64" y2="-2" width="0.127" layer="21"/>
-<text x="-3.54" y="3" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<text x="-3.54" y="-4" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="STX_2500_3N">
 <smd name="3" x="0" y="-7.2" dx="2.3" dy="1.7" layer="1"/>
@@ -3272,6 +3213,82 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <text x="-1.96" y="6" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
 <text x="2" y="6" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL03</text>
 </package>
+<package name="SJ1-2503A">
+<pad name="1" x="-2.54" y="0" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<hole x="-0.14" y="0" drill="1.2"/>
+<pad name="3" x="2.36" y="1.85" drill="1" rot="R180"/>
+<pad name="2" x="2.36" y="-1.85" drill="1" rot="R180"/>
+<pad name="4" x="4.36" y="0" drill="1" rot="R90"/>
+<wire x1="-3.64" y1="2.5" x2="-3.64" y2="2" width="0.127" layer="21"/>
+<wire x1="-3.64" y1="2" x2="-3.64" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.64" y1="-2" x2="-3.64" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-3.64" y1="-2.5" x2="1.26" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-3.64" y1="2.5" x2="1.26" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3.46" y1="2.5" x2="4.36" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4.36" y1="2.5" x2="4.36" y2="1.3" width="0.127" layer="21"/>
+<wire x1="3.46" y1="-2.5" x2="4.36" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="4.36" y1="-2.5" x2="4.36" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-3.64" y1="2" x2="-6.64" y2="2" width="0.127" layer="21"/>
+<wire x1="-6.64" y1="2" x2="-6.64" y2="-2" width="0.127" layer="21"/>
+<wire x1="-6.64" y1="-2" x2="-3.64" y2="-2" width="0.127" layer="21"/>
+<text x="-3.54" y="3" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="26-64-4090">
+<pad name="P$1" x="-15.88" y="0" drill="1.7"/>
+<pad name="P$2" x="-11.92" y="0" drill="1.7"/>
+<pad name="P$3" x="-7.96" y="0" drill="1.7"/>
+<pad name="P$4" x="-4" y="0" drill="1.7"/>
+<pad name="P$5" x="-0.04" y="0" drill="1.7"/>
+<pad name="P$6" x="3.92" y="0" drill="1.7"/>
+<pad name="P$7" x="7.88" y="0" drill="1.7"/>
+<pad name="P$8" x="11.84" y="0" drill="1.7"/>
+<text x="0" y="12.7762" size="1.016" layer="21" font="vector" ratio="16" align="center">&gt;NAME</text>
+<pad name="P$9" x="15.8" y="0" drill="1.7"/>
+<wire x1="-19.015" y1="5" x2="-19.015" y2="3.89" width="0.127" layer="21"/>
+<wire x1="-19.015" y1="3.89" x2="-19.015" y2="-5" width="0.127" layer="21"/>
+<wire x1="-19.015" y1="-5" x2="19.015" y2="-5" width="0.127" layer="21"/>
+<wire x1="19.015" y1="-5" x2="19.015" y2="3.89" width="0.127" layer="21"/>
+<wire x1="19.015" y1="3.89" x2="19.015" y2="5" width="0.127" layer="21"/>
+<wire x1="19.015" y1="5" x2="-19.015" y2="5" width="0.127" layer="21"/>
+<wire x1="-19.015" y1="3.89" x2="19.015" y2="3.89" width="0.127" layer="21"/>
+<text x="15.8" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL09</text>
+<text x="11.84" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL08</text>
+<text x="7.88" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL07</text>
+<text x="3.92" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL06</text>
+<text x="-0.04" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL05</text>
+<text x="-4" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL04</text>
+<text x="-7.96" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL03</text>
+<text x="-11.92" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL02</text>
+<text x="-15.88" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL01</text>
+<hole x="-13.935" y="-4.24" drill="1.6"/>
+<hole x="13.855" y="-4.24" drill="1.6"/>
+</package>
+<package name="2.54MM_01X09_PIN_HEADER">
+<pad name="5" x="0" y="0" drill="0.8"/>
+<pad name="6" x="2.54" y="0" drill="0.8"/>
+<pad name="4" x="-2.54" y="0" drill="0.8"/>
+<pad name="7" x="5.08" y="0" drill="0.8"/>
+<pad name="3" x="-5.08" y="0" drill="0.8"/>
+<pad name="8" x="7.62" y="0" drill="0.8"/>
+<pad name="2" x="-7.62" y="0" drill="0.8"/>
+<pad name="9" x="10.16" y="0" drill="0.8"/>
+<pad name="1" x="-10.16" y="0" drill="0.8"/>
+<wire x1="-11.43" y1="1.27" x2="-11.43" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-1.27" x2="11.43" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-1.27" x2="11.43" y2="1.27" width="0.127" layer="21"/>
+<wire x1="11.43" y1="1.27" x2="-11.43" y2="1.27" width="0.127" layer="21"/>
+<circle x="-11.43" y="-1.27" radius="0.3175" width="0.127" layer="21"/>
+<text x="-11.43" y="1.5875" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+<text x="10.16" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL09</text>
+<text x="7.62" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL08</text>
+<text x="5.08" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL07</text>
+<text x="2.54" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL06</text>
+<text x="0" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL05</text>
+<text x="-2.54" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL04</text>
+<text x="-5.08" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
+<text x="-7.62" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL02</text>
+<text x="-10.16" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL01</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB_5PIN">
@@ -3311,20 +3328,53 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <text x="-5.08" y="-12.7" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="SD_CARD">
-<wire x1="-2.54" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="17.78" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
-<pin name="RW" x="-5.08" y="15.24" visible="pin" length="short"/>
-<pin name="CS" x="-5.08" y="12.7" visible="pin" length="short"/>
-<pin name="DI" x="-5.08" y="10.16" visible="pin" length="short"/>
-<pin name="SCLK" x="-5.08" y="7.62" visible="pin" length="short"/>
-<pin name="D0" x="-5.08" y="5.08" visible="pin" length="short"/>
-<pin name="IRQ" x="-5.08" y="2.54" visible="pin" length="short"/>
-<pin name="3.3V" x="-5.08" y="-5.08" visible="pin" length="short"/>
-<pin name="GND" x="-5.08" y="-7.62" visible="pin" length="short"/>
-<text x="-2.54" y="20.32" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-12.7" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+<pin name="RW" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="CS" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="DI" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="SCLK" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="D0" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="IRQ" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="3.3V" x="-2.54" y="-20.32" visible="off" length="short"/>
+<pin name="GND" x="-2.54" y="-22.86" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="15.24" y2="2.54" width="0.127" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-25.4" width="0.127" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="0" y2="-25.4" width="0.127" layer="94"/>
+<wire x1="0" y1="-25.4" x2="0" y2="2.54" width="0.127" layer="94"/>
+<text x="0" y="7.62" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="5.08" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="0.762" y="0" size="1.016" layer="97" font="vector" align="center-left">RW</text>
+<text x="0.762" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">CS</text>
+<text x="0.762" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">DI</text>
+<text x="0.762" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">SCLK</text>
+<text x="0.762" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">D0</text>
+<text x="0.762" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">IRQ</text>
+<text x="0.762" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">CARD_DETECT</text>
+<text x="0.762" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">3.3V</text>
+<text x="0.762" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<wire x1="5.08" y1="-1.27" x2="5.588" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="5.588" y1="-1.27" x2="6.858" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="6.858" y1="-1.27" x2="8.128" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="8.128" y1="-1.27" x2="9.398" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="9.398" y1="-1.27" x2="10.668" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="10.668" y1="-1.27" x2="10.7" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="10.7" y1="-1.27" x2="12.7" y2="-3.27" width="0.127" layer="94"/>
+<wire x1="12.7" y1="-3.27" x2="12.7" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="12.7" y1="-11.43" x2="11.43" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="11.43" y1="-11.43" x2="6.35" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="6.35" y1="-11.43" x2="5.08" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-11.43" x2="5.08" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="10.668" y1="-1.27" x2="10.668" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="9.398" y1="-1.27" x2="9.398" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="8.128" y1="-1.27" x2="8.128" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="6.858" y1="-1.27" x2="6.858" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.588" y1="-1.27" x2="5.588" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="6.35" y1="-11.43" x2="6.35" y2="-7.35" width="0.127" layer="94"/>
+<wire x1="6.35" y1="-7.35" x2="7.35" y2="-6.35" width="0.127" layer="94" curve="-90"/>
+<wire x1="7.35" y1="-6.35" x2="10.43" y2="-6.35" width="0.127" layer="94"/>
+<wire x1="10.43" y1="-6.35" x2="11.43" y2="-7.35" width="0.127" layer="94" curve="-90"/>
+<wire x1="11.43" y1="-7.35" x2="11.43" y2="-11.43" width="0.127" layer="94"/>
+<text x="7.62" y="1.27" size="1.016" layer="97" font="vector" align="center">SD CARD SLOT</text>
+<pin name="CD" x="-2.54" y="-17.78" visible="off" length="short"/>
 </symbol>
 <symbol name="TRS_JACK">
 <description>Symbol for TRS jacks</description>
@@ -3625,42 +3675,13 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 </deviceset>
 <deviceset name="SD_CARD" prefix="SD" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="SD_CARD" x="-2.54" y="-5.08"/>
+<gate name="G$1" symbol="SD_CARD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="47219-2001" package="47219-2001">
+<device name="_SD-RSMT-2-MQ" package="SD-RSMT-2-MQ">
 <connects>
 <connect gate="G$1" pin="3.3V" pad="4"/>
-<connect gate="G$1" pin="CS" pad="2"/>
-<connect gate="G$1" pin="D0" pad="7"/>
-<connect gate="G$1" pin="DI" pad="3"/>
-<connect gate="G$1" pin="GND" pad="6 P$1 P$2 P$3 P$4"/>
-<connect gate="G$1" pin="IRQ" pad="8"/>
-<connect gate="G$1" pin="RW" pad="1"/>
-<connect gate="G$1" pin="SCLK" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="502570-0893" package="502570-0893">
-<connects>
-<connect gate="G$1" pin="3.3V" pad="5"/>
-<connect gate="G$1" pin="CS" pad="7"/>
-<connect gate="G$1" pin="D0" pad="2"/>
-<connect gate="G$1" pin="DI" pad="6"/>
-<connect gate="G$1" pin="GND" pad="3 SHIELD0 SHIELD1 SHIELD2 SHIELD3" route="any"/>
-<connect gate="G$1" pin="IRQ" pad="1"/>
-<connect gate="G$1" pin="RW" pad="8"/>
-<connect gate="G$1" pin="SCLK" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SD-RSMT-2-MQ" package="SD-RSMT-2-MQ">
-<connects>
-<connect gate="G$1" pin="3.3V" pad="4"/>
+<connect gate="G$1" pin="CD" pad="CARD_DETECT"/>
 <connect gate="G$1" pin="CS" pad="1"/>
 <connect gate="G$1" pin="D0" pad="7"/>
 <connect gate="G$1" pin="DI" pad="2"/>
@@ -3681,7 +3702,7 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <gate name="G$1" symbol="TRS_JACK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SJ1-2503A" package="SJ1-2503A">
+<device name="_SJ1-2503A" package="SJ1-2503A">
 <connects>
 <connect gate="G$1" pin="R" pad="4"/>
 <connect gate="G$1" pin="S" pad="1"/>
@@ -3691,7 +3712,7 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <technology name=""/>
 </technologies>
 </device>
-<device name="STX_2500_3N" package="STX_2500_3N">
+<device name="_STX_2500_3N" package="STX_2500_3N">
 <connects>
 <connect gate="G$1" pin="R" pad="2"/>
 <connect gate="G$1" pin="S" pad="1"/>
@@ -3701,7 +3722,7 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <technology name=""/>
 </technologies>
 </device>
-<device name="161-3507-E" package="161-3507-E">
+<device name="_161-3507-E" package="161-3507-E">
 <connects>
 <connect gate="G$1" pin="R" pad="2"/>
 <connect gate="G$1" pin="S" pad="1"/>
@@ -4198,6 +4219,58 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <connect gate="G$1" pin="PIN7" pad="P$7"/>
 <connect gate="G$1" pin="PIN8" pad="P$8"/>
 <connect gate="G$1" pin="PIN9" pad="P$10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
+<attribute name="LABEL07" value="" constant="no"/>
+<attribute name="LABEL08" value="" constant="no"/>
+<attribute name="LABEL09" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_26-64-4090" package="26-64-4090">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="P$1"/>
+<connect gate="G$1" pin="PIN2" pad="P$2"/>
+<connect gate="G$1" pin="PIN3" pad="P$3"/>
+<connect gate="G$1" pin="PIN4" pad="P$4"/>
+<connect gate="G$1" pin="PIN5" pad="P$5"/>
+<connect gate="G$1" pin="PIN6" pad="P$6"/>
+<connect gate="G$1" pin="PIN7" pad="P$7"/>
+<connect gate="G$1" pin="PIN8" pad="P$8"/>
+<connect gate="G$1" pin="PIN9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
+<attribute name="LABEL07" value="" constant="no"/>
+<attribute name="LABEL08" value="" constant="no"/>
+<attribute name="LABEL09" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2.54MM_PIN_HEADER" package="2.54MM_01X09_PIN_HEADER">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="1"/>
+<connect gate="G$1" pin="PIN2" pad="2"/>
+<connect gate="G$1" pin="PIN3" pad="3"/>
+<connect gate="G$1" pin="PIN4" pad="4"/>
+<connect gate="G$1" pin="PIN5" pad="5"/>
+<connect gate="G$1" pin="PIN6" pad="6"/>
+<connect gate="G$1" pin="PIN7" pad="7"/>
+<connect gate="G$1" pin="PIN8" pad="8"/>
+<connect gate="G$1" pin="PIN9" pad="9"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21138,7 +21211,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="R17" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="C24" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="0805" value=".1uF"/>
 <part name="DMD_CON" library="PP_Connectors" deviceset="PH_2X07" device="PTH" value="1-1634688-4"/>
-<part name="SD0" library="PP_Connectors" deviceset="SD_CARD" device="SD-RSMT-2-MQ" value="SD-RSMT-2-MQ"/>
+<part name="SD0" library="PP_Connectors" deviceset="SD_CARD" device="_SD-RSMT-2-MQ" value="SD-RSMT-2-MQ"/>
 <part name="R18" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R19" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R20" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
@@ -21415,7 +21488,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="H32" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H33" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H34" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="J4" library="PP_Connectors" deviceset="TRS_JACK" device="STX_2500_3N" value="STX_2500_3N"/>
+<part name="J4" library="PP_Connectors" deviceset="TRS_JACK" device="_STX_2500_3N" value="STX_2500_3N"/>
 <part name="U4" library="PP_DigitalIC" deviceset="EEPROM_I2C" device="DIP-8" value="CAT24M01LI-G"/>
 <part name="J5" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4030" value="26-64-4030"/>
 <part name="BOARD_POWER" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN2)" value="26-64-4040"/>
@@ -21503,7 +21576,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="R17" gate="G$1" x="127" y="20.32" rot="R90"/>
 <instance part="C24" gate="G$1" x="119.38" y="17.78" rot="R180"/>
 <instance part="DMD_CON" gate="G$1" x="144.78" y="-20.32"/>
-<instance part="SD0" gate="G$1" x="231.14" y="20.32"/>
+<instance part="SD0" gate="G$1" x="226.06" y="35.56"/>
 <instance part="R18" gate="G$1" x="195.58" y="15.24" rot="R90"/>
 <instance part="R19" gate="G$1" x="200.66" y="15.24" rot="R90"/>
 <instance part="R20" gate="G$1" x="205.74" y="15.24" rot="R90"/>
@@ -22057,7 +22130,7 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="SD0" gate="G$1" pin="GND"/>
-<wire x1="218.44" y1="12.7" x2="226.06" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="12.7" x2="223.52" y2="12.7" width="0.1524" layer="91"/>
 <label x="220.98" y="12.7" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
@@ -23731,7 +23804,7 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="SD0" gate="G$1" pin="3.3V"/>
-<wire x1="226.06" y1="15.24" x2="215.9" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="15.24" x2="215.9" y2="15.24" width="0.1524" layer="91"/>
 <label x="220.98" y="15.24" size="0.8128" layer="95" font="vector"/>
 <wire x1="215.9" y1="15.24" x2="215.9" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="1"/>
@@ -24275,7 +24348,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="SD0" gate="G$1" pin="SCLK"/>
 <label x="220.98" y="27.94" size="0.8128" layer="95" font="vector"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="27.94" x2="200.66" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24289,7 +24362,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="SD0" gate="G$1" pin="DI"/>
 <label x="220.98" y="30.48" size="0.8128" layer="95" font="vector"/>
 <pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="30.48" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="30.48" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="30.48" x2="195.58" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24387,7 +24460,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="SD0" gate="G$1" pin="CS"/>
 <label x="220.98" y="33.02" size="0.8128" layer="95" font="vector"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="33.02" x2="190.5" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="33.02" x2="190.5" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="33.02" x2="190.5" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24408,7 +24481,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="SD0" gate="G$1" pin="D0"/>
 <label x="220.98" y="25.4" size="0.8128" layer="95" font="vector"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="25.4" x2="205.74" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="25.4" x2="205.74" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="25.4" x2="205.74" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24512,7 +24585,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <pinref part="SD0" gate="G$1" pin="RW"/>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="35.56" x2="185.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="35.56" x2="185.42" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="35.56" x2="185.42" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24520,7 +24593,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <pinref part="SD0" gate="G$1" pin="IRQ"/>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="22.86" x2="210.82" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="22.86" x2="210.82" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="22.86" x2="210.82" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
