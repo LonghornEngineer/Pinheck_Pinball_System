@@ -23783,9 +23783,39 @@ ULN and UDN Series&lt;p&gt;
 <part name="PROP_ACT" library="PP_LED" deviceset="LED_SINGLE" device="_0805" value="LG R971-KN-1"/>
 <part name="R137" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="10K"/>
 <part name="U$2" library="PP_Aesthetics" deviceset="MF_LOGO" device="LOGO_TEXT"/>
-<part name="SOL_BANK_0" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN6)" value="26-64-4100"/>
-<part name="SOL_BANK_1" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN7)" value="26-64-4100"/>
-<part name="SOL_BANK_2" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN8)" value="26-64-4100"/>
+<part name="SOL_BANK_0" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN6)" value="26-64-4100">
+<attribute name="LABEL01" value="50V"/>
+<attribute name="LABEL02" value="SOL_0"/>
+<attribute name="LABEL03" value="SOL_1"/>
+<attribute name="LABEL04" value="SOL_2"/>
+<attribute name="LABEL05" value="SOL_3"/>
+<attribute name="LABEL06" value="SOL_4"/>
+<attribute name="LABEL07" value="SOL_5"/>
+<attribute name="LABEL08" value="SOL_6"/>
+<attribute name="LABEL09" value="SOL_7"/>
+</part>
+<part name="SOL_BANK_1" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN7)" value="26-64-4100">
+<attribute name="LABEL01" value="50V"/>
+<attribute name="LABEL02" value="SOL_8"/>
+<attribute name="LABEL03" value="SOL_9"/>
+<attribute name="LABEL04" value="SOL_10"/>
+<attribute name="LABEL05" value="SOL_11"/>
+<attribute name="LABEL06" value="SOL_12"/>
+<attribute name="LABEL07" value="SOL_13"/>
+<attribute name="LABEL08" value="SOL_14"/>
+<attribute name="LABEL09" value="SOL_15"/>
+</part>
+<part name="SOL_BANK_2" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN8)" value="26-64-4100">
+<attribute name="LABEL01" value="50V"/>
+<attribute name="LABEL02" value="SOL_16"/>
+<attribute name="LABEL03" value="SOL_17"/>
+<attribute name="LABEL04" value="SOL_18"/>
+<attribute name="LABEL05" value="SOL_19"/>
+<attribute name="LABEL06" value="SOL_20"/>
+<attribute name="LABEL07" value="SOL_21"/>
+<attribute name="LABEL08" value="SOL_22"/>
+<attribute name="LABEL09" value="SOL_23"/>
+</part>
 <part name="SW_ROW" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN4)" value="26-64-4100"/>
 <part name="SW_COL" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN5)" value="26-64-4100"/>
 <part name="LIGHT_COL" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN2)" value="26-64-4100"/>
@@ -23819,13 +23849,17 @@ ULN and UDN Series&lt;p&gt;
 <part name="J4" library="PP_Connectors" deviceset="TRS_JACK" device="_161-3507-E" value="SJ1-2503A"/>
 <part name="U4" library="PP_DigitalIC" deviceset="EEPROM_I2C" device="DIP-8" value="CAT24M01LI-G"/>
 <part name="BOARD_POWER" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN2)" value="26-64-4040"/>
-<part name="SOL_PWR" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN3)" value="26-64-4040"/>
+<part name="SOL_PWR" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN3)" value="26-64-4040">
+<attribute name="LABEL01" value="GND"/>
+<attribute name="LABEL02" value="GND"/>
+<attribute name="LABEL03" value="50V"/>
+</part>
 <part name="U1" library="PP_DigitalIC" deviceset="P8X32A" device="-Q44" value="P8X32A-Q44"/>
 <part name="DMD_CON" library="PP_Connectors" deviceset="CON_02X07" device="_5103308-2" value="5103308-2"/>
 <part name="J6" library="PP_Connectors" deviceset="CON_01X10" device="_26-64-4110(KEYPIN3)"/>
 <part name="J7" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN1)"/>
 <part name="CABINET" library="PP_Connectors" deviceset="CON_01X11" device="_26-64-4120(KEYPIN2)" value="26-64-4120"/>
-<part name="J5" library="PP_Connectors" deviceset="CON_01X02" device="_26-64-4020" value="26-64-4020"/>
+<part name="KNOCKER" library="PP_Connectors" deviceset="CON_01X02" device="_26-64-4020" value="26-64-4020"/>
 <part name="PICKIT3" library="PP_Connectors" deviceset="CON_01X06" device="_2.54MM_PIN_HEADER"/>
 <part name="R24" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="10K"/>
 <part name="R25" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="10K"/>
@@ -24243,7 +24277,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="J6" gate="G$1" x="228.6" y="-93.98"/>
 <instance part="J7" gate="G$1" x="916.94" y="40.64"/>
 <instance part="CABINET" gate="G$1" x="518.16" y="86.36"/>
-<instance part="J5" gate="G$1" x="581.66" y="81.28"/>
+<instance part="KNOCKER" gate="G$1" x="581.66" y="81.28"/>
 <instance part="PICKIT3" gate="G$1" x="15.24" y="106.68"/>
 <instance part="R24" gate="G$1" x="350.52" y="213.36" rot="R90"/>
 <instance part="R25" gate="G$1" x="342.9" y="213.36" rot="R90"/>
@@ -28100,7 +28134,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="571.5" y1="81.28" x2="579.12" y2="81.28" width="0.1524" layer="91"/>
 <label x="571.5" y="81.28" size="0.8128" layer="95" font="vector"/>
-<pinref part="J5" gate="G$1" pin="PIN1"/>
+<pinref part="KNOCKER" gate="G$1" pin="PIN1"/>
 </segment>
 </net>
 <net name="SOL_PWR_0" class="0">
@@ -28113,7 +28147,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="579.12" y1="78.74" x2="571.5" y2="78.74" width="0.1524" layer="91"/>
 <label x="571.5" y="78.74" size="0.8128" layer="95" font="vector"/>
-<pinref part="J5" gate="G$1" pin="PIN2"/>
+<pinref part="KNOCKER" gate="G$1" pin="PIN2"/>
 </segment>
 <segment>
 <wire x1="617.22" y1="81.28" x2="607.06" y2="81.28" width="0.1524" layer="91"/>
