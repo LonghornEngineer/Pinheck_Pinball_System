@@ -127,7 +127,6 @@
 <wire x1="339.09" y1="174.371" x2="339.09" y2="22.098" width="0.127" layer="20"/>
 <wire x1="339.09" y1="22.098" x2="-20.066" y2="22.098" width="0.127" layer="20"/>
 <wire x1="-20.066" y1="22.098" x2="-20.066" y2="174.371" width="0.127" layer="20"/>
-<text x="166.116" y="111.76" size="1.4224" layer="21" font="vector" rot="R90">PIC</text>
 <text x="-12.065" y="84.42325" size="1.016" layer="21" font="vector" rot="R270">5V</text>
 <text x="-12.065" y="81.12125" size="1.016" layer="21" font="vector" rot="R270">R_0</text>
 <text x="-12.065" y="73.50125" size="1.016" layer="21" font="vector" rot="R270">R_1</text>
@@ -172,24 +171,24 @@
 <text x="178.816" y="34.29" size="1.016" layer="21" font="vector">14</text>
 <text x="182.626" y="34.29" size="1.016" layer="21" font="vector">15</text>
 <text x="298.45" y="171.704" size="1.4224" layer="21" font="vector">AUDIO</text>
-<text x="348.488" y="179.578" size="1.016" layer="21" font="vector">5V</text>
-<text x="347.98" y="183.642" size="1.016" layer="21" font="vector">GND</text>
-<wire x1="347.472" y1="179.07" x2="347.98" y2="179.07" width="0.254" layer="21"/>
-<wire x1="347.98" y1="179.07" x2="347.98" y2="180.086" width="0.254" layer="21"/>
+<text x="307.086" y="145.796" size="1.016" layer="21" font="vector" rot="R270">5V</text>
+<text x="311.15" y="146.304" size="1.016" layer="21" font="vector" rot="R270">GND</text>
+<wire x1="306.578" y1="146.812" x2="306.578" y2="146.304" width="0.254" layer="21"/>
+<wire x1="306.578" y1="146.304" x2="307.594" y2="146.304" width="0.254" layer="21"/>
 <text x="295.148" y="156.718" size="1.4224" layer="21" font="vector">EEPROM</text>
-<text x="235.204" y="108.712" size="1.016" layer="21">PinHeck Pinball System</text>
-<text x="235.204" y="107.188" size="1.016" layer="21">REV: 5</text>
-<text x="235.204" y="102.362" size="1.016" layer="21">Designers:</text>
-<text x="235.204" y="105.664" size="1.016" layer="21">www.benheck.com</text>
-<text x="235.204" y="104.14" size="1.016" layer="21">www.spookypinball.com</text>
-<text x="235.204" y="100.584" size="1.016" layer="21">Benjamin J. Heckendorn</text>
-<text x="235.204" y="95.25" size="1.016" layer="21">Parker Dillmann</text>
-<text x="235.204" y="98.806" size="1.016" layer="21">Charlie Emery</text>
-<text x="235.204" y="97.028" size="1.016" layer="21">Andrew Edgerton</text>
+<text x="235.204" y="108.712" size="1.27" layer="21" ratio="16">PinHeck Pinball System</text>
+<text x="235.204" y="107.188" size="1.27" layer="21" ratio="16">REV: 7</text>
+<text x="235.204" y="102.362" size="1.27" layer="21" ratio="16">Designers:</text>
+<text x="235.204" y="105.664" size="1.27" layer="21" ratio="16">www.benheck.com</text>
+<text x="235.204" y="104.14" size="1.27" layer="21" ratio="16">www.spookypinball.com</text>
+<text x="235.204" y="100.584" size="1.27" layer="21" ratio="16">Benjamin J. Heckendorn</text>
+<text x="235.204" y="95.25" size="1.27" layer="21" ratio="16">Parker Dillmann</text>
+<text x="235.204" y="98.806" size="1.27" layer="21" ratio="16">Charlie Emery</text>
+<text x="235.204" y="97.028" size="1.27" layer="21" ratio="16">Andrew Edgerton</text>
 <polygon width="0.254" layer="21">
-<vertex x="164.338" y="106.934"/>
-<vertex x="165.354" y="107.95"/>
-<vertex x="165.354" y="105.918"/>
+<vertex x="161.798" y="112.776"/>
+<vertex x="162.814" y="113.792"/>
+<vertex x="162.814" y="111.76"/>
 </polygon>
 <text x="276.86" y="100.33" size="1.016" layer="21">WD</text>
 <text x="280.162" y="100.33" size="1.016" layer="21">GND</text>
@@ -1066,12 +1065,12 @@
 <text x="-6.35" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL01</text>
 </package>
 <package name="TC2030">
-<smd name="P$1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="P$2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="P$3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="P$4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="P$5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="P$6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="P$1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="P$2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="P$3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="P$4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="P$5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="P$6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
 <hole x="2.54" y="1.016" drill="0.9906"/>
 <hole x="2.54" y="-1.016" drill="0.9906"/>
 <hole x="-2.54" y="0" drill="0.9906"/>
@@ -14098,42 +14097,42 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 </pass>
 </autorouter>
 <elements>
-<element name="IC2" library="Microchip" package="TQ100-PT" value="PIC32MX795F512L-80I/PT" x="130.556" y="110.998" rot="R180"/>
-<element name="D1" library="Discrete" package="SOT-323" value="BAV99W,115" x="157.734" y="108.966" smashed="yes" rot="R90">
-<attribute name="NAME" x="155.818" y="110.53" size="0.8128" layer="25"/>
+<element name="IC2" library="Microchip" package="TQ100-PT" value="PIC32MX795F512L-80I/PT" x="126.238" y="115.824" rot="R225"/>
+<element name="D1" library="Discrete" package="SOT-323" value="BAV99W,115" x="155.194" y="114.808" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.278" y="116.372" size="0.8128" layer="25"/>
 </element>
-<element name="D8" library="Discrete" package="SOT-323-5" value="NSQA6V8AW5T2G" x="157.48" y="115.824" smashed="yes" rot="R270">
-<attribute name="NAME" x="155.214" y="117.099" size="0.8128" layer="21"/>
+<element name="D8" library="Discrete" package="SOT-323-5" value="NSQA6V8AW5T2G" x="154.94" y="121.666" smashed="yes" rot="R270">
+<attribute name="NAME" x="152.674" y="122.941" size="0.8128" layer="21"/>
 </element>
-<element name="X1" library="Discrete" package="FQ7050B" value="FQ7050B-8.000" x="108.204" y="112.014"/>
-<element name="C2" library="PP_Passives" package="0805" value=".1uF" x="132.842" y="124.206"/>
-<element name="C3" library="PP_Passives" package="0805" value=".1uF" x="143.002" y="112.776"/>
-<element name="C4" library="PP_Passives" package="0805" value=".1uF" x="141.224" y="105.664" rot="R180"/>
-<element name="C5" library="PP_Passives" package="0805" value=".1uF" x="130.556" y="97.028" smashed="yes" rot="R270">
-<attribute name="NAME" x="129.921" y="98.8695" size="0.8128" layer="25" font="vector"/>
+<element name="X1" library="Discrete" package="FQ7050B" value="FQ7050B-8.000" x="105.664" y="117.856"/>
+<element name="C2" library="PP_Passives" package="0805" value=".1uF" x="130.302" y="130.048"/>
+<element name="C3" library="PP_Passives" package="0805" value=".1uF" x="140.462" y="118.618"/>
+<element name="C4" library="PP_Passives" package="0805" value=".1uF" x="138.684" y="111.506" rot="R180"/>
+<element name="C5" library="PP_Passives" package="0805" value=".1uF" x="96.774" y="97.536" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.139" y="99.3775" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C6" library="PP_Passives" package="0805" value=".1uF" x="119.126" y="126.238" smashed="yes" rot="R180">
-<attribute name="NAME" x="120.269" y="127.9525" size="0.8128" layer="25" font="vector" rot="R180"/>
+<element name="C6" library="PP_Passives" package="0805" value=".1uF" x="116.586" y="132.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="117.729" y="133.7945" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C7" library="PP_Passives" package="0805" value=".1uF" x="124.968" y="122.936"/>
-<element name="R3" library="PP_Passives" package="0805" value="0" x="137.16" y="127.508"/>
-<element name="C8" library="PP_Passives" package="0805" value="1uF" x="137.16" y="125.476" smashed="yes" rot="R180">
-<attribute name="NAME" x="138.811" y="125.0315" size="0.8128" layer="25" font="vector"/>
+<element name="C7" library="PP_Passives" package="0805" value=".1uF" x="122.428" y="128.778"/>
+<element name="R3" library="PP_Passives" package="0805" value="0" x="134.62" y="133.35"/>
+<element name="C8" library="PP_Passives" package="0805" value="1uF" x="134.62" y="131.318" smashed="yes" rot="R180">
+<attribute name="NAME" x="136.271" y="130.8735" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C9" library="PP_Passives" package="0805" value=".1uF" x="137.16" y="123.444" rot="R180"/>
-<element name="C11" library="PP_Passives" package="0805" value=".1uF" x="119.126" y="124.206" rot="R180"/>
-<element name="C10" library="PP_Passives" package="1206" value="10uF" x="128.27" y="96.266" smashed="yes" rot="R270">
-<attribute name="NAME" x="125.857" y="98.8695" size="0.8128" layer="25" font="vector"/>
+<element name="C9" library="PP_Passives" package="0805" value=".1uF" x="134.62" y="129.286" rot="R180"/>
+<element name="C11" library="PP_Passives" package="0805" value=".1uF" x="116.586" y="130.048" rot="R180"/>
+<element name="C10" library="PP_Passives" package="1206" value="10uF" x="101.346" y="97.536" smashed="yes" rot="R270">
+<attribute name="NAME" x="98.933" y="100.1395" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="R12" library="PP_Passives" package="0805" value="50" x="157.734" y="105.918"/>
-<element name="R8" library="PP_Passives" package="0805" value="200" x="135.636" y="89.662"/>
-<element name="R4" library="PP_Passives" package="0805" value="10K" x="154.94" y="113.792" smashed="yes" rot="R270">
-<attribute name="NAME" x="152.781" y="112.3315" size="0.8128" layer="25" font="vector"/>
+<element name="R12" library="PP_Passives" package="0805" value="50" x="155.194" y="111.76"/>
+<element name="R8" library="PP_Passives" package="0805" value="200" x="155.194" y="109.982"/>
+<element name="R4" library="PP_Passives" package="0805" value="10K" x="152.4" y="119.634" smashed="yes" rot="R270">
+<attribute name="NAME" x="150.241" y="118.1735" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="R13" library="PP_Passives" package="0805" value="50" x="157.48" y="112.776"/>
-<element name="R14" library="PP_Passives" package="0805" value="50" x="157.48" y="119.38" rot="R270"/>
-<element name="C13" library="PP_Passives" package="0805" value="30pF" x="103.124" y="112.014" rot="R90"/>
-<element name="C14" library="PP_Passives" package="0805" value="30pF" x="113.284" y="112.014" rot="R270"/>
+<element name="R13" library="PP_Passives" package="0805" value="50" x="154.94" y="118.618"/>
+<element name="R14" library="PP_Passives" package="0805" value="50" x="154.94" y="125.222" rot="R270"/>
+<element name="C13" library="PP_Passives" package="0805" value="30pF" x="100.584" y="117.856" rot="R90"/>
+<element name="C14" library="PP_Passives" package="0805" value="30pF" x="110.744" y="117.856" rot="R270"/>
 <element name="X2" library="PP_FreqCtrl" package="HC-49/US_SM" value="9C-6.500MAAJ-T" x="212.09" y="144.272"/>
 <element name="C20" library="PP_Passives" package="0805" value=".1uF" x="260.858" y="122.936" rot="R270"/>
 <element name="C21" library="PP_Passives" package="0805" value=".1uF" x="278.384" y="128.524" smashed="yes" rot="R90">
@@ -14144,8 +14143,8 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <element name="R176" library="PP_Passives" package="0805" value="10K" x="276.098" y="128.524" smashed="yes" rot="R270">
 <attribute name="NAME" x="275.0185" y="126.873" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R16" library="PP_Passives" package="0805" value="10K" x="201.168" y="144.87525" rot="R90"/>
-<element name="R17" library="PP_Passives" package="0805" value="10K" x="198.65975" y="144.907" rot="R90"/>
+<element name="R16" library="PP_Passives" package="0805" value="10K" x="197.70725" y="143.51"/>
+<element name="R17" library="PP_Passives" package="0805" value="10K" x="197.739" y="140.93825"/>
 <element name="C24" library="PP_Passives" package="0805" value=".1uF" x="190.246" y="151.384"/>
 <element name="SD0" library="PP_Connectors" package="SD-RSMT-2-MQ" value="SD-RSMT-2-MQ" x="272.034" y="142.494" rot="R180"/>
 <element name="R18" library="PP_Passives" package="0805" value="10K" x="267.716" y="138.43" rot="R90"/>
@@ -14164,30 +14163,30 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <attribute name="NAME" x="287.147" y="87.9475" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="U10" library="PP_DigitalIC" package="74HCT2G04_TTSOP-6" value="74HCT2G04GV,125" x="289.052" y="101.6" rot="R180"/>
-<element name="U11" library="PP_DigitalIC" package="CD74HC165_SOIC-16" value="CD74HC165M96" x="317.246" y="135.382" smashed="yes">
-<attribute name="NAME" x="311.992" y="131.144" size="0.8128" layer="21" font="vector" rot="R90"/>
+<element name="U11" library="PP_DigitalIC" package="CD74HC165_SOIC-16" value="CD74HC165M96" x="317.246" y="125.73" smashed="yes">
+<attribute name="NAME" x="311.992" y="121.492" size="0.8128" layer="21" font="vector" rot="R90"/>
 </element>
-<element name="U12" library="PP_DigitalIC" package="CD74HC165_SOIC-16" value="CD74HC165M96" x="317.246" y="151.384" smashed="yes">
-<attribute name="NAME" x="311.738" y="146.892" size="0.8128" layer="21" font="vector" rot="R90"/>
+<element name="U12" library="PP_DigitalIC" package="CD74HC165_SOIC-16" value="CD74HC165M96" x="317.246" y="141.732" smashed="yes">
+<attribute name="NAME" x="311.738" y="137.24" size="0.8128" layer="21" font="vector" rot="R90"/>
 </element>
-<element name="R35" library="PP_Passives" package="0805" value="10K" x="80.518" y="191.262" rot="R270"/>
-<element name="R36" library="PP_Passives" package="0805" value="10K" x="77.978" y="191.262" rot="R270"/>
-<element name="R37" library="PP_Passives" package="0805" value="10K" x="75.438" y="191.262" rot="R270"/>
-<element name="R38" library="PP_Passives" package="0805" value="10K" x="326.136" y="127.762"/>
-<element name="R39" library="PP_Passives" package="0805" value="10K" x="65.278" y="191.262" rot="R270"/>
-<element name="R40" library="PP_Passives" package="0805" value="10K" x="67.818" y="191.262" rot="R270"/>
-<element name="R41" library="PP_Passives" package="0805" value="10K" x="70.358" y="191.262" rot="R270"/>
-<element name="R42" library="PP_Passives" package="0805" value="10K" x="72.898" y="191.262" rot="R270"/>
-<element name="R43" library="PP_Passives" package="0805" value="10K" x="326.136" y="147.574"/>
-<element name="R44" library="PP_Passives" package="0805" value="10K" x="326.136" y="151.638"/>
-<element name="R45" library="PP_Passives" package="0805" value="10K" x="326.136" y="155.448"/>
-<element name="R46" library="PP_Passives" package="0805" value="10K" x="326.136" y="159.512"/>
-<element name="R47" library="PP_Passives" package="0805" value="10K" x="326.136" y="143.764"/>
-<element name="R48" library="PP_Passives" package="0805" value="10K" x="326.136" y="139.7"/>
-<element name="R49" library="PP_Passives" package="0805" value="10K" x="326.136" y="135.636"/>
-<element name="R50" library="PP_Passives" package="0805" value="10K" x="326.136" y="131.826"/>
-<element name="C32" library="PP_Passives" package="0805" value=".1uF" x="317.246" y="157.48"/>
-<element name="C33" library="PP_Passives" package="0805" value=".1uF" x="317.246" y="141.732"/>
+<element name="R35" library="PP_Passives" package="0805" value="10K" x="81.28" y="130.81"/>
+<element name="R36" library="PP_Passives" package="0805" value="10K" x="81.28" y="136.144"/>
+<element name="R37" library="PP_Passives" package="0805" value="10K" x="81.28" y="141.478"/>
+<element name="R38" library="PP_Passives" package="0805" value="10K" x="326.136" y="118.11"/>
+<element name="R39" library="PP_Passives" package="0805" value="10K" x="81.28" y="162.814"/>
+<element name="R40" library="PP_Passives" package="0805" value="10K" x="81.28" y="157.48"/>
+<element name="R41" library="PP_Passives" package="0805" value="10K" x="81.28" y="152.146"/>
+<element name="R42" library="PP_Passives" package="0805" value="10K" x="81.28" y="146.812"/>
+<element name="R43" library="PP_Passives" package="0805" value="10K" x="326.136" y="137.922"/>
+<element name="R44" library="PP_Passives" package="0805" value="10K" x="326.136" y="141.986"/>
+<element name="R45" library="PP_Passives" package="0805" value="10K" x="326.136" y="145.796"/>
+<element name="R46" library="PP_Passives" package="0805" value="10K" x="326.136" y="149.86"/>
+<element name="R47" library="PP_Passives" package="0805" value="10K" x="326.136" y="134.112"/>
+<element name="R48" library="PP_Passives" package="0805" value="10K" x="326.136" y="130.048"/>
+<element name="R49" library="PP_Passives" package="0805" value="10K" x="326.136" y="125.984"/>
+<element name="R50" library="PP_Passives" package="0805" value="10K" x="326.136" y="122.174"/>
+<element name="C32" library="PP_Passives" package="0805" value=".1uF" x="317.246" y="147.828"/>
+<element name="C33" library="PP_Passives" package="0805" value=".1uF" x="317.246" y="132.08"/>
 <element name="U14" library="PP_DigitalIC" package="MC74HC08_SOIC-14" value="MC74HC08ADR2G" x="129.54" y="75.692" rot="R270"/>
 <element name="U15" library="PP_DigitalIC" package="MC74HC08_SOIC-14" value="MC74HC08ADR2G" x="168.148" y="75.692" rot="R270"/>
 <element name="U16" library="PP_DigitalIC" package="MC74HC08_SOIC-14" value="MC74HC08ADR2G" x="206.756" y="75.692" rot="R270"/>
@@ -14245,8 +14244,8 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <element name="R72" library="PP_Passives" package="0805" value="10K" x="208.534" y="84.074" rot="R270"/>
 <element name="R73" library="PP_Passives" package="0805" value="10K" x="204.978" y="84.074" rot="R270"/>
 <element name="R74" library="PP_Passives" package="0805" value="10K" x="201.676" y="84.074" rot="R270"/>
-<element name="IC3" library="74xx-us" package="DIL20" value="CD74HCT244E" x="59.944" y="69.596" rot="R180"/>
-<element name="IC4" library="74xx-us" package="DIL20" value="CD74HCT244E" x="59.944" y="52.832" rot="R180"/>
+<element name="IC3" library="74xx-us" package="DIL20" value="CD74HCT244E" x="39.624" y="48.514" rot="R180"/>
+<element name="IC4" library="74xx-us" package="DIL20" value="CD74HCT244E" x="68.326" y="48.514" rot="R180"/>
 <element name="R75" library="PP_Passives" package="0805" value="10K" x="-4.572" y="35.56" rot="R90"/>
 <element name="R76" library="PP_Passives" package="0805" value="10K" x="-0.508" y="35.56" rot="R90"/>
 <element name="R77" library="PP_Passives" package="0805" value="10K" x="7.366" y="35.56" rot="R90"/>
@@ -14296,17 +14295,17 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <element name="R112" library="PP_Passives" package="0805" value="360" x="20.193" y="51.91125" rot="R180"/>
 <element name="U35" library="PP_DiscreteSemi" package="TO-220AB" value="TIP102" x="13.335" y="47.08525"/>
 <element name="R114" library="PP_Passives" package="0805" value="360" x="20.193" y="47.08525" rot="R180"/>
-<element name="C34" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="33.528" y="125.222" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.928" y="122.615" size="0.8128" layer="25" font="vector" rot="R180"/>
+<element name="C34" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="28.956" y="139.446" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.356" y="136.839" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C35" library="PP_Passives" package="1206" value="10uF" x="36.576" y="144.526" smashed="yes">
-<attribute name="NAME" x="33.782" y="145.415" size="0.8128" layer="25" font="vector" rot="R180"/>
+<element name="C35" library="PP_Passives" package="1206" value="10uF" x="32.004" y="158.75" smashed="yes">
+<attribute name="NAME" x="29.21" y="159.639" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C36" library="PP_Passives" package="0805" value="1uF" x="36.576" y="146.558" smashed="yes">
-<attribute name="NAME" x="34.671" y="147.0025" size="0.8128" layer="25" font="vector" rot="R180"/>
+<element name="C36" library="PP_Passives" package="0805" value="1uF" x="32.004" y="160.782" smashed="yes">
+<attribute name="NAME" x="30.099" y="161.2265" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C37" library="PP_Passives" package="0805" value=".1uF" x="36.576" y="148.336" smashed="yes">
-<attribute name="NAME" x="34.671" y="148.7805" size="0.8128" layer="25" font="vector" rot="R180"/>
+<element name="C37" library="PP_Passives" package="0805" value=".1uF" x="32.004" y="162.56" smashed="yes">
+<attribute name="NAME" x="30.099" y="163.0045" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C38" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="9.144" y="142.748" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.744" y="145.355" size="0.8128" layer="25" font="vector"/>
@@ -14356,18 +14355,18 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <element name="R123" library="PP_Passives" package="0805" value="10K" x="147.828" y="147.32" rot="R270"/>
 <element name="R124" library="PP_Passives" package="0805" value="10K" x="141.478" y="147.32" rot="R270"/>
 <element name="C46" library="PP_Passives" package="0805" value=".1uF" x="271.272" y="138.43" rot="R270"/>
-<element name="U39" library="PP_PowerIC" package="NCP1117DT_DPAK-3" value="NCP1117DT33G" x="34.798" y="153.416" rot="R90"/>
+<element name="U39" library="PP_PowerIC" package="NCP1117DT_DPAK-3" value="NCP1117DT33G" x="30.226" y="167.64" rot="R90"/>
 <element name="C48" library="PP_Passives" package="0805" value="1uF" x="98.298" y="86.614"/>
-<element name="C51" library="PP_Passives" package="1206" value="10uF" x="342.9" y="181.864" smashed="yes" rot="R90">
-<attribute name="NAME" x="341.884" y="177.927" size="0.8128" layer="25" font="vector"/>
+<element name="C51" library="PP_Passives" package="1206" value="10uF" x="320.04" y="157.734" smashed="yes" rot="R270">
+<attribute name="NAME" x="321.056" y="161.671" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C52" library="PP_Passives" package="0805" value="1uF" x="345.44" y="181.864" smashed="yes" rot="R90">
-<attribute name="NAME" x="344.297" y="183.7055" size="0.8128" layer="25" font="vector"/>
+<element name="C52" library="PP_Passives" package="0805" value="1uF" x="322.326" y="157.734" smashed="yes" rot="R270">
+<attribute name="NAME" x="323.469" y="155.8925" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C53" library="PP_Passives" package="0805" value=".1uF" x="347.853" y="181.864" smashed="yes" rot="R90">
-<attribute name="NAME" x="345.059" y="178.7525" size="0.8128" layer="25" font="vector"/>
+<element name="C53" library="PP_Passives" package="0805" value=".1uF" x="323.977" y="157.734" smashed="yes" rot="R270">
+<attribute name="NAME" x="326.771" y="160.8455" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C50" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="337.53425" y="181.89575" rot="R180"/>
+<element name="C50" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="314.99175" y="157.70225"/>
 <element name="U$1" library="PP_Aesthetics" package="LHE_LOGO" value="LHE_LOGOLHE_LOGO" x="240.03" y="91.44"/>
 <element name="U6" library="PP_DiscreteSemi" package="TO-220AB" value="TIP102" x="322.072" y="61.468" rot="R180"/>
 <element name="R99" library="PP_Passives" package="0805" value="360" x="307.086" y="96.774" rot="R270"/>
@@ -14401,11 +14400,11 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <element name="R131" library="PP_Passives" package="0805" value="360" x="300.228" y="78.232" rot="R270"/>
 <element name="U51" library="PP_DiscreteSemi" package="TO-220AB" value="TIP102" x="323.342" y="51.308" rot="R90"/>
 <element name="R132" library="PP_Passives" package="0805" value="360" x="302.768" y="78.232" rot="R270"/>
-<element name="U52" library="PP_DigitalIC" package="CD74HC123_SOIC-16" value="CD74HC123M96" x="98.298" y="80.264" smashed="yes" rot="R270">
-<attribute name="NAME" x="92.282" y="85.748" size="0.8128" layer="21" font="vector"/>
+<element name="U52" library="PP_DigitalIC" package="CD74HC123_SOIC-16" value="CD74HC123M96" x="98.298" y="79.248" smashed="yes">
+<attribute name="NAME" x="92.814" y="73.232" size="0.8128" layer="21" font="vector" rot="R90"/>
 </element>
-<element name="R133" library="PP_Passives" package="0805" value="10K" x="89.916" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="88.519" y="81.0895" size="0.8128" layer="25" font="vector"/>
+<element name="R133" library="PP_Passives" package="0805" value="10K" x="90.932" y="79.248" smashed="yes" rot="R270">
+<attribute name="NAME" x="89.535" y="76.5175" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C27" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="108.966" y="83.058"/>
 <element name="R134" library="PP_Passives" package="0805" value="20K" x="121.666" y="80.264"/>
@@ -14423,13 +14422,13 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <attribute name="LABEL01" value="" x="277.622" y="98.044" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R136" library="PP_Passives" package="0805" value="0" x="237.49" y="70.866" rot="R270"/>
-<element name="LOGO1" library="PP_Aesthetics" package="SPOOKY_LOGO" value="SPOOKY_LOGOSPOOKY_LOGO" x="-52.324" y="167.386"/>
+<element name="LOGO1" library="PP_Aesthetics" package="SPOOKY_LOGO" value="SPOOKY_LOGOSPOOKY_LOGO" x="42.418" y="59.182"/>
 <element name="PSU_PWR" library="PP_LED" package="LED_0805" value="LG R971-KN-1" x="14.478" y="169.926" rot="R90"/>
 <element name="WD" library="PP_LED" package="LED_0805" value="LG R971-KN-1" x="116.84" y="73.406"/>
 <element name="PROP_ACT" library="PP_LED" package="LED_0805" value="LG R971-KN-1" x="240.284" y="120.142" smashed="yes">
 <attribute name="NAME" x="237.168" y="121.717" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="R137" library="PP_Passives" package="0805" value="10K" x="151.384" y="116.586"/>
+<element name="R137" library="PP_Passives" package="0805" value="10K" x="148.844" y="122.428"/>
 <element name="U$2" library="PP_Aesthetics" package="MF_LOGO_TEXT" value="MF_LOGOLOGO_TEXT" x="183.642" y="97.028"/>
 <element name="SOL_BANK_0" library="PP_Connectors" package="26-64-4100(KEYPIN6)" value="26-64-4100" x="113.284" y="28.702">
 <attribute name="LABEL02" value="" x="113.284" y="28.702" size="1.778" layer="27" display="off"/>
@@ -14530,18 +14529,18 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <attribute name="LABEL09" value="" x="304.038" y="27.94" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL01" value="" x="304.038" y="27.94" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SOCKET1" library="PP_Connectors" package="20PIN_DIP_SOCKET" value="820-AG11D-ESL-LF" x="59.944" y="69.596" rot="R180"/>
-<element name="SOCKET2" library="PP_Connectors" package="20PIN_DIP_SOCKET" value="820-AG11D-ESL-LF" x="59.944" y="52.832" rot="R180"/>
+<element name="SOCKET1" library="PP_Connectors" package="20PIN_DIP_SOCKET" value="820-AG11D-ESL-LF" x="39.624" y="48.514" rot="R180"/>
+<element name="SOCKET2" library="PP_Connectors" package="20PIN_DIP_SOCKET" value="820-AG11D-ESL-LF" x="68.326" y="48.514" rot="R180"/>
 <element name="SOCKET3" library="PP_Connectors" package="8PIN_DIP_SOCKET" value="808-AG11D-ESL-LF" x="190.246" y="144.78" rot="R270"/>
 <element name="SOCKET4" library="PP_Connectors" package="18PIN_DIP_SOCKET" value="818-AG11D-ESL-LF" x="33.55975" y="109.0295" rot="R90"/>
-<element name="PROP_RST" library="MF_Switches" package="TACT6MM" value="" x="116.84" y="212.598" rot="R90">
-<attribute name="MFG#" value="N/A" x="116.84" y="212.598" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="PROP_RST" library="MF_Switches" package="TACT6MM" value="" x="205.232" y="112.776">
+<attribute name="MFG#" value="N/A" x="205.232" y="112.776" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW1" library="MF_Switches" package="TACT6MM" value="" x="125.222" y="212.598" rot="R90">
-<attribute name="MFG#" value="N/A" x="125.222" y="212.598" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="PIC_RST" library="MF_Switches" package="TACT6MM" value="" x="122.428" y="99.314">
+<attribute name="MFG#" value="N/A" x="122.428" y="99.314" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW3" library="MF_Switches" package="TACT6MM" value="" x="133.604" y="212.598" rot="R90">
-<attribute name="MFG#" value="N/A" x="133.604" y="212.598" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="PIC_PROGRAM" library="MF_Switches" package="TACT6MM" value="" x="133.858" y="99.314">
+<attribute name="MFG#" value="N/A" x="133.858" y="99.314" size="1.778" layer="27" display="off"/>
 </element>
 <element name="F4" library="PP_Passives" package="4245K" value="4245K" x="287.274" y="54.864" rot="R270"/>
 <element name="H11" library="PP_Connectors" package="MOUNT_HOLE_150MIL" value="MOUNT_HOLE150MIL" x="-16.002" y="26.67"/>
@@ -14573,21 +14572,21 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <attribute name="LABEL01" value="" x="257.556" y="28.194" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="PP_DigitalIC" package="P8X32A_LQFP-44" value="P8X32A-Q44" x="212.09" y="131.318" rot="R90"/>
-<element name="DMD_CON" library="PP_Connectors" package="5103308-2" value="5103308-2" x="241.554" y="156.972" rot="R180">
-<attribute name="LABEL02" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL03" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL04" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL05" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL06" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL07" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL08" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL09" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL10" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL11" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL12" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL13" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL14" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL01" value="" x="241.554" y="156.972" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="DMD_CON" library="PP_Connectors" package="5103308-2" value="5103308-2" x="242.062" y="154.178" rot="R180">
+<attribute name="LABEL02" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL03" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL04" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL05" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL06" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL07" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL08" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL09" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL10" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL11" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL12" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL13" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL14" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL01" value="" x="242.062" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J6" library="PP_Connectors" package="26-64-4110(KEYPIN3)" value="" x="159.512" y="168.402" rot="R180">
 <attribute name="LABEL02" value="" x="159.512" y="168.402" size="1.778" layer="27" rot="R180" display="off"/>
@@ -14601,107 +14600,107 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <attribute name="LABEL10" value="" x="159.512" y="168.402" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LABEL01" value="" x="159.512" y="168.402" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J7" library="PP_Connectors" package="26-64-4040(KEYPIN1)" value="" x="321.564" y="179.832" rot="R180">
-<attribute name="LABEL02" value="" x="321.564" y="179.832" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL03" value="" x="321.564" y="179.832" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL01" value="" x="321.564" y="179.832" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J7" library="PP_Connectors" package="26-64-4040(KEYPIN1)" value="" x="318.262" y="168.402" rot="R180">
+<attribute name="LABEL02" value="" x="318.262" y="168.402" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL03" value="" x="318.262" y="168.402" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL01" value="" x="318.262" y="168.402" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="CABINET" library="PP_Connectors" package="26-64-4120(KEYPIN2)" value="26-64-4120" x="333.502" y="137.668" rot="R90">
-<attribute name="LABEL02" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL03" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL04" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL05" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL06" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL07" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL08" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL09" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL10" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL11" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL01" value="" x="333.502" y="137.668" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="CABINET" library="PP_Connectors" package="26-64-4120(KEYPIN2)" value="26-64-4120" x="333.502" y="128.016" rot="R90">
+<attribute name="LABEL02" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL03" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL04" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL05" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL06" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL07" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL08" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL09" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL10" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL11" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL01" value="" x="333.502" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J5" library="PP_Connectors" package="26-64-4020" value="26-64-4020" x="87.02675" y="42.545">
-<attribute name="LABEL02" value="" x="87.02675" y="42.545" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL01" value="" x="87.02675" y="42.545" size="1.778" layer="27" display="off"/>
+<element name="J5" library="PP_Connectors" package="26-64-4020" value="26-64-4020" x="100.203" y="59.34075" rot="R90">
+<attribute name="LABEL02" value="" x="100.203" y="59.34075" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL01" value="" x="100.203" y="59.34075" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J8" library="PP_Connectors" package="2.54MM_01X06_PIN_HEADER" value="" x="162.306" y="110.744" rot="R90">
-<attribute name="LABEL02" value="" x="162.306" y="110.744" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL03" value="" x="162.306" y="110.744" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL04" value="" x="162.306" y="110.744" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL05" value="" x="162.306" y="110.744" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL01" value="" x="162.306" y="110.744" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL06" value="" x="162.306" y="110.744" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="PICKIT3" library="PP_Connectors" package="2.54MM_01X06_PIN_HEADER" value="" x="159.766" y="119.126" rot="R90">
+<attribute name="LABEL02" value="" x="159.766" y="119.126" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL03" value="" x="159.766" y="119.126" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL04" value="" x="159.766" y="119.126" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL05" value="" x="159.766" y="119.126" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL01" value="" x="159.766" y="119.126" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL06" value="" x="159.766" y="119.126" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R24" library="PP_Passives" package="0805" value="10K" x="214.884" y="223.52" rot="R90"/>
-<element name="R25" library="PP_Passives" package="0805" value="10K" x="214.884" y="227.33" rot="R90"/>
-<element name="C28" library="PP_Passives" package="0805" value=".1uF" x="204.47" y="233.934" rot="R90"/>
-<element name="SOCKET5" library="PP_Connectors" package="8PIN_DIP_SOCKET" value="808-AG11D-ESL-LF" x="99.568" y="123.444" rot="R270"/>
-<element name="U13" library="PP_DigitalIC" package="DIP-8" value="CAT24M01LI-G" x="99.568" y="123.444"/>
-<element name="J9" library="PP_Connectors" package="TC2030" value="TC2030-PKT-NL" x="205.74" y="216.154" rot="R90">
-<attribute name="LABEL02" value="" x="205.74" y="216.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL03" value="" x="205.74" y="216.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL04" value="" x="205.74" y="216.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL05" value="" x="205.74" y="216.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL06" value="" x="205.74" y="216.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL01" value="" x="205.74" y="216.154" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R24" library="PP_Passives" package="0805" value="10K" x="126.238" y="152.4" rot="R90"/>
+<element name="R25" library="PP_Passives" package="0805" value="10K" x="128.778" y="152.4" rot="R90"/>
+<element name="C28" library="PP_Passives" package="0805" value=".1uF" x="118.364" y="144.526" rot="R90"/>
+<element name="SOCKET5" library="PP_Connectors" package="8PIN_DIP_SOCKET" value="808-AG11D-ESL-LF" x="124.968" y="144.526"/>
+<element name="U13" library="PP_DigitalIC" package="DIP-8" value="CAT24M01LI-G" x="124.968" y="144.526" rot="R90"/>
+<element name="PICKIT3_TC" library="PP_Connectors" package="TC2030" value="TC2030-PKT-NL" x="167.132" y="119.38" rot="R90">
+<attribute name="LABEL02" value="" x="167.132" y="119.38" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL03" value="" x="167.132" y="119.38" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL04" value="" x="167.132" y="119.38" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL05" value="" x="167.132" y="119.38" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL06" value="" x="167.132" y="119.38" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL01" value="" x="167.132" y="119.38" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J10" library="PP_Connectors" package="2.54MM_01X06_PIN_HEADER" value="" x="218.694" y="217.932" rot="R90">
-<attribute name="LABEL02" value="" x="218.694" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL03" value="" x="218.694" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL04" value="" x="218.694" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL05" value="" x="218.694" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL06" value="" x="218.694" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL01" value="" x="218.694" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="PIC32_UART" library="PP_Connectors" package="2.54MM_01X06_PIN_HEADER" value="" x="87.884" y="115.824" rot="R90">
+<attribute name="LABEL02" value="" x="87.884" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL03" value="" x="87.884" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL04" value="RX_PIC32" x="87.884" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL05" value="TX_PIC32" x="87.884" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL06" value="!RST!_PIC32" x="87.884" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL01" value="GND" x="87.884" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R26" library="PP_Passives" package="0805" value="100" x="222.504" y="211.836" rot="R90"/>
-<element name="J1" library="PP_Connectors" package="2.54MM_01X06_PIN_HEADER" value="" x="229.616" y="217.932" rot="R90">
-<attribute name="LABEL02" value="" x="229.616" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL03" value="" x="229.616" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL04" value="" x="229.616" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL05" value="" x="229.616" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL06" value="" x="229.616" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL01" value="" x="229.616" y="217.932" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R26" library="PP_Passives" package="0805" value="100" x="116.586" y="150.114" rot="R90"/>
+<element name="PROP_UART" library="PP_Connectors" package="2.54MM_01X06_PIN_HEADER" value="" x="186.944" y="121.158" rot="R90">
+<attribute name="LABEL02" value="" x="186.944" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL03" value="" x="186.944" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL04" value="RX_PROP" x="186.944" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL05" value="TX_PROP" x="186.944" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL06" value="!RES!_PROP" x="186.944" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL01" value="GND" x="186.944" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C1" library="PP_Passives" package="0805" value=".1uF" x="236.728" y="211.836" rot="R90"/>
-<element name="J2" library="PP_Connectors" package="TC2030" value="TC2030-FTDI-TTL-232R" x="227.584" y="204.47" rot="R90">
-<attribute name="LABEL02" value="" x="227.584" y="204.47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL03" value="" x="227.584" y="204.47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL04" value="" x="227.584" y="204.47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL05" value="" x="227.584" y="204.47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL06" value="" x="227.584" y="204.47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL01" value="" x="227.584" y="204.47" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C1" library="PP_Passives" package="0805" value=".1uF" x="212.852" y="120.65" rot="R90"/>
+<element name="PROP_TC" library="PP_Connectors" package="TC2030" value="TC2030-FTDI-TTL-232R" x="180.848" y="121.158" rot="R90">
+<attribute name="LABEL02" value="" x="180.848" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL03" value="" x="180.848" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL04" value="" x="180.848" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL05" value="" x="180.848" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL06" value="" x="180.848" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL01" value="" x="180.848" y="121.158" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J11" library="PP_Connectors" package="TC2030" value="TC2030-FTDI-TTL-232R" x="227.584" y="192.786" rot="R90">
-<attribute name="LABEL02" value="" x="227.584" y="192.786" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL03" value="" x="227.584" y="192.786" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL04" value="" x="227.584" y="192.786" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL05" value="" x="227.584" y="192.786" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL06" value="" x="227.584" y="192.786" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL01" value="" x="227.584" y="192.786" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="PIC32_TC" library="PP_Connectors" package="TC2030" value="TC2030-FTDI-TTL-232R" x="81.026" y="115.824" rot="R90">
+<attribute name="LABEL02" value="" x="81.026" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL03" value="" x="81.026" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL04" value="" x="81.026" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL05" value="" x="81.026" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL06" value="" x="81.026" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL01" value="" x="81.026" y="115.824" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J12" library="PP_Connectors" package="11216-060_CARDEDGE" value="" x="245.618" y="174.371" rot="R180"/>
-<element name="U2" library="PP_DigitalIC" package="DS1340Z_SOIC-8" value="DS1340Z-33+" x="284.48" y="200.66" rot="R180"/>
-<element name="X3" library="PP_FreqCtrl" package="8MM_X_3.8MM" value="ABS25-32.768KHz-1-T" x="287.02" y="208.28" rot="R180"/>
-<element name="C12" library="PP_Passives" package="0805" value=".1uF" x="289.56" y="213.36" rot="R180"/>
-<element name="BATT1" library="PP_Connectors" package="S8421-45R" value="S8421-45R" x="259.08" y="210.82"/>
-<element name="C15" library="MF_Passives" package="CP12.5MM" value="MF-CAP-12.5MM-1000uF" x="33.782" y="135.89" rot="R270">
-<attribute name="TOLERANCE" value="N/A" x="33.782" y="135.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFG#" value="N/A" x="33.782" y="135.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE" value="N/A" x="33.782" y="135.89" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U2" library="PP_DigitalIC" package="DS1340Z_SOIC-8" value="DS1340Z-33+" x="70.866" y="107.95" rot="R90"/>
+<element name="X3" library="PP_FreqCtrl" package="8MM_X_3.8MM" value="ABS25-32.768KHz-1-T" x="69.342" y="97.536" rot="R270"/>
+<element name="C12" library="PP_Passives" package="0805" value=".1uF" x="75.438" y="107.95" rot="R90"/>
+<element name="BATT1" library="PP_Connectors" package="S8421-45R" value="S8421-45R" x="53.594" y="108.712"/>
+<element name="C15" library="MF_Passives" package="CP12.5MM" value="MF-CAP-12.5MM-1000uF" x="29.21" y="150.114" rot="R270">
+<attribute name="TOLERANCE" value="N/A" x="29.21" y="150.114" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG#" value="N/A" x="29.21" y="150.114" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="29.21" y="150.114" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C16" library="MF_Passives" package="CP12.5MM" value="MF-CAP-12.5MM-1000uF" x="344.932" y="196.088" rot="R180">
-<attribute name="TOLERANCE" value="N/A" x="344.932" y="196.088" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG#" value="N/A" x="344.932" y="196.088" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="N/A" x="344.932" y="196.088" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C16" library="MF_Passives" package="CP12.5MM" value="MF-CAP-12.5MM-1000uF" x="12.446" y="153.416" rot="R90">
+<attribute name="TOLERANCE" value="N/A" x="12.446" y="153.416" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG#" value="N/A" x="12.446" y="153.416" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="12.446" y="153.416" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C17" library="MF_Passives" package="CP12.5MM" value="MF-CAP-12.5MM-1000uF" x="-3.81" y="153.416" rot="R270">
 <attribute name="TOLERANCE" value="N/A" x="-3.81" y="153.416" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG#" value="N/A" x="-3.81" y="153.416" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="N/A" x="-3.81" y="153.416" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="PROP_PROGRAM" library="MF_Switches" package="TACT6MM" value="" x="-10.16" y="218.44" rot="R90">
-<attribute name="MFG#" value="N/A" x="-10.16" y="218.44" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="PROP_PROGRAM" library="MF_Switches" package="TACT6MM" value="" x="218.44" y="112.776">
+<attribute name="MFG#" value="N/A" x="218.44" y="112.776" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R1" library="PP_Passives" package="0805" value="10K" x="-12.7" y="205.74" rot="R90"/>
+<element name="R1" library="PP_Passives" package="0805" value="10K" x="225.044" y="112.776" rot="R270"/>
 <element name="RGB_COM_OUT" library="PP_Connectors" package="26-64-4050(KEYPIN2)" value="26-64-4050" x="114.3" y="167.64" rot="R180">
 <attribute name="LABEL02" value="" x="114.3" y="167.64" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LABEL03" value="" x="114.3" y="167.64" size="1.778" layer="27" rot="R180" display="off"/>
@@ -14740,78 +14739,78 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <attribute name="LABEL05" value="" x="223.012" y="156.718" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LABEL01" value="" x="223.012" y="156.718" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="PP_Passives" package="0805" value="2K" x="-27.94" y="203.2" rot="R90"/>
-<element name="R5" library="PP_Passives" package="0805" value="1K" x="-22.86" y="203.2" rot="R90"/>
-<element name="R6" library="PP_Passives" package="0805" value="2K" x="2.54" y="203.2" rot="R90"/>
-<element name="R7" library="PP_Passives" package="0805" value="1K" x="2.54" y="208.28" rot="R90"/>
-<element name="R9" library="PP_Passives" package="0805" value="2K" x="27.94" y="203.2" rot="R90"/>
-<element name="R10" library="PP_Passives" package="0805" value="1K" x="27.94" y="208.28" rot="R90"/>
-<element name="R11" library="PP_Passives" package="0805" value="2K" x="53.34" y="203.2" rot="R90"/>
-<element name="R15" library="PP_Passives" package="0805" value="1K" x="53.34" y="208.28" rot="R90"/>
-<element name="R27" library="PP_Passives" package="0805" value="2K" x="78.74" y="218.44" rot="R90"/>
-<element name="R28" library="PP_Passives" package="0805" value="1K" x="101.6" y="203.2" rot="R90"/>
-<element name="R29" library="PP_Passives" package="0805" value="2K" x="101.6" y="208.28" rot="R90"/>
-<element name="R31" library="PP_Passives" package="0805" value="1K" x="101.6" y="213.36" rot="R90"/>
-<element name="R33" library="PP_Passives" package="0805" value="2K" x="101.6" y="218.44" rot="R90"/>
-<element name="R138" library="PP_Passives" package="0805" value="1K" x="78.74" y="213.36" rot="R90"/>
-<element name="OPTO_1" library="PP_Connectors" package="26-64-4040" value="" x="160.02" y="254">
-<attribute name="LABEL02" value="" x="160.02" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL03" value="" x="160.02" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL04" value="" x="160.02" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL01" value="" x="160.02" y="254" size="1.778" layer="27" display="off"/>
+<element name="R2" library="PP_Passives" package="0805" value="2K" x="77.978" y="161.036" rot="R180"/>
+<element name="R5" library="PP_Passives" package="0805" value="1K" x="77.978" y="162.814" rot="R180"/>
+<element name="R6" library="PP_Passives" package="0805" value="2K" x="77.978" y="155.702" rot="R180"/>
+<element name="R7" library="PP_Passives" package="0805" value="1K" x="77.978" y="157.48" rot="R180"/>
+<element name="R9" library="PP_Passives" package="0805" value="2K" x="77.978" y="150.368" rot="R180"/>
+<element name="R10" library="PP_Passives" package="0805" value="1K" x="77.978" y="152.146" rot="R180"/>
+<element name="R11" library="PP_Passives" package="0805" value="2K" x="77.978" y="145.034" rot="R180"/>
+<element name="R15" library="PP_Passives" package="0805" value="1K" x="77.978" y="146.812" rot="R180"/>
+<element name="R27" library="PP_Passives" package="0805" value="2K" x="77.978" y="139.7" rot="R180"/>
+<element name="R28" library="PP_Passives" package="0805" value="1K" x="77.978" y="141.478" rot="R180"/>
+<element name="R29" library="PP_Passives" package="0805" value="2K" x="77.978" y="134.366" rot="R180"/>
+<element name="R31" library="PP_Passives" package="0805" value="1K" x="77.978" y="136.144" rot="R180"/>
+<element name="R33" library="PP_Passives" package="0805" value="2K" x="77.978" y="129.032" rot="R180"/>
+<element name="R138" library="PP_Passives" package="0805" value="1K" x="77.978" y="130.81" rot="R180"/>
+<element name="OPTO_1" library="PP_Connectors" package="26-64-4040" value="" x="66.294" y="167.132" rot="R180">
+<attribute name="LABEL02" value="" x="66.294" y="167.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL03" value="" x="66.294" y="167.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL04" value="" x="66.294" y="167.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL01" value="" x="66.294" y="167.132" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="OPTO_2" library="PP_Connectors" package="26-64-4040" value="" x="142.24" y="254">
-<attribute name="LABEL02" value="" x="142.24" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL03" value="" x="142.24" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL04" value="" x="142.24" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL01" value="" x="142.24" y="254" size="1.778" layer="27" display="off"/>
+<element name="OPTO_2" library="PP_Connectors" package="26-64-4040" value="" x="49.022" y="167.132" rot="R180">
+<attribute name="LABEL02" value="" x="49.022" y="167.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL03" value="" x="49.022" y="167.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL04" value="" x="49.022" y="167.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL01" value="" x="49.022" y="167.132" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="OPTO_3" library="PP_Connectors" package="26-64-4040" value="" x="124.46" y="254">
-<attribute name="LABEL02" value="" x="124.46" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL03" value="" x="124.46" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL04" value="" x="124.46" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL01" value="" x="124.46" y="254" size="1.778" layer="27" display="off"/>
+<element name="OPTO_3" library="PP_Connectors" package="26-64-4040" value="" x="66.294" y="155.448" rot="R180">
+<attribute name="LABEL02" value="" x="66.294" y="155.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL03" value="" x="66.294" y="155.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL04" value="" x="66.294" y="155.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL01" value="" x="66.294" y="155.448" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="OPTO_4" library="PP_Connectors" package="26-64-4040" value="" x="106.68" y="254">
-<attribute name="LABEL02" value="" x="106.68" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL03" value="" x="106.68" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL04" value="" x="106.68" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL01" value="" x="106.68" y="254" size="1.778" layer="27" display="off"/>
+<element name="OPTO_4" library="PP_Connectors" package="26-64-4040" value="" x="49.022" y="155.448" rot="R180">
+<attribute name="LABEL02" value="" x="49.022" y="155.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL03" value="" x="49.022" y="155.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL04" value="" x="49.022" y="155.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL01" value="" x="49.022" y="155.448" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="OPTO_5" library="PP_Connectors" package="26-64-4040" value="" x="88.9" y="254">
-<attribute name="LABEL02" value="" x="88.9" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL03" value="" x="88.9" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL04" value="" x="88.9" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL01" value="" x="88.9" y="254" size="1.778" layer="27" display="off"/>
+<element name="OPTO_5" library="PP_Connectors" package="26-64-4040" value="" x="66.294" y="143.764" rot="R180">
+<attribute name="LABEL02" value="" x="66.294" y="143.764" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL03" value="" x="66.294" y="143.764" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL04" value="" x="66.294" y="143.764" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL01" value="" x="66.294" y="143.764" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="OPTO_6" library="PP_Connectors" package="26-64-4040" value="" x="71.12" y="254">
-<attribute name="LABEL02" value="" x="71.12" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL03" value="" x="71.12" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL04" value="" x="71.12" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL01" value="" x="71.12" y="254" size="1.778" layer="27" display="off"/>
+<element name="OPTO_6" library="PP_Connectors" package="26-64-4040" value="" x="49.022" y="143.764" rot="R180">
+<attribute name="LABEL02" value="" x="49.022" y="143.764" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL03" value="" x="49.022" y="143.764" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL04" value="" x="49.022" y="143.764" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL01" value="" x="49.022" y="143.764" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="OPTO_7" library="PP_Connectors" package="26-64-4040" value="" x="53.34" y="254">
-<attribute name="LABEL02" value="" x="53.34" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL03" value="" x="53.34" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL04" value="" x="53.34" y="254" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL01" value="" x="53.34" y="254" size="1.778" layer="27" display="off"/>
+<element name="OPTO_7" library="PP_Connectors" package="26-64-4040" value="" x="66.294" y="132.334" rot="R180">
+<attribute name="LABEL02" value="" x="66.294" y="132.334" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL03" value="" x="66.294" y="132.334" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL04" value="" x="66.294" y="132.334" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LABEL01" value="" x="66.294" y="132.334" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R139" library="PP_Passives" package="0805" value="200" x="48.26" y="243.84"/>
-<element name="R140" library="PP_Passives" package="0805" value="200" x="48.26" y="238.76"/>
-<element name="R141" library="PP_Passives" package="0805" value="200" x="48.26" y="233.68"/>
-<element name="R142" library="PP_Passives" package="0805" value="200" x="48.26" y="228.6"/>
-<element name="R143" library="PP_Passives" package="0805" value="200" x="48.26" y="223.52"/>
-<element name="R144" library="PP_Passives" package="0805" value="200" x="48.26" y="218.44"/>
-<element name="R145" library="PP_Passives" package="0805" value="200" x="48.26" y="213.36"/>
-<element name="C18" library="MF_Passives" package="CP12.5MM" value="MF-CAP-12.5MM-1000uF" x="80.264" y="108.712" rot="R180">
-<attribute name="TOLERANCE" value="N/A" x="80.264" y="108.712" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG#" value="N/A" x="80.264" y="108.712" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="N/A" x="80.264" y="108.712" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R139" library="PP_Passives" package="0805" value="200" x="77.978" y="159.258" rot="R180"/>
+<element name="R140" library="PP_Passives" package="0805" value="200" x="77.978" y="153.924" rot="R180"/>
+<element name="R141" library="PP_Passives" package="0805" value="200" x="77.978" y="148.59" rot="R180"/>
+<element name="R142" library="PP_Passives" package="0805" value="200" x="77.978" y="143.256" rot="R180"/>
+<element name="R143" library="PP_Passives" package="0805" value="200" x="77.978" y="137.922" rot="R180"/>
+<element name="R144" library="PP_Passives" package="0805" value="200" x="77.978" y="132.588" rot="R180"/>
+<element name="R145" library="PP_Passives" package="0805" value="200" x="77.978" y="127.254" rot="R180"/>
+<element name="C18" library="MF_Passives" package="CP12.5MM" value="MF-CAP-12.5MM-1000uF" x="48.768" y="130.556" rot="R90">
+<attribute name="TOLERANCE" value="N/A" x="48.768" y="130.556" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG#" value="N/A" x="48.768" y="130.556" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="48.768" y="130.556" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C19" library="MF_Passives" package="CP12.5MM" value="MF-CAP-12.5MM-1000uF" x="12.446" y="153.416" rot="R90">
-<attribute name="TOLERANCE" value="N/A" x="12.446" y="153.416" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFG#" value="N/A" x="12.446" y="153.416" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="N/A" x="12.446" y="153.416" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C19" library="MF_Passives" package="CP12.5MM" value="MF-CAP-12.5MM-1000uF" x="93.472" y="143.002" rot="R270">
+<attribute name="TOLERANCE" value="N/A" x="93.472" y="143.002" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG#" value="N/A" x="93.472" y="143.002" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="93.472" y="143.002" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
@@ -14970,8 +14969,8 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="SW_ROW" pad="P$1"/>
 <contactref element="SW_COL" pad="P$1"/>
 <contactref element="PROP_RST" pad="P$3"/>
-<contactref element="SW1" pad="P$1"/>
-<contactref element="SW3" pad="P$4"/>
+<contactref element="PIC_RST" pad="P$1"/>
+<contactref element="PIC_PROGRAM" pad="P$4"/>
 <contactref element="J4" pad="1"/>
 <contactref element="U4" pad="4"/>
 <contactref element="U4" pad="2"/>
@@ -14993,17 +14992,17 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="J6" pad="P$10"/>
 <contactref element="J7" pad="4"/>
 <contactref element="CABINET" pad="P$1"/>
-<contactref element="J8" pad="3"/>
+<contactref element="PICKIT3" pad="3"/>
 <contactref element="C28" pad="1"/>
 <contactref element="U13" pad="4"/>
 <contactref element="U13" pad="2"/>
 <contactref element="U13" pad="3"/>
 <contactref element="U13" pad="7"/>
-<contactref element="J9" pad="P$3"/>
-<contactref element="J10" pad="1"/>
-<contactref element="J1" pad="1"/>
-<contactref element="J11" pad="P$5"/>
-<contactref element="J2" pad="P$5"/>
+<contactref element="PICKIT3_TC" pad="P$3"/>
+<contactref element="PIC32_UART" pad="1"/>
+<contactref element="PROP_UART" pad="1"/>
+<contactref element="PIC32_TC" pad="P$5"/>
+<contactref element="PROP_TC" pad="P$5"/>
 <contactref element="C12" pad="1"/>
 <contactref element="BATT1" pad="NEG"/>
 <contactref element="U2" pad="4"/>
@@ -15064,33 +15063,35 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="227.838" y1="84.974" x2="224.282" y2="84.974" width="0" layer="19" extent="1-1"/>
 <wire x1="231.394" y1="84.974" x2="227.838" y2="84.974" width="0" layer="19" extent="1-1"/>
 <wire x1="222.25" y1="78.352" x2="220.98" y2="84.974" width="0" layer="19" extent="1-1"/>
-<wire x1="128.27" y1="94.866" x2="128.016" y2="84.974" width="0" layer="19" extent="1-1"/>
-<wire x1="130.556" y1="96.128" x2="128.27" y2="94.866" width="0" layer="19" extent="1-1"/>
-<wire x1="123.856" y1="106.198" x2="130.556" y2="96.128" width="0" layer="19" extent="1-1"/>
-<wire x1="123.856" y1="110.198" x2="123.856" y2="106.198" width="0" layer="19" extent="1-1"/>
-<wire x1="127.756" y1="117.698" x2="123.856" y2="110.198" width="0" layer="19" extent="1-1"/>
-<wire x1="131.356" y1="117.698" x2="127.756" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="133.356" y1="117.698" x2="131.356" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="125.868" y1="122.936" x2="127.756" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="136.26" y1="123.444" x2="133.356" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="136.26" y1="125.476" x2="136.26" y2="123.444" width="0" layer="19" extent="1-1"/>
-<wire x1="133.742" y1="124.206" x2="136.26" y2="123.444" width="0" layer="19" extent="1-1"/>
-<wire x1="137.256" y1="111.798" x2="133.356" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="143.902" y1="112.776" x2="137.256" y2="111.798" width="0" layer="19" extent="1-1"/>
-<wire x1="140.324" y1="105.664" x2="137.256" y2="111.798" width="0" layer="19" extent="1-1"/>
-<wire x1="118.226" y1="124.206" x2="125.868" y2="122.936" width="0" layer="19" extent="1-1"/>
-<wire x1="118.226" y1="126.238" x2="118.226" y2="124.206" width="0" layer="19" extent="1-1"/>
-<wire x1="113.284" y1="111.114" x2="123.856" y2="110.198" width="0" layer="19" extent="1-1"/>
-<wire x1="103.124" y1="112.914" x2="113.284" y2="111.114" width="0" layer="19" extent="1-1"/>
-<wire x1="95.758" y1="119.634" x2="103.124" y2="112.914" width="0" layer="19" extent="1-1"/>
-<wire x1="95.758" y1="122.174" x2="95.758" y2="119.634" width="0" layer="19" extent="1-1"/>
-<wire x1="95.758" y1="124.714" x2="95.758" y2="122.174" width="0" layer="19" extent="1-1"/>
-<wire x1="103.378" y1="124.714" x2="95.758" y2="124.714" width="0" layer="19" extent="1-1"/>
-<wire x1="156.58" y1="115.824" x2="143.902" y2="112.776" width="0" layer="19" extent="1-1"/>
-<wire x1="158.634" y1="108.316" x2="156.58" y2="115.824" width="0" layer="19" extent="1-1"/>
-<wire x1="162.306" y1="109.474" x2="158.634" y2="108.316" width="0" layer="19" extent="1-1"/>
+<wire x1="137.833" y1="96.864" x2="134.874" y2="84.974" width="0" layer="19" extent="1-1"/>
 <wire x1="237.49" y1="71.766" x2="231.394" y2="84.974" width="0" layer="19" extent="1-1"/>
-<wire x1="146.304" y1="136.55" x2="136.26" y2="125.476" width="0" layer="19" extent="1-1"/>
+<wire x1="137.784" y1="111.506" x2="137.833" y2="96.864" width="0" layer="19" extent="1-1"/>
+<wire x1="141.362" y1="118.618" x2="137.784" y2="111.506" width="0" layer="19" extent="1-1"/>
+<wire x1="130.409928125" y1="121.1273" x2="141.362" y2="118.618" width="0" layer="19" extent="1-1"/>
+<wire x1="123.48028125" y1="122.5415125" x2="130.409928125" y2="121.1273" width="0" layer="19" extent="1-1"/>
+<wire x1="122.06606875" y1="121.1273" x2="123.48028125" y2="122.5415125" width="0" layer="19" extent="1-1"/>
+<wire x1="119.520484375" y1="118.581715625" x2="122.06606875" y2="121.1273" width="0" layer="19" extent="1-1"/>
+<wire x1="123.328" y1="128.778" x2="123.48028125" y2="122.5415125" width="0" layer="19" extent="1-1"/>
+<wire x1="115.686" y1="130.048" x2="123.328" y2="128.778" width="0" layer="19" extent="1-1"/>
+<wire x1="115.686" y1="132.08" x2="115.686" y2="130.048" width="0" layer="19" extent="1-1"/>
+<wire x1="131.202" y1="130.048" x2="123.328" y2="128.778" width="0" layer="19" extent="1-1"/>
+<wire x1="133.72" y1="129.286" x2="131.202" y2="130.048" width="0" layer="19" extent="1-1"/>
+<wire x1="133.72" y1="131.318" x2="133.72" y2="129.286" width="0" layer="19" extent="1-1"/>
+<wire x1="122.06606875" y1="110.520696875" x2="119.520484375" y2="118.581715625" width="0" layer="19" extent="1-1"/>
+<wire x1="124.894496875" y1="107.692271875" x2="122.06606875" y2="110.520696875" width="0" layer="19" extent="1-1"/>
+<wire x1="118.453" y1="101.764" x2="124.894496875" y2="107.692271875" width="0" layer="19" extent="1-1"/>
+<wire x1="110.744" y1="116.956" x2="119.520484375" y2="118.581715625" width="0" layer="19" extent="1-1"/>
+<wire x1="100.584" y1="118.756" x2="110.744" y2="116.956" width="0" layer="19" extent="1-1"/>
+<wire x1="128.778" y1="140.716" x2="133.72" y2="131.318" width="0" layer="19" extent="1-1"/>
+<wire x1="126.238" y1="140.716" x2="128.778" y2="140.716" width="0" layer="19" extent="1-1"/>
+<wire x1="123.698" y1="140.716" x2="126.238" y2="140.716" width="0" layer="19" extent="1-1"/>
+<wire x1="118.364" y1="143.626" x2="123.698" y2="140.716" width="0" layer="19" extent="1-1"/>
+<wire x1="123.698" y1="148.336" x2="118.364" y2="143.626" width="0" layer="19" extent="1-1"/>
+<wire x1="154.04" y1="121.666" x2="141.362" y2="118.618" width="0" layer="19" extent="1-1"/>
+<wire x1="159.766" y1="117.856" x2="154.04" y2="121.666" width="0" layer="19" extent="1-1"/>
+<wire x1="156.094" y1="114.158" x2="159.766" y2="117.856" width="0" layer="19" extent="1-1"/>
+<wire x1="167.767" y1="119.38" x2="159.766" y2="117.856" width="0" layer="19" extent="1-1"/>
+<wire x1="146.304" y1="136.55" x2="133.72" y2="131.318" width="0" layer="19" extent="1-1"/>
 <wire x1="147.574" y1="136.55" x2="146.304" y2="136.55" width="0" layer="19" extent="1-1"/>
 <wire x1="148.844" y1="136.55" x2="147.574" y2="136.55" width="0" layer="19" extent="1-1"/>
 <wire x1="150.114" y1="136.55" x2="148.844" y2="136.55" width="0" layer="19" extent="1-1"/>
@@ -15100,18 +15101,56 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="167.894" y1="136.296" x2="166.624" y2="136.296" width="0" layer="19" extent="1-1"/>
 <wire x1="169.164" y1="136.296" x2="167.894" y2="136.296" width="0" layer="19" extent="1-1"/>
 <wire x1="170.434" y1="136.296" x2="169.164" y2="136.296" width="0" layer="19" extent="1-1"/>
+<wire x1="181.483" y1="122.428" x2="167.767" y2="119.38" width="0" layer="19" extent="1-1"/>
+<wire x1="186.944" y1="114.808" x2="181.483" y2="122.428" width="0" layer="19" extent="1-1"/>
+<wire x1="201.257" y1="110.326" x2="186.944" y2="114.808" width="0" layer="19" extent="1-1"/>
 <wire x1="111.114" y1="73.406" x2="125.73" y2="78.352" width="0" layer="19" extent="1-1"/>
 <wire x1="109.474" y1="72.506" x2="111.114" y2="73.406" width="0" layer="19" extent="1-1"/>
 <wire x1="108.966" y1="80.458" x2="111.114" y2="73.406" width="0" layer="19" extent="1-1"/>
-<wire x1="100.203" y1="77.564" x2="108.966" y2="80.458" width="0" layer="19" extent="1-1"/>
-<wire x1="93.853" y1="82.964" x2="100.203" y2="77.564" width="0" layer="19" extent="1-1"/>
-<wire x1="89.916" y1="82.92" x2="93.853" y2="82.964" width="0" layer="19" extent="1-1"/>
-<wire x1="99.198" y1="86.614" x2="93.853" y2="82.964" width="0" layer="19" extent="1-1"/>
+<wire x1="100.998" y1="81.153" x2="108.966" y2="80.458" width="0" layer="19" extent="1-1"/>
+<wire x1="99.198" y1="86.614" x2="100.998" y2="81.153" width="0" layer="19" extent="1-1"/>
+<wire x1="95.598" y1="74.803" x2="100.998" y2="81.153" width="0" layer="19" extent="1-1"/>
+<wire x1="90.932" y1="78.348" x2="95.598" y2="74.803" width="0" layer="19" extent="1-1"/>
+<wire x1="101.346" y1="96.136" x2="99.198" y2="86.614" width="0" layer="19" extent="1-1"/>
+<wire x1="96.774" y1="96.636" x2="101.346" y2="96.136" width="0" layer="19" extent="1-1"/>
+<wire x1="87.884" y1="109.474" x2="96.774" y2="96.636" width="0" layer="19" extent="1-1"/>
+<wire x1="81.661" y1="117.094" x2="87.884" y2="109.474" width="0" layer="19" extent="1-1"/>
+<wire x1="75.438" y1="107.05" x2="81.661" y2="117.094" width="0" layer="19" extent="1-1"/>
+<wire x1="72.771" y1="105.4" x2="75.438" y2="107.05" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="129.032" x2="81.661" y2="117.094" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="134.366" x2="78.878" y2="129.032" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="139.7" x2="78.878" y2="134.366" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="145.034" x2="78.878" y2="139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="150.368" x2="78.878" y2="145.034" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="155.702" x2="78.878" y2="150.368" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="161.036" x2="78.878" y2="155.702" width="0" layer="19" extent="1-1"/>
+<wire x1="91.186" y1="162.052" x2="78.878" y2="161.036" width="0" layer="19" extent="1-1"/>
+<wire x1="91.186" y1="154.686" x2="91.186" y2="162.052" width="0" layer="19" extent="1-1"/>
+<wire x1="91.186" y1="169.418" x2="91.186" y2="162.052" width="0" layer="19" extent="1-1"/>
+<wire x1="100.076" y1="169.418" x2="91.186" y2="169.418" width="0" layer="19" extent="1-1"/>
+<wire x1="100.076" y1="162.052" x2="100.076" y2="169.418" width="0" layer="19" extent="1-1"/>
+<wire x1="98.322" y1="143.002" x2="91.186" y2="154.686" width="0" layer="19" extent="1-1"/>
+<wire x1="64.314" y1="155.448" x2="78.878" y2="155.702" width="0" layer="19" extent="1-1"/>
+<wire x1="64.314" y1="167.132" x2="64.314" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="64.314" y1="143.764" x2="64.314" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="64.314" y1="132.334" x2="64.314" y2="143.764" width="0" layer="19" extent="1-1"/>
 <wire x1="186.436" y1="140.97" x2="170.434" y2="136.296" width="0" layer="19" extent="1-1"/>
 <wire x1="186.436" y1="143.51" x2="186.436" y2="140.97" width="0" layer="19" extent="1-1"/>
 <wire x1="186.436" y1="146.05" x2="186.436" y2="143.51" width="0" layer="19" extent="1-1"/>
 <wire x1="189.346" y1="151.384" x2="186.436" y2="146.05" width="0" layer="19" extent="1-1"/>
 <wire x1="194.056" y1="146.05" x2="189.346" y2="151.384" width="0" layer="19" extent="1-1"/>
+<wire x1="47.042" y1="167.132" x2="64.314" y2="167.132" width="0" layer="19" extent="1-1"/>
+<wire x1="47.042" y1="155.448" x2="47.042" y2="167.132" width="0" layer="19" extent="1-1"/>
+<wire x1="47.042" y1="143.764" x2="47.042" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="34.036" y1="165.355" x2="47.042" y2="167.132" width="0" layer="19" extent="1-1"/>
+<wire x1="32.904" y1="162.56" x2="34.036" y2="165.355" width="0" layer="19" extent="1-1"/>
+<wire x1="32.904" y1="160.782" x2="32.904" y2="162.56" width="0" layer="19" extent="1-1"/>
+<wire x1="33.404" y1="158.75" x2="32.904" y2="160.782" width="0" layer="19" extent="1-1"/>
+<wire x1="34.06" y1="150.114" x2="33.404" y2="158.75" width="0" layer="19" extent="1-1"/>
+<wire x1="31.556" y1="139.446" x2="34.06" y2="150.114" width="0" layer="19" extent="1-1"/>
+<wire x1="43.918" y1="130.556" x2="47.042" y2="143.764" width="0" layer="19" extent="1-1"/>
+<wire x1="37.36975" y1="119.1895" x2="43.918" y2="130.556" width="0" layer="19" extent="1-1"/>
+<wire x1="53.594" y1="117.212" x2="37.36975" y2="119.1895" width="0" layer="19" extent="1-1"/>
 <wire x1="173.228" y1="157.734" x2="189.346" y2="151.384" width="0" layer="19" extent="1-1"/>
 <wire x1="166.878" y1="157.734" x2="173.228" y2="157.734" width="0" layer="19" extent="1-1"/>
 <wire x1="160.528" y1="157.734" x2="166.878" y2="157.734" width="0" layer="19" extent="1-1"/>
@@ -15121,25 +15160,34 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="139.712" y1="168.402" x2="141.478" y2="157.734" width="0" layer="19" extent="1-1"/>
 <wire x1="143.672" y1="168.402" x2="139.712" y2="168.402" width="0" layer="19" extent="1-1"/>
 <wire x1="122.22" y1="167.64" x2="139.712" y2="168.402" width="0" layer="19" extent="1-1"/>
-<wire x1="206.39" y1="131.318" x2="194.056" y2="146.05" width="0" layer="19" extent="1-1"/>
-<wire x1="211.29" y1="125.618" x2="206.39" y2="131.318" width="0" layer="19" extent="1-1"/>
+<wire x1="211.29" y1="125.618" x2="201.257" y2="110.326" width="0" layer="19" extent="1-1"/>
 <wire x1="212.09" y1="125.618" x2="211.29" y2="125.618" width="0" layer="19" extent="1-1"/>
+<wire x1="206.39" y1="131.318" x2="211.29" y2="125.618" width="0" layer="19" extent="1-1"/>
 <wire x1="217.79" y1="131.318" x2="212.09" y2="125.618" width="0" layer="19" extent="1-1"/>
 <wire x1="212.89" y1="137.018" x2="217.79" y2="131.318" width="0" layer="19" extent="1-1"/>
 <wire x1="223.012" y1="151.638" x2="212.89" y2="137.018" width="0" layer="19" extent="1-1"/>
-<wire x1="71.374" y1="73.406" x2="89.916" y2="82.92" width="0" layer="19" extent="1-1"/>
-<wire x1="68.834" y1="65.786" x2="71.374" y2="73.406" width="0" layer="19" extent="1-1"/>
-<wire x1="71.374" y1="56.642" x2="68.834" y2="65.786" width="0" layer="19" extent="1-1"/>
-<wire x1="68.834" y1="49.022" x2="71.374" y2="56.642" width="0" layer="19" extent="1-1"/>
-<wire x1="48.514" y1="73.406" x2="68.834" y2="65.786" width="0" layer="19" extent="1-1"/>
-<wire x1="48.514" y1="56.642" x2="48.514" y2="73.406" width="0" layer="19" extent="1-1"/>
-<wire x1="80.264" y1="103.862" x2="95.758" y2="119.634" width="0" layer="19" extent="1-1"/>
-<wire x1="100.076" y1="169.418" x2="122.22" y2="167.64" width="0" layer="19" extent="1-1"/>
-<wire x1="100.076" y1="162.052" x2="100.076" y2="169.418" width="0" layer="19" extent="1-1"/>
-<wire x1="91.186" y1="162.052" x2="100.076" y2="162.052" width="0" layer="19" extent="1-1"/>
-<wire x1="91.186" y1="154.686" x2="91.186" y2="162.052" width="0" layer="19" extent="1-1"/>
-<wire x1="91.186" y1="169.418" x2="91.186" y2="162.052" width="0" layer="19" extent="1-1"/>
-<wire x1="241.184" y1="118.11" x2="217.79" y2="131.318" width="0" layer="19" extent="1-1"/>
+<wire x1="234.442" y1="155.448" x2="223.012" y2="151.638" width="0" layer="19" extent="1-1"/>
+<wire x1="236.982" y1="155.448" x2="234.442" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="239.522" y1="155.448" x2="236.982" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="242.062" y1="155.448" x2="239.522" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="244.602" y1="155.448" x2="242.062" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="247.142" y1="155.448" x2="244.602" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="249.682" y1="155.448" x2="247.142" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="256.214" y1="170.244" x2="249.682" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="222.415" y1="110.326" x2="212.09" y2="125.618" width="0" layer="19" extent="1-1"/>
+<wire x1="14.478" y1="164.454" x2="32.904" y2="162.56" width="0" layer="19" extent="1-1"/>
+<wire x1="7.596" y1="153.416" x2="14.478" y2="164.454" width="0" layer="19" extent="1-1"/>
+<wire x1="1.04" y1="153.416" x2="7.596" y2="153.416" width="0" layer="19" extent="1-1"/>
+<wire x1="6.544" y1="142.748" x2="7.596" y2="153.416" width="0" layer="19" extent="1-1"/>
+<wire x1="2.092" y1="142.748" x2="6.544" y2="142.748" width="0" layer="19" extent="1-1"/>
+<wire x1="6.982" y1="137.922" x2="6.544" y2="142.748" width="0" layer="19" extent="1-1"/>
+<wire x1="6.974" y1="135.382" x2="6.982" y2="137.922" width="0" layer="19" extent="1-1"/>
+<wire x1="6.974" y1="133.35" x2="6.974" y2="135.382" width="0" layer="19" extent="1-1"/>
+<wire x1="1.654" y1="137.922" x2="2.092" y2="142.748" width="0" layer="19" extent="1-1"/>
+<wire x1="1.662" y1="135.382" x2="1.654" y2="137.922" width="0" layer="19" extent="1-1"/>
+<wire x1="1.662" y1="133.35" x2="1.662" y2="135.382" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.146" y1="167.894" x2="1.04" y2="153.416" width="0" layer="19" extent="1-1"/>
+<wire x1="241.184" y1="118.11" x2="222.415" y2="110.326" width="0" layer="19" extent="1-1"/>
 <wire x1="250.814" y1="120.396" x2="241.184" y2="118.11" width="0" layer="19" extent="1-1"/>
 <wire x1="260.858" y1="123.836" x2="250.814" y2="120.396" width="0" layer="19" extent="1-1"/>
 <wire x1="265.176" y1="119.496" x2="260.858" y2="123.836" width="0" layer="19" extent="1-1"/>
@@ -15167,172 +15215,123 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="315.468" y1="48.768" x2="323.342" y2="48.768" width="0" layer="19" extent="1-1"/>
 <wire x1="307.594" y1="48.768" x2="315.468" y2="48.768" width="0" layer="19" extent="1-1"/>
 <wire x1="299.466" y1="48.768" x2="307.594" y2="48.768" width="0" layer="19" extent="1-1"/>
-<wire x1="319.278" y1="37.846" x2="323.342" y2="48.768" width="0" layer="19" extent="1-1"/>
+<wire x1="319.278" y1="37.846" x2="315.468" y2="48.768" width="0" layer="19" extent="1-1"/>
 <wire x1="311.404" y1="37.846" x2="319.278" y2="37.846" width="0" layer="19" extent="1-1"/>
 <wire x1="303.53" y1="37.846" x2="311.404" y2="37.846" width="0" layer="19" extent="1-1"/>
 <wire x1="295.656" y1="37.846" x2="303.53" y2="37.846" width="0" layer="19" extent="1-1"/>
 <wire x1="311.404" y1="104.002" x2="313.436" y2="89.154" width="0" layer="19" extent="1-1"/>
 <wire x1="317.373" y1="108.002" x2="311.404" y2="104.002" width="0" layer="19" extent="1-1"/>
 <wire x1="322.453" y1="101.802" x2="317.373" y2="108.002" width="0" layer="19" extent="1-1"/>
-<wire x1="333.502" y1="115.888" x2="322.453" y2="101.802" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="130.937" x2="317.373" y2="108.002" width="0" layer="19" extent="1-1"/>
-<wire x1="320.346" y1="138.557" x2="314.146" y2="130.937" width="0" layer="19" extent="1-1"/>
-<wire x1="316.346" y1="141.732" x2="320.346" y2="138.557" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="146.939" x2="316.346" y2="141.732" width="0" layer="19" extent="1-1"/>
-<wire x1="320.346" y1="154.559" x2="314.146" y2="146.939" width="0" layer="19" extent="1-1"/>
-<wire x1="316.346" y1="157.48" x2="320.346" y2="154.559" width="0" layer="19" extent="1-1"/>
-<wire x1="347.853" y1="182.764" x2="316.346" y2="157.48" width="0" layer="19" extent="1-1"/>
-<wire x1="345.44" y1="182.764" x2="347.853" y2="182.764" width="0" layer="19" extent="1-1"/>
-<wire x1="342.9" y1="183.264" x2="345.44" y2="182.764" width="0" layer="19" extent="1-1"/>
-<wire x1="337.53425" y1="184.49575" x2="342.9" y2="183.264" width="0" layer="19" extent="1-1"/>
-<wire x1="295.402" y1="172.29" x2="337.53425" y2="184.49575" width="0" layer="19" extent="1-1"/>
+<wire x1="333.502" y1="106.236" x2="322.453" y2="101.802" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="121.285" x2="317.373" y2="108.002" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="128.905" x2="314.146" y2="121.285" width="0" layer="19" extent="1-1"/>
+<wire x1="316.346" y1="132.08" x2="320.346" y2="128.905" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="137.287" x2="316.346" y2="132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="144.907" x2="314.146" y2="137.287" width="0" layer="19" extent="1-1"/>
+<wire x1="316.346" y1="147.828" x2="320.346" y2="144.907" width="0" layer="19" extent="1-1"/>
+<wire x1="323.977" y1="156.834" x2="316.346" y2="147.828" width="0" layer="19" extent="1-1"/>
+<wire x1="322.326" y1="156.834" x2="323.977" y2="156.834" width="0" layer="19" extent="1-1"/>
+<wire x1="320.04" y1="156.334" x2="322.326" y2="156.834" width="0" layer="19" extent="1-1"/>
+<wire x1="314.99175" y1="155.10225" x2="320.04" y2="156.334" width="0" layer="19" extent="1-1"/>
+<wire x1="312.322" y1="168.402" x2="314.99175" y2="155.10225" width="0" layer="19" extent="1-1"/>
+<wire x1="295.402" y1="172.29" x2="312.322" y2="168.402" width="0" layer="19" extent="1-1"/>
 <wire x1="286.314" y1="170.244" x2="295.402" y2="172.29" width="0" layer="19" extent="1-1"/>
-<wire x1="315.624" y1="179.832" x2="347.853" y2="182.764" width="0" layer="19" extent="1-1"/>
-<wire x1="249.174" y1="158.242" x2="315.624" y2="179.832" width="0" layer="19" extent="1-1"/>
-<wire x1="246.634" y1="158.242" x2="249.174" y2="158.242" width="0" layer="19" extent="1-1"/>
-<wire x1="244.094" y1="158.242" x2="246.634" y2="158.242" width="0" layer="19" extent="1-1"/>
-<wire x1="241.554" y1="158.242" x2="244.094" y2="158.242" width="0" layer="19" extent="1-1"/>
-<wire x1="239.014" y1="158.242" x2="241.554" y2="158.242" width="0" layer="19" extent="1-1"/>
-<wire x1="236.474" y1="158.242" x2="239.014" y2="158.242" width="0" layer="19" extent="1-1"/>
-<wire x1="233.934" y1="158.242" x2="236.474" y2="158.242" width="0" layer="19" extent="1-1"/>
-<wire x1="290.46" y1="213.36" x2="241.554" y2="158.242" width="0" layer="19" extent="1-1"/>
-<wire x1="287.03" y1="202.565" x2="290.46" y2="213.36" width="0" layer="19" extent="1-1"/>
-<wire x1="42.632" y1="28.194" x2="48.514" y2="56.642" width="0" layer="19" extent="1-1"/>
-<wire x1="256.214" y1="170.244" x2="286.314" y2="170.244" width="0" layer="19" extent="1-1"/>
-<wire x1="344.932" y1="191.238" x2="249.174" y2="158.242" width="0" layer="19" extent="1-1"/>
-<wire x1="259.08" y1="219.32" x2="290.46" y2="213.36" width="0" layer="19" extent="1-1"/>
-<wire x1="229.616" y1="211.582" x2="259.08" y2="219.32" width="0" layer="19" extent="1-1"/>
-<wire x1="228.219" y1="205.74" x2="229.616" y2="211.582" width="0" layer="19" extent="1-1"/>
-<wire x1="218.694" y1="211.582" x2="229.616" y2="211.582" width="0" layer="19" extent="1-1"/>
-<wire x1="228.219" y1="194.056" x2="228.219" y2="205.74" width="0" layer="19" extent="1-1"/>
-<wire x1="206.375" y1="216.154" x2="218.694" y2="211.582" width="0" layer="19" extent="1-1"/>
-<wire x1="204.47" y1="233.034" x2="206.375" y2="216.154" width="0" layer="19" extent="1-1"/>
-<wire x1="10.795" y1="47.08525" x2="42.632" y2="28.194" width="0" layer="19" extent="1-1"/>
-<wire x1="10.795" y1="56.73725" x2="10.795" y2="47.08525" width="0" layer="19" extent="1-1"/>
+<wire x1="79.756" y1="52.324" x2="95.598" y2="74.803" width="0" layer="19" extent="1-1"/>
+<wire x1="77.216" y1="44.704" x2="79.756" y2="52.324" width="0" layer="19" extent="1-1"/>
+<wire x1="56.896" y1="52.324" x2="77.216" y2="44.704" width="0" layer="19" extent="1-1"/>
+<wire x1="51.054" y1="52.324" x2="56.896" y2="52.324" width="0" layer="19" extent="1-1"/>
+<wire x1="48.514" y1="44.704" x2="51.054" y2="52.324" width="0" layer="19" extent="1-1"/>
+<wire x1="42.632" y1="28.194" x2="48.514" y2="44.704" width="0" layer="19" extent="1-1"/>
+<wire x1="28.194" y1="52.324" x2="48.514" y2="44.704" width="0" layer="19" extent="1-1"/>
+<wire x1="10.795" y1="56.73725" x2="28.194" y2="52.324" width="0" layer="19" extent="1-1"/>
 <wire x1="10.795" y1="66.38925" x2="10.795" y2="56.73725" width="0" layer="19" extent="1-1"/>
 <wire x1="10.795" y1="76.04125" x2="10.795" y2="66.38925" width="0" layer="19" extent="1-1"/>
+<wire x1="10.795" y1="47.08525" x2="10.795" y2="56.73725" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.635" y1="80.86725" x2="10.795" y2="76.04125" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.635" y1="71.21525" x2="-0.635" y2="80.86725" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.635" y1="61.56325" x2="-0.635" y2="71.21525" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.635" y1="51.91125" x2="-0.635" y2="61.56325" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.51725" y1="28.54325" x2="-0.635" y2="51.91125" width="0" layer="19" extent="1-1"/>
-<wire x1="101.6" y1="207.38" x2="100.076" y2="169.418" width="0" layer="19" extent="1-1"/>
-<wire x1="101.6" y1="217.54" x2="101.6" y2="207.38" width="0" layer="19" extent="1-1"/>
-<wire x1="119.29" y1="208.623" x2="101.6" y2="207.38" width="0" layer="19" extent="1-1"/>
-<wire x1="122.772" y1="208.623" x2="119.29" y2="208.623" width="0" layer="19" extent="1-1"/>
-<wire x1="136.054" y1="216.573" x2="122.772" y2="208.623" width="0" layer="19" extent="1-1"/>
-<wire x1="78.74" y1="217.54" x2="101.6" y2="217.54" width="0" layer="19" extent="1-1"/>
-<wire x1="53.34" y1="202.3" x2="78.74" y2="217.54" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="202.3" x2="53.34" y2="202.3" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="202.3" x2="27.94" y2="202.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.71" y1="222.415" x2="2.54" y2="202.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.94" y1="202.3" x2="-7.71" y2="222.415" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.146" y1="167.894" x2="2.54" y2="202.3" width="0" layer="19" extent="1-1"/>
-<wire x1="1.04" y1="153.416" x2="-3.146" y2="167.894" width="0" layer="19" extent="1-1"/>
-<wire x1="7.596" y1="153.416" x2="1.04" y2="153.416" width="0" layer="19" extent="1-1"/>
-<wire x1="6.544" y1="142.748" x2="7.596" y2="153.416" width="0" layer="19" extent="1-1"/>
-<wire x1="2.092" y1="142.748" x2="6.544" y2="142.748" width="0" layer="19" extent="1-1"/>
-<wire x1="6.982" y1="137.922" x2="6.544" y2="142.748" width="0" layer="19" extent="1-1"/>
-<wire x1="6.974" y1="135.382" x2="6.982" y2="137.922" width="0" layer="19" extent="1-1"/>
-<wire x1="6.974" y1="133.35" x2="6.974" y2="135.382" width="0" layer="19" extent="1-1"/>
-<wire x1="1.654" y1="137.922" x2="2.092" y2="142.748" width="0" layer="19" extent="1-1"/>
-<wire x1="1.662" y1="135.382" x2="1.654" y2="137.922" width="0" layer="19" extent="1-1"/>
-<wire x1="1.662" y1="133.35" x2="1.662" y2="135.382" width="0" layer="19" extent="1-1"/>
-<wire x1="14.478" y1="164.454" x2="7.596" y2="153.416" width="0" layer="19" extent="1-1"/>
-<wire x1="38.608" y1="151.131" x2="14.478" y2="164.454" width="0" layer="19" extent="1-1"/>
-<wire x1="37.476" y1="148.336" x2="38.608" y2="151.131" width="0" layer="19" extent="1-1"/>
-<wire x1="37.476" y1="146.558" x2="37.476" y2="148.336" width="0" layer="19" extent="1-1"/>
-<wire x1="37.976" y1="144.526" x2="37.476" y2="146.558" width="0" layer="19" extent="1-1"/>
-<wire x1="38.632" y1="135.89" x2="37.976" y2="144.526" width="0" layer="19" extent="1-1"/>
-<wire x1="36.128" y1="125.222" x2="38.632" y2="135.89" width="0" layer="19" extent="1-1"/>
-<wire x1="37.36975" y1="119.1895" x2="36.128" y2="125.222" width="0" layer="19" extent="1-1"/>
-<wire x1="73.1" y1="254" x2="78.74" y2="217.54" width="0" layer="19" extent="1-1"/>
-<wire x1="90.88" y1="254" x2="73.1" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="108.66" y1="254" x2="90.88" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="126.44" y1="254" x2="108.66" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="144.22" y1="254" x2="126.44" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="162" y1="254" x2="144.22" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="55.32" y1="254" x2="73.1" y2="254" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX_PIC32">
 <contactref element="IC2" pad="52"/>
-<contactref element="J10" pad="4"/>
-<contactref element="J11" pad="P$4"/>
-<wire x1="226.949" y1="192.786" x2="123.856" y2="115.398" width="0" layer="19" extent="1-1"/>
-<wire x1="218.694" y1="219.202" x2="226.949" y2="192.786" width="0" layer="19" extent="1-1"/>
+<contactref element="PIC32_UART" pad="4"/>
+<contactref element="PIC32_TC" pad="P$4"/>
+<wire x1="87.884" y1="117.094" x2="118.3891125" y2="114.197653125" width="0" layer="19" extent="1-1"/>
+<wire x1="80.391" y1="115.824" x2="87.884" y2="117.094" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AVCC">
 <contactref element="R3" pad="2"/>
 <contactref element="C8" pad="1"/>
 <contactref element="C9" pad="1"/>
 <contactref element="IC2" pad="30"/>
-<wire x1="138.06" y1="123.444" x2="133.756" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="138.06" y1="125.476" x2="138.06" y2="123.444" width="0" layer="19" extent="1-1"/>
-<wire x1="138.06" y1="127.508" x2="138.06" y2="125.476" width="0" layer="19" extent="1-1"/>
+<wire x1="135.52" y1="129.286" x2="123.763125" y2="122.82435625" width="0" layer="19" extent="1-1"/>
+<wire x1="135.52" y1="131.318" x2="135.52" y2="129.286" width="0" layer="19" extent="1-1"/>
+<wire x1="135.52" y1="133.35" x2="135.52" y2="131.318" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC2" pad="85"/>
 <contactref element="C10" pad="1"/>
-<wire x1="128.27" y1="97.666" x2="129.356" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="101.346" y1="98.936" x2="130.127084375" y2="110.23785625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P32_MCLR">
 <contactref element="D8" pad="3"/>
 <contactref element="R12" pad="2"/>
 <contactref element="R8" pad="2"/>
 <contactref element="R4" pad="1"/>
-<contactref element="J8" pad="1"/>
-<contactref element="J9" pad="P$1"/>
+<contactref element="PICKIT3" pad="1"/>
+<contactref element="PICKIT3_TC" pad="P$1"/>
 <contactref element="R26" pad="2"/>
-<wire x1="158.634" y1="105.918" x2="136.536" y2="89.662" width="0" layer="19" extent="1-1"/>
-<wire x1="162.306" y1="104.394" x2="158.634" y2="105.918" width="0" layer="19" extent="1-1"/>
-<wire x1="156.58" y1="115.174" x2="158.634" y2="105.918" width="0" layer="19" extent="1-1"/>
-<wire x1="154.94" y1="114.692" x2="156.58" y2="115.174" width="0" layer="19" extent="1-1"/>
-<wire x1="206.375" y1="214.884" x2="156.58" y2="115.174" width="0" layer="19" extent="1-1"/>
-<wire x1="222.504" y1="212.736" x2="206.375" y2="214.884" width="0" layer="19" extent="1-1"/>
+<wire x1="159.766" y1="112.776" x2="167.767" y2="118.11" width="0" layer="19" extent="1-1"/>
+<wire x1="156.094" y1="111.76" x2="159.766" y2="112.776" width="0" layer="19" extent="1-1"/>
+<wire x1="156.094" y1="109.982" x2="156.094" y2="111.76" width="0" layer="19" extent="1-1"/>
+<wire x1="154.04" y1="121.016" x2="156.094" y2="111.76" width="0" layer="19" extent="1-1"/>
+<wire x1="152.4" y1="120.534" x2="154.04" y2="121.016" width="0" layer="19" extent="1-1"/>
+<wire x1="116.586" y1="151.014" x2="152.4" y2="120.534" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R8" pad="1"/>
-<contactref element="SW1" pad="P$4"/>
-<wire x1="127.672" y1="216.573" x2="134.736" y2="89.662" width="0" layer="19" extent="1-1"/>
+<contactref element="PIC_RST" pad="P$4"/>
+<wire x1="154.294" y1="109.982" x2="126.403" y2="96.864" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_2">
 <contactref element="U14" pad="10"/>
 <contactref element="R56" pad="2"/>
 <contactref element="IC2" pad="3"/>
-<wire x1="131.064" y1="83.174" x2="137.256" y2="106.998" width="0" layer="19" extent="1-1"/>
+<wire x1="131.064" y1="83.174" x2="133.804040625" y2="117.7331875" width="0" layer="19" extent="1-1"/>
 <wire x1="128.27" y1="73.032" x2="131.064" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX_PIC32">
 <contactref element="IC2" pad="53"/>
-<contactref element="J10" pad="5"/>
-<contactref element="J11" pad="P$3"/>
-<wire x1="228.219" y1="192.786" x2="123.856" y2="114.998" width="0" layer="19" extent="1-1"/>
-<wire x1="218.694" y1="221.742" x2="228.219" y2="192.786" width="0" layer="19" extent="1-1"/>
+<contactref element="PIC32_UART" pad="5"/>
+<contactref element="PIC32_TC" pad="P$3"/>
+<wire x1="87.884" y1="119.634" x2="118.67195625" y2="113.914809375" width="0" layer="19" extent="1-1"/>
+<wire x1="81.661" y1="115.824" x2="87.884" y2="119.634" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="D8" pad="4"/>
 <contactref element="R13" pad="2"/>
-<contactref element="J8" pad="4"/>
-<contactref element="J9" pad="P$4"/>
-<wire x1="158.38" y1="115.174" x2="205.105" y2="216.154" width="0" layer="19" extent="1-1"/>
-<wire x1="158.38" y1="112.776" x2="158.38" y2="115.174" width="0" layer="19" extent="1-1"/>
-<wire x1="162.306" y1="112.014" x2="158.38" y2="112.776" width="0" layer="19" extent="1-1"/>
+<contactref element="PICKIT3" pad="4"/>
+<contactref element="PICKIT3_TC" pad="P$4"/>
+<wire x1="159.766" y1="120.396" x2="166.497" y2="119.38" width="0" layer="19" extent="1-1"/>
+<wire x1="155.84" y1="121.016" x2="159.766" y2="120.396" width="0" layer="19" extent="1-1"/>
+<wire x1="155.84" y1="118.618" x2="155.84" y2="121.016" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="D8" pad="5"/>
 <contactref element="R14" pad="2"/>
-<contactref element="J8" pad="5"/>
-<contactref element="J9" pad="P$5"/>
-<wire x1="157.48" y1="118.48" x2="206.375" y2="217.424" width="0" layer="19" extent="1-1"/>
-<wire x1="158.38" y1="116.474" x2="157.48" y2="118.48" width="0" layer="19" extent="1-1"/>
-<wire x1="162.306" y1="114.554" x2="158.38" y2="116.474" width="0" layer="19" extent="1-1"/>
+<contactref element="PICKIT3" pad="5"/>
+<contactref element="PICKIT3_TC" pad="P$5"/>
+<wire x1="159.766" y1="122.936" x2="167.767" y2="120.65" width="0" layer="19" extent="1-1"/>
+<wire x1="155.84" y1="122.316" x2="159.766" y2="122.936" width="0" layer="19" extent="1-1"/>
+<wire x1="154.94" y1="124.322" x2="155.84" y2="122.316" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="D1" pad="3"/>
 <contactref element="IC2" pad="13"/>
 <contactref element="R12" pad="1"/>
-<wire x1="156.834" y1="108.966" x2="137.256" y2="110.998" width="0" layer="19" extent="1-1"/>
-<wire x1="156.834" y1="105.918" x2="156.834" y2="108.966" width="0" layer="19" extent="1-1"/>
+<wire x1="154.294" y1="114.808" x2="130.9756125" y2="120.5616125" width="0" layer="19" extent="1-1"/>
+<wire x1="154.294" y1="111.76" x2="154.294" y2="114.808" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SDA">
 <contactref element="IC2" pad="67"/>
@@ -15340,10 +15339,10 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="U13" pad="5"/>
 <contactref element="U2" pad="5"/>
 <contactref element="MOD_CON" pad="4"/>
-<wire x1="103.378" y1="119.634" x2="123.856" y2="109.398" width="0" layer="19" extent="1-1"/>
-<wire x1="223.012" y1="159.258" x2="123.856" y2="109.398" width="0" layer="19" extent="1-1"/>
-<wire x1="214.884" y1="226.43" x2="223.012" y2="159.258" width="0" layer="19" extent="1-1"/>
-<wire x1="281.93" y1="202.565" x2="214.884" y2="226.43" width="0" layer="19" extent="1-1"/>
+<wire x1="128.778" y1="148.336" x2="122.631753125" y2="109.9550125" width="0" layer="19" extent="1-1"/>
+<wire x1="128.778" y1="151.5" x2="128.778" y2="148.336" width="0" layer="19" extent="1-1"/>
+<wire x1="72.771" y1="110.5" x2="122.631753125" y2="109.9550125" width="0" layer="19" extent="1-1"/>
+<wire x1="223.012" y1="159.258" x2="128.778" y2="151.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SCL">
 <contactref element="IC2" pad="66"/>
@@ -15351,75 +15350,75 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="U13" pad="6"/>
 <contactref element="U2" pad="6"/>
 <contactref element="MOD_CON" pad="5"/>
-<wire x1="103.378" y1="122.174" x2="123.856" y2="109.798" width="0" layer="19" extent="1-1"/>
-<wire x1="223.012" y1="161.798" x2="123.856" y2="109.798" width="0" layer="19" extent="1-1"/>
-<wire x1="214.884" y1="222.62" x2="223.012" y2="161.798" width="0" layer="19" extent="1-1"/>
-<wire x1="281.93" y1="201.295" x2="214.884" y2="222.62" width="0" layer="19" extent="1-1"/>
+<wire x1="126.238" y1="148.336" x2="122.3489125" y2="110.23785625" width="0" layer="19" extent="1-1"/>
+<wire x1="126.238" y1="151.5" x2="126.238" y2="148.336" width="0" layer="19" extent="1-1"/>
+<wire x1="71.501" y1="110.5" x2="122.3489125" y2="110.23785625" width="0" layer="19" extent="1-1"/>
+<wire x1="223.012" y1="161.798" x2="126.238" y2="151.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AC_44">
 <contactref element="IC2" pad="29"/>
 <contactref element="SERVO_1" pad="P$3"/>
-<wire x1="94.996" y1="169.418" x2="134.156" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="94.996" y1="169.418" x2="124.04596875" y2="123.107196875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_R_0">
 <contactref element="R100" pad="1"/>
 <contactref element="IC2" pad="32"/>
-<wire x1="21.093" y1="80.86725" x2="132.956" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="21.093" y1="80.86725" x2="123.197440625" y2="122.25866875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_R_1">
 <contactref element="R102" pad="1"/>
 <contactref element="IC2" pad="33"/>
-<wire x1="21.093" y1="76.04125" x2="132.556" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="21.093" y1="76.04125" x2="122.914596875" y2="121.975828125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_R_2">
 <contactref element="R104" pad="1"/>
 <contactref element="IC2" pad="34"/>
-<wire x1="21.093" y1="71.21525" x2="132.156" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="21.093" y1="71.21525" x2="122.631753125" y2="121.692984375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_R_3">
 <contactref element="R106" pad="1"/>
 <contactref element="IC2" pad="35"/>
-<wire x1="21.093" y1="66.38925" x2="131.756" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="21.093" y1="66.38925" x2="122.3489125" y2="121.410140625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_R_4">
 <contactref element="R108" pad="1"/>
 <contactref element="IC2" pad="41"/>
-<wire x1="21.093" y1="61.56325" x2="129.356" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="21.093" y1="61.56325" x2="120.65185625" y2="119.713084375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_R_5">
 <contactref element="R110" pad="1"/>
 <contactref element="IC2" pad="42"/>
-<wire x1="21.093" y1="56.73725" x2="128.956" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="21.093" y1="56.73725" x2="120.3690125" y2="119.43024375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_R_6">
 <contactref element="R112" pad="1"/>
 <contactref element="IC2" pad="43"/>
-<wire x1="21.093" y1="51.91125" x2="128.556" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="21.093" y1="51.91125" x2="120.08616875" y2="119.1474" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_R_7">
 <contactref element="R114" pad="1"/>
 <contactref element="IC2" pad="44"/>
-<wire x1="21.093" y1="47.08525" x2="128.156" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="21.093" y1="47.08525" x2="119.803328125" y2="118.86455625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="X1" pad="1"/>
 <contactref element="C13" pad="1"/>
 <contactref element="IC2" pad="64"/>
-<wire x1="105.254" y1="110.664" x2="123.856" y2="110.598" width="0" layer="19" extent="1-1"/>
-<wire x1="103.124" y1="111.114" x2="105.254" y2="110.664" width="0" layer="19" extent="1-1"/>
+<wire x1="102.714" y1="116.506" x2="121.783225" y2="110.803540625" width="0" layer="19" extent="1-1"/>
+<wire x1="100.584" y1="116.956" x2="102.714" y2="116.506" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$41">
 <contactref element="X1" pad="3"/>
 <contactref element="C14" pad="1"/>
 <contactref element="IC2" pad="63"/>
-<wire x1="113.284" y1="112.914" x2="123.856" y2="110.998" width="0" layer="19" extent="1-1"/>
-<wire x1="111.154" y1="113.364" x2="113.284" y2="112.914" width="0" layer="19" extent="1-1"/>
+<wire x1="110.744" y1="118.756" x2="121.500384375" y2="111.086384375" width="0" layer="19" extent="1-1"/>
+<wire x1="108.614" y1="119.206" x2="110.744" y2="118.756" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_1">
 <contactref element="U14" pad="5"/>
 <contactref element="R57" pad="2"/>
 <contactref element="IC2" pad="8"/>
-<wire x1="128.016" y1="83.174" x2="137.256" y2="108.998" width="0" layer="19" extent="1-1"/>
+<wire x1="128.016" y1="83.174" x2="132.389828125" y2="119.1474" width="0" layer="19" extent="1-1"/>
 <wire x1="128.27" y1="78.352" x2="128.016" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_10">
@@ -15427,13 +15426,13 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="R64" pad="2"/>
 <contactref element="IC2" pad="58"/>
 <wire x1="166.878" y1="73.032" x2="169.672" y2="83.174" width="0" layer="19" extent="1-1"/>
-<wire x1="123.856" y1="112.998" x2="169.672" y2="83.174" width="0" layer="19" extent="1-1"/>
+<wire x1="120.08616875" y1="112.500596875" x2="169.672" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_9">
 <contactref element="U15" pad="5"/>
 <contactref element="IC2" pad="9"/>
 <contactref element="R65" pad="2"/>
-<wire x1="166.624" y1="83.174" x2="137.256" y2="109.398" width="0" layer="19" extent="1-1"/>
+<wire x1="166.624" y1="83.174" x2="132.106984375" y2="119.43024375" width="0" layer="19" extent="1-1"/>
 <wire x1="166.878" y1="78.352" x2="166.624" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_7">
@@ -15441,101 +15440,101 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="R51" pad="2"/>
 <contactref element="IC2" pad="74"/>
 <wire x1="151.384" y1="73.032" x2="153.924" y2="83.174" width="0" layer="19" extent="1-1"/>
-<wire x1="123.856" y1="106.598" x2="153.924" y2="83.174" width="0" layer="19" extent="1-1"/>
+<wire x1="124.611653125" y1="107.9751125" x2="153.924" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_23">
 <contactref element="U19" pad="13"/>
 <contactref element="R67" pad="2"/>
 <contactref element="IC2" pad="28"/>
-<wire x1="231.394" y1="83.174" x2="134.556" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="231.394" y1="83.174" x2="124.328809375" y2="123.390040625" width="0" layer="19" extent="1-1"/>
 <wire x1="228.6" y1="73.032" x2="231.394" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_11">
 <contactref element="U15" pad="13"/>
 <contactref element="R63" pad="2"/>
 <contactref element="IC2" pad="17"/>
-<wire x1="172.974" y1="83.174" x2="137.256" y2="112.598" width="0" layer="19" extent="1-1"/>
+<wire x1="172.974" y1="83.174" x2="129.84424375" y2="121.692984375" width="0" layer="19" extent="1-1"/>
 <wire x1="170.688" y1="73.032" x2="172.974" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_12">
 <contactref element="U18" pad="2"/>
 <contactref element="R62" pad="2"/>
 <contactref element="IC2" pad="38"/>
-<wire x1="182.626" y1="83.174" x2="130.556" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="182.626" y1="83.174" x2="121.500384375" y2="120.5616125" width="0" layer="19" extent="1-1"/>
 <wire x1="189.992" y1="78.352" x2="182.626" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_13">
 <contactref element="U18" pad="5"/>
 <contactref element="R61" pad="2"/>
 <contactref element="IC2" pad="60"/>
-<wire x1="185.674" y1="83.174" x2="123.856" y2="112.198" width="0" layer="19" extent="1-1"/>
+<wire x1="185.674" y1="83.174" x2="120.65185625" y2="111.9349125" width="0" layer="19" extent="1-1"/>
 <wire x1="186.182" y1="78.352" x2="185.674" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_14">
 <contactref element="U18" pad="10"/>
 <contactref element="R60" pad="2"/>
 <contactref element="IC2" pad="61"/>
-<wire x1="189.23" y1="83.174" x2="123.856" y2="111.798" width="0" layer="19" extent="1-1"/>
+<wire x1="189.23" y1="83.174" x2="120.934696875" y2="111.65206875" width="0" layer="19" extent="1-1"/>
 <wire x1="186.182" y1="73.032" x2="189.23" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_18">
 <contactref element="U16" pad="10"/>
 <contactref element="R72" pad="2"/>
 <contactref element="IC2" pad="91"/>
-<wire x1="208.534" y1="83.174" x2="131.756" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="208.534" y1="83.174" x2="131.824140625" y2="111.9349125" width="0" layer="19" extent="1-1"/>
 <wire x1="205.486" y1="73.032" x2="208.534" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_19">
 <contactref element="U16" pad="13"/>
 <contactref element="R71" pad="2"/>
 <contactref element="IC2" pad="92"/>
-<wire x1="211.836" y1="83.174" x2="132.156" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="211.836" y1="83.174" x2="132.106984375" y2="112.217753125" width="0" layer="19" extent="1-1"/>
 <wire x1="209.296" y1="73.032" x2="211.836" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_15">
 <contactref element="U18" pad="13"/>
 <contactref element="R59" pad="2"/>
 <contactref element="IC2" pad="73"/>
-<wire x1="192.278" y1="83.174" x2="123.856" y2="106.998" width="0" layer="19" extent="1-1"/>
+<wire x1="192.278" y1="83.174" x2="124.328809375" y2="108.25795625" width="0" layer="19" extent="1-1"/>
 <wire x1="189.992" y1="73.032" x2="192.278" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AC_46">
 <contactref element="IC2" pad="88"/>
 <contactref element="SERVO_0" pad="P$3"/>
-<wire x1="130.556" y1="104.298" x2="86.106" y2="169.418" width="0" layer="19" extent="1-1"/>
+<wire x1="130.9756125" y1="111.086384375" x2="86.106" y2="169.418" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RGB_DATA">
 <contactref element="IC2" pad="94"/>
 <contactref element="U38" pad="2"/>
-<wire x1="164.084" y1="136.296" x2="132.956" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="164.084" y1="136.296" x2="132.67266875" y2="112.783440625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RGB_CLK">
 <contactref element="IC2" pad="98"/>
 <contactref element="U38" pad="1"/>
-<wire x1="162.814" y1="136.296" x2="134.556" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="162.814" y1="136.296" x2="133.804040625" y2="113.914809375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AC_34">
 <contactref element="IC2" pad="99"/>
 <contactref element="SERVO_3" pad="P$3"/>
-<wire x1="94.996" y1="162.052" x2="134.956" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="94.996" y1="162.052" x2="134.086884375" y2="114.197653125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AC_33">
 <contactref element="IC2" pad="100"/>
 <contactref element="SERVO_4" pad="P$3"/>
-<wire x1="86.106" y1="154.686" x2="135.356" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="86.106" y1="154.686" x2="134.369725" y2="114.480496875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_5">
 <contactref element="U17" pad="5"/>
 <contactref element="R53" pad="2"/>
 <contactref element="IC2" pad="5"/>
-<wire x1="147.32" y1="83.174" x2="137.256" y2="107.798" width="0" layer="19" extent="1-1"/>
+<wire x1="147.32" y1="83.174" x2="133.23835625" y2="118.298871875" width="0" layer="19" extent="1-1"/>
 <wire x1="147.574" y1="78.352" x2="147.32" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_3">
 <contactref element="U14" pad="13"/>
 <contactref element="R55" pad="2"/>
 <contactref element="IC2" pad="51"/>
-<wire x1="134.874" y1="83.174" x2="123.856" y2="115.798" width="0" layer="19" extent="1-1"/>
+<wire x1="134.874" y1="83.174" x2="118.106271875" y2="114.480496875" width="0" layer="19" extent="1-1"/>
 <wire x1="132.08" y1="73.032" x2="134.874" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USBD+">
@@ -15547,62 +15546,62 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <signal name="AC_17">
 <contactref element="IC2" pad="49"/>
 <contactref element="SERVO_2" pad="P$3"/>
-<wire x1="126.156" y1="117.698" x2="86.106" y2="162.052" width="0" layer="19" extent="1-1"/>
+<wire x1="118.3891125" y1="117.45034375" x2="86.106" y2="162.052" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_4">
 <contactref element="U17" pad="2"/>
 <contactref element="R54" pad="2"/>
 <contactref element="IC2" pad="4"/>
-<wire x1="143.51" y1="83.174" x2="137.256" y2="107.398" width="0" layer="19" extent="1-1"/>
+<wire x1="143.51" y1="83.174" x2="133.521196875" y2="118.016028125" width="0" layer="19" extent="1-1"/>
 <wire x1="151.384" y1="78.352" x2="143.51" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_6">
 <contactref element="U17" pad="10"/>
 <contactref element="R52" pad="2"/>
 <contactref element="IC2" pad="18"/>
-<wire x1="150.368" y1="83.174" x2="137.256" y2="112.998" width="0" layer="19" extent="1-1"/>
+<wire x1="150.368" y1="83.174" x2="129.5614" y2="121.975828125" width="0" layer="19" extent="1-1"/>
 <wire x1="147.574" y1="73.032" x2="150.368" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_8">
 <contactref element="U15" pad="2"/>
 <contactref element="R66" pad="2"/>
 <contactref element="IC2" pad="19"/>
-<wire x1="163.322" y1="83.174" x2="137.256" y2="113.398" width="0" layer="19" extent="1-1"/>
+<wire x1="163.322" y1="83.174" x2="129.27855625" y2="122.25866875" width="0" layer="19" extent="1-1"/>
 <wire x1="170.688" y1="78.352" x2="163.322" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_17">
 <contactref element="U16" pad="5"/>
 <contactref element="R73" pad="2"/>
 <contactref element="IC2" pad="90"/>
-<wire x1="204.978" y1="83.174" x2="131.356" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="204.978" y1="83.174" x2="131.5413" y2="111.65206875" width="0" layer="19" extent="1-1"/>
 <wire x1="205.486" y1="78.352" x2="204.978" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_16">
 <contactref element="U16" pad="2"/>
 <contactref element="R74" pad="2"/>
 <contactref element="IC2" pad="89"/>
-<wire x1="201.676" y1="83.174" x2="130.956" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="201.676" y1="83.174" x2="131.25845625" y2="111.369225" width="0" layer="19" extent="1-1"/>
 <wire x1="209.296" y1="78.352" x2="201.676" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_21">
 <contactref element="U19" pad="5"/>
 <contactref element="R69" pad="2"/>
 <contactref element="IC2" pad="96"/>
-<wire x1="224.282" y1="83.174" x2="133.756" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="224.282" y1="83.174" x2="133.23835625" y2="113.349125" width="0" layer="19" extent="1-1"/>
 <wire x1="224.79" y1="78.352" x2="224.282" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_22">
 <contactref element="U19" pad="10"/>
 <contactref element="R68" pad="2"/>
 <contactref element="IC2" pad="97"/>
-<wire x1="224.79" y1="73.032" x2="134.156" y2="104.298" width="0" layer="19" extent="1-1"/>
-<wire x1="227.838" y1="83.174" x2="224.79" y2="73.032" width="0" layer="19" extent="1-1"/>
+<wire x1="227.838" y1="83.174" x2="133.521196875" y2="113.63196875" width="0" layer="19" extent="1-1"/>
+<wire x1="224.79" y1="73.032" x2="227.838" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SOL_20">
 <contactref element="U19" pad="2"/>
 <contactref element="R70" pad="2"/>
 <contactref element="IC2" pad="95"/>
-<wire x1="220.98" y1="83.174" x2="133.356" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="220.98" y1="83.174" x2="132.9555125" y2="113.06628125" width="0" layer="19" extent="1-1"/>
 <wire x1="228.6" y1="78.352" x2="220.98" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
@@ -15689,12 +15688,12 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="U1" pad="18"/>
 <contactref element="U1" pad="30"/>
 <contactref element="U1" pad="40"/>
-<contactref element="J8" pad="2"/>
+<contactref element="PICKIT3" pad="2"/>
 <contactref element="R25" pad="2"/>
 <contactref element="R24" pad="2"/>
 <contactref element="C28" pad="2"/>
 <contactref element="U13" pad="8"/>
-<contactref element="J9" pad="P$2"/>
+<contactref element="PICKIT3_TC" pad="P$2"/>
 <contactref element="U2" pad="8"/>
 <contactref element="C12" pad="2"/>
 <contactref element="C15" pad="P$1"/>
@@ -15708,26 +15707,29 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="OPTO_6" pad="2"/>
 <contactref element="OPTO_7" pad="2"/>
 <contactref element="C18" pad="P$1"/>
-<wire x1="136.26" y1="127.508" x2="131.942" y2="124.206" width="0" layer="19" extent="1-1"/>
-<wire x1="130.956" y1="117.698" x2="131.942" y2="124.206" width="0" layer="19" extent="1-1"/>
-<wire x1="127.356" y1="117.698" x2="130.956" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="123.856" y1="114.198" x2="127.356" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="123.856" y1="111.398" x2="123.856" y2="114.198" width="0" layer="19" extent="1-1"/>
-<wire x1="124.068" y1="122.936" x2="127.356" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="120.026" y1="124.206" x2="124.068" y2="122.936" width="0" layer="19" extent="1-1"/>
-<wire x1="120.026" y1="126.238" x2="120.026" y2="124.206" width="0" layer="19" extent="1-1"/>
-<wire x1="137.256" y1="112.198" x2="130.956" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="142.102" y1="112.776" x2="137.256" y2="112.198" width="0" layer="19" extent="1-1"/>
-<wire x1="137.256" y1="106.598" x2="137.256" y2="112.198" width="0" layer="19" extent="1-1"/>
-<wire x1="142.124" y1="105.664" x2="137.256" y2="106.598" width="0" layer="19" extent="1-1"/>
-<wire x1="129.756" y1="104.298" x2="137.256" y2="106.598" width="0" layer="19" extent="1-1"/>
-<wire x1="130.556" y1="97.928" x2="129.756" y2="104.298" width="0" layer="19" extent="1-1"/>
-<wire x1="152.284" y1="116.586" x2="142.102" y2="112.776" width="0" layer="19" extent="1-1"/>
-<wire x1="154.94" y1="112.892" x2="152.284" y2="116.586" width="0" layer="19" extent="1-1"/>
-<wire x1="158.634" y1="109.616" x2="154.94" y2="112.892" width="0" layer="19" extent="1-1"/>
-<wire x1="162.306" y1="106.934" x2="158.634" y2="109.616" width="0" layer="19" extent="1-1"/>
-<wire x1="103.378" y1="127.254" x2="120.026" y2="126.238" width="0" layer="19" extent="1-1"/>
-<wire x1="143.764" y1="142.85" x2="136.26" y2="127.508" width="0" layer="19" extent="1-1"/>
+<wire x1="134.086884375" y1="117.45034375" x2="130.127084375" y2="121.410140625" width="0" layer="19" extent="1-1"/>
+<wire x1="139.562" y1="118.618" x2="134.086884375" y2="117.45034375" width="0" layer="19" extent="1-1"/>
+<wire x1="139.584" y1="111.506" x2="139.562" y2="118.618" width="0" layer="19" extent="1-1"/>
+<wire x1="130.409928125" y1="110.520696875" x2="134.086884375" y2="117.45034375" width="0" layer="19" extent="1-1"/>
+<wire x1="121.783225" y1="120.84445625" x2="130.127084375" y2="121.410140625" width="0" layer="19" extent="1-1"/>
+<wire x1="119.237640625" y1="118.298871875" x2="121.783225" y2="120.84445625" width="0" layer="19" extent="1-1"/>
+<wire x1="119.237640625" y1="113.349125" x2="119.237640625" y2="118.298871875" width="0" layer="19" extent="1-1"/>
+<wire x1="121.217540625" y1="111.369225" x2="119.237640625" y2="113.349125" width="0" layer="19" extent="1-1"/>
+<wire x1="121.528" y1="128.778" x2="121.783225" y2="120.84445625" width="0" layer="19" extent="1-1"/>
+<wire x1="117.486" y1="130.048" x2="121.528" y2="128.778" width="0" layer="19" extent="1-1"/>
+<wire x1="117.486" y1="132.08" x2="117.486" y2="130.048" width="0" layer="19" extent="1-1"/>
+<wire x1="129.402" y1="130.048" x2="121.528" y2="128.778" width="0" layer="19" extent="1-1"/>
+<wire x1="133.72" y1="133.35" x2="129.402" y2="130.048" width="0" layer="19" extent="1-1"/>
+<wire x1="149.744" y1="122.428" x2="139.562" y2="118.618" width="0" layer="19" extent="1-1"/>
+<wire x1="152.4" y1="118.734" x2="149.744" y2="122.428" width="0" layer="19" extent="1-1"/>
+<wire x1="156.094" y1="115.458" x2="152.4" y2="118.734" width="0" layer="19" extent="1-1"/>
+<wire x1="159.766" y1="115.316" x2="156.094" y2="115.458" width="0" layer="19" extent="1-1"/>
+<wire x1="166.497" y1="118.11" x2="159.766" y2="115.316" width="0" layer="19" extent="1-1"/>
+<wire x1="118.364" y1="145.426" x2="117.486" y2="132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="121.158" y1="148.336" x2="118.364" y2="145.426" width="0" layer="19" extent="1-1"/>
+<wire x1="126.238" y1="153.3" x2="121.158" y2="148.336" width="0" layer="19" extent="1-1"/>
+<wire x1="128.778" y1="153.3" x2="126.238" y2="153.3" width="0" layer="19" extent="1-1"/>
+<wire x1="143.764" y1="142.85" x2="133.72" y2="133.35" width="0" layer="19" extent="1-1"/>
 <wire x1="141.478" y1="146.42" x2="143.764" y2="142.85" width="0" layer="19" extent="1-1"/>
 <wire x1="147.828" y1="146.42" x2="143.764" y2="142.85" width="0" layer="19" extent="1-1"/>
 <wire x1="154.178" y1="146.42" x2="147.828" y2="146.42" width="0" layer="19" extent="1-1"/>
@@ -15737,15 +15739,40 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="173.228" y1="146.42" x2="166.878" y2="146.42" width="0" layer="19" extent="1-1"/>
 <wire x1="191.146" y1="151.384" x2="173.228" y2="146.42" width="0" layer="19" extent="1-1"/>
 <wire x1="194.056" y1="148.59" x2="191.146" y2="151.384" width="0" layer="19" extent="1-1"/>
-<wire x1="198.65975" y1="145.807" x2="194.056" y2="148.59" width="0" layer="19" extent="1-1"/>
-<wire x1="201.168" y1="145.77525" x2="198.65975" y2="145.807" width="0" layer="19" extent="1-1"/>
-<wire x1="210.49" y1="137.018" x2="201.168" y2="145.77525" width="0" layer="19" extent="1-1"/>
+<wire x1="198.60725" y1="143.51" x2="194.056" y2="148.59" width="0" layer="19" extent="1-1"/>
+<wire x1="198.639" y1="140.93825" x2="198.60725" y2="143.51" width="0" layer="19" extent="1-1"/>
+<wire x1="210.49" y1="137.018" x2="198.639" y2="140.93825" width="0" layer="19" extent="1-1"/>
 <wire x1="206.39" y1="130.518" x2="210.49" y2="137.018" width="0" layer="19" extent="1-1"/>
 <wire x1="217.79" y1="132.118" x2="210.49" y2="137.018" width="0" layer="19" extent="1-1"/>
 <wire x1="213.69" y1="125.618" x2="217.79" y2="132.118" width="0" layer="19" extent="1-1"/>
+<wire x1="225.044" y1="111.876" x2="213.69" y2="125.618" width="0" layer="19" extent="1-1"/>
 <wire x1="223.012" y1="154.178" x2="210.49" y2="137.018" width="0" layer="19" extent="1-1"/>
-<wire x1="80.264" y1="113.562" x2="103.378" y2="127.254" width="0" layer="19" extent="1-1"/>
-<wire x1="252.614" y1="120.396" x2="217.79" y2="132.118" width="0" layer="19" extent="1-1"/>
+<wire x1="96.774" y1="98.436" x2="119.237640625" y2="113.349125" width="0" layer="19" extent="1-1"/>
+<wire x1="75.438" y1="108.85" x2="96.774" y2="98.436" width="0" layer="19" extent="1-1"/>
+<wire x1="68.961" y1="110.5" x2="75.438" y2="108.85" width="0" layer="19" extent="1-1"/>
+<wire x1="68.274" y1="132.334" x2="68.961" y2="110.5" width="0" layer="19" extent="1-1"/>
+<wire x1="68.274" y1="143.764" x2="68.274" y2="132.334" width="0" layer="19" extent="1-1"/>
+<wire x1="68.274" y1="155.448" x2="68.274" y2="143.764" width="0" layer="19" extent="1-1"/>
+<wire x1="68.274" y1="167.132" x2="68.274" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="82.18" y1="130.81" x2="68.274" y2="132.334" width="0" layer="19" extent="1-1"/>
+<wire x1="82.18" y1="136.144" x2="82.18" y2="130.81" width="0" layer="19" extent="1-1"/>
+<wire x1="82.18" y1="141.478" x2="82.18" y2="136.144" width="0" layer="19" extent="1-1"/>
+<wire x1="82.18" y1="146.812" x2="82.18" y2="141.478" width="0" layer="19" extent="1-1"/>
+<wire x1="82.18" y1="152.146" x2="82.18" y2="146.812" width="0" layer="19" extent="1-1"/>
+<wire x1="82.18" y1="157.48" x2="82.18" y2="152.146" width="0" layer="19" extent="1-1"/>
+<wire x1="82.18" y1="162.814" x2="82.18" y2="157.48" width="0" layer="19" extent="1-1"/>
+<wire x1="53.618" y1="130.556" x2="68.274" y2="132.334" width="0" layer="19" extent="1-1"/>
+<wire x1="51.002" y1="143.764" x2="53.618" y2="130.556" width="0" layer="19" extent="1-1"/>
+<wire x1="51.002" y1="155.448" x2="51.002" y2="143.764" width="0" layer="19" extent="1-1"/>
+<wire x1="51.002" y1="167.132" x2="51.002" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="31.104" y1="162.56" x2="51.002" y2="167.132" width="0" layer="19" extent="1-1"/>
+<wire x1="31.104" y1="160.782" x2="31.104" y2="162.56" width="0" layer="19" extent="1-1"/>
+<wire x1="30.604" y1="158.75" x2="31.104" y2="160.782" width="0" layer="19" extent="1-1"/>
+<wire x1="26.856" y1="167.64" x2="31.104" y2="162.56" width="0" layer="19" extent="1-1"/>
+<wire x1="24.36" y1="150.114" x2="30.604" y2="158.75" width="0" layer="19" extent="1-1"/>
+<wire x1="26.356" y1="139.446" x2="24.36" y2="150.114" width="0" layer="19" extent="1-1"/>
+<wire x1="14.478" y1="170.976" x2="26.856" y2="167.64" width="0" layer="19" extent="1-1"/>
+<wire x1="252.614" y1="120.396" x2="225.044" y2="111.876" width="0" layer="19" extent="1-1"/>
 <wire x1="260.858" y1="122.036" x2="252.614" y2="120.396" width="0" layer="19" extent="1-1"/>
 <wire x1="265.176" y1="121.296" x2="260.858" y2="122.036" width="0" layer="19" extent="1-1"/>
 <wire x1="276.098" y1="127.624" x2="265.176" y2="121.296" width="0" layer="19" extent="1-1"/>
@@ -15758,22 +15785,22 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="265.176" y1="137.53" x2="267.716" y2="137.53" width="0" layer="19" extent="1-1"/>
 <wire x1="262.636" y1="137.53" x2="265.176" y2="137.53" width="0" layer="19" extent="1-1"/>
 <wire x1="272.654" y1="142.494" x2="271.272" y2="137.53" width="0" layer="19" extent="1-1"/>
-<wire x1="318.146" y1="141.732" x2="282.448" y2="137.53" width="0" layer="19" extent="1-1"/>
-<wire x1="320.346" y1="139.827" x2="318.146" y2="141.732" width="0" layer="19" extent="1-1"/>
-<wire x1="327.036" y1="139.7" x2="320.346" y2="139.827" width="0" layer="19" extent="1-1"/>
-<wire x1="327.036" y1="143.764" x2="327.036" y2="139.7" width="0" layer="19" extent="1-1"/>
-<wire x1="327.036" y1="147.574" x2="327.036" y2="143.764" width="0" layer="19" extent="1-1"/>
-<wire x1="327.036" y1="151.638" x2="327.036" y2="147.574" width="0" layer="19" extent="1-1"/>
-<wire x1="327.036" y1="155.448" x2="327.036" y2="151.638" width="0" layer="19" extent="1-1"/>
-<wire x1="327.036" y1="159.512" x2="327.036" y2="155.448" width="0" layer="19" extent="1-1"/>
-<wire x1="327.036" y1="135.636" x2="327.036" y2="139.7" width="0" layer="19" extent="1-1"/>
-<wire x1="327.036" y1="131.826" x2="327.036" y2="135.636" width="0" layer="19" extent="1-1"/>
-<wire x1="327.036" y1="127.762" x2="327.036" y2="131.826" width="0" layer="19" extent="1-1"/>
-<wire x1="320.346" y1="155.829" x2="327.036" y2="155.448" width="0" layer="19" extent="1-1"/>
-<wire x1="318.146" y1="157.48" x2="320.346" y2="155.829" width="0" layer="19" extent="1-1"/>
-<wire x1="71.374" y1="65.786" x2="80.264" y2="113.562" width="0" layer="19" extent="1-1"/>
-<wire x1="71.374" y1="49.022" x2="71.374" y2="65.786" width="0" layer="19" extent="1-1"/>
-<wire x1="27.178" y1="34.66" x2="71.374" y2="49.022" width="0" layer="19" extent="1-1"/>
+<wire x1="318.146" y1="132.08" x2="282.448" y2="137.53" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="130.175" x2="318.146" y2="132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="327.036" y1="130.048" x2="320.346" y2="130.175" width="0" layer="19" extent="1-1"/>
+<wire x1="327.036" y1="134.112" x2="327.036" y2="130.048" width="0" layer="19" extent="1-1"/>
+<wire x1="327.036" y1="137.922" x2="327.036" y2="134.112" width="0" layer="19" extent="1-1"/>
+<wire x1="327.036" y1="141.986" x2="327.036" y2="137.922" width="0" layer="19" extent="1-1"/>
+<wire x1="327.036" y1="145.796" x2="327.036" y2="141.986" width="0" layer="19" extent="1-1"/>
+<wire x1="327.036" y1="149.86" x2="327.036" y2="145.796" width="0" layer="19" extent="1-1"/>
+<wire x1="327.036" y1="125.984" x2="327.036" y2="130.048" width="0" layer="19" extent="1-1"/>
+<wire x1="327.036" y1="122.174" x2="327.036" y2="125.984" width="0" layer="19" extent="1-1"/>
+<wire x1="327.036" y1="118.11" x2="327.036" y2="122.174" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="146.177" x2="327.036" y2="145.796" width="0" layer="19" extent="1-1"/>
+<wire x1="318.146" y1="147.828" x2="320.346" y2="146.177" width="0" layer="19" extent="1-1"/>
+<wire x1="79.756" y1="44.704" x2="96.774" y2="98.436" width="0" layer="19" extent="1-1"/>
+<wire x1="51.054" y1="44.704" x2="79.756" y2="44.704" width="0" layer="19" extent="1-1"/>
+<wire x1="27.178" y1="34.66" x2="51.054" y2="44.704" width="0" layer="19" extent="1-1"/>
 <wire x1="23.114" y1="34.66" x2="27.178" y2="34.66" width="0" layer="19" extent="1-1"/>
 <wire x1="19.304" y1="34.66" x2="23.114" y2="34.66" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="34.66" x2="19.304" y2="34.66" width="0" layer="19" extent="1-1"/>
@@ -15781,57 +15808,29 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="7.366" y1="34.66" x2="11.43" y2="34.66" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.508" y1="34.66" x2="7.366" y2="34.66" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.572" y1="34.66" x2="-0.508" y2="34.66" width="0" layer="19" extent="1-1"/>
-<wire x1="30.928" y1="125.222" x2="80.264" y2="113.562" width="0" layer="19" extent="1-1"/>
-<wire x1="28.932" y1="135.89" x2="30.928" y2="125.222" width="0" layer="19" extent="1-1"/>
-<wire x1="35.176" y1="144.526" x2="28.932" y2="135.89" width="0" layer="19" extent="1-1"/>
-<wire x1="35.676" y1="146.558" x2="35.176" y2="144.526" width="0" layer="19" extent="1-1"/>
-<wire x1="35.676" y1="148.336" x2="35.676" y2="146.558" width="0" layer="19" extent="1-1"/>
-<wire x1="31.428" y1="153.416" x2="35.676" y2="148.336" width="0" layer="19" extent="1-1"/>
-<wire x1="14.478" y1="170.976" x2="31.428" y2="153.416" width="0" layer="19" extent="1-1"/>
-<wire x1="-12.7" y1="206.64" x2="14.478" y2="170.976" width="0" layer="19" extent="1-1"/>
-<wire x1="65.278" y1="190.362" x2="31.428" y2="153.416" width="0" layer="19" extent="1-1"/>
-<wire x1="67.818" y1="190.362" x2="65.278" y2="190.362" width="0" layer="19" extent="1-1"/>
-<wire x1="70.358" y1="190.362" x2="67.818" y2="190.362" width="0" layer="19" extent="1-1"/>
-<wire x1="72.898" y1="190.362" x2="70.358" y2="190.362" width="0" layer="19" extent="1-1"/>
-<wire x1="75.438" y1="190.362" x2="72.898" y2="190.362" width="0" layer="19" extent="1-1"/>
-<wire x1="77.978" y1="190.362" x2="75.438" y2="190.362" width="0" layer="19" extent="1-1"/>
-<wire x1="80.518" y1="190.362" x2="77.978" y2="190.362" width="0" layer="19" extent="1-1"/>
-<wire x1="281.93" y1="198.755" x2="318.146" y2="157.48" width="0" layer="19" extent="1-1"/>
-<wire x1="288.66" y1="213.36" x2="281.93" y2="198.755" width="0" layer="19" extent="1-1"/>
-<wire x1="205.105" y1="214.884" x2="223.012" y2="154.178" width="0" layer="19" extent="1-1"/>
-<wire x1="214.884" y1="224.42" x2="205.105" y2="214.884" width="0" layer="19" extent="1-1"/>
-<wire x1="214.884" y1="228.23" x2="214.884" y2="224.42" width="0" layer="19" extent="1-1"/>
-<wire x1="204.47" y1="234.834" x2="214.884" y2="228.23" width="0" layer="19" extent="1-1"/>
-<wire x1="158.04" y1="254" x2="204.47" y2="234.834" width="0" layer="19" extent="1-1"/>
-<wire x1="140.26" y1="254" x2="158.04" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="122.48" y1="254" x2="140.26" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="104.7" y1="254" x2="122.48" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="86.92" y1="254" x2="104.7" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="69.14" y1="254" x2="86.92" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="51.36" y1="254" x2="69.14" y2="254" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RES">
 <contactref element="R176" pad="1"/>
 <contactref element="PROP_RST" pad="P$2"/>
 <contactref element="U1" pad="7"/>
 <contactref element="C1" pad="2"/>
-<wire x1="212.89" y1="125.618" x2="236.728" y2="212.736" width="0" layer="19" extent="1-1"/>
-<wire x1="276.098" y1="129.424" x2="212.89" y2="125.618" width="0" layer="19" extent="1-1"/>
-<wire x1="114.39" y1="216.573" x2="236.728" y2="212.736" width="0" layer="19" extent="1-1"/>
+<wire x1="212.89" y1="125.618" x2="276.098" y2="129.424" width="0" layer="19" extent="1-1"/>
+<wire x1="212.852" y1="121.55" x2="212.89" y2="125.618" width="0" layer="19" extent="1-1"/>
+<wire x1="209.207" y1="115.226" x2="212.852" y2="121.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA_PROP">
 <contactref element="R17" pad="1"/>
 <contactref element="U4" pad="5"/>
 <contactref element="U1" pad="36"/>
-<wire x1="194.056" y1="140.97" x2="198.65975" y2="144.007" width="0" layer="19" extent="1-1"/>
-<wire x1="206.39" y1="133.718" x2="198.65975" y2="144.007" width="0" layer="19" extent="1-1"/>
+<wire x1="196.839" y1="140.93825" x2="206.39" y2="133.718" width="0" layer="19" extent="1-1"/>
+<wire x1="194.056" y1="140.97" x2="196.839" y2="140.93825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL_PROP">
 <contactref element="R16" pad="1"/>
 <contactref element="U4" pad="6"/>
 <contactref element="U1" pad="35"/>
-<wire x1="194.056" y1="143.51" x2="201.168" y2="143.97525" width="0" layer="19" extent="1-1"/>
-<wire x1="206.39" y1="134.518" x2="201.168" y2="143.97525" width="0" layer="19" extent="1-1"/>
+<wire x1="194.056" y1="143.51" x2="196.80725" y2="143.51" width="0" layer="19" extent="1-1"/>
+<wire x1="206.39" y1="134.518" x2="196.80725" y2="143.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P27">
 <contactref element="PROP_ACT" pad="ANODE"/>
@@ -15841,37 +15840,37 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <signal name="COMM_DATA">
 <contactref element="IC2" pad="50"/>
 <contactref element="U1" pad="33"/>
-<wire x1="208.09" y1="137.018" x2="125.756" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="208.09" y1="137.018" x2="118.106271875" y2="117.1675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P21">
 <contactref element="U1" pad="24"/>
 <contactref element="DMD_CON" pad="1"/>
-<wire x1="233.934" y1="155.702" x2="215.29" y2="137.018" width="0" layer="19" extent="1-1"/>
+<wire x1="215.29" y1="137.018" x2="234.442" y2="152.908" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P20">
 <contactref element="U1" pad="23"/>
 <contactref element="DMD_CON" pad="3"/>
-<wire x1="236.474" y1="155.702" x2="216.09" y2="137.018" width="0" layer="19" extent="1-1"/>
+<wire x1="216.09" y1="137.018" x2="236.982" y2="152.908" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P19">
 <contactref element="U1" pad="22"/>
 <contactref element="DMD_CON" pad="5"/>
-<wire x1="239.014" y1="155.702" x2="217.79" y2="135.318" width="0" layer="19" extent="1-1"/>
+<wire x1="217.79" y1="135.318" x2="239.522" y2="152.908" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P18">
 <contactref element="U1" pad="21"/>
 <contactref element="DMD_CON" pad="7"/>
-<wire x1="241.554" y1="155.702" x2="217.79" y2="134.518" width="0" layer="19" extent="1-1"/>
+<wire x1="217.79" y1="134.518" x2="242.062" y2="152.908" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P17">
 <contactref element="U1" pad="20"/>
 <contactref element="DMD_CON" pad="9"/>
-<wire x1="244.094" y1="155.702" x2="217.79" y2="133.718" width="0" layer="19" extent="1-1"/>
+<wire x1="217.79" y1="133.718" x2="244.602" y2="152.908" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P16">
 <contactref element="U1" pad="19"/>
 <contactref element="DMD_CON" pad="11"/>
-<wire x1="246.634" y1="155.702" x2="217.79" y2="132.918" width="0" layer="19" extent="1-1"/>
+<wire x1="217.79" y1="132.918" x2="247.142" y2="152.908" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P1">
 <contactref element="SD0" pad="5"/>
@@ -15896,7 +15895,7 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <signal name="P8">
 <contactref element="U1" pad="9"/>
 <contactref element="DMD_CON" pad="13"/>
-<wire x1="249.174" y1="155.702" x2="214.49" y2="125.618" width="0" layer="19" extent="1-1"/>
+<wire x1="214.49" y1="125.618" x2="249.682" y2="152.908" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="X0">
 <contactref element="X2" pad="P$1"/>
@@ -15925,12 +15924,12 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <signal name="COMM_CLK">
 <contactref element="IC2" pad="40"/>
 <contactref element="U1" pad="32"/>
-<wire x1="208.89" y1="137.018" x2="129.756" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="208.89" y1="137.018" x2="120.934696875" y2="119.995928125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COMM_ATN">
 <contactref element="IC2" pad="39"/>
 <contactref element="U1" pad="31"/>
-<wire x1="209.69" y1="137.018" x2="130.156" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="209.69" y1="137.018" x2="121.217540625" y2="120.278771875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P14">
 <contactref element="R32" pad="1"/>
@@ -15946,25 +15945,25 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="U1" pad="14"/>
 <contactref element="PROP_PROGRAM" pad="P$1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="-12.7" y1="204.84" x2="-12.61" y2="214.465" width="0" layer="19" extent="1-1"/>
-<wire x1="217.79" y1="128.918" x2="-12.7" y2="204.84" width="0" layer="19" extent="1-1"/>
+<wire x1="214.465" y1="115.226" x2="217.79" y2="128.918" width="0" layer="19" extent="1-1"/>
+<wire x1="225.044" y1="113.676" x2="214.465" y2="115.226" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P12">
 <contactref element="U1" pad="13"/>
 </signal>
 <signal name="TX_PROP">
 <contactref element="U1" pad="37"/>
-<contactref element="J1" pad="5"/>
-<contactref element="J2" pad="P$3"/>
-<wire x1="228.219" y1="204.47" x2="229.616" y2="221.742" width="0" layer="19" extent="1-1"/>
-<wire x1="206.39" y1="132.918" x2="228.219" y2="204.47" width="0" layer="19" extent="1-1"/>
+<contactref element="PROP_UART" pad="5"/>
+<contactref element="PROP_TC" pad="P$3"/>
+<wire x1="186.944" y1="124.968" x2="206.39" y2="132.918" width="0" layer="19" extent="1-1"/>
+<wire x1="181.483" y1="121.158" x2="186.944" y2="124.968" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX_PROP">
 <contactref element="U1" pad="38"/>
-<contactref element="J1" pad="4"/>
-<contactref element="J2" pad="P$4"/>
-<wire x1="226.949" y1="204.47" x2="229.616" y2="219.202" width="0" layer="19" extent="1-1"/>
-<wire x1="206.39" y1="132.118" x2="226.949" y2="204.47" width="0" layer="19" extent="1-1"/>
+<contactref element="PROP_UART" pad="4"/>
+<contactref element="PROP_TC" pad="P$4"/>
+<wire x1="186.944" y1="122.428" x2="206.39" y2="132.118" width="0" layer="19" extent="1-1"/>
+<wire x1="180.213" y1="121.158" x2="186.944" y2="122.428" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="SD0" pad="9"/>
@@ -16046,26 +16045,19 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="97.536" y1="169.418" x2="88.646" y2="169.418" width="0" layer="19" extent="1-1"/>
 <wire x1="97.536" y1="162.052" x2="97.536" y2="169.418" width="0" layer="19" extent="1-1"/>
 <wire x1="106.38" y1="167.64" x2="97.536" y2="169.418" width="0" layer="19" extent="1-1"/>
-<wire x1="38.608" y1="155.701" x2="88.646" y2="154.686" width="0" layer="19" extent="1-1"/>
-<wire x1="17.296" y1="153.416" x2="38.608" y2="155.701" width="0" layer="19" extent="1-1"/>
-<wire x1="11.744" y1="142.748" x2="17.296" y2="153.416" width="0" layer="19" extent="1-1"/>
-<wire x1="9.782" y1="137.922" x2="11.744" y2="142.748" width="0" layer="19" extent="1-1"/>
-<wire x1="8.774" y1="135.382" x2="9.782" y2="137.922" width="0" layer="19" extent="1-1"/>
-<wire x1="8.774" y1="133.35" x2="8.774" y2="135.382" width="0" layer="19" extent="1-1"/>
-<wire x1="8.734" y1="167.894" x2="17.296" y2="153.416" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.335" y1="83.44725" x2="8.774" y2="133.35" width="0" layer="19" extent="1-1"/>
-<wire x1="47.36" y1="213.36" x2="38.608" y2="155.701" width="0" layer="19" extent="1-1"/>
-<wire x1="47.36" y1="218.44" x2="47.36" y2="213.36" width="0" layer="19" extent="1-1"/>
-<wire x1="47.36" y1="223.52" x2="47.36" y2="218.44" width="0" layer="19" extent="1-1"/>
-<wire x1="47.36" y1="228.6" x2="47.36" y2="223.52" width="0" layer="19" extent="1-1"/>
-<wire x1="47.36" y1="233.68" x2="47.36" y2="228.6" width="0" layer="19" extent="1-1"/>
-<wire x1="47.36" y1="238.76" x2="47.36" y2="233.68" width="0" layer="19" extent="1-1"/>
-<wire x1="47.36" y1="243.84" x2="47.36" y2="238.76" width="0" layer="19" extent="1-1"/>
-<wire x1="107.696" y1="89.408" x2="88.646" y2="154.686" width="0" layer="19" extent="1-1"/>
-<wire x1="101.473" y1="82.964" x2="107.696" y2="89.408" width="0" layer="19" extent="1-1"/>
-<wire x1="100.203" y1="82.964" x2="101.473" y2="82.964" width="0" layer="19" extent="1-1"/>
-<wire x1="97.398" y1="86.614" x2="100.203" y2="82.964" width="0" layer="19" extent="1-1"/>
-<wire x1="102.743" y1="77.564" x2="101.473" y2="82.964" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="153.924" x2="88.646" y2="154.686" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="159.258" x2="78.878" y2="153.924" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="148.59" x2="78.878" y2="153.924" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="143.256" x2="78.878" y2="148.59" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="137.922" x2="78.878" y2="143.256" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="132.588" x2="78.878" y2="137.922" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="127.254" x2="78.878" y2="132.588" width="0" layer="19" extent="1-1"/>
+<wire x1="88.622" y1="143.002" x2="78.878" y2="143.256" width="0" layer="19" extent="1-1"/>
+<wire x1="97.398" y1="86.614" x2="78.878" y2="127.254" width="0" layer="19" extent="1-1"/>
+<wire x1="95.598" y1="82.423" x2="97.398" y2="86.614" width="0" layer="19" extent="1-1"/>
+<wire x1="95.598" y1="81.153" x2="95.598" y2="82.423" width="0" layer="19" extent="1-1"/>
+<wire x1="100.998" y1="83.693" x2="97.398" y2="86.614" width="0" layer="19" extent="1-1"/>
+<wire x1="107.696" y1="89.408" x2="100.998" y2="83.693" width="0" layer="19" extent="1-1"/>
 <wire x1="122.566" y1="80.264" x2="107.696" y2="89.408" width="0" layer="19" extent="1-1"/>
 <wire x1="133.35" y1="73.032" x2="122.566" y2="80.264" width="0" layer="19" extent="1-1"/>
 <wire x1="152.654" y1="73.032" x2="133.35" y2="73.032" width="0" layer="19" extent="1-1"/>
@@ -16073,6 +16065,14 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="191.262" y1="73.032" x2="171.958" y2="73.032" width="0" layer="19" extent="1-1"/>
 <wire x1="210.566" y1="73.032" x2="191.262" y2="73.032" width="0" layer="19" extent="1-1"/>
 <wire x1="229.87" y1="73.032" x2="210.566" y2="73.032" width="0" layer="19" extent="1-1"/>
+<wire x1="34.036" y1="169.925" x2="78.878" y2="159.258" width="0" layer="19" extent="1-1"/>
+<wire x1="17.296" y1="153.416" x2="34.036" y2="169.925" width="0" layer="19" extent="1-1"/>
+<wire x1="11.744" y1="142.748" x2="17.296" y2="153.416" width="0" layer="19" extent="1-1"/>
+<wire x1="9.782" y1="137.922" x2="11.744" y2="142.748" width="0" layer="19" extent="1-1"/>
+<wire x1="8.774" y1="135.382" x2="9.782" y2="137.922" width="0" layer="19" extent="1-1"/>
+<wire x1="8.774" y1="133.35" x2="8.774" y2="135.382" width="0" layer="19" extent="1-1"/>
+<wire x1="8.734" y1="167.894" x2="17.296" y2="153.416" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.335" y1="83.44725" x2="8.774" y2="133.35" width="0" layer="19" extent="1-1"/>
 <wire x1="287.274" y1="72.329" x2="229.87" y2="73.032" width="0" layer="19" extent="1-1"/>
 <wire x1="287.274" y1="64.709" x2="287.274" y2="72.329" width="0" layer="19" extent="1-1"/>
 <wire x1="288.036" y1="87.006" x2="287.274" y2="72.329" width="0" layer="19" extent="1-1"/>
@@ -16082,22 +16082,21 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="311.404" y1="105.802" x2="297.815" y2="89.206" width="0" layer="19" extent="1-1"/>
 <wire x1="313.563" y1="108.002" x2="311.404" y2="105.802" width="0" layer="19" extent="1-1"/>
 <wire x1="321.183" y1="108.002" x2="313.563" y2="108.002" width="0" layer="19" extent="1-1"/>
-<wire x1="337.53425" y1="179.29575" x2="313.563" y2="108.002" width="0" layer="19" extent="1-1"/>
-<wire x1="342.9" y1="180.464" x2="337.53425" y2="179.29575" width="0" layer="19" extent="1-1"/>
-<wire x1="345.44" y1="180.964" x2="342.9" y2="180.464" width="0" layer="19" extent="1-1"/>
-<wire x1="347.853" y1="180.964" x2="345.44" y2="180.964" width="0" layer="19" extent="1-1"/>
-<wire x1="319.584" y1="179.832" x2="347.853" y2="180.964" width="0" layer="19" extent="1-1"/>
-<wire x1="344.932" y1="200.938" x2="319.584" y2="179.832" width="0" layer="19" extent="1-1"/>
-<wire x1="223.012" y1="156.718" x2="337.53425" y2="179.29575" width="0" layer="19" extent="1-1"/>
+<wire x1="323.977" y1="158.634" x2="313.563" y2="108.002" width="0" layer="19" extent="1-1"/>
+<wire x1="322.326" y1="158.634" x2="323.977" y2="158.634" width="0" layer="19" extent="1-1"/>
+<wire x1="320.04" y1="159.134" x2="322.326" y2="158.634" width="0" layer="19" extent="1-1"/>
+<wire x1="314.99175" y1="160.30225" x2="320.04" y2="159.134" width="0" layer="19" extent="1-1"/>
+<wire x1="316.282" y1="168.402" x2="314.99175" y2="160.30225" width="0" layer="19" extent="1-1"/>
+<wire x1="223.012" y1="156.718" x2="229.87" y2="73.032" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DATA_LAT">
 <contactref element="U11" pad="1"/>
 <contactref element="U12" pad="1"/>
 <contactref element="U10" pad="1"/>
 <contactref element="IC2" pad="12"/>
-<wire x1="290.552" y1="100.65" x2="137.256" y2="110.598" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="139.827" x2="290.552" y2="100.65" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="155.829" x2="314.146" y2="139.827" width="0" layer="19" extent="1-1"/>
+<wire x1="290.552" y1="100.65" x2="131.25845625" y2="120.278771875" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="130.175" x2="290.552" y2="100.65" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="146.177" x2="314.146" y2="130.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DATA_CLK">
 <contactref element="U11" pad="2"/>
@@ -16105,10 +16104,10 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="IC2" pad="93"/>
 <contactref element="U5" pad="11"/>
 <contactref element="U3" pad="11"/>
-<wire x1="296.545" y1="89.206" x2="132.556" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="296.545" y1="89.206" x2="132.389828125" y2="112.500596875" width="0" layer="19" extent="1-1"/>
 <wire x1="319.913" y1="108.002" x2="296.545" y2="89.206" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="138.557" x2="319.913" y2="108.002" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="154.559" x2="314.146" y2="138.557" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="128.905" x2="319.913" y2="108.002" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="144.907" x2="314.146" y2="128.905" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GI_DATA_COL_B">
 <contactref element="U5" pad="14"/>
@@ -16121,9 +16120,9 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <signal name="RG9">
 <contactref element="IC2" pad="14"/>
 <contactref element="R137" pad="1"/>
-<contactref element="SW3" pad="P$1"/>
-<wire x1="150.484" y1="116.586" x2="137.256" y2="111.398" width="0" layer="19" extent="1-1"/>
-<wire x1="131.154" y1="208.623" x2="150.484" y2="116.586" width="0" layer="19" extent="1-1"/>
+<contactref element="PIC_PROGRAM" pad="P$1"/>
+<wire x1="147.944" y1="122.428" x2="130.692771875" y2="120.84445625" width="0" layer="19" extent="1-1"/>
+<wire x1="129.883" y1="101.764" x2="130.692771875" y2="120.84445625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WATCHDOG">
 <contactref element="U10" pad="3"/>
@@ -16168,7 +16167,7 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <wire x1="127" y1="73.032" x2="130.81" y2="73.032" width="0" layer="19" extent="1-1"/>
 <wire x1="117.89" y1="73.406" x2="127" y2="73.032" width="0" layer="19" extent="1-1"/>
 <wire x1="109.474" y1="74.306" x2="117.89" y2="73.406" width="0" layer="19" extent="1-1"/>
-<wire x1="98.933" y1="77.564" x2="109.474" y2="74.306" width="0" layer="19" extent="1-1"/>
+<wire x1="100.998" y1="79.883" x2="109.474" y2="74.306" width="0" layer="19" extent="1-1"/>
 <wire x1="184.912" y1="73.032" x2="171.958" y2="78.352" width="0" layer="19" extent="1-1"/>
 <wire x1="188.722" y1="73.032" x2="184.912" y2="73.032" width="0" layer="19" extent="1-1"/>
 <wire x1="187.452" y1="78.352" x2="188.722" y2="73.032" width="0" layer="19" extent="1-1"/>
@@ -16194,7 +16193,7 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <signal name="GI_DATA_COL">
 <contactref element="U3" pad="14"/>
 <contactref element="IC2" pad="11"/>
-<wire x1="316.103" y1="108.002" x2="137.256" y2="110.198" width="0" layer="19" extent="1-1"/>
+<wire x1="316.103" y1="108.002" x2="131.5413" y2="119.995928125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!AN_BLANK">
 <contactref element="U10" pad="4"/>
@@ -16204,136 +16203,136 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <signal name="DATA_CAB">
 <contactref element="U11" pad="9"/>
 <contactref element="IC2" pad="87"/>
-<wire x1="320.346" y1="130.937" x2="130.156" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="121.285" x2="130.692771875" y2="110.803540625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_6">
 <contactref element="U11" pad="6"/>
 <contactref element="R42" pad="1"/>
 <contactref element="R15" pad="1"/>
-<wire x1="72.898" y1="192.162" x2="314.146" y2="133.477" width="0" layer="19" extent="1-1"/>
-<wire x1="53.34" y1="207.38" x2="72.898" y2="192.162" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="146.812" x2="80.38" y2="146.812" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="123.825" x2="80.38" y2="146.812" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_5">
 <contactref element="U11" pad="5"/>
 <contactref element="R41" pad="1"/>
 <contactref element="R10" pad="1"/>
-<wire x1="70.358" y1="192.162" x2="27.94" y2="207.38" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="134.747" x2="70.358" y2="192.162" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="152.146" x2="80.38" y2="152.146" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="125.095" x2="80.38" y2="152.146" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_4">
 <contactref element="U11" pad="4"/>
 <contactref element="R40" pad="1"/>
 <contactref element="R7" pad="1"/>
-<wire x1="67.818" y1="192.162" x2="2.54" y2="207.38" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="136.017" x2="67.818" y2="192.162" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="157.48" x2="80.38" y2="157.48" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="126.365" x2="80.38" y2="157.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_3">
 <contactref element="U11" pad="3"/>
 <contactref element="R39" pad="1"/>
 <contactref element="R5" pad="1"/>
-<wire x1="65.278" y1="192.162" x2="314.146" y2="137.287" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.86" y1="202.3" x2="65.278" y2="192.162" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="162.814" x2="80.38" y2="162.814" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="127.635" x2="80.38" y2="162.814" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_1">
 <contactref element="U11" pad="12"/>
 <contactref element="R36" pad="1"/>
 <contactref element="R31" pad="1"/>
-<wire x1="101.6" y1="212.46" x2="320.346" y2="134.747" width="0" layer="19" extent="1-1"/>
-<wire x1="77.978" y1="192.162" x2="101.6" y2="212.46" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="136.144" x2="80.38" y2="136.144" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="125.095" x2="80.38" y2="136.144" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_0">
 <contactref element="U11" pad="11"/>
 <contactref element="R35" pad="1"/>
 <contactref element="R138" pad="1"/>
-<wire x1="80.518" y1="192.162" x2="320.346" y2="133.477" width="0" layer="19" extent="1-1"/>
-<wire x1="78.74" y1="212.46" x2="80.518" y2="192.162" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="130.81" x2="80.38" y2="130.81" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="123.825" x2="80.38" y2="130.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_2">
 <contactref element="U11" pad="13"/>
 <contactref element="R37" pad="1"/>
 <contactref element="R28" pad="1"/>
-<wire x1="101.6" y1="202.3" x2="320.346" y2="136.017" width="0" layer="19" extent="1-1"/>
-<wire x1="75.438" y1="192.162" x2="101.6" y2="202.3" width="0" layer="19" extent="1-1"/>
+<wire x1="78.878" y1="141.478" x2="80.38" y2="141.478" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="126.365" x2="80.38" y2="141.478" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DATA_CAB1">
 <contactref element="U11" pad="10"/>
 <contactref element="U12" pad="9"/>
-<wire x1="320.346" y1="132.207" x2="320.346" y2="146.939" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="122.555" x2="320.346" y2="137.287" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ST_LI">
 <contactref element="U37" pad="D"/>
 <contactref element="CABINET" pad="P$2"/>
-<wire x1="284.48" y1="111.76" x2="333.502" y2="123.808" width="0" layer="19" extent="1-1"/>
+<wire x1="284.48" y1="111.76" x2="333.502" y2="114.156" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ST_BU">
 <contactref element="U11" pad="14"/>
 <contactref element="R38" pad="1"/>
 <contactref element="CABINET" pad="P$3"/>
-<wire x1="325.236" y1="127.762" x2="333.502" y2="127.768" width="0" layer="19" extent="1-1"/>
-<wire x1="320.346" y1="137.287" x2="325.236" y2="127.762" width="0" layer="19" extent="1-1"/>
+<wire x1="325.236" y1="118.11" x2="333.502" y2="118.116" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="127.635" x2="325.236" y2="118.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TILT">
 <contactref element="U12" pad="6"/>
 <contactref element="R50" pad="1"/>
 <contactref element="CABINET" pad="P$4"/>
-<wire x1="325.236" y1="131.826" x2="333.502" y2="131.728" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="149.479" x2="325.236" y2="131.826" width="0" layer="19" extent="1-1"/>
+<wire x1="325.236" y1="122.174" x2="333.502" y2="122.076" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="139.827" x2="325.236" y2="122.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COIN">
 <contactref element="U12" pad="5"/>
 <contactref element="R49" pad="1"/>
 <contactref element="CABINET" pad="P$5"/>
-<wire x1="325.236" y1="135.636" x2="333.502" y2="135.688" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="150.749" x2="325.236" y2="135.636" width="0" layer="19" extent="1-1"/>
+<wire x1="325.236" y1="125.984" x2="333.502" y2="126.036" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="141.097" x2="325.236" y2="125.984" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENTER">
 <contactref element="U12" pad="4"/>
 <contactref element="R48" pad="1"/>
 <contactref element="CABINET" pad="P$6"/>
-<wire x1="325.236" y1="139.7" x2="333.502" y2="139.648" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="152.019" x2="325.236" y2="139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="325.236" y1="130.048" x2="333.502" y2="129.996" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="142.367" x2="325.236" y2="130.048" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MENU">
 <contactref element="U12" pad="3"/>
 <contactref element="R47" pad="1"/>
 <contactref element="CABINET" pad="P$7"/>
-<wire x1="325.236" y1="143.764" x2="333.502" y2="143.608" width="0" layer="19" extent="1-1"/>
-<wire x1="314.146" y1="153.289" x2="325.236" y2="143.764" width="0" layer="19" extent="1-1"/>
+<wire x1="325.236" y1="134.112" x2="333.502" y2="133.956" width="0" layer="19" extent="1-1"/>
+<wire x1="314.146" y1="143.637" x2="325.236" y2="134.112" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DOOR">
 <contactref element="U12" pad="11"/>
 <contactref element="R43" pad="1"/>
 <contactref element="CABINET" pad="P$8"/>
-<wire x1="325.236" y1="147.574" x2="333.502" y2="147.568" width="0" layer="19" extent="1-1"/>
-<wire x1="320.346" y1="149.479" x2="325.236" y2="147.574" width="0" layer="19" extent="1-1"/>
+<wire x1="325.236" y1="137.922" x2="333.502" y2="137.916" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="139.827" x2="325.236" y2="137.922" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USER_0">
 <contactref element="U12" pad="12"/>
 <contactref element="R44" pad="1"/>
 <contactref element="CABINET" pad="P$9"/>
-<wire x1="325.236" y1="151.638" x2="333.502" y2="151.528" width="0" layer="19" extent="1-1"/>
-<wire x1="320.346" y1="150.749" x2="325.236" y2="151.638" width="0" layer="19" extent="1-1"/>
+<wire x1="325.236" y1="141.986" x2="333.502" y2="141.876" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="141.097" x2="325.236" y2="141.986" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R_FLIP">
 <contactref element="U12" pad="13"/>
 <contactref element="R45" pad="1"/>
 <contactref element="CABINET" pad="P$10"/>
-<wire x1="325.236" y1="155.448" x2="333.502" y2="155.488" width="0" layer="19" extent="1-1"/>
-<wire x1="320.346" y1="152.019" x2="325.236" y2="155.448" width="0" layer="19" extent="1-1"/>
+<wire x1="325.236" y1="145.796" x2="333.502" y2="145.836" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="142.367" x2="325.236" y2="145.796" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="L_FLIP">
 <contactref element="U12" pad="14"/>
 <contactref element="R46" pad="1"/>
 <contactref element="CABINET" pad="P$11"/>
-<wire x1="325.236" y1="159.512" x2="333.502" y2="159.448" width="0" layer="19" extent="1-1"/>
-<wire x1="320.346" y1="153.289" x2="325.236" y2="159.512" width="0" layer="19" extent="1-1"/>
+<wire x1="325.236" y1="149.86" x2="333.502" y2="149.796" width="0" layer="19" extent="1-1"/>
+<wire x1="320.346" y1="143.637" x2="325.236" y2="149.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_ENABLE">
 <contactref element="IC2" pad="1"/>
 <contactref element="U52" pad="1"/>
 <contactref element="R133" pad="1"/>
-<wire x1="102.743" y1="82.964" x2="137.256" y2="106.198" width="0" layer="19" extent="1-1"/>
-<wire x1="89.916" y1="84.72" x2="102.743" y2="82.964" width="0" layer="19" extent="1-1"/>
+<wire x1="95.598" y1="83.693" x2="134.369725" y2="117.1675" width="0" layer="19" extent="1-1"/>
+<wire x1="90.932" y1="80.148" x2="95.598" y2="83.693" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL_20">
 <contactref element="U19" pad="3"/>
@@ -16479,16 +16478,16 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="F1" pad="2B"/>
 <contactref element="SOL_BANK_0" pad="P$1"/>
 <contactref element="J5" pad="P$1"/>
-<wire x1="95.464" y1="28.702" x2="85.04675" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="244.856" y1="48.829" x2="95.464" y2="28.702" width="0" layer="19" extent="1-1"/>
-<wire x1="244.856" y1="56.449" x2="244.856" y2="48.829" width="0" layer="19" extent="1-1"/>
+<wire x1="95.464" y1="28.702" x2="100.203" y2="57.36075" width="0" layer="19" extent="1-1"/>
+<wire x1="244.856" y1="56.449" x2="100.203" y2="57.36075" width="0" layer="19" extent="1-1"/>
+<wire x1="244.856" y1="48.829" x2="244.856" y2="56.449" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL_PWR_0">
 <contactref element="SOL_0" pad="D"/>
 <contactref element="SOL_BANK_0" pad="P$2"/>
 <contactref element="J5" pad="P$2"/>
-<wire x1="89.00675" y1="42.545" x2="122.682" y2="64.516" width="0" layer="19" extent="1-1"/>
-<wire x1="99.424" y1="28.702" x2="89.00675" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="100.203" y1="61.32075" x2="122.682" y2="64.516" width="0" layer="19" extent="1-1"/>
+<wire x1="99.424" y1="28.702" x2="100.203" y2="61.32075" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL_PWR_1">
 <contactref element="SOL_1" pad="D"/>
@@ -16604,7 +16603,7 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="U14" pad="2"/>
 <contactref element="R58" pad="2"/>
 <contactref element="IC2" pad="7"/>
-<wire x1="124.206" y1="83.174" x2="137.256" y2="108.598" width="0" layer="19" extent="1-1"/>
+<wire x1="124.206" y1="83.174" x2="132.67266875" y2="118.86455625" width="0" layer="19" extent="1-1"/>
 <wire x1="132.08" y1="78.352" x2="124.206" y2="83.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="50V">
@@ -16626,177 +16625,177 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="IC3" pad="8"/>
 <contactref element="R76" pad="2"/>
 <contactref element="SW_ROW" pad="P$3"/>
-<wire x1="-0.508" y1="36.46" x2="53.594" y2="73.406" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.508" y1="36.46" x2="33.274" y2="52.324" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.59725" y1="28.54325" x2="-0.508" y2="36.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_R_5">
 <contactref element="IC3" pad="13"/>
 <contactref element="R77" pad="2"/>
 <contactref element="SW_ROW" pad="P$5"/>
-<wire x1="7.366" y1="36.46" x2="53.594" y2="65.786" width="0" layer="19" extent="1-1"/>
+<wire x1="7.366" y1="36.46" x2="33.274" y2="44.704" width="0" layer="19" extent="1-1"/>
 <wire x1="7.32275" y1="28.54325" x2="7.366" y2="36.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_R_4">
 <contactref element="IC3" pad="6"/>
 <contactref element="R78" pad="2"/>
 <contactref element="SW_ROW" pad="P$6"/>
-<wire x1="11.43" y1="36.46" x2="58.674" y2="73.406" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="36.46" x2="38.354" y2="52.324" width="0" layer="19" extent="1-1"/>
 <wire x1="11.28275" y1="28.54325" x2="11.43" y2="36.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_R_3">
 <contactref element="IC3" pad="15"/>
 <contactref element="R79" pad="1"/>
 <contactref element="SW_ROW" pad="P$7"/>
-<wire x1="15.24" y1="36.46" x2="58.674" y2="65.786" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="36.46" x2="38.354" y2="44.704" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24275" y1="28.54325" x2="15.24" y2="36.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_R_1">
 <contactref element="IC3" pad="17"/>
 <contactref element="R81" pad="1"/>
 <contactref element="SW_ROW" pad="P$9"/>
-<wire x1="23.114" y1="36.46" x2="63.754" y2="65.786" width="0" layer="19" extent="1-1"/>
+<wire x1="23.114" y1="36.46" x2="43.434" y2="44.704" width="0" layer="19" extent="1-1"/>
 <wire x1="23.16275" y1="28.54325" x2="23.114" y2="36.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_R_0">
 <contactref element="IC3" pad="2"/>
 <contactref element="R82" pad="1"/>
 <contactref element="SW_ROW" pad="P$10"/>
-<wire x1="27.178" y1="36.46" x2="68.834" y2="73.406" width="0" layer="19" extent="1-1"/>
+<wire x1="27.178" y1="36.46" x2="48.514" y2="52.324" width="0" layer="19" extent="1-1"/>
 <wire x1="27.12275" y1="28.54325" x2="27.178" y2="36.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_C_7">
 <contactref element="IC4" pad="9"/>
 <contactref element="SW_COL" pad="P$2"/>
-<wire x1="46.592" y1="28.194" x2="51.054" y2="56.642" width="0" layer="19" extent="1-1"/>
+<wire x1="46.592" y1="28.194" x2="59.436" y2="52.324" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_C_6">
 <contactref element="IC4" pad="12"/>
 <contactref element="SW_COL" pad="P$3"/>
-<wire x1="50.552" y1="28.194" x2="51.054" y2="49.022" width="0" layer="19" extent="1-1"/>
+<wire x1="50.552" y1="28.194" x2="59.436" y2="44.704" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_C_4">
 <contactref element="IC4" pad="14"/>
 <contactref element="SW_COL" pad="P$6"/>
-<wire x1="62.432" y1="28.194" x2="56.134" y2="49.022" width="0" layer="19" extent="1-1"/>
+<wire x1="62.432" y1="28.194" x2="64.516" y2="44.704" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_C_5">
 <contactref element="IC4" pad="7"/>
 <contactref element="SW_COL" pad="P$4"/>
-<wire x1="54.512" y1="28.194" x2="56.134" y2="56.642" width="0" layer="19" extent="1-1"/>
+<wire x1="54.512" y1="28.194" x2="64.516" y2="52.324" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_C_3">
 <contactref element="IC4" pad="5"/>
 <contactref element="SW_COL" pad="P$7"/>
-<wire x1="66.392" y1="28.194" x2="61.214" y2="56.642" width="0" layer="19" extent="1-1"/>
+<wire x1="66.392" y1="28.194" x2="69.596" y2="52.324" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_C_2">
 <contactref element="IC4" pad="16"/>
 <contactref element="SW_COL" pad="P$8"/>
-<wire x1="70.352" y1="28.194" x2="61.214" y2="49.022" width="0" layer="19" extent="1-1"/>
+<wire x1="70.352" y1="28.194" x2="69.596" y2="44.704" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_C_1">
 <contactref element="IC4" pad="3"/>
 <contactref element="SW_COL" pad="P$9"/>
-<wire x1="74.312" y1="28.194" x2="66.294" y2="56.642" width="0" layer="19" extent="1-1"/>
+<wire x1="74.312" y1="28.194" x2="74.676" y2="52.324" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_C_0">
 <contactref element="IC4" pad="18"/>
 <contactref element="SW_COL" pad="P$10"/>
-<wire x1="78.272" y1="28.194" x2="66.294" y2="49.022" width="0" layer="19" extent="1-1"/>
+<wire x1="78.272" y1="28.194" x2="74.676" y2="44.704" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_R_7">
 <contactref element="IC3" pad="11"/>
 <contactref element="R75" pad="2"/>
 <contactref element="SW_ROW" pad="P$2"/>
-<wire x1="-4.572" y1="36.46" x2="48.514" y2="65.786" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.572" y1="36.46" x2="28.194" y2="44.704" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.55725" y1="28.54325" x2="-4.572" y2="36.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_R_2">
 <contactref element="IC3" pad="4"/>
 <contactref element="R80" pad="1"/>
 <contactref element="SW_ROW" pad="P$8"/>
-<wire x1="19.304" y1="36.46" x2="63.754" y2="73.406" width="0" layer="19" extent="1-1"/>
+<wire x1="19.304" y1="36.46" x2="43.434" y2="52.324" width="0" layer="19" extent="1-1"/>
 <wire x1="19.20275" y1="28.54325" x2="19.304" y2="36.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_R_0">
 <contactref element="IC3" pad="18"/>
 <contactref element="IC2" pad="72"/>
-<wire x1="66.294" y1="65.786" x2="123.856" y2="107.398" width="0" layer="19" extent="1-1"/>
+<wire x1="45.974" y1="44.704" x2="124.04596875" y2="108.5408" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_R_2">
 <contactref element="IC3" pad="16"/>
 <contactref element="IC2" pad="77"/>
-<wire x1="61.214" y1="65.786" x2="126.156" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="40.894" y1="44.704" x2="127.86434375" y2="107.9751125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_R_4">
 <contactref element="IC3" pad="14"/>
 <contactref element="IC2" pad="81"/>
-<wire x1="56.134" y1="65.786" x2="127.756" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="35.814" y1="44.704" x2="128.995715625" y2="109.106484375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_R_6">
 <contactref element="IC3" pad="12"/>
 <contactref element="IC2" pad="83"/>
-<wire x1="51.054" y1="65.786" x2="128.556" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="30.734" y1="44.704" x2="129.5614" y2="109.67216875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_R_7">
 <contactref element="IC3" pad="9"/>
 <contactref element="IC2" pad="84"/>
-<wire x1="51.054" y1="73.406" x2="128.956" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="30.734" y1="52.324" x2="129.84424375" y2="109.9550125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_R_5">
 <contactref element="IC3" pad="7"/>
 <contactref element="IC2" pad="82"/>
-<wire x1="56.134" y1="73.406" x2="128.156" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="35.814" y1="52.324" x2="129.27855625" y2="109.389328125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_R_3">
 <contactref element="IC3" pad="5"/>
 <contactref element="IC2" pad="78"/>
-<wire x1="61.214" y1="73.406" x2="126.556" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="40.894" y1="52.324" x2="128.1471875" y2="108.25795625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_R_1">
 <contactref element="IC3" pad="3"/>
 <contactref element="IC2" pad="76"/>
-<wire x1="66.294" y1="73.406" x2="125.756" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="45.974" y1="52.324" x2="127.5815" y2="107.692271875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_C_0">
 <contactref element="IC4" pad="2"/>
 <contactref element="IC2" pad="68"/>
-<wire x1="68.834" y1="56.642" x2="123.856" y2="108.998" width="0" layer="19" extent="1-1"/>
+<wire x1="77.216" y1="52.324" x2="122.914596875" y2="109.67216875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_C_2">
 <contactref element="IC4" pad="4"/>
 <contactref element="IC2" pad="70"/>
-<wire x1="63.754" y1="56.642" x2="123.856" y2="108.198" width="0" layer="19" extent="1-1"/>
+<wire x1="72.136" y1="52.324" x2="123.48028125" y2="109.106484375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_C_4">
 <contactref element="IC4" pad="6"/>
 <contactref element="IC2" pad="79"/>
-<wire x1="58.674" y1="56.642" x2="126.956" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="67.056" y1="52.324" x2="128.430028125" y2="108.5408" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_C_6">
 <contactref element="IC4" pad="8"/>
 <contactref element="IC2" pad="47"/>
-<wire x1="53.594" y1="56.642" x2="126.956" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="61.976" y1="52.324" x2="118.9548" y2="118.016028125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_C_7">
 <contactref element="IC4" pad="11"/>
 <contactref element="IC2" pad="48"/>
-<wire x1="48.514" y1="49.022" x2="126.556" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="56.896" y1="44.704" x2="118.67195625" y2="117.7331875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_C_5">
 <contactref element="IC4" pad="13"/>
 <contactref element="IC2" pad="80"/>
-<wire x1="53.594" y1="49.022" x2="127.356" y2="104.298" width="0" layer="19" extent="1-1"/>
+<wire x1="61.976" y1="44.704" x2="128.712871875" y2="108.823640625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_C_3">
 <contactref element="IC4" pad="15"/>
 <contactref element="IC2" pad="71"/>
-<wire x1="58.674" y1="49.022" x2="123.856" y2="107.798" width="0" layer="19" extent="1-1"/>
+<wire x1="67.056" y1="44.704" x2="123.763125" y2="108.823640625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_SW_C_1">
 <contactref element="IC4" pad="17"/>
 <contactref element="IC2" pad="69"/>
-<wire x1="63.754" y1="49.022" x2="123.856" y2="108.598" width="0" layer="19" extent="1-1"/>
+<wire x1="72.136" y1="44.704" x2="123.197440625" y2="109.389328125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LIGHT_R_0">
 <contactref element="U28" pad="D"/>
@@ -16906,7 +16905,7 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="J7" pad="2"/>
 <contactref element="C17" pad="P$1"/>
 <contactref element="BOARD_POWER" pad="3"/>
-<wire x1="179.312" y1="168.402" x2="323.544" y2="179.832" width="0" layer="19" extent="1-1"/>
+<wire x1="179.312" y1="168.402" x2="320.242" y2="168.402" width="0" layer="19" extent="1-1"/>
 <wire x1="175.352" y1="168.402" x2="179.312" y2="168.402" width="0" layer="19" extent="1-1"/>
 <wire x1="22.52175" y1="124.7775" x2="175.352" y2="168.402" width="0" layer="19" extent="1-1"/>
 <wire x1="22.52175" y1="119.9515" x2="22.52175" y2="124.7775" width="0" layer="19" extent="1-1"/>
@@ -16996,41 +16995,41 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <signal name="PIC_LIGHT_C_0">
 <contactref element="IC5" pad="8"/>
 <contactref element="IC2" pad="25"/>
-<wire x1="37.36975" y1="116.6495" x2="137.256" y2="115.798" width="0" layer="19" extent="1-1"/>
+<wire x1="37.36975" y1="116.6495" x2="127.5815" y2="123.955725" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_C_2">
 <contactref element="IC5" pad="6"/>
 <contactref element="IC2" pad="23"/>
-<wire x1="37.36975" y1="111.5695" x2="137.256" y2="114.998" width="0" layer="19" extent="1-1"/>
+<wire x1="37.36975" y1="111.5695" x2="128.1471875" y2="123.390040625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_C_3">
 <contactref element="IC5" pad="5"/>
 <contactref element="IC2" pad="22"/>
-<wire x1="37.36975" y1="109.0295" x2="137.256" y2="114.598" width="0" layer="19" extent="1-1"/>
+<wire x1="37.36975" y1="109.0295" x2="128.430028125" y2="123.107196875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_C_4">
 <contactref element="IC5" pad="4"/>
 <contactref element="IC2" pad="21"/>
-<wire x1="37.36975" y1="106.4895" x2="137.256" y2="114.198" width="0" layer="19" extent="1-1"/>
+<wire x1="37.36975" y1="106.4895" x2="128.712871875" y2="122.82435625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_C_5">
 <contactref element="IC5" pad="3"/>
 <contactref element="IC2" pad="20"/>
-<wire x1="37.36975" y1="103.9495" x2="137.256" y2="113.798" width="0" layer="19" extent="1-1"/>
+<wire x1="37.36975" y1="103.9495" x2="128.995715625" y2="122.5415125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_C_6">
 <contactref element="IC5" pad="2"/>
 <contactref element="R14" pad="1"/>
 <contactref element="IC2" pad="26"/>
-<wire x1="157.48" y1="120.28" x2="135.356" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="37.36975" y1="101.4095" x2="135.356" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="154.94" y1="126.122" x2="124.894496875" y2="123.955725" width="0" layer="19" extent="1-1"/>
+<wire x1="37.36975" y1="101.4095" x2="124.894496875" y2="123.955725" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIC_LIGHT_C_7">
 <contactref element="IC5" pad="1"/>
 <contactref element="R13" pad="1"/>
 <contactref element="IC2" pad="27"/>
-<wire x1="156.58" y1="112.776" x2="134.956" y2="117.698" width="0" layer="19" extent="1-1"/>
-<wire x1="37.36975" y1="98.8695" x2="134.956" y2="117.698" width="0" layer="19" extent="1-1"/>
+<wire x1="154.04" y1="118.618" x2="124.611653125" y2="123.672884375" width="0" layer="19" extent="1-1"/>
+<wire x1="37.36975" y1="98.8695" x2="124.611653125" y2="123.672884375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LIGHT_DTA_7">
 <contactref element="R98" pad="1"/>
@@ -17070,7 +17069,7 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <signal name="PIC_LIGHT_C_1">
 <contactref element="IC5" pad="7"/>
 <contactref element="IC2" pad="24"/>
-<wire x1="37.36975" y1="114.1095" x2="137.256" y2="115.398" width="0" layer="19" extent="1-1"/>
+<wire x1="37.36975" y1="114.1095" x2="127.86434375" y2="123.672884375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="U28" pad="G"/>
@@ -17122,7 +17121,7 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <signal name="ST_LI_GATE">
 <contactref element="R116" pad="2"/>
 <contactref element="IC2" pad="59"/>
-<wire x1="282.194" y1="119.772" x2="123.856" y2="112.598" width="0" layer="19" extent="1-1"/>
+<wire x1="282.194" y1="119.772" x2="120.3690125" y2="112.217753125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$51">
 <contactref element="R117" pad="2"/>
@@ -17531,7 +17530,7 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="D2" pad="2"/>
 <wire x1="110.696" y1="89.408" x2="116.348" y2="84.604" width="0" layer="19" extent="1-1"/>
 <wire x1="108.966" y1="85.658" x2="110.696" y2="89.408" width="0" layer="19" extent="1-1"/>
-<wire x1="101.473" y1="77.564" x2="108.966" y2="85.658" width="0" layer="19" extent="1-1"/>
+<wire x1="100.998" y1="82.423" x2="108.966" y2="85.658" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$497">
 <contactref element="R134" pad="1"/>
@@ -17575,117 +17574,117 @@ This DRC check is for 4-Layer boards to be manufactured through the MacroFab, IN
 <contactref element="U1" pad="25"/>
 </signal>
 <signal name="N$20">
-<contactref element="J10" pad="6"/>
+<contactref element="PIC32_UART" pad="6"/>
 <contactref element="R26" pad="1"/>
-<contactref element="J11" pad="P$6"/>
-<wire x1="222.504" y1="210.936" x2="218.694" y2="224.282" width="0" layer="19" extent="1-1"/>
-<wire x1="226.949" y1="194.056" x2="222.504" y2="210.936" width="0" layer="19" extent="1-1"/>
+<contactref element="PIC32_TC" pad="P$6"/>
+<wire x1="80.391" y1="117.094" x2="87.884" y2="122.174" width="0" layer="19" extent="1-1"/>
+<wire x1="116.586" y1="149.214" x2="87.884" y2="122.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
-<contactref element="J2" pad="P$6"/>
-<contactref element="J1" pad="6"/>
+<contactref element="PROP_TC" pad="P$6"/>
+<contactref element="PROP_UART" pad="6"/>
 <contactref element="C1" pad="1"/>
-<wire x1="236.728" y1="210.936" x2="229.616" y2="224.282" width="0" layer="19" extent="1-1"/>
-<wire x1="226.949" y1="205.74" x2="236.728" y2="210.936" width="0" layer="19" extent="1-1"/>
+<wire x1="186.944" y1="127.508" x2="212.852" y2="119.75" width="0" layer="19" extent="1-1"/>
+<wire x1="180.213" y1="122.428" x2="186.944" y2="127.508" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U2" pad="2"/>
 <contactref element="X3" pad="4"/>
-<wire x1="287.03" y1="200.025" x2="289.77" y2="206.68" width="0" layer="19" extent="1-1"/>
+<wire x1="70.942" y1="100.286" x2="70.231" y2="105.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U2" pad="1"/>
 <contactref element="X3" pad="1"/>
-<wire x1="287.03" y1="198.755" x2="289.77" y2="209.88" width="0" layer="19" extent="1-1"/>
+<wire x1="67.742" y1="100.286" x2="68.961" y2="105.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BKUP_V">
 <contactref element="BATT1" pad="POS"/>
 <contactref element="U2" pad="3"/>
-<wire x1="259.08" y1="197.92" x2="287.03" y2="201.295" width="0" layer="19" extent="1-1"/>
+<wire x1="53.594" y1="95.812" x2="71.501" y2="105.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPTO_2">
 <contactref element="R6" pad="2"/>
 <contactref element="R7" pad="2"/>
 <contactref element="OPTO_2" pad="1"/>
-<wire x1="2.54" y1="204.1" x2="2.54" y2="209.18" width="0" layer="19" extent="1-1"/>
-<wire x1="136.3" y1="254" x2="2.54" y2="209.18" width="0" layer="19" extent="1-1"/>
+<wire x1="77.078" y1="155.702" x2="77.078" y2="157.48" width="0" layer="19" extent="1-1"/>
+<wire x1="54.962" y1="167.132" x2="77.078" y2="157.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPTO_1">
 <contactref element="R2" pad="2"/>
 <contactref element="R5" pad="2"/>
 <contactref element="OPTO_1" pad="1"/>
-<wire x1="-27.94" y1="204.1" x2="-22.86" y2="204.1" width="0" layer="19" extent="1-1"/>
-<wire x1="154.08" y1="254" x2="-22.86" y2="204.1" width="0" layer="19" extent="1-1"/>
+<wire x1="77.078" y1="161.036" x2="77.078" y2="162.814" width="0" layer="19" extent="1-1"/>
+<wire x1="72.234" y1="167.132" x2="77.078" y2="162.814" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPTO_3">
 <contactref element="R9" pad="2"/>
 <contactref element="R10" pad="2"/>
 <contactref element="OPTO_3" pad="1"/>
-<wire x1="27.94" y1="204.1" x2="27.94" y2="209.18" width="0" layer="19" extent="1-1"/>
-<wire x1="118.52" y1="254" x2="27.94" y2="209.18" width="0" layer="19" extent="1-1"/>
+<wire x1="77.078" y1="152.146" x2="77.078" y2="150.368" width="0" layer="19" extent="1-1"/>
+<wire x1="72.234" y1="155.448" x2="77.078" y2="152.146" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPTO_4">
 <contactref element="R11" pad="2"/>
 <contactref element="R15" pad="2"/>
 <contactref element="OPTO_4" pad="1"/>
-<wire x1="53.34" y1="209.18" x2="100.74" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="53.34" y1="204.1" x2="53.34" y2="209.18" width="0" layer="19" extent="1-1"/>
+<wire x1="77.078" y1="146.812" x2="77.078" y2="145.034" width="0" layer="19" extent="1-1"/>
+<wire x1="54.962" y1="155.448" x2="77.078" y2="146.812" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPTO_5">
 <contactref element="R27" pad="2"/>
 <contactref element="R28" pad="2"/>
 <contactref element="OPTO_5" pad="1"/>
-<wire x1="78.74" y1="219.34" x2="82.96" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="101.6" y1="204.1" x2="78.74" y2="219.34" width="0" layer="19" extent="1-1"/>
+<wire x1="77.078" y1="141.478" x2="77.078" y2="139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="72.234" y1="143.764" x2="77.078" y2="141.478" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPTO_6">
 <contactref element="R29" pad="2"/>
 <contactref element="R31" pad="2"/>
 <contactref element="OPTO_6" pad="1"/>
-<wire x1="101.6" y1="214.26" x2="65.18" y2="254" width="0" layer="19" extent="1-1"/>
-<wire x1="101.6" y1="209.18" x2="101.6" y2="214.26" width="0" layer="19" extent="1-1"/>
+<wire x1="77.078" y1="134.366" x2="77.078" y2="136.144" width="0" layer="19" extent="1-1"/>
+<wire x1="54.962" y1="143.764" x2="77.078" y2="136.144" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPTO_7">
 <contactref element="R33" pad="2"/>
 <contactref element="R138" pad="2"/>
 <contactref element="OPTO_7" pad="1"/>
-<wire x1="78.74" y1="214.26" x2="101.6" y2="219.34" width="0" layer="19" extent="1-1"/>
-<wire x1="47.4" y1="254" x2="78.74" y2="214.26" width="0" layer="19" extent="1-1"/>
+<wire x1="77.078" y1="129.032" x2="77.078" y2="130.81" width="0" layer="19" extent="1-1"/>
+<wire x1="72.234" y1="132.334" x2="77.078" y2="130.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R139" pad="2"/>
 <contactref element="OPTO_1" pad="4"/>
-<wire x1="49.16" y1="243.84" x2="165.96" y2="254" width="0" layer="19" extent="1-1"/>
+<wire x1="60.354" y1="167.132" x2="77.078" y2="159.258" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R144" pad="2"/>
 <contactref element="OPTO_6" pad="4"/>
-<wire x1="49.16" y1="218.44" x2="77.06" y2="254" width="0" layer="19" extent="1-1"/>
+<wire x1="43.082" y1="143.764" x2="77.078" y2="132.588" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R143" pad="2"/>
 <contactref element="OPTO_5" pad="4"/>
-<wire x1="49.16" y1="223.52" x2="94.84" y2="254" width="0" layer="19" extent="1-1"/>
+<wire x1="60.354" y1="143.764" x2="77.078" y2="137.922" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="R145" pad="2"/>
 <contactref element="OPTO_7" pad="4"/>
-<wire x1="49.16" y1="213.36" x2="59.28" y2="254" width="0" layer="19" extent="1-1"/>
+<wire x1="60.354" y1="132.334" x2="77.078" y2="127.254" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="R142" pad="2"/>
 <contactref element="OPTO_4" pad="4"/>
-<wire x1="49.16" y1="228.6" x2="112.62" y2="254" width="0" layer="19" extent="1-1"/>
+<wire x1="43.082" y1="155.448" x2="77.078" y2="143.256" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="R141" pad="2"/>
 <contactref element="OPTO_3" pad="4"/>
-<wire x1="49.16" y1="233.68" x2="130.4" y2="254" width="0" layer="19" extent="1-1"/>
+<wire x1="60.354" y1="155.448" x2="77.078" y2="148.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="R140" pad="2"/>
 <contactref element="OPTO_2" pad="4"/>
-<wire x1="49.16" y1="238.76" x2="148.18" y2="254" width="0" layer="19" extent="1-1"/>
+<wire x1="43.082" y1="167.132" x2="77.078" y2="153.924" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

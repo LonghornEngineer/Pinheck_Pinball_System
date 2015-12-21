@@ -3665,12 +3665,12 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <text x="-7.62" y="3.81" size="1.016" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
 <package name="TC2030">
-<smd name="P$1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="P$2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="P$3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="P$4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="P$5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="P$6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="P$1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="P$2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="P$3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="P$4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="P$5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="P$6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
 <hole x="2.54" y="1.016" drill="0.9906"/>
 <hole x="2.54" y="-1.016" drill="0.9906"/>
 <hole x="-2.54" y="0" drill="0.9906"/>
@@ -23797,8 +23797,8 @@ ULN and UDN Series&lt;p&gt;
 <part name="SOCKET3" library="PP_Connectors" deviceset="DIP_SOCKET" device="_8PIN" value="808-AG11D-ESL-LF"/>
 <part name="SOCKET4" library="PP_Connectors" deviceset="DIP_SOCKET" device="_18PIN" value="818-AG11D-ESL-LF"/>
 <part name="PROP_RST" library="MF_Switches" deviceset="TACT" device="_6MM"/>
-<part name="SW1" library="MF_Switches" deviceset="TACT" device="_6MM"/>
-<part name="SW3" library="MF_Switches" deviceset="TACT" device="_6MM"/>
+<part name="PIC_RST" library="MF_Switches" deviceset="TACT" device="_6MM"/>
+<part name="PIC_PROGRAM" library="MF_Switches" deviceset="TACT" device="_6MM"/>
 <part name="F4" library="PP_Passives" deviceset="PTC_FUSE" device="_4245K" value="4245K"/>
 <part name="H11" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H19" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
@@ -23826,19 +23826,29 @@ ULN and UDN Series&lt;p&gt;
 <part name="J7" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN1)"/>
 <part name="CABINET" library="PP_Connectors" deviceset="CON_01X11" device="_26-64-4120(KEYPIN2)" value="26-64-4120"/>
 <part name="J5" library="PP_Connectors" deviceset="CON_01X02" device="_26-64-4020" value="26-64-4020"/>
-<part name="J8" library="PP_Connectors" deviceset="CON_01X06" device="_2.54MM_PIN_HEADER"/>
+<part name="PICKIT3" library="PP_Connectors" deviceset="CON_01X06" device="_2.54MM_PIN_HEADER"/>
 <part name="R24" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="10K"/>
 <part name="R25" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="10K"/>
 <part name="C28" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0805" value=".1uF"/>
 <part name="SOCKET5" library="PP_Connectors" deviceset="DIP_SOCKET" device="_8PIN" value="808-AG11D-ESL-LF"/>
 <part name="U13" library="PP_DigitalIC" deviceset="EEPROM_I2C" device="DIP-8" value="CAT24M01LI-G"/>
-<part name="J9" library="PP_Connectors" deviceset="CON_02X03" device="_TC2030" value="TC2030-PKT-NL"/>
-<part name="J10" library="PP_Connectors" deviceset="CON_01X06" device="_2.54MM_PIN_HEADER"/>
+<part name="PICKIT3_TC" library="PP_Connectors" deviceset="CON_02X03" device="_TC2030" value="TC2030-PKT-NL"/>
+<part name="PIC32_UART" library="PP_Connectors" deviceset="CON_01X06" device="_2.54MM_PIN_HEADER">
+<attribute name="LABEL01" value="GND"/>
+<attribute name="LABEL04" value="RX_PIC32"/>
+<attribute name="LABEL05" value="TX_PIC32"/>
+<attribute name="LABEL06" value="!RST!_PIC32"/>
+</part>
 <part name="R26" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="100"/>
-<part name="J1" library="PP_Connectors" deviceset="CON_01X06" device="_2.54MM_PIN_HEADER"/>
+<part name="PROP_UART" library="PP_Connectors" deviceset="CON_01X06" device="_2.54MM_PIN_HEADER">
+<attribute name="LABEL01" value="GND"/>
+<attribute name="LABEL04" value="RX_PROP"/>
+<attribute name="LABEL05" value="TX_PROP"/>
+<attribute name="LABEL06" value="!RES!_PROP"/>
+</part>
 <part name="C1" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0805" value=".1uF"/>
-<part name="J2" library="PP_Connectors" deviceset="CON_02X03" device="_TC2030" value="TC2030-FTDI-TTL-232R"/>
-<part name="J11" library="PP_Connectors" deviceset="CON_02X03" device="_TC2030" value="TC2030-FTDI-TTL-232R"/>
+<part name="PROP_TC" library="PP_Connectors" deviceset="CON_02X03" device="_TC2030" value="TC2030-FTDI-TTL-232R"/>
+<part name="PIC32_TC" library="PP_Connectors" deviceset="CON_02X03" device="_TC2030" value="TC2030-FTDI-TTL-232R"/>
 <part name="J12" library="PP_Connectors" deviceset="CON_02X60" device="_11216-060_CARDEDGE"/>
 <part name="U2" library="PP_DigitalIC" deviceset="DS1340Z" device="-33+" value="DS1340Z-33+"/>
 <part name="X3" library="PP_FreqCtrl" deviceset="CRYSTAL" device="_8MM_X_3.8MM" value="ABS25-32.768KHz-1-T"/>
@@ -24205,8 +24215,8 @@ ULN and UDN Series&lt;p&gt;
 <instance part="SOCKET3" gate="G$1" x="149.86" y="27.94"/>
 <instance part="SOCKET4" gate="G$1" x="767.08" y="81.28"/>
 <instance part="PROP_RST" gate="G$1" x="45.72" y="15.24"/>
-<instance part="SW1" gate="G$1" x="-73.66" y="86.36" rot="R90"/>
-<instance part="SW3" gate="G$1" x="386.08" y="152.4"/>
+<instance part="PIC_RST" gate="G$1" x="-73.66" y="86.36" rot="R90"/>
+<instance part="PIC_PROGRAM" gate="G$1" x="386.08" y="152.4"/>
 <instance part="F4" gate="G$1" x="472.44" y="-33.02"/>
 <instance part="H11" gate="G$1" x="297.18" y="-71.12"/>
 <instance part="H19" gate="G$1" x="297.18" y="-78.74"/>
@@ -24234,19 +24244,19 @@ ULN and UDN Series&lt;p&gt;
 <instance part="J7" gate="G$1" x="916.94" y="40.64"/>
 <instance part="CABINET" gate="G$1" x="518.16" y="86.36"/>
 <instance part="J5" gate="G$1" x="581.66" y="81.28"/>
-<instance part="J8" gate="G$1" x="15.24" y="106.68"/>
+<instance part="PICKIT3" gate="G$1" x="15.24" y="106.68"/>
 <instance part="R24" gate="G$1" x="350.52" y="213.36" rot="R90"/>
 <instance part="R25" gate="G$1" x="342.9" y="213.36" rot="R90"/>
 <instance part="C28" gate="G$1" x="335.28" y="210.82" rot="R180"/>
 <instance part="SOCKET5" gate="G$1" x="365.76" y="220.98"/>
 <instance part="U13" gate="G$1" x="373.38" y="210.82" rot="MR0"/>
-<instance part="J9" gate="G$1" x="-10.16" y="71.12"/>
-<instance part="J10" gate="G$1" x="-71.12" y="218.44" rot="MR0"/>
+<instance part="PICKIT3_TC" gate="G$1" x="-10.16" y="71.12"/>
+<instance part="PIC32_UART" gate="G$1" x="-71.12" y="218.44" rot="MR0"/>
 <instance part="R26" gate="G$1" x="-7.62" y="205.74" rot="MR180"/>
-<instance part="J1" gate="G$1" x="-71.12" y="180.34" rot="MR0"/>
+<instance part="PROP_UART" gate="G$1" x="-71.12" y="180.34" rot="MR0"/>
 <instance part="C1" gate="G$1" x="-10.16" y="167.64" rot="MR270"/>
-<instance part="J2" gate="G$1" x="-53.34" y="154.94"/>
-<instance part="J11" gate="G$1" x="-53.34" y="193.04"/>
+<instance part="PROP_TC" gate="G$1" x="-53.34" y="154.94"/>
+<instance part="PIC32_TC" gate="G$1" x="-53.34" y="193.04"/>
 <instance part="J12" gate="G$1" x="-83.82" y="20.32"/>
 <instance part="U2" gate="G$1" x="279.4" y="218.44"/>
 <instance part="X3" gate="G$1" x="302.26" y="220.98" rot="R270"/>
@@ -24344,10 +24354,10 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="83.82" x2="-76.2" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-76.2" y="76.2"/>
-<pinref part="SW1" gate="G$1" pin="P$1"/>
-<pinref part="J8" gate="G$1" pin="3"/>
+<pinref part="PIC_RST" gate="G$1" pin="P$1"/>
+<pinref part="PICKIT3" gate="G$1" pin="3"/>
 <label x="5.08" y="101.6" size="0.8128" layer="95" font="vector"/>
-<pinref part="J9" gate="G$1" pin="PIN3"/>
+<pinref part="PICKIT3_TC" gate="G$1" pin="PIN3"/>
 <wire x1="-12.7" y1="68.58" x2="-17.78" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="68.58" x2="-17.78" y2="101.6" width="0.1524" layer="91"/>
 <junction x="-17.78" y="101.6"/>
@@ -25094,7 +25104,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="388.62" y1="149.86" x2="396.24" y2="149.86" width="0.1524" layer="91"/>
 <label x="393.7" y="149.86" size="0.8128" layer="95" font="vector"/>
-<pinref part="SW3" gate="G$1" pin="P$4"/>
+<pinref part="PIC_PROGRAM" gate="G$1" pin="P$4"/>
 </segment>
 <segment>
 <wire x1="177.8" y1="-25.4" x2="170.18" y2="-25.4" width="0.1524" layer="91"/>
@@ -25139,18 +25149,18 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="U13" gate="G$1" pin="WP"/>
 </segment>
 <segment>
-<pinref part="J10" gate="G$1" pin="1"/>
+<pinref part="PIC32_UART" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="218.44" x2="-60.96" y2="218.44" width="0.1524" layer="91"/>
 <label x="-60.96" y="218.44" size="0.8128" layer="95" font="vector" rot="MR0"/>
-<pinref part="J11" gate="G$1" pin="PIN5"/>
+<pinref part="PIC32_TC" gate="G$1" pin="PIN5"/>
 <wire x1="-55.88" y1="187.96" x2="-60.96" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="187.96" x2="-60.96" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="PROP_UART" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="180.34" x2="-60.96" y2="180.34" width="0.1524" layer="91"/>
 <label x="-60.96" y="180.34" size="0.8128" layer="95" font="vector" rot="MR0"/>
-<pinref part="J2" gate="G$1" pin="PIN5"/>
+<pinref part="PROP_TC" gate="G$1" pin="PIN5"/>
 <wire x1="-55.88" y1="149.86" x2="-60.96" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="149.86" x2="-60.96" y2="180.34" width="0.1524" layer="91"/>
 </segment>
@@ -25297,11 +25307,11 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="IC2" gate="PF" pin="SDA1A/SDI1A/U1ARX/RF2"/>
 </segment>
 <segment>
-<pinref part="J10" gate="G$1" pin="4"/>
+<pinref part="PIC32_UART" gate="G$1" pin="4"/>
 <label x="-58.42" y="210.82" size="0.8128" layer="95" font="vector" rot="MR0"/>
 <wire x1="-68.58" y1="210.82" x2="-17.78" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="210.82" x2="-17.78" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="PIN4"/>
+<pinref part="PIC32_TC" gate="G$1" pin="PIN4"/>
 <wire x1="-17.78" y1="190.5" x2="-20.32" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25353,9 +25363,9 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <label x="-30.48" y="114.3" size="0.8128" layer="95" font="vector"/>
-<pinref part="J8" gate="G$1" pin="1"/>
+<pinref part="PICKIT3" gate="G$1" pin="1"/>
 <label x="5.08" y="106.68" size="0.8128" layer="95" font="vector"/>
-<pinref part="J9" gate="G$1" pin="PIN1"/>
+<pinref part="PICKIT3_TC" gate="G$1" pin="PIN1"/>
 <wire x1="-12.7" y1="71.12" x2="-20.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="71.12" x2="-20.32" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-20.32" y="106.68"/>
@@ -25369,7 +25379,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="N$9" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="SW1" gate="G$1" pin="P$4"/>
+<pinref part="PIC_RST" gate="G$1" pin="P$4"/>
 <wire x1="-71.12" y1="93.98" x2="-71.12" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25397,11 +25407,11 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="IC2" gate="PF" pin="SCL1A/SDO1A/U1ATX/RF8"/>
 </segment>
 <segment>
-<pinref part="J10" gate="G$1" pin="5"/>
+<pinref part="PIC32_UART" gate="G$1" pin="5"/>
 <wire x1="-68.58" y1="208.28" x2="-58.42" y2="208.28" width="0.1524" layer="91"/>
 <label x="-58.42" y="208.28" size="0.8128" layer="95" font="vector" rot="MR0"/>
 <wire x1="-58.42" y1="208.28" x2="-58.42" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="PIN3"/>
+<pinref part="PIC32_TC" gate="G$1" pin="PIN3"/>
 <wire x1="-58.42" y1="190.5" x2="-55.88" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25414,9 +25424,9 @@ ULN and UDN Series&lt;p&gt;
 <junction x="-38.1" y="99.06"/>
 <pinref part="D8" gate="G$1" pin="D3"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="J8" gate="G$1" pin="4"/>
+<pinref part="PICKIT3" gate="G$1" pin="4"/>
 <label x="5.08" y="99.06" size="0.8128" layer="95" font="vector"/>
-<pinref part="J9" gate="G$1" pin="PIN4"/>
+<pinref part="PICKIT3_TC" gate="G$1" pin="PIN4"/>
 <wire x1="22.86" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="68.58" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
@@ -25435,9 +25445,9 @@ ULN and UDN Series&lt;p&gt;
 <junction x="-33.02" y="96.52"/>
 <pinref part="D8" gate="G$1" pin="D4"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="J8" gate="G$1" pin="5"/>
+<pinref part="PICKIT3" gate="G$1" pin="5"/>
 <label x="5.08" y="96.52" size="0.8128" layer="95" font="vector"/>
-<pinref part="J9" gate="G$1" pin="PIN5"/>
+<pinref part="PICKIT3_TC" gate="G$1" pin="PIN5"/>
 <wire x1="-12.7" y1="66.04" x2="-15.24" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="66.04" x2="-15.24" y2="96.52" width="0.1524" layer="91"/>
 <junction x="-15.24" y="96.52"/>
@@ -26141,9 +26151,9 @@ ULN and UDN Series&lt;p&gt;
 <label x="-149.86" y="129.54" size="0.8128" layer="95" font="vector"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="J8" gate="G$1" pin="2"/>
+<pinref part="PICKIT3" gate="G$1" pin="2"/>
 <label x="5.08" y="104.14" size="0.8128" layer="95" font="vector"/>
-<pinref part="J9" gate="G$1" pin="PIN2"/>
+<pinref part="PICKIT3_TC" gate="G$1" pin="PIN2"/>
 <wire x1="22.86" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="88.9" x2="2.54" y2="88.9" width="0.1524" layer="91"/>
@@ -26909,10 +26919,10 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="U1" gate="G$1" pin="P30"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
+<pinref part="PROP_UART" gate="G$1" pin="5"/>
 <wire x1="-68.58" y1="170.18" x2="-58.42" y2="170.18" width="0.1524" layer="91"/>
 <label x="-58.42" y="170.18" size="0.8128" layer="95" font="vector" rot="MR0"/>
-<pinref part="J2" gate="G$1" pin="PIN3"/>
+<pinref part="PROP_TC" gate="G$1" pin="PIN3"/>
 <wire x1="-55.88" y1="152.4" x2="-58.42" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="152.4" x2="-58.42" y2="170.18" width="0.1524" layer="91"/>
 </segment>
@@ -26924,11 +26934,11 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="U1" gate="G$1" pin="P31"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="PROP_UART" gate="G$1" pin="4"/>
 <label x="-58.42" y="172.72" size="0.8128" layer="95" font="vector" rot="MR0"/>
 <wire x1="-68.58" y1="172.72" x2="-17.78" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="172.72" x2="-17.78" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="PIN4"/>
+<pinref part="PROP_TC" gate="G$1" pin="PIN4"/>
 <wire x1="-17.78" y1="152.4" x2="-20.32" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27289,7 +27299,7 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="381" y1="154.94" x2="383.54" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="381" y1="162.56" x2="381" y2="154.94" width="0.1524" layer="91"/>
 <junction x="381" y="154.94"/>
-<pinref part="SW3" gate="G$1" pin="P$1"/>
+<pinref part="PIC_PROGRAM" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="WATCHDOG" class="0">
@@ -30406,10 +30416,10 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="J10" gate="G$1" pin="6"/>
+<pinref part="PIC32_UART" gate="G$1" pin="6"/>
 <wire x1="-68.58" y1="205.74" x2="-15.24" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="1"/>
-<pinref part="J11" gate="G$1" pin="PIN6"/>
+<pinref part="PIC32_TC" gate="G$1" pin="PIN6"/>
 <wire x1="-15.24" y1="205.74" x2="-12.7" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="187.96" x2="-15.24" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="187.96" x2="-15.24" y2="205.74" width="0.1524" layer="91"/>
@@ -30418,9 +30428,9 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="PIN6"/>
+<pinref part="PROP_TC" gate="G$1" pin="PIN6"/>
 <wire x1="-20.32" y1="149.86" x2="-15.24" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="6"/>
+<pinref part="PROP_UART" gate="G$1" pin="6"/>
 <wire x1="-68.58" y1="167.64" x2="-15.24" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="167.64" x2="-12.7" y2="167.64" width="0.1524" layer="91"/>
