@@ -3826,7 +3826,7 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <wire x1="56.625" y1="5.765" x2="57.26" y2="6.4" width="0.127" layer="20" curve="-90"/>
 <wire x1="30.8" y1="5" x2="32" y2="6.2" width="0.127" layer="20" curve="-90"/>
 <wire x1="32" y1="6.2" x2="33.2" y2="5" width="0.127" layer="20" curve="-90"/>
-<text x="30.4" y="7.3" size="0.8128" layer="20" font="vector" ratio="16" align="center">&gt;NAME</text>
+<text x="30.4" y="7.3" size="0.8128" layer="25" font="vector" ratio="16" align="center">&gt;NAME</text>
 <wire x1="1.635" y1="6.4" x2="1" y2="5.765" width="0.127" layer="20" curve="90"/>
 <wire x1="1" y1="5.765" x2="1" y2="0.635" width="0.127" layer="20"/>
 <wire x1="1" y1="0.635" x2="0.365" y2="0" width="0.127" layer="20" curve="-90"/>
