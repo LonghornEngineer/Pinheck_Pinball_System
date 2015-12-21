@@ -16802,8 +16802,8 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <contactref element="SOL_PWR" pad="4"/>
 <polygon width="0.254" layer="1" isolate="0.8128" rank="6">
 <vertex x="259.08" y="24.13"/>
-<vertex x="263.5995375" y="24.13"/>
-<vertex x="266.7" y="27.2304625"/>
+<vertex x="264.16" y="24.13"/>
+<vertex x="266.7" y="26.67"/>
 <vertex x="266.7" y="28.956"/>
 <vertex x="271.78" y="34.036"/>
 <vertex x="271.78" y="86.36"/>
@@ -17498,10 +17498,10 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <wire x1="199.898" y1="61.976" x2="199.898" y2="43.18" width="1.6764" layer="16"/>
 <polygon width="0.254" layer="16">
 <vertex x="266.7" y="28.956"/>
-<vertex x="266.7" y="27.2304625"/>
-<vertex x="263.5995375" y="24.13"/>
-<vertex x="251.316228125" y="24.13"/>
-<vertex x="248.92" y="26.526228125"/>
+<vertex x="266.7" y="26.67"/>
+<vertex x="264.16" y="24.13"/>
+<vertex x="251.46" y="24.13"/>
+<vertex x="248.92" y="26.67"/>
 <vertex x="248.92" y="29.21"/>
 <vertex x="242.57" y="34.29"/>
 <vertex x="92.71" y="34.29"/>
