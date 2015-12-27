@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23815,10 +23815,50 @@ ULN and UDN Series&lt;p&gt;
 <attribute name="LABEL08" value="SOL_22"/>
 <attribute name="LABEL09" value="SOL_23"/>
 </part>
-<part name="SW_ROW" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN4)" value="26-64-4100"/>
-<part name="SW_COL" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN5)" value="26-64-4100"/>
-<part name="LIGHT_COL" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN2)" value="26-64-4100"/>
-<part name="LIGHT_ROW" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN3)" value="26-64-4100"/>
+<part name="SW_ROW" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN4)" value="26-64-4100">
+<attribute name="LABEL01" value="GND"/>
+<attribute name="LABEL02" value="SW_R_7"/>
+<attribute name="LABEL03" value="SW_R_6"/>
+<attribute name="LABEL04" value="SW_R_5"/>
+<attribute name="LABEL05" value="SW_R_4"/>
+<attribute name="LABEL06" value="SW_R_3"/>
+<attribute name="LABEL07" value="SW_R_2"/>
+<attribute name="LABEL08" value="SW_R_1"/>
+<attribute name="LABEL09" value="SW_R_0"/>
+</part>
+<part name="SW_COL" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN5)" value="26-64-4100">
+<attribute name="LABEL01" value="GND"/>
+<attribute name="LABEL02" value="SW_C_7"/>
+<attribute name="LABEL03" value="SW_C_6"/>
+<attribute name="LABEL04" value="SW_C_5"/>
+<attribute name="LABEL05" value="SW_C_4"/>
+<attribute name="LABEL06" value="SW_C_3"/>
+<attribute name="LABEL07" value="SW_C_2"/>
+<attribute name="LABEL08" value="SW_C_1"/>
+<attribute name="LABEL09" value="SW_C_0"/>
+</part>
+<part name="LIGHT_COL" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN2)" value="26-64-4100">
+<attribute name="LABEL01" value="12V"/>
+<attribute name="LABEL02" value="LIGHT_C_0"/>
+<attribute name="LABEL03" value="LIGHT_C_1"/>
+<attribute name="LABEL04" value="LIGHT_C_2"/>
+<attribute name="LABEL05" value="LIGHT_C_3"/>
+<attribute name="LABEL06" value="LIGHT_C_4"/>
+<attribute name="LABEL07" value="LIGHT_C_5"/>
+<attribute name="LABEL08" value="LIGHT_C_6"/>
+<attribute name="LABEL09" value="LIGHT_C_7"/>
+</part>
+<part name="LIGHT_ROW" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN3)" value="26-64-4100">
+<attribute name="LABEL01" value="5V"/>
+<attribute name="LABEL02" value="LIGHT_R_0"/>
+<attribute name="LABEL03" value="LIGHT_R_1"/>
+<attribute name="LABEL04" value="LIGHT_R_2"/>
+<attribute name="LABEL05" value="LIGHT_R_3"/>
+<attribute name="LABEL06" value="LIGHT_R_4"/>
+<attribute name="LABEL07" value="LIGHT_R_5"/>
+<attribute name="LABEL08" value="LIGHT_R_6"/>
+<attribute name="LABEL09" value="LIGHT_R_7"/>
+</part>
 <part name="GI_0" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN9)" value="26-64-4100"/>
 <part name="GI_1" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN10)" value="26-64-4100"/>
 <part name="SOCKET1" library="PP_Connectors" deviceset="DIP_SOCKET" device="_20PIN" value="820-AG11D-ESL-LF"/>
@@ -23845,9 +23885,13 @@ ULN and UDN Series&lt;p&gt;
 <part name="H32" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H33" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H34" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="J4" library="PP_Connectors" deviceset="TRS_JACK" device="_161-3507-E" value="SJ1-2503A"/>
+<part name="AUDIO" library="PP_Connectors" deviceset="TRS_JACK" device="_161-3507-E" value="SJ1-2503A"/>
 <part name="U4" library="PP_DigitalIC" deviceset="EEPROM_I2C" device="DIP-8" value="CAT24M01LI-G"/>
-<part name="BOARD_POWER" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN2)" value="26-64-4040"/>
+<part name="BOARD_POWER" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN2)" value="26-64-4040">
+<attribute name="LABEL01" value="5V"/>
+<attribute name="LABEL02" value="12V"/>
+<attribute name="LABEL03" value="GND"/>
+</part>
 <part name="SOL_PWR" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN3)" value="26-64-4040">
 <attribute name="LABEL01" value="GND"/>
 <attribute name="LABEL02" value="GND"/>
@@ -23855,9 +23899,32 @@ ULN and UDN Series&lt;p&gt;
 </part>
 <part name="U1" library="PP_DigitalIC" deviceset="P8X32A" device="-Q44" value="P8X32A-Q44"/>
 <part name="DMD_CON" library="PP_Connectors" deviceset="CON_02X07" device="_5103308-2" value="5103308-2"/>
-<part name="J6" library="PP_Connectors" deviceset="CON_01X10" device="_26-64-4110(KEYPIN3)"/>
+<part name="CAB_RGB" library="PP_Connectors" deviceset="CON_01X10" device="_26-64-4110(KEYPIN3)">
+<attribute name="LABEL01" value="12V"/>
+<attribute name="LABEL02" value="12V"/>
+<attribute name="LABEL03" value="BL"/>
+<attribute name="LABEL04" value="GL"/>
+<attribute name="LABEL05" value="RL"/>
+<attribute name="LABEL06" value="BR"/>
+<attribute name="LABEL07" value="GR"/>
+<attribute name="LABEL08" value="RR"/>
+<attribute name="LABEL09" value="GND"/>
+<attribute name="LABEL10" value="GND"/>
+</part>
 <part name="J7" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN1)"/>
-<part name="CABINET" library="PP_Connectors" deviceset="CON_01X11" device="_26-64-4120(KEYPIN2)" value="26-64-4120"/>
+<part name="CABINET" library="PP_Connectors" deviceset="CON_01X11" device="_26-64-4120(KEYPIN2)" value="26-64-4120">
+<attribute name="LABEL01" value="GND"/>
+<attribute name="LABEL02" value="ST_LI"/>
+<attribute name="LABEL03" value="ST_BU"/>
+<attribute name="LABEL04" value="TILT"/>
+<attribute name="LABEL05" value="COIN"/>
+<attribute name="LABEL06" value="ENTER"/>
+<attribute name="LABEL07" value="BACK"/>
+<attribute name="LABEL08" value="DOOR"/>
+<attribute name="LABEL09" value="USER_0"/>
+<attribute name="LABEL10" value="R_FLIP"/>
+<attribute name="LABEL11" value="L_FLIP"/>
+</part>
 <part name="KNOCKER" library="PP_Connectors" deviceset="CON_01X02" device="_26-64-4020" value="26-64-4020"/>
 <part name="PICKIT3" library="PP_Connectors" deviceset="CON_01X06" device="_2.54MM_PIN_HEADER"/>
 <part name="R24" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="10K"/>
@@ -24267,13 +24334,13 @@ ULN and UDN Series&lt;p&gt;
 <instance part="H32" gate="G$1" x="284.48" y="-116.84"/>
 <instance part="H33" gate="G$1" x="284.48" y="-124.46"/>
 <instance part="H34" gate="G$1" x="274.32" y="-124.46"/>
-<instance part="J4" gate="G$1" x="284.48" y="30.48" rot="R180"/>
+<instance part="AUDIO" gate="G$1" x="284.48" y="30.48" rot="R180"/>
 <instance part="U4" gate="G$1" x="157.48" y="17.78" rot="MR0"/>
 <instance part="BOARD_POWER" gate="G$1" x="797.56" y="185.42"/>
 <instance part="SOL_PWR" gate="G$1" x="731.52" y="83.82"/>
 <instance part="U1" gate="G$1" x="68.58" y="20.32"/>
 <instance part="DMD_CON" gate="G$1" x="137.16" y="-12.7"/>
-<instance part="J6" gate="G$1" x="228.6" y="-93.98"/>
+<instance part="CAB_RGB" gate="G$1" x="228.6" y="-93.98"/>
 <instance part="J7" gate="G$1" x="916.94" y="40.64"/>
 <instance part="CABINET" gate="G$1" x="518.16" y="86.36"/>
 <instance part="KNOCKER" gate="G$1" x="581.66" y="81.28"/>
@@ -24535,7 +24602,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="279.4" y1="27.94" x2="271.78" y2="27.94" width="0.1524" layer="91"/>
 <label x="271.78" y="27.94" size="0.8128" layer="95" font="vector"/>
-<pinref part="J4" gate="G$1" pin="S"/>
+<pinref part="AUDIO" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="15.24" x2="330.2" y2="15.24" width="0.1524" layer="91"/>
@@ -25145,10 +25212,10 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="226.06" y1="-114.3" x2="218.44" y2="-114.3" width="0.1524" layer="91"/>
 <label x="218.44" y="-114.3" size="0.8128" layer="95" font="vector"/>
-<pinref part="J6" gate="G$1" pin="9"/>
+<pinref part="CAB_RGB" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="10"/>
+<pinref part="CAB_RGB" gate="G$1" pin="10"/>
 <wire x1="226.06" y1="-116.84" x2="218.44" y2="-116.84" width="0.1524" layer="91"/>
 <label x="218.44" y="-116.84" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -26962,7 +27029,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="22.86" x2="256.54" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="33.02" x2="279.4" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="T"/>
+<pinref part="AUDIO" gate="G$1" pin="T"/>
 </segment>
 </net>
 <net name="S_R" class="0">
@@ -26971,7 +27038,7 @@ ULN and UDN Series&lt;p&gt;
 <label x="271.78" y="30.48" size="0.8128" layer="95" font="vector"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="22.86" x2="266.7" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="R"/>
+<pinref part="AUDIO" gate="G$1" pin="R"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -29104,12 +29171,12 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="226.06" y1="-93.98" x2="218.44" y2="-93.98" width="0.1524" layer="91"/>
 <label x="218.44" y="-93.98" size="0.8128" layer="95" font="vector"/>
-<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="CAB_RGB" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="218.44" y1="-96.52" x2="226.06" y2="-96.52" width="0.1524" layer="91"/>
 <label x="218.44" y="-96.52" size="0.8128" layer="95" font="vector"/>
-<pinref part="J6" gate="G$1" pin="2"/>
+<pinref part="CAB_RGB" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="909.32" y1="7.62" x2="901.7" y2="7.62" width="0.1524" layer="91"/>
@@ -29616,7 +29683,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="226.06" y1="-99.06" x2="218.44" y2="-99.06" width="0.1524" layer="91"/>
 <label x="218.44" y="-99.06" size="0.8128" layer="95" font="vector"/>
-<pinref part="J6" gate="G$1" pin="3"/>
+<pinref part="CAB_RGB" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="RGB_GOUT_L" class="0">
@@ -29629,7 +29696,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="218.44" y1="-101.6" x2="226.06" y2="-101.6" width="0.1524" layer="91"/>
 <label x="218.44" y="-101.6" size="0.8128" layer="95" font="vector"/>
-<pinref part="J6" gate="G$1" pin="4"/>
+<pinref part="CAB_RGB" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="RGB_ROUT_L" class="0">
@@ -29642,7 +29709,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="226.06" y1="-104.14" x2="218.44" y2="-104.14" width="0.1524" layer="91"/>
 <label x="218.44" y="-104.14" size="0.8128" layer="95" font="vector"/>
-<pinref part="J6" gate="G$1" pin="5"/>
+<pinref part="CAB_RGB" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="RGB_BOUT_R" class="0">
@@ -29655,7 +29722,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="218.44" y1="-106.68" x2="226.06" y2="-106.68" width="0.1524" layer="91"/>
 <label x="218.44" y="-106.68" size="0.8128" layer="95" font="vector"/>
-<pinref part="J6" gate="G$1" pin="6"/>
+<pinref part="CAB_RGB" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="RGB_GOUT_R" class="0">
@@ -29668,7 +29735,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="226.06" y1="-109.22" x2="218.44" y2="-109.22" width="0.1524" layer="91"/>
 <label x="218.44" y="-109.22" size="0.8128" layer="95" font="vector"/>
-<pinref part="J6" gate="G$1" pin="7"/>
+<pinref part="CAB_RGB" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="RGB_ROUT_R" class="0">
@@ -29681,7 +29748,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="218.44" y1="-111.76" x2="226.06" y2="-111.76" width="0.1524" layer="91"/>
 <label x="218.44" y="-111.76" size="0.8128" layer="95" font="vector"/>
-<pinref part="J6" gate="G$1" pin="8"/>
+<pinref part="CAB_RGB" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
