@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="13" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -23735,37 +23735,37 @@ ULN and UDN Series&lt;p&gt;
 <part name="C53" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0805" value=".1uF"/>
 <part name="C50" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="_6.3MM_SMD" value="EEE-1VA101XP"/>
 <part name="U$1" library="PP_Aesthetics" deviceset="LHE_LOGO" device="LHE_LOGO"/>
-<part name="U6" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI0" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R99" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U7" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI1" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R101" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U8" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI2" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R103" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U9" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI3" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R105" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U40" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI4" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R107" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U41" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI5" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R109" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U42" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI6" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R111" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U43" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI7" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R113" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U44" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI8" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R125" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U45" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI9" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R126" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U46" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI10" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R127" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U47" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI11" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R128" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U48" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI12" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R129" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U49" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI13" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R130" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U50" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI14" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R131" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
-<part name="U51" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
+<part name="GI15" library="PP_DiscreteSemi" deviceset="BJT_NPN_SINGLE" device="_TO-220" value="TIP102"/>
 <part name="R132" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="360"/>
 <part name="U52" library="PP_DigitalIC" deviceset="CD74HC123" device="M96" value="CD74HC123M96"/>
 <part name="R133" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="10K"/>
@@ -23774,7 +23774,6 @@ ULN and UDN Series&lt;p&gt;
 <part name="P1" library="PP_Passives" deviceset="TC33X-1" device="_TC33X-1" value="TC33X-2-103E"/>
 <part name="R135" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="10K"/>
 <part name="D2" library="PP_Passives" deviceset="DIODE" device="_SOD-123" value="CGRM4001-HF"/>
-<part name="J3" library="PP_Connectors" deviceset="CON_01X04" device="_2.54MM_PIN_HEADER" value="N/A"/>
 <part name="R136" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="0"/>
 <part name="LOGO1" library="PP_Aesthetics" deviceset="SPOOKY_LOGO" device="SPOOKY_LOGO"/>
 <part name="PSU_PWR" library="PP_LED" deviceset="LED_SINGLE" device="_0805" value="LG R971-KN-1"/>
@@ -23859,8 +23858,28 @@ ULN and UDN Series&lt;p&gt;
 <attribute name="LABEL08" value="LIGHT_R_6"/>
 <attribute name="LABEL09" value="LIGHT_R_7"/>
 </part>
-<part name="GI_0" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN9)" value="26-64-4100"/>
-<part name="GI_1" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN10)" value="26-64-4100"/>
+<part name="GI_0" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN9)" value="26-64-4100">
+<attribute name="LABEL01" value="GI_0"/>
+<attribute name="LABEL02" value="GI_1"/>
+<attribute name="LABEL03" value="GI_2"/>
+<attribute name="LABEL04" value="GI_3"/>
+<attribute name="LABEL05" value="GI_4"/>
+<attribute name="LABEL06" value="GI_5"/>
+<attribute name="LABEL07" value="GI_6"/>
+<attribute name="LABEL08" value="GI_7"/>
+<attribute name="LABEL09" value="5V"/>
+</part>
+<part name="GI_1" library="PP_Connectors" deviceset="CON_01X09" device="_26-64-4100_(KEYPIN10)" value="26-64-4100">
+<attribute name="LABEL01" value="GI_8"/>
+<attribute name="LABEL02" value="GI_9"/>
+<attribute name="LABEL03" value="GI_10"/>
+<attribute name="LABEL04" value="GI_11"/>
+<attribute name="LABEL05" value="GI_12"/>
+<attribute name="LABEL06" value="GI_13"/>
+<attribute name="LABEL07" value="GI_14"/>
+<attribute name="LABEL08" value="GI_15"/>
+<attribute name="LABEL09" value="5V"/>
+</part>
 <part name="SOCKET1" library="PP_Connectors" deviceset="DIP_SOCKET" device="_20PIN" value="820-AG11D-ESL-LF"/>
 <part name="SOCKET2" library="PP_Connectors" deviceset="DIP_SOCKET" device="_20PIN" value="820-AG11D-ESL-LF"/>
 <part name="SOCKET3" library="PP_Connectors" deviceset="DIP_SOCKET" device="_8PIN" value="808-AG11D-ESL-LF"/>
@@ -23911,7 +23930,11 @@ ULN and UDN Series&lt;p&gt;
 <attribute name="LABEL09" value="GND"/>
 <attribute name="LABEL10" value="GND"/>
 </part>
-<part name="J7" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN1)"/>
+<part name="DMD_PWR" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN1)">
+<attribute name="LABEL01" value="12V"/>
+<attribute name="LABEL02" value="5V"/>
+<attribute name="LABEL03" value="GND"/>
+</part>
 <part name="CABINET" library="PP_Connectors" deviceset="CON_01X11" device="_26-64-4120(KEYPIN2)" value="26-64-4120">
 <attribute name="LABEL01" value="GND"/>
 <attribute name="LABEL02" value="ST_LI"/>
@@ -23997,6 +24020,9 @@ ULN and UDN Series&lt;p&gt;
 <part name="C18" library="MF_Passives" deviceset="CAPACITOR_P" device="_12.5MM" value="MF-CAP-12.5MM-1000uF"/>
 <part name="C19" library="MF_Passives" deviceset="CAPACITOR_P" device="_12.5MM" value="MF-CAP-12.5MM-1000uF"/>
 <part name="U37" library="PP_DiscreteSemi" deviceset="BJT_PNP_SINGLE" device="_TO-220" value="TIP107"/>
+<part name="F5" library="PP_Passives" deviceset="PTC_FUSE" device="_4245K" value="4245K"/>
+<part name="C29" library="MF_Passives" deviceset="CAPACITOR_P" device="_6.3MM" value="MF-CAP-12.5MM-1000uF"/>
+<part name="C30" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0805" value=".1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -24254,37 +24280,37 @@ ULN and UDN Series&lt;p&gt;
 <instance part="C53" gate="G$1" x="922.02" y="58.42"/>
 <instance part="C50" gate="G$1" x="929.64" y="58.42"/>
 <instance part="U$1" gate="G$1" x="231.14" y="-81.28"/>
-<instance part="U6" gate="G$1" x="403.86" y="27.94"/>
+<instance part="GI0" gate="G$1" x="403.86" y="27.94"/>
 <instance part="R99" gate="G$1" x="391.16" y="27.94"/>
-<instance part="U7" gate="G$1" x="403.86" y="10.16"/>
+<instance part="GI1" gate="G$1" x="403.86" y="10.16"/>
 <instance part="R101" gate="G$1" x="391.16" y="10.16"/>
-<instance part="U8" gate="G$1" x="403.86" y="-7.62"/>
+<instance part="GI2" gate="G$1" x="403.86" y="-7.62"/>
 <instance part="R103" gate="G$1" x="391.16" y="-7.62"/>
-<instance part="U9" gate="G$1" x="403.86" y="-25.4"/>
+<instance part="GI3" gate="G$1" x="403.86" y="-25.4"/>
 <instance part="R105" gate="G$1" x="391.16" y="-25.4"/>
-<instance part="U40" gate="G$1" x="444.5" y="27.94"/>
+<instance part="GI4" gate="G$1" x="444.5" y="27.94"/>
 <instance part="R107" gate="G$1" x="431.8" y="27.94"/>
-<instance part="U41" gate="G$1" x="444.5" y="10.16"/>
+<instance part="GI5" gate="G$1" x="444.5" y="10.16"/>
 <instance part="R109" gate="G$1" x="431.8" y="10.16"/>
-<instance part="U42" gate="G$1" x="444.5" y="-7.62"/>
+<instance part="GI6" gate="G$1" x="444.5" y="-7.62"/>
 <instance part="R111" gate="G$1" x="431.8" y="-7.62"/>
-<instance part="U43" gate="G$1" x="444.5" y="-25.4"/>
+<instance part="GI7" gate="G$1" x="444.5" y="-25.4"/>
 <instance part="R113" gate="G$1" x="431.8" y="-25.4"/>
-<instance part="U44" gate="G$1" x="403.86" y="-48.26"/>
+<instance part="GI8" gate="G$1" x="403.86" y="-48.26"/>
 <instance part="R125" gate="G$1" x="391.16" y="-48.26"/>
-<instance part="U45" gate="G$1" x="403.86" y="-66.04"/>
+<instance part="GI9" gate="G$1" x="403.86" y="-66.04"/>
 <instance part="R126" gate="G$1" x="391.16" y="-66.04"/>
-<instance part="U46" gate="G$1" x="403.86" y="-83.82"/>
+<instance part="GI10" gate="G$1" x="403.86" y="-83.82"/>
 <instance part="R127" gate="G$1" x="391.16" y="-83.82"/>
-<instance part="U47" gate="G$1" x="403.86" y="-101.6"/>
+<instance part="GI11" gate="G$1" x="403.86" y="-101.6"/>
 <instance part="R128" gate="G$1" x="391.16" y="-101.6"/>
-<instance part="U48" gate="G$1" x="444.5" y="-48.26"/>
+<instance part="GI12" gate="G$1" x="444.5" y="-48.26"/>
 <instance part="R129" gate="G$1" x="431.8" y="-48.26"/>
-<instance part="U49" gate="G$1" x="444.5" y="-66.04"/>
+<instance part="GI13" gate="G$1" x="444.5" y="-66.04"/>
 <instance part="R130" gate="G$1" x="431.8" y="-66.04"/>
-<instance part="U50" gate="G$1" x="444.5" y="-83.82"/>
+<instance part="GI14" gate="G$1" x="444.5" y="-83.82"/>
 <instance part="R131" gate="G$1" x="431.8" y="-83.82"/>
-<instance part="U51" gate="G$1" x="444.5" y="-101.6"/>
+<instance part="GI15" gate="G$1" x="444.5" y="-101.6"/>
 <instance part="R132" gate="G$1" x="431.8" y="-101.6"/>
 <instance part="U52" gate="G$1" x="520.7" y="-5.08"/>
 <instance part="R133" gate="G$1" x="505.46" y="-15.24" rot="MR270"/>
@@ -24293,7 +24319,6 @@ ULN and UDN Series&lt;p&gt;
 <instance part="P1" gate="G$1" x="571.5" y="0" rot="R180"/>
 <instance part="R135" gate="G$1" x="548.64" y="-33.02" rot="MR270"/>
 <instance part="D2" gate="G$1" x="561.34" y="12.7"/>
-<instance part="J3" gate="G$1" x="530.86" y="40.64"/>
 <instance part="R136" gate="G$1" x="721.36" y="58.42" rot="MR0"/>
 <instance part="LOGO1" gate="G$1" x="-99.06" y="190.5"/>
 <instance part="PSU_PWR" gate="G$1" x="795.02" y="132.08" rot="R270"/>
@@ -24341,7 +24366,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="U1" gate="G$1" x="68.58" y="20.32"/>
 <instance part="DMD_CON" gate="G$1" x="137.16" y="-12.7"/>
 <instance part="CAB_RGB" gate="G$1" x="228.6" y="-93.98"/>
-<instance part="J7" gate="G$1" x="916.94" y="40.64"/>
+<instance part="DMD_PWR" gate="G$1" x="916.94" y="40.64"/>
 <instance part="CABINET" gate="G$1" x="518.16" y="86.36"/>
 <instance part="KNOCKER" gate="G$1" x="581.66" y="81.28"/>
 <instance part="PICKIT3" gate="G$1" x="15.24" y="106.68"/>
@@ -24405,6 +24430,9 @@ ULN and UDN Series&lt;p&gt;
 <instance part="C18" gate="G$1" x="668.02" y="-66.04"/>
 <instance part="C19" gate="G$1" x="693.42" y="-66.04"/>
 <instance part="U37" gate="G$1" x="855.98" y="190.5" rot="MR180"/>
+<instance part="F5" gate="G$1" x="472.44" y="-43.18"/>
+<instance part="C29" gate="G$1" x="949.96" y="38.1"/>
+<instance part="C30" gate="G$1" x="495.3" y="25.4" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -24636,8 +24664,13 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="U10" gate="G$1" pin="GND"/>
-<wire x1="487.68" y1="30.48" x2="474.98" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="30.48" x2="482.6" y2="30.48" width="0.1524" layer="91"/>
 <label x="474.98" y="30.48" size="0.8128" layer="95" font="vector"/>
+<wire x1="482.6" y1="30.48" x2="474.98" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="30.48" x2="482.6" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C30" gate="G$1" pin="2"/>
+<wire x1="482.6" y1="25.4" x2="492.76" y2="25.4" width="0.1524" layer="91"/>
+<junction x="482.6" y="30.48"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="GND"/>
@@ -25051,7 +25084,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="914.4" y1="35.56" x2="901.7" y2="35.56" width="0.1524" layer="91"/>
 <label x="901.7" y="35.56" size="0.8128" layer="95" font="vector"/>
-<pinref part="J7" gate="G$1" pin="PIN3"/>
+<pinref part="DMD_PWR" gate="G$1" pin="PIN3"/>
 </segment>
 <segment>
 <pinref part="U39" gate="G$1" pin="GND"/>
@@ -25084,82 +25117,82 @@ ULN and UDN Series&lt;p&gt;
 <junction x="922.02" y="50.8"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="EMITTER"/>
+<pinref part="GI0" gate="G$1" pin="EMITTER"/>
 <wire x1="406.4" y1="20.32" x2="401.32" y2="20.32" width="0.1524" layer="91"/>
 <label x="401.32" y="20.32" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="EMITTER"/>
+<pinref part="GI1" gate="G$1" pin="EMITTER"/>
 <wire x1="406.4" y1="2.54" x2="401.32" y2="2.54" width="0.1524" layer="91"/>
 <label x="401.32" y="2.54" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="EMITTER"/>
+<pinref part="GI2" gate="G$1" pin="EMITTER"/>
 <wire x1="406.4" y1="-15.24" x2="401.32" y2="-15.24" width="0.1524" layer="91"/>
 <label x="401.32" y="-15.24" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="EMITTER"/>
+<pinref part="GI3" gate="G$1" pin="EMITTER"/>
 <wire x1="406.4" y1="-33.02" x2="401.32" y2="-33.02" width="0.1524" layer="91"/>
 <label x="401.32" y="-33.02" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U40" gate="G$1" pin="EMITTER"/>
+<pinref part="GI4" gate="G$1" pin="EMITTER"/>
 <wire x1="447.04" y1="20.32" x2="441.96" y2="20.32" width="0.1524" layer="91"/>
 <label x="441.96" y="20.32" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U41" gate="G$1" pin="EMITTER"/>
+<pinref part="GI5" gate="G$1" pin="EMITTER"/>
 <wire x1="447.04" y1="2.54" x2="441.96" y2="2.54" width="0.1524" layer="91"/>
 <label x="441.96" y="2.54" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U42" gate="G$1" pin="EMITTER"/>
+<pinref part="GI6" gate="G$1" pin="EMITTER"/>
 <wire x1="447.04" y1="-15.24" x2="441.96" y2="-15.24" width="0.1524" layer="91"/>
 <label x="441.96" y="-15.24" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U43" gate="G$1" pin="EMITTER"/>
+<pinref part="GI7" gate="G$1" pin="EMITTER"/>
 <wire x1="447.04" y1="-33.02" x2="441.96" y2="-33.02" width="0.1524" layer="91"/>
 <label x="441.96" y="-33.02" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U44" gate="G$1" pin="EMITTER"/>
+<pinref part="GI8" gate="G$1" pin="EMITTER"/>
 <wire x1="406.4" y1="-55.88" x2="401.32" y2="-55.88" width="0.1524" layer="91"/>
 <label x="401.32" y="-55.88" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U45" gate="G$1" pin="EMITTER"/>
+<pinref part="GI9" gate="G$1" pin="EMITTER"/>
 <wire x1="406.4" y1="-73.66" x2="401.32" y2="-73.66" width="0.1524" layer="91"/>
 <label x="401.32" y="-73.66" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U46" gate="G$1" pin="EMITTER"/>
+<pinref part="GI10" gate="G$1" pin="EMITTER"/>
 <wire x1="406.4" y1="-91.44" x2="401.32" y2="-91.44" width="0.1524" layer="91"/>
 <label x="401.32" y="-91.44" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U47" gate="G$1" pin="EMITTER"/>
+<pinref part="GI11" gate="G$1" pin="EMITTER"/>
 <wire x1="406.4" y1="-109.22" x2="401.32" y2="-109.22" width="0.1524" layer="91"/>
 <label x="401.32" y="-109.22" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U48" gate="G$1" pin="EMITTER"/>
+<pinref part="GI12" gate="G$1" pin="EMITTER"/>
 <wire x1="447.04" y1="-55.88" x2="441.96" y2="-55.88" width="0.1524" layer="91"/>
 <label x="441.96" y="-55.88" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U49" gate="G$1" pin="EMITTER"/>
+<pinref part="GI13" gate="G$1" pin="EMITTER"/>
 <wire x1="447.04" y1="-73.66" x2="441.96" y2="-73.66" width="0.1524" layer="91"/>
 <label x="441.96" y="-73.66" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U50" gate="G$1" pin="EMITTER"/>
+<pinref part="GI14" gate="G$1" pin="EMITTER"/>
 <wire x1="447.04" y1="-91.44" x2="441.96" y2="-91.44" width="0.1524" layer="91"/>
 <label x="441.96" y="-91.44" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U51" gate="G$1" pin="EMITTER"/>
+<pinref part="GI15" gate="G$1" pin="EMITTER"/>
 <wire x1="447.04" y1="-109.22" x2="441.96" y2="-109.22" width="0.1524" layer="91"/>
 <label x="441.96" y="-109.22" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -25178,16 +25211,6 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="C27" gate="G$1" pin="NEG"/>
 <wire x1="551.18" y1="-20.32" x2="551.18" y2="-15.24" width="0.1524" layer="91"/>
 <label x="546.1" y="-20.32" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<wire x1="528.32" y1="35.56" x2="523.24" y2="35.56" width="0.1524" layer="91"/>
-<label x="520.7" y="35.56" size="0.8128" layer="95" font="vector"/>
-<pinref part="J3" gate="G$1" pin="3"/>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="523.24" y1="35.56" x2="520.7" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="38.1" x2="523.24" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="523.24" y1="38.1" x2="523.24" y2="35.56" width="0.1524" layer="91"/>
-<junction x="523.24" y="35.56"/>
 </segment>
 <segment>
 <pinref part="R136" gate="G$1" pin="1"/>
@@ -25391,6 +25414,12 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="795.02" y1="180.34" x2="787.4" y2="180.34" width="0.1524" layer="91"/>
 <label x="787.4" y="180.34" size="0.8128" layer="95" font="vector"/>
 <pinref part="BOARD_POWER" gate="G$1" pin="PIN3"/>
+</segment>
+<segment>
+<pinref part="C29" gate="G$1" pin="P$2"/>
+<wire x1="949.96" y1="33.02" x2="949.96" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="949.96" y1="30.48" x2="942.34" y2="30.48" width="0.1524" layer="91"/>
+<label x="942.34" y="30.48" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="RX_PIC32" class="0">
@@ -27074,8 +27103,13 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="U10" gate="G$1" pin="VCC"/>
-<wire x1="515.62" y1="30.48" x2="501.65" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="30.48" x2="508" y2="30.48" width="0.1524" layer="91"/>
 <label x="510.54" y="30.48" size="0.8128" layer="95" font="vector"/>
+<pinref part="C30" gate="G$1" pin="1"/>
+<wire x1="508" y1="30.48" x2="501.65" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="25.4" x2="508" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="508" y1="25.4" x2="508" y2="30.48" width="0.1524" layer="91"/>
+<junction x="508" y="30.48"/>
 </segment>
 <segment>
 <pinref part="U14" gate="G$1" pin="VCC"/>
@@ -27132,7 +27166,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="914.4" y1="38.1" x2="901.7" y2="38.1" width="0.1524" layer="91"/>
 <label x="901.7" y="38.1" size="0.8128" layer="95" font="vector"/>
-<pinref part="J7" gate="G$1" pin="PIN2"/>
+<pinref part="DMD_PWR" gate="G$1" pin="PIN2"/>
 </segment>
 <segment>
 <pinref part="U39" gate="G$1" pin="IN"/>
@@ -27285,6 +27319,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="845.82" y1="205.74" x2="825.5" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="845.82" y1="203.2" x2="845.82" y2="205.74" width="0.1524" layer="91"/>
 <label x="825.5" y="205.74" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="F5" gate="G$1" pin="P$1"/>
+<wire x1="467.36" y1="-43.18" x2="459.74" y2="-43.18" width="0.1524" layer="91"/>
+<label x="459.74" y="-43.18" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="CAB_LAT" class="0">
@@ -27501,11 +27540,6 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="518.16" y1="119.38" x2="505.46" y2="119.38" width="0.1524" layer="91"/>
 <label x="505.46" y="119.38" size="0.8128" layer="95" font="vector"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="528.32" y1="40.64" x2="520.7" y2="40.64" width="0.1524" layer="91"/>
-<label x="520.7" y="40.64" size="0.8128" layer="95" font="vector"/>
-</segment>
 </net>
 <net name="!DATA_LAT" class="0">
 <segment>
@@ -27539,9 +27573,8 @@ ULN and UDN Series&lt;p&gt;
 <net name="!AN_BLANK" class="0">
 <segment>
 <pinref part="U10" gate="G$1" pin="2Y"/>
-<wire x1="501.65" y1="33.02" x2="528.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="501.65" y1="33.02" x2="515.62" y2="33.02" width="0.1524" layer="91"/>
 <label x="510.54" y="33.02" size="0.8128" layer="95" font="vector"/>
-<pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="CAB_SWITCH_IN" class="0">
@@ -29184,7 +29217,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="LIGHT_COL" gate="G$1" pin="PIN1"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="PIN1"/>
+<pinref part="DMD_PWR" gate="G$1" pin="PIN1"/>
 <wire x1="914.4" y1="40.64" x2="901.7" y2="40.64" width="0.1524" layer="91"/>
 <label x="901.7" y="40.64" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -29192,6 +29225,12 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="795.02" y1="182.88" x2="787.4" y2="182.88" width="0.1524" layer="91"/>
 <label x="787.4" y="182.88" size="0.8128" layer="95" font="vector"/>
 <pinref part="BOARD_POWER" gate="G$1" pin="PIN2"/>
+</segment>
+<segment>
+<pinref part="C29" gate="G$1" pin="P$1"/>
+<wire x1="949.96" y1="43.18" x2="949.96" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="949.96" y1="45.72" x2="942.34" y2="45.72" width="0.1524" layer="91"/>
+<label x="942.34" y="45.72" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="LIGHT_C_B_0" class="0">
@@ -30113,56 +30152,56 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="N$481" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="BASE"/>
+<pinref part="GI0" gate="G$1" pin="BASE"/>
 <pinref part="R99" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$482" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="BASE"/>
+<pinref part="GI1" gate="G$1" pin="BASE"/>
 <pinref part="R101" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$483" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="BASE"/>
+<pinref part="GI2" gate="G$1" pin="BASE"/>
 <pinref part="R103" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$484" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="BASE"/>
+<pinref part="GI3" gate="G$1" pin="BASE"/>
 <pinref part="R105" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$485" class="0">
 <segment>
-<pinref part="U40" gate="G$1" pin="BASE"/>
+<pinref part="GI4" gate="G$1" pin="BASE"/>
 <pinref part="R107" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$486" class="0">
 <segment>
-<pinref part="U41" gate="G$1" pin="BASE"/>
+<pinref part="GI5" gate="G$1" pin="BASE"/>
 <pinref part="R109" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$487" class="0">
 <segment>
-<pinref part="U42" gate="G$1" pin="BASE"/>
+<pinref part="GI6" gate="G$1" pin="BASE"/>
 <pinref part="R111" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$488" class="0">
 <segment>
-<pinref part="U43" gate="G$1" pin="BASE"/>
+<pinref part="GI7" gate="G$1" pin="BASE"/>
 <pinref part="R113" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GI_R_0" class="0">
 <segment>
 <label x="386.08" y="35.56" size="0.8128" layer="95" font="vector"/>
-<pinref part="U6" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI0" gate="G$1" pin="COLLECTOR"/>
 <wire x1="386.08" y1="35.56" x2="406.4" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30174,7 +30213,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_1" class="0">
 <segment>
 <label x="386.08" y="17.78" size="0.8128" layer="95" font="vector"/>
-<pinref part="U7" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI1" gate="G$1" pin="COLLECTOR"/>
 <wire x1="386.08" y1="17.78" x2="406.4" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30186,7 +30225,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_2" class="0">
 <segment>
 <label x="386.08" y="0" size="0.8128" layer="95" font="vector"/>
-<pinref part="U8" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI2" gate="G$1" pin="COLLECTOR"/>
 <wire x1="386.08" y1="0" x2="406.4" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30198,7 +30237,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_3" class="0">
 <segment>
 <label x="386.08" y="-17.78" size="0.8128" layer="95" font="vector"/>
-<pinref part="U9" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI3" gate="G$1" pin="COLLECTOR"/>
 <wire x1="386.08" y1="-17.78" x2="406.4" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30210,7 +30249,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_7" class="0">
 <segment>
 <label x="426.72" y="-17.78" size="0.8128" layer="95" font="vector"/>
-<pinref part="U43" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI7" gate="G$1" pin="COLLECTOR"/>
 <wire x1="426.72" y1="-17.78" x2="447.04" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30222,7 +30261,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_6" class="0">
 <segment>
 <label x="426.72" y="0" size="0.8128" layer="95" font="vector"/>
-<pinref part="U42" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI6" gate="G$1" pin="COLLECTOR"/>
 <wire x1="426.72" y1="0" x2="447.04" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30234,7 +30273,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_5" class="0">
 <segment>
 <label x="426.72" y="17.78" size="0.8128" layer="95" font="vector"/>
-<pinref part="U41" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI5" gate="G$1" pin="COLLECTOR"/>
 <wire x1="426.72" y1="17.78" x2="447.04" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30246,7 +30285,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_4" class="0">
 <segment>
 <label x="426.72" y="35.56" size="0.8128" layer="95" font="vector"/>
-<pinref part="U40" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI4" gate="G$1" pin="COLLECTOR"/>
 <wire x1="426.72" y1="35.56" x2="447.04" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30257,56 +30296,56 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="N$489" class="0">
 <segment>
-<pinref part="U44" gate="G$1" pin="BASE"/>
+<pinref part="GI8" gate="G$1" pin="BASE"/>
 <pinref part="R125" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$490" class="0">
 <segment>
-<pinref part="U45" gate="G$1" pin="BASE"/>
+<pinref part="GI9" gate="G$1" pin="BASE"/>
 <pinref part="R126" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$491" class="0">
 <segment>
-<pinref part="U46" gate="G$1" pin="BASE"/>
+<pinref part="GI10" gate="G$1" pin="BASE"/>
 <pinref part="R127" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$492" class="0">
 <segment>
-<pinref part="U47" gate="G$1" pin="BASE"/>
+<pinref part="GI11" gate="G$1" pin="BASE"/>
 <pinref part="R128" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$493" class="0">
 <segment>
-<pinref part="U48" gate="G$1" pin="BASE"/>
+<pinref part="GI12" gate="G$1" pin="BASE"/>
 <pinref part="R129" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$494" class="0">
 <segment>
-<pinref part="U49" gate="G$1" pin="BASE"/>
+<pinref part="GI13" gate="G$1" pin="BASE"/>
 <pinref part="R130" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$495" class="0">
 <segment>
-<pinref part="U50" gate="G$1" pin="BASE"/>
+<pinref part="GI14" gate="G$1" pin="BASE"/>
 <pinref part="R131" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$496" class="0">
 <segment>
-<pinref part="U51" gate="G$1" pin="BASE"/>
+<pinref part="GI15" gate="G$1" pin="BASE"/>
 <pinref part="R132" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GI_R_8" class="0">
 <segment>
 <label x="386.08" y="-40.64" size="0.8128" layer="95" font="vector"/>
-<pinref part="U44" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI8" gate="G$1" pin="COLLECTOR"/>
 <wire x1="386.08" y1="-40.64" x2="406.4" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30318,7 +30357,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_9" class="0">
 <segment>
 <label x="386.08" y="-58.42" size="0.8128" layer="95" font="vector"/>
-<pinref part="U45" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI9" gate="G$1" pin="COLLECTOR"/>
 <wire x1="386.08" y1="-58.42" x2="406.4" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30330,7 +30369,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_10" class="0">
 <segment>
 <label x="386.08" y="-76.2" size="0.8128" layer="95" font="vector"/>
-<pinref part="U46" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI10" gate="G$1" pin="COLLECTOR"/>
 <wire x1="386.08" y1="-76.2" x2="406.4" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30342,7 +30381,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_11" class="0">
 <segment>
 <label x="386.08" y="-93.98" size="0.8128" layer="95" font="vector"/>
-<pinref part="U47" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI11" gate="G$1" pin="COLLECTOR"/>
 <wire x1="386.08" y1="-93.98" x2="406.4" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30354,7 +30393,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_12" class="0">
 <segment>
 <label x="426.72" y="-40.64" size="0.8128" layer="95" font="vector"/>
-<pinref part="U48" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI12" gate="G$1" pin="COLLECTOR"/>
 <wire x1="426.72" y1="-40.64" x2="447.04" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30366,7 +30405,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_13" class="0">
 <segment>
 <label x="426.72" y="-58.42" size="0.8128" layer="95" font="vector"/>
-<pinref part="U49" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI13" gate="G$1" pin="COLLECTOR"/>
 <wire x1="426.72" y1="-58.42" x2="447.04" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30378,7 +30417,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="GI_R_14" class="0">
 <segment>
 <label x="426.72" y="-76.2" size="0.8128" layer="95" font="vector"/>
-<pinref part="U50" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI14" gate="G$1" pin="COLLECTOR"/>
 <wire x1="426.72" y1="-76.2" x2="447.04" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30387,10 +30426,10 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="GI_1" gate="G$1" pin="PIN7"/>
 </segment>
 </net>
-<net name="GI_R_15" class="0">
+<net name="GI15" class="0">
 <segment>
 <label x="426.72" y="-93.98" size="0.8128" layer="95" font="vector"/>
-<pinref part="U51" gate="G$1" pin="COLLECTOR"/>
+<pinref part="GI15" gate="G$1" pin="COLLECTOR"/>
 <wire x1="426.72" y1="-93.98" x2="447.04" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30424,23 +30463,6 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="R134" gate="G$1" pin="1"/>
 <pinref part="P1" gate="G$1" pin="2_WIPER"/>
 <wire x1="563.88" y1="0" x2="566.42" y2="0" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GI_5V" class="0">
-<segment>
-<pinref part="F4" gate="G$1" pin="P$2"/>
-<wire x1="477.52" y1="-33.02" x2="485.14" y2="-33.02" width="0.1524" layer="91"/>
-<label x="482.6" y="-33.02" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<wire x1="467.36" y1="-10.16" x2="459.74" y2="-10.16" width="0.1524" layer="91"/>
-<label x="459.74" y="-10.16" size="0.8128" layer="95" font="vector"/>
-<pinref part="GI_0" gate="G$1" pin="PIN9"/>
-</segment>
-<segment>
-<wire x1="467.36" y1="-83.82" x2="459.74" y2="-83.82" width="0.1524" layer="91"/>
-<label x="459.74" y="-83.82" size="0.8128" layer="95" font="vector"/>
-<pinref part="GI_1" gate="G$1" pin="PIN9"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -30707,6 +30729,30 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="IC2" gate="PC" pin="T2CK/RC1"/>
 <wire x1="193.04" y1="177.8" x2="205.74" y2="177.8" width="0.1524" layer="91"/>
 <label x="198.12" y="177.8" size="0.8128" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="GI1_5V" class="0">
+<segment>
+<wire x1="467.36" y1="-83.82" x2="459.74" y2="-83.82" width="0.1524" layer="91"/>
+<label x="459.74" y="-83.82" size="0.8128" layer="95" font="vector"/>
+<pinref part="GI_1" gate="G$1" pin="PIN9"/>
+</segment>
+<segment>
+<pinref part="F4" gate="G$1" pin="P$2"/>
+<wire x1="477.52" y1="-33.02" x2="485.14" y2="-33.02" width="0.1524" layer="91"/>
+<label x="482.6" y="-33.02" size="0.8128" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="GI0_5V" class="0">
+<segment>
+<wire x1="467.36" y1="-10.16" x2="459.74" y2="-10.16" width="0.1524" layer="91"/>
+<label x="459.74" y="-10.16" size="0.8128" layer="95" font="vector"/>
+<pinref part="GI_0" gate="G$1" pin="PIN9"/>
+</segment>
+<segment>
+<pinref part="F5" gate="G$1" pin="P$2"/>
+<wire x1="477.52" y1="-43.18" x2="485.14" y2="-43.18" width="0.1524" layer="91"/>
+<label x="482.6" y="-43.18" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 </nets>
