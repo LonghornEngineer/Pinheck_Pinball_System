@@ -23792,7 +23792,14 @@ ULN and UDN Series&lt;p&gt;
 <part name="SERVO_2" library="PP_Connectors" deviceset="CON_01X03" device="_640454-3" value="640454-3"/>
 <part name="SERVO_3" library="PP_Connectors" deviceset="CON_01X03" device="_640454-3" value="640454-3"/>
 <part name="SERVO_4" library="PP_Connectors" deviceset="CON_01X03" device="_640454-3" value="640454-3"/>
-<part name="MOD_CON" library="PP_Connectors" deviceset="CON_01X06" device="_2.54MM_PIN_HEADER" value="26-64-4050"/>
+<part name="MOD_CON" library="PP_Connectors" deviceset="CON_01X06" device="_2.54MM_PIN_HEADER" value="26-64-4050">
+<attribute name="LABEL01" value="GND"/>
+<attribute name="LABEL02" value="3.3V"/>
+<attribute name="LABEL03" value="5V"/>
+<attribute name="LABEL04" value="I2C_SDA"/>
+<attribute name="LABEL05" value="I2C_SCL"/>
+<attribute name="LABEL06" value="12V"/>
+</part>
 <part name="R2" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="2K"/>
 <part name="R5" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="1K"/>
 <part name="R6" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="2K"/>
