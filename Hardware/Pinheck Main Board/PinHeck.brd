@@ -14784,6 +14784,10 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <element name="C49" library="PP_Passives" package="6.3MM_CAP_SMD" value="EEE-1VA101XP" x="222.504" y="93.091"/>
 <element name="C54" library="PP_Passives" package="0805" value=".1uF" x="180.086" y="119.38"/>
 <element name="C55" library="PP_Passives" package="0805" value=".1uF" x="166.116" y="119.38"/>
+<element name="SHAKER" library="PP_Connectors" package="26-64-4020" value="26-64-4020" x="130.81" y="37.719">
+<attribute name="LABEL02" value="" x="122.682" y="58.293" size="1.778" layer="27" display="off"/>
+<attribute name="LABEL01" value="" x="122.682" y="58.293" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -18654,32 +18658,40 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <wire x1="115.53" y1="6.096" x2="115.53" y2="13.676" width="3.81" layer="3"/>
 <wire x1="115.53" y1="13.676" x2="124.206" y2="22.352" width="3.81" layer="3"/>
 <wire x1="124.206" y1="22.352" x2="125.476" y2="23.622" width="3.81" layer="3"/>
-<wire x1="125.476" y1="23.622" x2="262.636" y2="23.622" width="3.81" layer="3"/>
+<wire x1="125.476" y1="23.622" x2="128.778" y2="23.622" width="3.81" layer="3"/>
+<wire x1="128.778" y1="23.622" x2="262.636" y2="23.622" width="3.81" layer="3"/>
 <wire x1="262.636" y1="23.622" x2="264.922" y2="25.908" width="3.81" layer="3"/>
 <wire x1="264.922" y1="25.908" x2="264.922" y2="26.731" width="3.81" layer="3"/>
 <wire x1="264.922" y1="26.731" x2="264.922" y2="34.351" width="3.81" layer="3"/>
 <wire x1="118.06675" y1="37.719" x2="117.856" y2="37.50825" width="1.6764" layer="3"/>
 <wire x1="117.856" y1="37.50825" x2="117.856" y2="28.702" width="1.6764" layer="3"/>
 <wire x1="117.856" y1="28.702" x2="124.206" y2="22.352" width="1.6764" layer="3"/>
+<contactref element="SHAKER" pad="P$1"/>
+<wire x1="128.83" y1="37.719" x2="128.83" y2="23.674" width="1.6764" layer="3"/>
+<wire x1="128.83" y1="23.674" x2="128.778" y2="23.622" width="1.6764" layer="3"/>
 </signal>
 <signal name="SOL_PWR_0">
 <contactref element="SOL_0" pad="D"/>
 <contactref element="SOL_BANK_0" pad="P$2"/>
 <contactref element="KNOCKER" pad="P$2"/>
-<wire x1="129.286" y1="37.592" x2="134.112" y2="42.418" width="1.6764" layer="1"/>
-<wire x1="134.112" y1="42.418" x2="142.748" y2="42.418" width="1.6764" layer="1"/>
 <wire x1="119.49" y1="6.096" x2="119.49" y2="11.286" width="1.6764" layer="1"/>
-<wire x1="119.49" y1="11.286" x2="129.286" y2="21.082" width="1.6764" layer="1"/>
-<wire x1="129.286" y1="21.082" x2="129.286" y2="37.592" width="1.6764" layer="1"/>
 <wire x1="122.02675" y1="37.719" x2="122.15375" y2="37.592" width="1.6764" layer="1"/>
-<wire x1="122.15375" y1="37.592" x2="129.286" y2="37.592" width="1.6764" layer="1"/>
+<wire x1="142.748" y1="42.418" x2="123.19" y2="42.418" width="1.6764" layer="1"/>
+<wire x1="123.19" y1="42.418" x2="122.02675" y2="41.25475" width="1.6764" layer="1"/>
+<wire x1="122.02675" y1="41.25475" x2="122.02675" y2="37.719" width="1.6764" layer="1"/>
+<wire x1="122.15375" y1="37.592" x2="122.15375" y2="13.94975" width="1.6764" layer="1"/>
+<wire x1="122.15375" y1="13.94975" x2="119.49" y2="11.286" width="1.6764" layer="1"/>
 </signal>
 <signal name="SOL_PWR_1">
 <contactref element="SOL_1" pad="D"/>
 <contactref element="SOL_BANK_0" pad="P$3"/>
 <wire x1="147.574" y1="31.242" x2="144.526" y2="31.242" width="1.6764" layer="1"/>
-<wire x1="144.526" y1="31.242" x2="123.45" y2="10.166" width="1.6764" layer="1"/>
+<wire x1="144.526" y1="31.242" x2="139.7" y2="26.416" width="1.6764" layer="1"/>
+<wire x1="139.7" y1="26.416" x2="123.45" y2="10.166" width="1.6764" layer="1"/>
 <wire x1="123.45" y1="10.166" x2="123.45" y2="6.096" width="1.6764" layer="1"/>
+<contactref element="SHAKER" pad="P$2"/>
+<wire x1="132.79" y1="37.719" x2="132.79" y2="33.326" width="1.6764" layer="1"/>
+<wire x1="132.79" y1="33.326" x2="139.7" y2="26.416" width="1.6764" layer="1"/>
 </signal>
 <signal name="SOL_PWR_2">
 <contactref element="SOL_2" pad="D"/>

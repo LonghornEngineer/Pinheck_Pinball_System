@@ -23839,6 +23839,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="C49" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="_6.3MM_SMD" value="EEE-1VA101XP"/>
 <part name="C54" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0805" value=".1uF"/>
 <part name="C55" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0805" value=".1uF"/>
+<part name="SHAKER" library="PP_Connectors" deviceset="CON_01X02" device="_26-64-4020" value="26-64-4020"/>
 </parts>
 <sheets>
 <sheet>
@@ -24251,6 +24252,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="C49" gate="G$1" x="114.3" y="-48.26"/>
 <instance part="C54" gate="G$1" x="139.7" y="-162.56" rot="R180"/>
 <instance part="C55" gate="G$1" x="147.32" y="-162.56" rot="R180"/>
+<instance part="SHAKER" gate="G$1" x="581.66" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -28003,6 +28005,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="571.5" y="81.28" size="0.8128" layer="95" font="vector"/>
 <pinref part="KNOCKER" gate="G$1" pin="PIN1"/>
 </segment>
+<segment>
+<wire x1="571.5" y1="71.12" x2="579.12" y2="71.12" width="0.1524" layer="91"/>
+<label x="571.5" y="71.12" size="0.8128" layer="95" font="vector"/>
+<pinref part="SHAKER" gate="G$1" pin="PIN1"/>
+</segment>
 </net>
 <net name="SOL_PWR_0" class="0">
 <segment>
@@ -28033,6 +28040,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="617.22" y1="78.74" x2="607.06" y2="78.74" width="0.1524" layer="91"/>
 <label x="607.06" y="78.74" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_0" gate="G$1" pin="PIN3"/>
+</segment>
+<segment>
+<wire x1="579.12" y1="68.58" x2="571.5" y2="68.58" width="0.1524" layer="91"/>
+<label x="571.5" y="68.58" size="0.8128" layer="95" font="vector"/>
+<pinref part="SHAKER" gate="G$1" pin="PIN2"/>
 </segment>
 </net>
 <net name="SOL_PWR_2" class="0">
