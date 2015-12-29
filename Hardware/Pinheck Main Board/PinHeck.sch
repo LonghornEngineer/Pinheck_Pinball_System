@@ -3501,29 +3501,53 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <text x="1.98" y="6" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
 <hole x="0" y="-4.24" drill="1.63"/>
 </package>
-<package name="2.54MM_01X08_PIN_HEADER">
-<pad name="1" x="-8.89" y="0" drill="0.8" rot="R90"/>
-<pad name="2" x="-6.35" y="0" drill="0.8" rot="R90"/>
-<pad name="3" x="-3.81" y="0" drill="0.8" rot="R90"/>
-<pad name="4" x="-1.27" y="0" drill="0.8" rot="R90"/>
-<pad name="5" x="1.27" y="0" drill="0.8" rot="R90"/>
-<pad name="6" x="3.81" y="0" drill="0.8" rot="R90"/>
-<pad name="7" x="6.35" y="0" drill="0.8" rot="R90"/>
-<pad name="8" x="8.89" y="0" drill="0.8" rot="R90"/>
-<wire x1="-10.16" y1="1.27" x2="-10.16" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-1.27" x2="10.16" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-1.27" x2="10.16" y2="1.27" width="0.127" layer="21"/>
-<wire x1="10.16" y1="1.27" x2="-10.16" y2="1.27" width="0.127" layer="21"/>
-<circle x="-10.16" y="-1.27" radius="0.3175" width="0.127" layer="21"/>
-<text x="-10.16" y="1.5875" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
-<text x="8.89" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL08</text>
-<text x="6.35" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL07</text>
-<text x="3.81" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL06</text>
-<text x="1.27" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL05</text>
-<text x="-1.27" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL04</text>
-<text x="-3.81" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
-<text x="-6.35" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL02</text>
-<text x="-8.89" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL01</text>
+<package name="2.54MM_01X20_PIN_HEADER">
+<pad name="5" x="-13.97" y="0" drill="0.8"/>
+<pad name="6" x="-11.43" y="0" drill="0.8"/>
+<pad name="4" x="-16.51" y="0" drill="0.8"/>
+<pad name="7" x="-8.89" y="0" drill="0.8"/>
+<pad name="3" x="-19.05" y="0" drill="0.8"/>
+<pad name="8" x="-6.35" y="0" drill="0.8"/>
+<pad name="2" x="-21.59" y="0" drill="0.8"/>
+<pad name="9" x="-3.81" y="0" drill="0.8"/>
+<pad name="1" x="-24.13" y="0" drill="0.8"/>
+<pad name="10" x="-1.27" y="0" drill="0.8"/>
+<wire x1="-25.4" y1="1.27" x2="-25.4" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-1.27" x2="25.4" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-1.27" x2="25.4" y2="1.27" width="0.127" layer="21"/>
+<wire x1="25.4" y1="1.27" x2="-25.4" y2="1.27" width="0.127" layer="21"/>
+<circle x="-25.4" y="-1.27" radius="0.3175" width="0.127" layer="21"/>
+<text x="-25.4" y="1.5875" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL09</text>
+<text x="-6.35" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL08</text>
+<text x="-8.89" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL07</text>
+<text x="-11.43" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL06</text>
+<text x="-13.97" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL05</text>
+<text x="-16.51" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL04</text>
+<text x="-19.05" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
+<text x="-21.59" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL02</text>
+<text x="-24.13" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL01</text>
+<text x="-1.27" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL10</text>
+<pad name="11" x="1.27" y="0" drill="0.8"/>
+<pad name="12" x="3.81" y="0" drill="0.8"/>
+<pad name="13" x="6.35" y="0" drill="0.8"/>
+<pad name="14" x="8.89" y="0" drill="0.8"/>
+<pad name="15" x="11.43" y="0" drill="0.8"/>
+<pad name="16" x="13.97" y="0" drill="0.8"/>
+<pad name="17" x="16.51" y="0" drill="0.8" rot="R90"/>
+<pad name="18" x="19.05" y="0" drill="0.8"/>
+<pad name="19" x="21.59" y="0" drill="0.8"/>
+<pad name="20" x="24.13" y="0" drill="0.8"/>
+<text x="1.27" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL11</text>
+<text x="3.81" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL12</text>
+<text x="6.35" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL13</text>
+<text x="8.89" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL14</text>
+<text x="11.43" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL15</text>
+<text x="13.97" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL16</text>
+<text x="16.51" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL17</text>
+<text x="19.05" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL18</text>
+<text x="21.59" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL19</text>
+<text x="24.13" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL20</text>
 </package>
 <package name="2.54MM_01X06_PIN_HEADER">
 <description>6 pin header</description>
@@ -3958,59 +3982,6 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <text x="2.54" y="-3.175" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
 <text x="0" y="3.81" size="0.8128" layer="25" font="vector" ratio="16" align="center">&gt;NAME</text>
 </package>
-<package name="1.27MM_01X08_PIN_HEADER">
-<pad name="P$1" x="-4.445" y="0" drill="0.75" diameter="1.016"/>
-<pad name="P$2" x="-3.175" y="0" drill="0.75" diameter="1.016"/>
-<pad name="P$3" x="-1.905" y="0" drill="0.75" diameter="1.016"/>
-<pad name="P$4" x="-0.635" y="0" drill="0.75" diameter="1.016"/>
-<pad name="P$5" x="0.635" y="0" drill="0.75" diameter="1.016"/>
-<pad name="P$6" x="1.905" y="0" drill="0.75" diameter="1.016"/>
-<pad name="P$7" x="3.175" y="0" drill="0.75" diameter="1.016"/>
-<pad name="P$8" x="4.445" y="0" drill="0.75" diameter="1.016"/>
-<wire x1="-5.08" y1="0.635" x2="5.08" y2="0.635" width="0.127" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="-5.08" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.127" layer="21"/>
-<text x="-5.08" y="1.27" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
-<circle x="-5.08" y="-1.27" radius="0.3175" width="0.127" layer="21"/>
-<text x="4.445" y="-1.905" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL08</text>
-<text x="3.175" y="-1.905" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL07</text>
-<text x="1.905" y="-1.905" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL06</text>
-<text x="0.635" y="-1.905" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL05</text>
-<text x="-0.635" y="-1.905" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL04</text>
-<text x="-1.905" y="-1.905" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
-<text x="-3.175" y="-1.905" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL02</text>
-<text x="-4.445" y="-1.905" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL01</text>
-</package>
-<package name="26-64-4080">
-<wire x1="15.7734" y1="3.8862" x2="-15.7734" y2="3.8862" width="0.127" layer="21"/>
-<pad name="P$1" x="-14.01" y="0" drill="1.7"/>
-<pad name="P$2" x="-10.05" y="0" drill="1.7"/>
-<pad name="P$3" x="-6.09" y="0" drill="1.7"/>
-<pad name="P$4" x="-2.13" y="0" drill="1.7"/>
-<pad name="P$5" x="1.83" y="0" drill="1.7"/>
-<pad name="P$6" x="5.79" y="0" drill="1.7"/>
-<pad name="P$7" x="9.75" y="0" drill="1.7"/>
-<pad name="P$8" x="13.71" y="0" drill="1.7"/>
-<text x="0" y="12.7762" size="1.016" layer="21" font="vector" ratio="16" align="center">&gt;NAME</text>
-<wire x1="-17.145" y1="5" x2="-17.145" y2="3.89" width="0.127" layer="21"/>
-<wire x1="-17.145" y1="3.89" x2="-17.145" y2="-5" width="0.127" layer="21"/>
-<wire x1="-17.145" y1="-5" x2="17.145" y2="-5" width="0.127" layer="21"/>
-<wire x1="17.145" y1="-5" x2="17.145" y2="3.89" width="0.127" layer="21"/>
-<wire x1="17.145" y1="3.89" x2="17.145" y2="5" width="0.127" layer="21"/>
-<wire x1="17.145" y1="5" x2="-17.145" y2="5" width="0.127" layer="21"/>
-<wire x1="-17.145" y1="3.89" x2="17.145" y2="3.89" width="0.127" layer="21"/>
-<text x="13.71" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL08</text>
-<text x="9.75" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL07</text>
-<text x="5.79" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL06</text>
-<text x="1.83" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL05</text>
-<text x="-2.13" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL04</text>
-<text x="-6.09" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL03</text>
-<text x="-10.05" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL02</text>
-<text x="-14.01" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL01</text>
-<hole x="-12.065" y="-4.24" drill="1.6"/>
-<hole x="12.065" y="-4.24" drill="1.6"/>
-</package>
 <package name="26-64-4080(KEYPIN2)">
 <wire x1="15.9234" y1="3.8862" x2="-15.6234" y2="3.8862" width="0.127" layer="21"/>
 <pad name="P$1" x="-13.86" y="0" drill="1.7"/>
@@ -4409,7 +4380,7 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <text x="0.508" y="0" size="1.016" layer="97" font="vector" align="center-left">PIN01</text>
 <text x="0.508" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">PIN02</text>
 </symbol>
-<symbol name="CON_01X08">
+<symbol name="CON_01X20">
 <pin name="1" x="-2.54" y="0" visible="off" length="short"/>
 <pin name="2" x="-2.54" y="-2.54" visible="off" length="short"/>
 <pin name="3" x="-2.54" y="-5.08" visible="off" length="short"/>
@@ -4418,12 +4389,26 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <pin name="6" x="-2.54" y="-12.7" visible="off" length="short"/>
 <pin name="7" x="-2.54" y="-15.24" visible="off" length="short"/>
 <pin name="8" x="-2.54" y="-17.78" visible="off" length="short"/>
-<wire x1="0" y1="-19.05" x2="16.51" y2="-19.05" width="0.127" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="-19.05" width="0.127" layer="94"/>
-<wire x1="16.51" y1="-19.05" x2="16.51" y2="1.27" width="0.127" layer="94"/>
+<pin name="9" x="-2.54" y="-20.32" visible="off" length="short"/>
+<pin name="10" x="-2.54" y="-22.86" visible="off" length="short"/>
+<pin name="11" x="-2.54" y="-25.4" visible="off" length="short"/>
+<pin name="12" x="-2.54" y="-27.94" visible="off" length="short"/>
+<pin name="13" x="-2.54" y="-30.48" visible="off" length="short"/>
+<pin name="14" x="-2.54" y="-33.02" visible="off" length="short"/>
+<pin name="15" x="-2.54" y="-35.56" visible="off" length="short"/>
+<pin name="16" x="-2.54" y="-38.1" visible="off" length="short"/>
+<pin name="17" x="-2.54" y="-40.64" visible="off" length="short"/>
+<pin name="18" x="-2.54" y="-43.18" visible="off" length="short"/>
+<pin name="19" x="-2.54" y="-45.72" visible="off" length="short"/>
+<pin name="20" x="-2.54" y="-48.26" visible="off" length="short"/>
+<wire x1="0" y1="-49.53" x2="16.51" y2="-49.53" width="0.127" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-49.53" width="0.127" layer="94"/>
+<wire x1="16.51" y1="-49.53" x2="16.51" y2="1.27" width="0.127" layer="94"/>
 <wire x1="16.51" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="7.62" y="-25.4" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL11</text>
+<text x="7.62" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL10</text>
 <text x="7.62" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL05</text>
 <text x="7.62" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL04</text>
 <text x="7.62" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL03</text>
@@ -4434,12 +4419,34 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <text x="0.508" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">PIN03</text>
 <text x="0.508" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">PIN04</text>
 <text x="0.508" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">PIN05</text>
-<text x="7.62" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL06</text>
 <text x="0.508" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">PIN06</text>
+<text x="7.62" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL06</text>
 <text x="7.62" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL07</text>
 <text x="0.508" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">PIN07</text>
-<text x="7.62" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL08</text>
 <text x="0.508" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">PIN08</text>
+<text x="7.62" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL08</text>
+<text x="7.62" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL09</text>
+<text x="0.508" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">PIN09</text>
+<text x="0.508" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">PIN10</text>
+<text x="0.508" y="-25.4" size="1.016" layer="97" font="vector" align="center-left">PIN11</text>
+<text x="7.62" y="-27.94" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL12</text>
+<text x="0.508" y="-27.94" size="1.016" layer="97" font="vector" align="center-left">PIN12</text>
+<text x="0.508" y="-30.48" size="1.016" layer="97" font="vector" align="center-left">PIN13</text>
+<text x="7.62" y="-30.48" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL13</text>
+<text x="0.508" y="-33.02" size="1.016" layer="97" font="vector" align="center-left">PIN14</text>
+<text x="7.62" y="-33.02" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL14</text>
+<text x="0.508" y="-35.56" size="1.016" layer="97" font="vector" align="center-left">PIN15</text>
+<text x="7.62" y="-35.56" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL15</text>
+<text x="0.508" y="-38.1" size="1.016" layer="97" font="vector" align="center-left">PIN16</text>
+<text x="7.62" y="-38.1" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL16</text>
+<text x="7.62" y="-40.64" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL17</text>
+<text x="0.508" y="-40.64" size="1.016" layer="97" font="vector" align="center-left">PIN17</text>
+<text x="0.508" y="-43.18" size="1.016" layer="97" font="vector" align="center-left">PIN18</text>
+<text x="7.62" y="-43.18" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL18</text>
+<text x="7.62" y="-45.72" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL19</text>
+<text x="0.508" y="-45.72" size="1.016" layer="97" font="vector" align="center-left">PIN19</text>
+<text x="0.508" y="-48.26" size="1.016" layer="97" font="vector" align="center-left">PIN20</text>
+<text x="7.62" y="-48.26" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL20</text>
 </symbol>
 <symbol name="CON_01X06">
 <description>Symbol for 6 pin connectors</description>
@@ -6174,69 +6181,33 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON_01X08" prefix="J" uservalue="yes">
+<deviceset name="CON_01X20" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CON_01X08" x="0" y="0"/>
+<gate name="G$1" symbol="CON_01X20" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_1.27MM_PIN_HEADER" package="1.27MM_01X08_PIN_HEADER">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-<connect gate="G$1" pin="4" pad="P$4"/>
-<connect gate="G$1" pin="5" pad="P$5"/>
-<connect gate="G$1" pin="6" pad="P$6"/>
-<connect gate="G$1" pin="7" pad="P$7"/>
-<connect gate="G$1" pin="8" pad="P$8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="LABEL01" value="" constant="no"/>
-<attribute name="LABEL02" value="" constant="no"/>
-<attribute name="LABEL03" value="" constant="no"/>
-<attribute name="LABEL04" value="" constant="no"/>
-<attribute name="LABEL05" value="" constant="no"/>
-<attribute name="LABEL06" value="" constant="no"/>
-<attribute name="LABEL07" value="" constant="no"/>
-<attribute name="LABEL08" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="MOLEX_KK_8" package="26-64-4080">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-<connect gate="G$1" pin="4" pad="P$4"/>
-<connect gate="G$1" pin="5" pad="P$5"/>
-<connect gate="G$1" pin="6" pad="P$6"/>
-<connect gate="G$1" pin="7" pad="P$7"/>
-<connect gate="G$1" pin="8" pad="P$8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="LABEL01" value="" constant="no"/>
-<attribute name="LABEL02" value="" constant="no"/>
-<attribute name="LABEL03" value="" constant="no"/>
-<attribute name="LABEL04" value="" constant="no"/>
-<attribute name="LABEL05" value="" constant="no"/>
-<attribute name="LABEL06" value="" constant="no"/>
-<attribute name="LABEL07" value="" constant="no"/>
-<attribute name="LABEL08" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_2.54MM_PIN_HEADER" package="2.54MM_01X08_PIN_HEADER">
+<device name="_2.54MM_PIN_HEADER" package="2.54MM_01X20_PIN_HEADER">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
 <connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name="">
@@ -6248,6 +6219,18 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
+<attribute name="LABEL09" value="" constant="no"/>
+<attribute name="LABEL10" value="" constant="no"/>
+<attribute name="LABEL11" value="" constant="no"/>
+<attribute name="LABEL12" value="" constant="no"/>
+<attribute name="LABEL13" value="" constant="no"/>
+<attribute name="LABEL14" value="" constant="no"/>
+<attribute name="LABEL15" value="" constant="no"/>
+<attribute name="LABEL16" value="" constant="no"/>
+<attribute name="LABEL17" value="" constant="no"/>
+<attribute name="LABEL18" value="" constant="no"/>
+<attribute name="LABEL19" value="" constant="no"/>
+<attribute name="LABEL20" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -23976,7 +23959,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="H26" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H27" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H28" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H29" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
+<part name="H2" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H30" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H31" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H32" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
@@ -24058,23 +24041,32 @@ ULN and UDN Series&lt;p&gt;
 <part name="C15" library="MF_Passives" deviceset="CAPACITOR_P" device="_12.5MM" value="MF-CAP-12.5MM-1000uF"/>
 <part name="C16" library="MF_Passives" deviceset="CAPACITOR_P" device="_12.5MM" value="MF-CAP-12.5MM-1000uF"/>
 <part name="C17" library="MF_Passives" deviceset="CAPACITOR_P" device="_12.5MM" value="MF-CAP-12.5MM-1000uF"/>
-<part name="PROP_PROGRAM" library="MF_Switches" deviceset="TACT" device="_6MM"/>
+<part name="PROP_CONFIG" library="MF_Switches" deviceset="TACT" device="_6MM"/>
 <part name="R1" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="10K"/>
-<part name="RGB_COM_OUT_0" library="PP_Connectors" deviceset="CON_01X04" device="_26-64-4050(KEYPIN2)" value="26-64-4050"/>
 <part name="SERVO_0" library="PP_Connectors" deviceset="CON_01X03" device="_640454-3" value="640454-3"/>
 <part name="SERVO_1" library="PP_Connectors" deviceset="CON_01X03" device="_640454-3" value="640454-3"/>
 <part name="SERVO_2" library="PP_Connectors" deviceset="CON_01X03" device="_640454-3" value="640454-3"/>
 <part name="SERVO_3" library="PP_Connectors" deviceset="CON_01X03" device="_640454-3" value="640454-3"/>
 <part name="SERVO_4" library="PP_Connectors" deviceset="CON_01X03" device="_640454-3" value="640454-3"/>
-<part name="MOD_CON" library="PP_Connectors" deviceset="CON_01X08" device="_2.54MM_PIN_HEADER" value="26-64-4050">
+<part name="MOD_CON" library="PP_Connectors" deviceset="CON_01X20" device="_2.54MM_PIN_HEADER" value="26-64-4050">
 <attribute name="LABEL01" value="GND"/>
 <attribute name="LABEL02" value="3.3V"/>
 <attribute name="LABEL03" value="5V"/>
 <attribute name="LABEL04" value="I2C_SDA"/>
 <attribute name="LABEL05" value="I2C_SCL"/>
-<attribute name="LABEL06" value="12V"/>
-<attribute name="LABEL07" value="SERVO_3"/>
-<attribute name="LABEL08" value="SERVO_4"/>
+<attribute name="LABEL06" value="GND"/>
+<attribute name="LABEL07" value="12V"/>
+<attribute name="LABEL08" value="GND"/>
+<attribute name="LABEL09" value="SERVO_3"/>
+<attribute name="LABEL10" value="SERVO_4"/>
+<attribute name="LABEL11" value="GND"/>
+<attribute name="LABEL12" value="PROP_AUX2"/>
+<attribute name="LABEL13" value="PROP_AUX3"/>
+<attribute name="LABEL14" value="PROP_AUX4"/>
+<attribute name="LABEL15" value="PROP_AUX5"/>
+<attribute name="LABEL16" value="PROP_AUX6"/>
+<attribute name="LABEL17" value="PROP_AUX7"/>
+<attribute name="LABEL18" value="PROP_AUX8"/>
 </part>
 <part name="R2" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="2K"/>
 <part name="R5" library="PP_Passives" deviceset="RESISTOR" device="_0805" value="1K"/>
@@ -24116,7 +24108,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="C54" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0805" value=".1uF"/>
 <part name="C55" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0805" value=".1uF"/>
 <part name="SHAKER" library="PP_Connectors" deviceset="CON_01X02" device="_26-64-4020" value="26-64-4020"/>
-<part name="RGB_COM_OUT_1" library="PP_Connectors" deviceset="CON_01X07" device="_26-64-4080(KEYPIN2)" value="26-64-4080"/>
+<part name="RGB_COM_OUT" library="PP_Connectors" deviceset="CON_01X07" device="_26-64-4080(KEYPIN2)" value="26-64-4080"/>
 </parts>
 <sheets>
 <sheet>
@@ -24444,7 +24436,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="H26" gate="G$1" x="284.48" y="-71.12"/>
 <instance part="H27" gate="G$1" x="284.48" y="-78.74"/>
 <instance part="H28" gate="G$1" x="284.48" y="-86.36"/>
-<instance part="H29" gate="G$1" x="284.48" y="-93.98"/>
+<instance part="H2" gate="G$1" x="284.48" y="-93.98"/>
 <instance part="H30" gate="G$1" x="284.48" y="-101.6"/>
 <instance part="H31" gate="G$1" x="284.48" y="-109.22"/>
 <instance part="H32" gate="G$1" x="284.48" y="-116.84"/>
@@ -24481,9 +24473,8 @@ ULN and UDN Series&lt;p&gt;
 <instance part="C15" gate="G$1" x="746.76" y="129.54"/>
 <instance part="C16" gate="G$1" x="746.76" y="114.3"/>
 <instance part="C17" gate="G$1" x="746.76" y="99.06"/>
-<instance part="PROP_PROGRAM" gate="G$1" x="203.2" y="-15.24"/>
+<instance part="PROP_CONFIG" gate="G$1" x="203.2" y="-15.24"/>
 <instance part="R1" gate="G$1" x="198.12" y="-5.08" rot="R90"/>
-<instance part="RGB_COM_OUT_0" gate="G$1" x="530.86" y="-63.5"/>
 <instance part="SERVO_0" gate="G$1" x="530.86" y="-78.74"/>
 <instance part="SERVO_1" gate="G$1" x="530.86" y="-91.44"/>
 <instance part="SERVO_2" gate="G$1" x="530.86" y="-104.14"/>
@@ -24530,7 +24521,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="C54" gate="G$1" x="139.7" y="-162.56" rot="R180"/>
 <instance part="C55" gate="G$1" x="147.32" y="-162.56" rot="R180"/>
 <instance part="SHAKER" gate="G$1" x="581.66" y="71.12"/>
-<instance part="RGB_COM_OUT_1" gate="G$1" x="563.88" y="-63.5"/>
+<instance part="RGB_COM_OUT" gate="G$1" x="563.88" y="-63.5"/>
 </instances>
 <busses>
 </busses>
@@ -25407,14 +25398,9 @@ ULN and UDN Series&lt;p&gt;
 <junction x="269.24" y="195.58"/>
 </segment>
 <segment>
-<pinref part="PROP_PROGRAM" gate="G$1" pin="P$4"/>
+<pinref part="PROP_CONFIG" gate="G$1" pin="P$4"/>
 <wire x1="205.74" y1="-17.78" x2="213.36" y2="-17.78" width="0.1524" layer="91"/>
 <label x="208.28" y="-17.78" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="RGB_COM_OUT_0" gate="G$1" pin="1"/>
-<wire x1="528.32" y1="-63.5" x2="520.7" y2="-63.5" width="0.1524" layer="91"/>
-<label x="520.7" y="-63.5" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="SERVO_4" gate="G$1" pin="PIN1"/>
@@ -25538,7 +25524,22 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="561.34" y1="-63.5" x2="553.72" y2="-63.5" width="0.1524" layer="91"/>
 <label x="553.72" y="-63.5" size="0.8128" layer="95" font="vector"/>
-<pinref part="RGB_COM_OUT_1" gate="G$1" pin="1"/>
+<pinref part="RGB_COM_OUT" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="6"/>
+<wire x1="467.36" y1="-111.76" x2="459.74" y2="-111.76" width="0.1524" layer="91"/>
+<label x="459.74" y="-111.76" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="8"/>
+<wire x1="467.36" y1="-116.84" x2="459.74" y2="-116.84" width="0.1524" layer="91"/>
+<label x="459.74" y="-116.84" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="11"/>
+<wire x1="467.36" y1="-124.46" x2="459.74" y2="-124.46" width="0.1524" layer="91"/>
+<label x="459.74" y="-124.46" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="RX_PIC32" class="0">
@@ -26124,9 +26125,9 @@ ULN and UDN Series&lt;p&gt;
 <label x="520.7" y="-121.92" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="MOD_CON" gate="G$1" pin="7"/>
-<wire x1="467.36" y1="-114.3" x2="459.74" y2="-114.3" width="0.1524" layer="91"/>
-<label x="459.74" y="-114.3" size="0.8128" layer="95" font="vector"/>
+<pinref part="MOD_CON" gate="G$1" pin="9"/>
+<wire x1="467.36" y1="-119.38" x2="459.74" y2="-119.38" width="0.1524" layer="91"/>
+<label x="459.74" y="-119.38" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SERVO_4" class="0">
@@ -26141,9 +26142,9 @@ ULN and UDN Series&lt;p&gt;
 <label x="520.7" y="-134.62" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="MOD_CON" gate="G$1" pin="8"/>
-<wire x1="467.36" y1="-116.84" x2="459.74" y2="-116.84" width="0.1524" layer="91"/>
-<label x="459.74" y="-116.84" size="0.8128" layer="95" font="vector"/>
+<pinref part="MOD_CON" gate="G$1" pin="10"/>
+<wire x1="459.74" y1="-121.92" x2="467.36" y2="-121.92" width="0.1524" layer="91"/>
+<label x="459.74" y="-121.92" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="PIC_SOL_5" class="0">
@@ -26865,7 +26866,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="PROP_ACT" gate="G$1" pin="ANODE"/>
 </segment>
 </net>
-<net name="P23" class="0">
+<net name="PROP_AUX9" class="0">
 <segment>
 <wire x1="83.82" y1="-7.62" x2="99.06" y2="-7.62" width="0.1524" layer="91"/>
 <label x="96.52" y="-7.62" size="0.8128" layer="95" font="vector"/>
@@ -26972,25 +26973,40 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="195.58" y1="30.48" x2="195.58" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="P11" class="0">
+<net name="PROP_AUX7" class="0">
 <segment>
 <wire x1="55.88" y1="-15.24" x2="66.04" y2="-15.24" width="0.1524" layer="91"/>
 <label x="55.88" y="-15.24" size="0.8128" layer="95" font="vector"/>
 <pinref part="U1" gate="G$1" pin="P11"/>
 </segment>
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="17"/>
+<wire x1="467.36" y1="-139.7" x2="459.74" y2="-139.7" width="0.1524" layer="91"/>
+<label x="459.74" y="-139.7" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
-<net name="P10" class="0">
+<net name="PROP_AUX6" class="0">
 <segment>
 <wire x1="66.04" y1="-12.7" x2="55.88" y2="-12.7" width="0.1524" layer="91"/>
 <label x="55.88" y="-12.7" size="0.8128" layer="95" font="vector"/>
 <pinref part="U1" gate="G$1" pin="P10"/>
 </segment>
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="16"/>
+<wire x1="459.74" y1="-137.16" x2="467.36" y2="-137.16" width="0.1524" layer="91"/>
+<label x="459.74" y="-137.16" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
-<net name="P9" class="0">
+<net name="PROP_AUX5" class="0">
 <segment>
 <wire x1="55.88" y1="-10.16" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
 <label x="55.88" y="-10.16" size="0.8128" layer="95" font="vector"/>
 <pinref part="U1" gate="G$1" pin="P9"/>
+</segment>
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="15"/>
+<wire x1="467.36" y1="-134.62" x2="459.74" y2="-134.62" width="0.1524" layer="91"/>
+<label x="459.74" y="-134.62" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="DMD_13" class="0">
@@ -27084,7 +27100,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="U1" gate="G$1" pin="P13"/>
 </segment>
 <segment>
-<pinref part="PROP_PROGRAM" gate="G$1" pin="P$1"/>
+<pinref part="PROP_CONFIG" gate="G$1" pin="P$1"/>
 <wire x1="200.66" y1="-12.7" x2="198.12" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="-12.7" x2="193.04" y2="-12.7" width="0.1524" layer="91"/>
@@ -27093,11 +27109,16 @@ ULN and UDN Series&lt;p&gt;
 <junction x="198.12" y="-12.7"/>
 </segment>
 </net>
-<net name="P12" class="0">
+<net name="PROP_AUX8" class="0">
 <segment>
 <wire x1="66.04" y1="-17.78" x2="55.88" y2="-17.78" width="0.1524" layer="91"/>
 <label x="55.88" y="-17.78" size="0.8128" layer="95" font="vector"/>
 <pinref part="U1" gate="G$1" pin="P12"/>
+</segment>
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="18"/>
+<wire x1="459.74" y1="-142.24" x2="467.36" y2="-142.24" width="0.1524" layer="91"/>
+<label x="459.74" y="-142.24" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="TX_PROP" class="0">
@@ -27333,11 +27354,6 @@ ULN and UDN Series&lt;p&gt;
 <label x="459.74" y="-33.02" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="RGB_COM_OUT_0" gate="G$1" pin="4"/>
-<wire x1="520.7" y1="-71.12" x2="528.32" y2="-71.12" width="0.1524" layer="91"/>
-<label x="520.7" y="-71.12" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
 <pinref part="SERVO_0" gate="G$1" pin="PIN2"/>
 <wire x1="520.7" y1="-81.28" x2="528.32" y2="-81.28" width="0.1524" layer="91"/>
 <label x="520.7" y="-81.28" size="0.8128" layer="95" font="vector"/>
@@ -27430,7 +27446,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="561.34" y1="-78.74" x2="553.72" y2="-78.74" width="0.1524" layer="91"/>
 <label x="553.72" y="-78.74" size="0.8128" layer="95" font="vector"/>
-<pinref part="RGB_COM_OUT_1" gate="G$1" pin="7"/>
+<pinref part="RGB_COM_OUT" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="CAB_LAT" class="0">
@@ -29338,14 +29354,14 @@ ULN and UDN Series&lt;p&gt;
 <label x="942.34" y="45.72" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="MOD_CON" gate="G$1" pin="6"/>
-<wire x1="467.36" y1="-111.76" x2="459.74" y2="-111.76" width="0.1524" layer="91"/>
-<label x="459.74" y="-111.76" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
 <wire x1="553.72" y1="-76.2" x2="561.34" y2="-76.2" width="0.1524" layer="91"/>
 <label x="553.72" y="-76.2" size="0.8128" layer="95" font="vector"/>
-<pinref part="RGB_COM_OUT_1" gate="G$1" pin="6"/>
+<pinref part="RGB_COM_OUT" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="7"/>
+<wire x1="467.36" y1="-114.3" x2="459.74" y2="-114.3" width="0.1524" layer="91"/>
+<label x="459.74" y="-114.3" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="LIGHT_C_B_0" class="0">
@@ -30824,26 +30840,26 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="EXT_RGB_DATA" class="0">
 <segment>
-<pinref part="RGB_COM_OUT_0" gate="G$1" pin="2"/>
-<wire x1="520.7" y1="-66.04" x2="528.32" y2="-66.04" width="0.1524" layer="91"/>
-<label x="520.7" y="-66.04" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
 <wire x1="358.14" y1="167.64" x2="370.84" y2="167.64" width="0.1524" layer="91"/>
 <label x="365.76" y="167.64" size="0.8128" layer="95" font="vector"/>
 <pinref part="IC2" gate="PG" pin="ECOL/SCK2A/U2BTXU2ARTS/PMA5/CN8/RG6"/>
 </segment>
+<segment>
+<wire x1="553.72" y1="-71.12" x2="561.34" y2="-71.12" width="0.1524" layer="91"/>
+<label x="553.72" y="-71.12" size="0.8128" layer="95" font="vector"/>
+<pinref part="RGB_COM_OUT" gate="G$1" pin="4"/>
+</segment>
 </net>
 <net name="EXT_RGB_CLK" class="0">
-<segment>
-<pinref part="RGB_COM_OUT_0" gate="G$1" pin="3"/>
-<wire x1="528.32" y1="-68.58" x2="520.7" y2="-68.58" width="0.1524" layer="91"/>
-<label x="520.7" y="-68.58" size="0.8128" layer="95" font="vector"/>
-</segment>
 <segment>
 <pinref part="IC2" gate="PC" pin="T2CK/RC1"/>
 <wire x1="193.04" y1="177.8" x2="205.74" y2="177.8" width="0.1524" layer="91"/>
 <label x="198.12" y="177.8" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<wire x1="561.34" y1="-73.66" x2="553.72" y2="-73.66" width="0.1524" layer="91"/>
+<label x="553.72" y="-73.66" size="0.8128" layer="95" font="vector"/>
+<pinref part="RGB_COM_OUT" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="GI1_5V" class="0">
@@ -30870,59 +30886,78 @@ ULN and UDN Series&lt;p&gt;
 <label x="482.6" y="-43.18" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="P8" class="0">
+<net name="PROP_AUX4" class="0">
 <segment>
 <wire x1="66.04" y1="-7.62" x2="55.88" y2="-7.62" width="0.1524" layer="91"/>
 <label x="55.88" y="-7.62" size="0.8128" layer="95" font="vector"/>
 <pinref part="U1" gate="G$1" pin="P8"/>
 </segment>
-</net>
-<net name="EXT_RGB_DATA_1" class="0">
 <segment>
-<wire x1="553.72" y1="-66.04" x2="561.34" y2="-66.04" width="0.1524" layer="91"/>
-<label x="553.72" y="-66.04" size="0.8128" layer="95" font="vector"/>
-<pinref part="RGB_COM_OUT_1" gate="G$1" pin="2"/>
+<pinref part="MOD_CON" gate="G$1" pin="14"/>
+<wire x1="459.74" y1="-132.08" x2="467.36" y2="-132.08" width="0.1524" layer="91"/>
+<label x="459.74" y="-132.08" size="0.8128" layer="95" font="vector"/>
 </segment>
+</net>
+<net name="PROP_AUX0" class="0">
 <segment>
 <wire x1="55.88" y1="2.54" x2="66.04" y2="2.54" width="0.1524" layer="91"/>
 <label x="55.88" y="2.54" size="0.8128" layer="95" font="vector"/>
 <pinref part="U1" gate="G$1" pin="P4"/>
 </segment>
-</net>
-<net name="EXT_RGB_CLK_1" class="0">
 <segment>
 <wire x1="561.34" y1="-68.58" x2="553.72" y2="-68.58" width="0.1524" layer="91"/>
 <label x="553.72" y="-68.58" size="0.8128" layer="95" font="vector"/>
-<pinref part="RGB_COM_OUT_1" gate="G$1" pin="3"/>
+<pinref part="RGB_COM_OUT" gate="G$1" pin="3"/>
 </segment>
+</net>
+<net name="PROP_AUX1" class="0">
 <segment>
 <wire x1="55.88" y1="0" x2="66.04" y2="0" width="0.1524" layer="91"/>
 <label x="55.88" y="0" size="0.8128" layer="95" font="vector"/>
 <pinref part="U1" gate="G$1" pin="P5"/>
 </segment>
-</net>
-<net name="PROP_AUX0" class="0">
 <segment>
-<wire x1="553.72" y1="-71.12" x2="561.34" y2="-71.12" width="0.1524" layer="91"/>
-<label x="553.72" y="-71.12" size="0.8128" layer="95" font="vector"/>
-<pinref part="RGB_COM_OUT_1" gate="G$1" pin="4"/>
+<wire x1="553.72" y1="-66.04" x2="561.34" y2="-66.04" width="0.1524" layer="91"/>
+<label x="553.72" y="-66.04" size="0.8128" layer="95" font="vector"/>
+<pinref part="RGB_COM_OUT" gate="G$1" pin="2"/>
 </segment>
+</net>
+<net name="PROP_AUX2" class="0">
 <segment>
 <wire x1="66.04" y1="-2.54" x2="55.88" y2="-2.54" width="0.1524" layer="91"/>
 <label x="55.88" y="-2.54" size="0.8128" layer="95" font="vector"/>
 <pinref part="U1" gate="G$1" pin="P6"/>
 </segment>
-</net>
-<net name="PROP_AUX1" class="0">
 <segment>
-<wire x1="561.34" y1="-73.66" x2="553.72" y2="-73.66" width="0.1524" layer="91"/>
-<label x="553.72" y="-73.66" size="0.8128" layer="95" font="vector"/>
-<pinref part="RGB_COM_OUT_1" gate="G$1" pin="5"/>
+<pinref part="MOD_CON" gate="G$1" pin="12"/>
+<wire x1="459.74" y1="-127" x2="467.36" y2="-127" width="0.1524" layer="91"/>
+<label x="459.74" y="-127" size="0.8128" layer="95" font="vector"/>
 </segment>
+</net>
+<net name="PROP_AUX3" class="0">
 <segment>
 <wire x1="55.88" y1="-5.08" x2="66.04" y2="-5.08" width="0.1524" layer="91"/>
 <label x="55.88" y="-5.08" size="0.8128" layer="95" font="vector"/>
 <pinref part="U1" gate="G$1" pin="P7"/>
+</segment>
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="13"/>
+<wire x1="467.36" y1="-129.54" x2="459.74" y2="-129.54" width="0.1524" layer="91"/>
+<label x="459.74" y="-129.54" size="0.8128" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="19"/>
+<wire x1="467.36" y1="-144.78" x2="459.74" y2="-144.78" width="0.1524" layer="91"/>
+<label x="459.74" y="-144.78" size="0.8128" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="MOD_CON" gate="G$1" pin="20"/>
+<wire x1="459.74" y1="-147.32" x2="467.36" y2="-147.32" width="0.1524" layer="91"/>
+<label x="459.74" y="-147.32" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 </nets>
