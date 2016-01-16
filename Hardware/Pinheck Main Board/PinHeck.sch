@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24278,6 +24278,32 @@ ULN and UDN Series&lt;p&gt;
 <part name="GI_R_10" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
 <part name="GI_R_9" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
 <part name="GI_R_8" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_23" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_22" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_21" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_20" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_19" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_18" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_17" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_16" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_15" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_14" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_13" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_12" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_11" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_10" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_9" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_8" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_7" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_6" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_5" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_4" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_3" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_2" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_1" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_PWR_0" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="SOL_GND" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="50V" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
 </parts>
 <sheets>
 <sheet>
@@ -24815,6 +24841,32 @@ ULN and UDN Series&lt;p&gt;
 <instance part="GI_R_10" gate="G$1" x="-71.12" y="-116.84" rot="R180"/>
 <instance part="GI_R_9" gate="G$1" x="-71.12" y="-121.92" rot="R180"/>
 <instance part="GI_R_8" gate="G$1" x="-71.12" y="-127" rot="R180"/>
+<instance part="SOL_PWR_23" gate="G$1" x="-43.18" y="30.48" rot="R180"/>
+<instance part="SOL_PWR_22" gate="G$1" x="-43.18" y="25.4" rot="R180"/>
+<instance part="SOL_PWR_21" gate="G$1" x="-43.18" y="20.32" rot="R180"/>
+<instance part="SOL_PWR_20" gate="G$1" x="-43.18" y="15.24" rot="R180"/>
+<instance part="SOL_PWR_19" gate="G$1" x="-43.18" y="10.16" rot="R180"/>
+<instance part="SOL_PWR_18" gate="G$1" x="-43.18" y="5.08" rot="R180"/>
+<instance part="SOL_PWR_17" gate="G$1" x="-43.18" y="0" rot="R180"/>
+<instance part="SOL_PWR_16" gate="G$1" x="-43.18" y="-5.08" rot="R180"/>
+<instance part="SOL_PWR_15" gate="G$1" x="-43.18" y="-10.16" rot="R180"/>
+<instance part="SOL_PWR_14" gate="G$1" x="-43.18" y="-15.24" rot="R180"/>
+<instance part="SOL_PWR_13" gate="G$1" x="-43.18" y="-20.32" rot="R180"/>
+<instance part="SOL_PWR_12" gate="G$1" x="-43.18" y="-25.4" rot="R180"/>
+<instance part="SOL_PWR_11" gate="G$1" x="-43.18" y="-30.48" rot="R180"/>
+<instance part="SOL_PWR_10" gate="G$1" x="-43.18" y="-35.56" rot="R180"/>
+<instance part="SOL_PWR_9" gate="G$1" x="-43.18" y="-40.64" rot="R180"/>
+<instance part="SOL_PWR_8" gate="G$1" x="-43.18" y="-45.72" rot="R180"/>
+<instance part="SOL_PWR_7" gate="G$1" x="-43.18" y="-50.8" rot="R180"/>
+<instance part="SOL_PWR_6" gate="G$1" x="-43.18" y="-55.88" rot="R180"/>
+<instance part="SOL_PWR_5" gate="G$1" x="-43.18" y="-60.96" rot="R180"/>
+<instance part="SOL_PWR_4" gate="G$1" x="-43.18" y="-66.04" rot="R180"/>
+<instance part="SOL_PWR_3" gate="G$1" x="-43.18" y="-71.12" rot="R180"/>
+<instance part="SOL_PWR_2" gate="G$1" x="-43.18" y="-76.2" rot="R180"/>
+<instance part="SOL_PWR_1" gate="G$1" x="-43.18" y="-81.28" rot="R180"/>
+<instance part="SOL_PWR_0" gate="G$1" x="-43.18" y="-86.36" rot="R180"/>
+<instance part="SOL_GND" gate="G$1" x="-43.18" y="-91.44" rot="R180"/>
+<instance part="50V" gate="G$1" x="-43.18" y="-96.52" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -28491,6 +28543,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="685.8" y="63.5" size="0.8128" layer="95" font="vector"/>
 <pinref part="SOL_BANK_2" gate="G$1" pin="PIN9"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_23" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="30.48" x2="-33.02" y2="30.48" width="0.1524" layer="91"/>
+<label x="-38.1" y="30.48" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_0" class="0">
 <segment>
@@ -28795,6 +28852,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="607.06" y="81.28" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_0" gate="G$1" pin="PIN2"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_0" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-86.36" x2="-33.02" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-38.1" y="-86.36" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_1" class="0">
 <segment>
@@ -28813,6 +28875,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="571.5" y="68.58" size="0.8128" layer="95" font="vector"/>
 <pinref part="SHAKER" gate="G$1" pin="PIN2"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_1" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-81.28" x2="-33.02" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-38.1" y="-81.28" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_2" class="0">
 <segment>
@@ -28825,6 +28892,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="617.22" y1="76.2" x2="607.06" y2="76.2" width="0.1524" layer="91"/>
 <label x="607.06" y="76.2" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_0" gate="G$1" pin="PIN4"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_2" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-76.2" x2="-33.02" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-38.1" y="-76.2" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SOL_PWR_3" class="0">
@@ -28839,6 +28911,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="607.06" y="73.66" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_0" gate="G$1" pin="PIN5"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_3" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-71.12" x2="-33.02" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-38.1" y="-71.12" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_7" class="0">
 <segment>
@@ -28851,6 +28928,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="607.06" y1="63.5" x2="617.22" y2="63.5" width="0.1524" layer="91"/>
 <label x="607.06" y="63.5" size="0.8128" layer="95" font="vector"/>
 <pinref part="SOL_BANK_0" gate="G$1" pin="PIN9"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_7" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-50.8" x2="-33.02" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-38.1" y="-50.8" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SOL_PWR_6" class="0">
@@ -28865,6 +28947,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="607.06" y="66.04" size="0.8128" layer="95" font="vector"/>
 <pinref part="SOL_BANK_0" gate="G$1" pin="PIN8"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_6" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-55.88" x2="-33.02" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-38.1" y="-55.88" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_5" class="0">
 <segment>
@@ -28877,6 +28964,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="607.06" y1="68.58" x2="617.22" y2="68.58" width="0.1524" layer="91"/>
 <label x="607.06" y="68.58" size="0.8128" layer="95" font="vector"/>
 <pinref part="SOL_BANK_0" gate="G$1" pin="PIN7"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_5" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-60.96" x2="-33.02" y2="-60.96" width="0.1524" layer="91"/>
+<label x="-38.1" y="-60.96" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SOL_PWR_4" class="0">
@@ -28891,6 +28983,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="607.06" y="71.12" size="0.8128" layer="95" font="vector"/>
 <pinref part="SOL_BANK_0" gate="G$1" pin="PIN6"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_4" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-66.04" x2="-33.02" y2="-66.04" width="0.1524" layer="91"/>
+<label x="-38.1" y="-66.04" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_8" class="0">
 <segment>
@@ -28903,6 +29000,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="655.32" y1="81.28" x2="645.16" y2="81.28" width="0.1524" layer="91"/>
 <label x="645.16" y="81.28" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_1" gate="G$1" pin="PIN2"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_8" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-45.72" x2="-33.02" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-38.1" y="-45.72" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SOL_PWR_9" class="0">
@@ -28917,6 +29019,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="645.16" y="78.74" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_1" gate="G$1" pin="PIN3"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_9" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-40.64" x2="-33.02" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-38.1" y="-40.64" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_10" class="0">
 <segment>
@@ -28929,6 +29036,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="655.32" y1="76.2" x2="645.16" y2="76.2" width="0.1524" layer="91"/>
 <label x="645.16" y="76.2" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_1" gate="G$1" pin="PIN4"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_10" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-35.56" x2="-33.02" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-38.1" y="-35.56" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SOL_PWR_11" class="0">
@@ -28943,6 +29055,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="645.16" y="73.66" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_1" gate="G$1" pin="PIN5"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_11" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-30.48" x2="-33.02" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-38.1" y="-30.48" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_15" class="0">
 <segment>
@@ -28955,6 +29072,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="645.16" y1="63.5" x2="655.32" y2="63.5" width="0.1524" layer="91"/>
 <label x="645.16" y="63.5" size="0.8128" layer="95" font="vector"/>
 <pinref part="SOL_BANK_1" gate="G$1" pin="PIN9"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_15" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-10.16" x2="-33.02" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-38.1" y="-10.16" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SOL_PWR_14" class="0">
@@ -28969,6 +29091,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="645.16" y="66.04" size="0.8128" layer="95" font="vector"/>
 <pinref part="SOL_BANK_1" gate="G$1" pin="PIN8"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_14" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-15.24" x2="-33.02" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-38.1" y="-15.24" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_13" class="0">
 <segment>
@@ -28981,6 +29108,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="645.16" y1="68.58" x2="655.32" y2="68.58" width="0.1524" layer="91"/>
 <label x="645.16" y="68.58" size="0.8128" layer="95" font="vector"/>
 <pinref part="SOL_BANK_1" gate="G$1" pin="PIN7"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_13" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-20.32" x2="-33.02" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-38.1" y="-20.32" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SOL_PWR_12" class="0">
@@ -28995,6 +29127,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="645.16" y="71.12" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_1" gate="G$1" pin="PIN6"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_12" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-25.4" x2="-33.02" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-38.1" y="-25.4" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_16" class="0">
 <segment>
@@ -29007,6 +29144,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="695.96" y1="81.28" x2="685.8" y2="81.28" width="0.1524" layer="91"/>
 <label x="685.8" y="81.28" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_2" gate="G$1" pin="PIN2"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_16" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-5.08" x2="-33.02" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-38.1" y="-5.08" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SOL_PWR_17" class="0">
@@ -29021,6 +29163,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="685.8" y="78.74" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_2" gate="G$1" pin="PIN3"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_17" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="0" x2="-33.02" y2="0" width="0.1524" layer="91"/>
+<label x="-38.1" y="0" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_18" class="0">
 <segment>
@@ -29033,6 +29180,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="695.96" y1="76.2" x2="685.8" y2="76.2" width="0.1524" layer="91"/>
 <label x="685.8" y="76.2" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_2" gate="G$1" pin="PIN4"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_18" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="5.08" x2="-33.02" y2="5.08" width="0.1524" layer="91"/>
+<label x="-38.1" y="5.08" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SOL_PWR_19" class="0">
@@ -29047,6 +29199,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="685.8" y="73.66" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_2" gate="G$1" pin="PIN5"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_19" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="10.16" x2="-33.02" y2="10.16" width="0.1524" layer="91"/>
+<label x="-38.1" y="10.16" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_20" class="0">
 <segment>
@@ -29059,6 +29216,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="695.96" y1="71.12" x2="685.8" y2="71.12" width="0.1524" layer="91"/>
 <label x="685.8" y="71.12" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_2" gate="G$1" pin="PIN6"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_20" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="15.24" x2="-33.02" y2="15.24" width="0.1524" layer="91"/>
+<label x="-38.1" y="15.24" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SOL_PWR_21" class="0">
@@ -29073,6 +29235,11 @@ ULN and UDN Series&lt;p&gt;
 <label x="685.8" y="68.58" size="0.8128" layer="95"/>
 <pinref part="SOL_BANK_2" gate="G$1" pin="PIN7"/>
 </segment>
+<segment>
+<pinref part="SOL_PWR_21" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="20.32" x2="-33.02" y2="20.32" width="0.1524" layer="91"/>
+<label x="-38.1" y="20.32" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SOL_PWR_22" class="0">
 <segment>
@@ -29085,6 +29252,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="695.96" y1="66.04" x2="685.8" y2="66.04" width="0.1524" layer="91"/>
 <label x="685.8" y="66.04" size="0.8128" layer="95" font="vector"/>
 <pinref part="SOL_BANK_2" gate="G$1" pin="PIN8"/>
+</segment>
+<segment>
+<pinref part="SOL_PWR_22" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="25.4" x2="-33.02" y2="25.4" width="0.1524" layer="91"/>
+<label x="-38.1" y="25.4" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="PIC_SOL_0" class="0">
@@ -29124,6 +29296,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="721.36" y1="78.74" x2="728.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="721.36" y="78.74" size="0.8128" layer="95" font="vector"/>
 <pinref part="SOL_PWR" gate="G$1" pin="PIN3"/>
+</segment>
+<segment>
+<pinref part="50V" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-96.52" x2="-33.02" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-38.1" y="-96.52" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SW_R_6" class="0">
@@ -30759,6 +30936,11 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="R136" gate="G$1" pin="2"/>
 <wire x1="716.28" y1="58.42" x2="711.2" y2="58.42" width="0.1524" layer="91"/>
 <label x="711.2" y="58.42" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="SOL_GND" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-91.44" x2="-33.02" y2="-91.44" width="0.1524" layer="91"/>
+<label x="-38.1" y="-91.44" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="GI_0" class="0">
