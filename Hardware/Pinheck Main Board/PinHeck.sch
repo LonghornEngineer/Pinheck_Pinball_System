@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -28015,6 +28015,71 @@ ULN and UDN Series&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="MF_Aesthetics">
+<packages>
+<package name="FIDUCIAL_0.5MM">
+<smd name="FID" x="0" y="0" dx="0.5" dy="0.5" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL_100MIL">
+<description>&lt;b&gt;Description:&lt;/b&gt; Footprint for fiducial marking for PCB alignment inside PNP and other machines.&lt;br/&gt;</description>
+<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" thermals="no" cream="no"/>
+<smd name="P$2" x="0" y="0" dx="1.27" dy="1.27" layer="16" roundness="100" thermals="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-1.27" y="0" curve="-90"/>
+<vertex x="0" y="1.27" curve="-90"/>
+<vertex x="1.27" y="0" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-1.27" y="0" curve="-90"/>
+<vertex x="0" y="1.27" curve="-90"/>
+<vertex x="1.27" y="0" curve="-90"/>
+</polygon>
+<text x="-1.27" y="2.54" size="0.8128" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
+<polygon width="0.127" layer="41">
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-1.27" y="0" curve="-90"/>
+<vertex x="0" y="1.27" curve="-90"/>
+<vertex x="1.27" y="0" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-1.27" y="0" curve="-90"/>
+<vertex x="0" y="1.27" curve="-90"/>
+<vertex x="1.27" y="0" curve="-90"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="FIDUCIAL">
+<description>&lt;b&gt;Description:&lt;/b&gt; Symbol for fiducial marking for PCB alignment inside PNP and other machines.&lt;br/&gt;</description>
+<text x="0" y="-1.524" size="1.016" layer="96" font="vector" rot="MR180">&gt;VALUE</text>
+<text x="0" y="0" size="1.016" layer="95" font="vector" rot="MR180">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL" prefix="FID">
+<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Aesthetics&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Fiducial marking for PCB alignment inside PNP and other machines.&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0.5MM" package="FIDUCIAL_0.5MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_100MIL" package="FIDUCIAL_100MIL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -28379,8 +28444,8 @@ ULN and UDN Series&lt;p&gt;
 <part name="SOCKET2" library="PP_Connectors" deviceset="DIP_SOCKET" device="_20PIN" value="820-AG11D-ESL-LF"/>
 <part name="SOCKET3" library="PP_Connectors" deviceset="DIP_SOCKET" device="_8PIN" value="808-AG11D-ESL-LF"/>
 <part name="SOCKET4" library="PP_Connectors" deviceset="DIP_SOCKET" device="_18PIN" value="818-AG11D-ESL-LF"/>
-<part name="PROP_RST" library="MF_Switches" deviceset="TACT" device="_6MM"/>
-<part name="PIC_RST" library="MF_Switches" deviceset="TACT" device="_6MM"/>
+<part name="PROP_RESET" library="MF_Switches" deviceset="TACT" device="_6MM"/>
+<part name="PIC_RESET" library="MF_Switches" deviceset="TACT" device="_6MM"/>
 <part name="PIC_PROGRAM" library="MF_Switches" deviceset="TACT" device="_6MM"/>
 <part name="F4" library="PP_Passives" deviceset="PTC_FUSE" device="_4628" value="4628"/>
 <part name="H11" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
@@ -28400,12 +28465,12 @@ ULN and UDN Series&lt;p&gt;
 <part name="H34" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="AUDIO" library="PP_Connectors" deviceset="TRS_JACK" device="_SJ1-3513-SMT" value="SJ1-3513-SMT"/>
 <part name="U4" library="PP_DigitalIC" deviceset="EEPROM_I2C" device="DIP-8" value="CAT24M01LI-G"/>
-<part name="BOARD_POWER" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN2)" value="26-64-4040">
+<part name="BOARD_POWER_IN" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN2)" value="26-64-4040">
 <attribute name="LABEL01" value="5V"/>
 <attribute name="LABEL02" value="12V"/>
 <attribute name="LABEL03" value="GND"/>
 </part>
-<part name="SOL_PWR" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN3)" value="26-64-4040">
+<part name="SOLENOID_POWER_IN" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN3)" value="26-64-4040">
 <attribute name="LABEL01" value="GND"/>
 <attribute name="LABEL02" value="GND"/>
 <attribute name="LABEL03" value="50V"/>
@@ -28427,7 +28492,7 @@ ULN and UDN Series&lt;p&gt;
 <attribute name="LABEL02" value="5V"/>
 <attribute name="LABEL03" value="GND"/>
 </part>
-<part name="CABINET" library="PP_Connectors" deviceset="CON_01X11" device="_26-64-4120(KEYPIN2)" value="26-64-4120">
+<part name="CABINET_I/O" library="PP_Connectors" deviceset="CON_01X11" device="_26-64-4120(KEYPIN2)" value="26-64-4120">
 <attribute name="LABEL01" value="GND"/>
 <attribute name="LABEL02" value="ST_LI"/>
 <attribute name="LABEL03" value="ST_BU"/>
@@ -28712,6 +28777,12 @@ ULN and UDN Series&lt;p&gt;
 <part name="SOL_GND" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
 <part name="50V" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
 <part name="SYM1" library="PP_Aesthetics" deviceset="PCB_SYMBOL" device="_HIGH_VOLTAGE_500MIL" value="HIGH_VOLTAGE_500MIL"/>
+<part name="FID1" library="MF_Aesthetics" deviceset="FIDUCIAL" device="_100MIL"/>
+<part name="FID2" library="MF_Aesthetics" deviceset="FIDUCIAL" device="_100MIL"/>
+<part name="FID3" library="MF_Aesthetics" deviceset="FIDUCIAL" device="_100MIL"/>
+<part name="FID4" library="MF_Aesthetics" deviceset="FIDUCIAL" device="_0.5MM"/>
+<part name="FID5" library="MF_Aesthetics" deviceset="FIDUCIAL" device="_0.5MM"/>
+<part name="3.3V" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
 </parts>
 <sheets>
 <sheet>
@@ -29022,8 +29093,8 @@ ULN and UDN Series&lt;p&gt;
 <instance part="SOCKET2" gate="G$1" x="685.8" y="-33.02"/>
 <instance part="SOCKET3" gate="G$1" x="149.86" y="27.94"/>
 <instance part="SOCKET4" gate="G$1" x="767.08" y="81.28"/>
-<instance part="PROP_RST" gate="G$1" x="45.72" y="15.24"/>
-<instance part="PIC_RST" gate="G$1" x="-73.66" y="86.36" rot="R90"/>
+<instance part="PROP_RESET" gate="G$1" x="45.72" y="15.24"/>
+<instance part="PIC_RESET" gate="G$1" x="-73.66" y="86.36" rot="R90"/>
 <instance part="PIC_PROGRAM" gate="G$1" x="386.08" y="152.4"/>
 <instance part="F4" gate="G$1" x="472.44" y="-17.78"/>
 <instance part="H11" gate="G$1" x="297.18" y="-71.12"/>
@@ -29043,13 +29114,13 @@ ULN and UDN Series&lt;p&gt;
 <instance part="H34" gate="G$1" x="284.48" y="-124.46"/>
 <instance part="AUDIO" gate="G$1" x="284.48" y="30.48" rot="R180"/>
 <instance part="U4" gate="G$1" x="157.48" y="17.78" rot="MR0"/>
-<instance part="BOARD_POWER" gate="G$1" x="797.56" y="185.42"/>
-<instance part="SOL_PWR" gate="G$1" x="731.52" y="83.82"/>
+<instance part="BOARD_POWER_IN" gate="G$1" x="797.56" y="185.42"/>
+<instance part="SOLENOID_POWER_IN" gate="G$1" x="731.52" y="83.82"/>
 <instance part="U1" gate="G$1" x="68.58" y="20.32"/>
 <instance part="DMD_CON" gate="G$1" x="137.16" y="-12.7"/>
 <instance part="CAB_RGB" gate="G$1" x="233.68" y="-93.98"/>
 <instance part="DMD_PWR" gate="G$1" x="916.94" y="40.64"/>
-<instance part="CABINET" gate="G$1" x="543.56" y="86.36"/>
+<instance part="CABINET_I/O" gate="G$1" x="543.56" y="86.36"/>
 <instance part="KNOCKER" gate="G$1" x="581.66" y="81.28"/>
 <instance part="PICKIT3" gate="G$1" x="15.24" y="106.68"/>
 <instance part="R24" gate="G$1" x="350.52" y="213.36" rot="R90"/>
@@ -29276,6 +29347,12 @@ ULN and UDN Series&lt;p&gt;
 <instance part="SOL_GND" gate="G$1" x="-43.18" y="-91.44" rot="R180"/>
 <instance part="50V" gate="G$1" x="-43.18" y="-96.52" rot="R180"/>
 <instance part="SYM1" gate="G$1" x="-99.06" y="187.96"/>
+<instance part="FID1" gate="G$1" x="845.82" y="-38.1"/>
+<instance part="FID2" gate="G$1" x="845.82" y="-43.18"/>
+<instance part="FID3" gate="G$1" x="845.82" y="-48.26"/>
+<instance part="FID4" gate="G$1" x="845.82" y="-53.34"/>
+<instance part="FID5" gate="G$1" x="845.82" y="-58.42"/>
+<instance part="3.3V" gate="G$1" x="-43.18" y="-101.6" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -29326,7 +29403,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="83.82" x2="-76.2" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-76.2" y="76.2"/>
-<pinref part="PIC_RST" gate="G$1" pin="P$1"/>
+<pinref part="PIC_RESET" gate="G$1" pin="P$1"/>
 <pinref part="PICKIT3" gate="G$1" pin="3"/>
 <label x="5.08" y="101.6" size="0.8128" layer="95" font="vector"/>
 <pinref part="PICKIT3_TC" gate="G$1" pin="PIN3"/>
@@ -29427,7 +29504,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="43.18" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
 <label x="38.1" y="12.7" size="0.8128" layer="95" font="vector"/>
-<pinref part="PROP_RST" gate="G$1" pin="P$3"/>
+<pinref part="PROP_RESET" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="15.24" x2="139.7" y2="15.24" width="0.1524" layer="91"/>
@@ -29553,7 +29630,7 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <label x="508" y="86.36" size="0.8128" layer="95" font="vector"/>
-<pinref part="CABINET" gate="G$1" pin="1"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="1"/>
 <wire x1="508" y1="86.36" x2="541.02" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30277,7 +30354,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="795.02" y1="180.34" x2="787.4" y2="180.34" width="0.1524" layer="91"/>
 <label x="787.4" y="180.34" size="0.8128" layer="95" font="vector"/>
-<pinref part="BOARD_POWER" gate="G$1" pin="PIN3"/>
+<pinref part="BOARD_POWER_IN" gate="G$1" pin="PIN3"/>
 </segment>
 <segment>
 <pinref part="C29" gate="G$1" pin="P$2"/>
@@ -30440,7 +30517,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="N$9" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="PIC_RST" gate="G$1" pin="P$4"/>
+<pinref part="PIC_RESET" gate="G$1" pin="P$4"/>
 <wire x1="-71.12" y1="93.98" x2="-71.12" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -31674,6 +31751,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="668.02" y1="-58.42" x2="675.64" y2="-58.42" width="0.1524" layer="91"/>
 <label x="670.56" y="-58.42" size="0.8128" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="3.3V" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-101.6" x2="-33.02" y2="-101.6" width="0.1524" layer="91"/>
+<label x="-38.1" y="-101.6" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="RES" class="0">
 <segment>
@@ -31682,7 +31764,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="R176" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="25.4" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 <junction x="53.34" y="17.78"/>
-<pinref part="PROP_RST" gate="G$1" pin="P$2"/>
+<pinref part="PROP_RESET" gate="G$1" pin="P$2"/>
 <wire x1="48.26" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="!RES"/>
 </segment>
@@ -32751,7 +32833,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="ST_LI" class="0">
 <segment>
 <label x="508" y="83.82" size="0.8128" layer="95" font="vector"/>
-<pinref part="CABINET" gate="G$1" pin="2"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="2"/>
 <wire x1="508" y1="83.82" x2="541.02" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -33704,7 +33786,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="721.36" y1="78.74" x2="728.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="721.36" y="78.74" size="0.8128" layer="95" font="vector"/>
-<pinref part="SOL_PWR" gate="G$1" pin="PIN3"/>
+<pinref part="SOLENOID_POWER_IN" gate="G$1" pin="PIN3"/>
 </segment>
 <segment>
 <pinref part="50V" gate="G$1" pin="P$1"/>
@@ -35334,12 +35416,12 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="728.98" y1="81.28" x2="721.36" y2="81.28" width="0.1524" layer="91"/>
 <label x="721.36" y="81.28" size="0.8128" layer="95" font="vector"/>
-<pinref part="SOL_PWR" gate="G$1" pin="PIN2"/>
+<pinref part="SOLENOID_POWER_IN" gate="G$1" pin="PIN2"/>
 </segment>
 <segment>
 <wire x1="728.98" y1="83.82" x2="721.36" y2="83.82" width="0.1524" layer="91"/>
 <label x="721.36" y="83.82" size="0.8128" layer="95" font="vector"/>
-<pinref part="SOL_PWR" gate="G$1" pin="PIN1"/>
+<pinref part="SOLENOID_POWER_IN" gate="G$1" pin="PIN1"/>
 </segment>
 <segment>
 <pinref part="R136" gate="G$1" pin="2"/>
@@ -36381,7 +36463,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <pinref part="R148" gate="G$1" pin="1"/>
 <wire x1="525.78" y1="81.28" x2="541.02" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="CABINET" gate="G$1" pin="3"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="ST_BU_OUT" gate="G$1" pin="P$1"/>
@@ -36391,7 +36473,7 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="TILT_OUT" class="0">
 <segment>
-<pinref part="CABINET" gate="G$1" pin="4"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="4"/>
 <pinref part="R149" gate="G$1" pin="1"/>
 <wire x1="541.02" y1="78.74" x2="525.78" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -36404,7 +36486,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="COIN_OUT" class="0">
 <segment>
 <pinref part="R150" gate="G$1" pin="1"/>
-<pinref part="CABINET" gate="G$1" pin="5"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="5"/>
 <wire x1="525.78" y1="76.2" x2="541.02" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -36415,7 +36497,7 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="ENTER_OUT" class="0">
 <segment>
-<pinref part="CABINET" gate="G$1" pin="6"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="6"/>
 <pinref part="R151" gate="G$1" pin="1"/>
 <wire x1="541.02" y1="73.66" x2="525.78" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -36428,7 +36510,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="BACK_OUT" class="0">
 <segment>
 <pinref part="R152" gate="G$1" pin="1"/>
-<pinref part="CABINET" gate="G$1" pin="7"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="7"/>
 <wire x1="525.78" y1="71.12" x2="541.02" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -36439,7 +36521,7 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="DOOR_OUT" class="0">
 <segment>
-<pinref part="CABINET" gate="G$1" pin="8"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="8"/>
 <pinref part="R153" gate="G$1" pin="1"/>
 <wire x1="541.02" y1="68.58" x2="525.78" y2="68.58" width="0.1524" layer="91"/>
 </segment>
@@ -36452,7 +36534,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="USER_0_OUT" class="0">
 <segment>
 <pinref part="R154" gate="G$1" pin="1"/>
-<pinref part="CABINET" gate="G$1" pin="9"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="9"/>
 <wire x1="525.78" y1="66.04" x2="541.02" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -36463,7 +36545,7 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="R_FLIP_OUT" class="0">
 <segment>
-<pinref part="CABINET" gate="G$1" pin="10"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="10"/>
 <pinref part="R155" gate="G$1" pin="1"/>
 <wire x1="541.02" y1="63.5" x2="525.78" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -36476,7 +36558,7 @@ ULN and UDN Series&lt;p&gt;
 <net name="L_FLIP_OUT" class="0">
 <segment>
 <pinref part="R156" gate="G$1" pin="1"/>
-<pinref part="CABINET" gate="G$1" pin="11"/>
+<pinref part="CABINET_I/O" gate="G$1" pin="11"/>
 <wire x1="525.78" y1="60.96" x2="541.02" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -36501,7 +36583,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="795.02" y1="182.88" x2="787.4" y2="182.88" width="0.1524" layer="91"/>
 <label x="787.4" y="182.88" size="0.8128" layer="95" font="vector"/>
-<pinref part="BOARD_POWER" gate="G$1" pin="PIN2"/>
+<pinref part="BOARD_POWER_IN" gate="G$1" pin="PIN2"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="VIN"/>
@@ -36529,7 +36611,7 @@ ULN and UDN Series&lt;p&gt;
 <segment>
 <wire x1="795.02" y1="185.42" x2="787.4" y2="185.42" width="0.1524" layer="91"/>
 <label x="787.4" y="185.42" size="0.8128" layer="95" font="vector"/>
-<pinref part="BOARD_POWER" gate="G$1" pin="PIN1"/>
+<pinref part="BOARD_POWER_IN" gate="G$1" pin="PIN1"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="VIN"/>
