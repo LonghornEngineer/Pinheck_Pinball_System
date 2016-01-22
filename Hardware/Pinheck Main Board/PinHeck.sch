@@ -28783,6 +28783,12 @@ ULN and UDN Series&lt;p&gt;
 <part name="FID4" library="MF_Aesthetics" deviceset="FIDUCIAL" device="_0.5MM"/>
 <part name="FID5" library="MF_Aesthetics" deviceset="FIDUCIAL" device="_0.5MM"/>
 <part name="3.3V" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_ROUND_100MIL"/>
+<part name="AUX_PWR" library="PP_Connectors" deviceset="CON_01X04" device="_26-64-4040" value="26-64-4040">
+<attribute name="LABEL01" value="GND"/>
+<attribute name="LABEL02" value="12V"/>
+<attribute name="LABEL03" value="5V"/>
+<attribute name="LABEL04" value="3.3V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -29353,6 +29359,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="FID4" gate="G$1" x="845.82" y="-53.34"/>
 <instance part="FID5" gate="G$1" x="845.82" y="-58.42"/>
 <instance part="3.3V" gate="G$1" x="-43.18" y="-101.6" rot="R180"/>
+<instance part="AUX_PWR" gate="G$1" x="637.54" y="-33.02"/>
 </instances>
 <busses>
 </busses>
@@ -30440,6 +30447,11 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="GND" gate="G$1" pin="P$1"/>
 <wire x1="-96.52" y1="30.48" x2="-88.9" y2="30.48" width="0.1524" layer="91"/>
 <label x="-93.98" y="30.48" size="1.016" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="AUX_PWR" gate="G$1" pin="1"/>
+<wire x1="635" y1="-33.02" x2="627.38" y2="-33.02" width="0.1524" layer="91"/>
+<label x="627.38" y="-33.02" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="RX_PIC32" class="0">
@@ -31756,6 +31768,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="-40.64" y1="-101.6" x2="-33.02" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-38.1" y="-101.6" size="1.016" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="AUX_PWR" gate="G$1" pin="4"/>
+<wire x1="627.38" y1="-40.64" x2="635" y2="-40.64" width="0.1524" layer="91"/>
+<label x="627.38" y="-40.64" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="RES" class="0">
 <segment>
@@ -32466,6 +32483,11 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="U6" gate="G$1" pin="OUT"/>
 <wire x1="772.16" y1="251.46" x2="792.48" y2="251.46" width="0.1524" layer="91"/>
 <label x="787.4" y="251.46" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="AUX_PWR" gate="G$1" pin="3"/>
+<wire x1="635" y1="-38.1" x2="627.38" y2="-38.1" width="0.1524" layer="91"/>
+<label x="627.38" y="-38.1" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="CAB_LAT" class="0">
@@ -34667,6 +34689,11 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="U7" gate="G$1" pin="OUT"/>
 <wire x1="772.16" y1="220.98" x2="792.48" y2="220.98" width="0.1524" layer="91"/>
 <label x="787.4" y="220.98" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="AUX_PWR" gate="G$1" pin="2"/>
+<wire x1="627.38" y1="-35.56" x2="635" y2="-35.56" width="0.1524" layer="91"/>
+<label x="627.38" y="-35.56" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="LIGHT_C_B_0" class="0">
