@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -127,9 +127,14 @@
 <wire x1="359.156" y1="0" x2="0" y2="0" width="0.127" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="185.293" width="0.127" layer="20"/>
 <polygon width="0.254" layer="21">
-<vertex x="108.331" y="59.944"/>
-<vertex x="109.347" y="60.96"/>
-<vertex x="109.347" y="58.928"/>
+<vertex x="104.902" y="59.944"/>
+<vertex x="103.886" y="58.928"/>
+<vertex x="103.886" y="60.96"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="181.229" y="173.736"/>
+<vertex x="182.245" y="172.72"/>
+<vertex x="180.213" y="172.72"/>
 </polygon>
 </plain>
 <libraries>
@@ -896,129 +901,129 @@
 <element name="H7" library="PP_Connectors" package="MOUNT_HOLE_150MIL" value="MOUNT_HOLE150MIL" x="290.322" y="77.978"/>
 <element name="H17" library="PP_Connectors" package="MOUNT_HOLE_150MIL" value="MOUNT_HOLE150MIL" x="179.578" y="77.978"/>
 <element name="H16" library="PP_Connectors" package="MOUNT_HOLE_150MIL" value="MOUNT_HOLE150MIL" x="152.4" y="133.604"/>
-<element name="SW_R_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="12.954" y="11.176" rot="R90"/>
-<element name="SW_R_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="16.92875" y="11.176" rot="R90"/>
-<element name="SW_R_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="24.84875" y="11.176" rot="R90"/>
-<element name="SW_R_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="28.80875" y="11.176" rot="R90"/>
-<element name="SW_R_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="32.766" y="11.176" rot="R90"/>
-<element name="SW_R_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="36.72875" y="11.176" rot="R90"/>
-<element name="SW_R_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="40.68875" y="11.176" rot="R90"/>
-<element name="SW_R_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="44.704" y="11.176" rot="R90"/>
-<element name="SW_C_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="66.658" y="11.049" rot="R90"/>
-<element name="SW_C_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="70.618" y="11.176" rot="R90"/>
-<element name="SW_C_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="74.578" y="11.176" rot="R90"/>
-<element name="SW_C_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="82.498" y="11.176" rot="R90"/>
-<element name="SW_C_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="86.458" y="11.176" rot="R90"/>
-<element name="SW_C_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="90.418" y="11.176" rot="R90"/>
-<element name="SW_C_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="94.378" y="11.176" rot="R90"/>
-<element name="SW_C_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="98.338" y="11.176" rot="R90"/>
-<element name="LIGHT_R_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="59.944"/>
-<element name="LIGHT_R_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="52.00925"/>
-<element name="LIGHT_R_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="48.04925"/>
-<element name="LIGHT_R_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="44.08925"/>
-<element name="LIGHT_R_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="40.12925"/>
-<element name="LIGHT_R_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="36.16925"/>
-<element name="LIGHT_R_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="32.20925"/>
-<element name="LIGHT_R_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="28.24925"/>
-<element name="LIGHT_C_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="115.056" rot="R180"/>
-<element name="LIGHT_C_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="111.096" rot="R180"/>
-<element name="LIGHT_C_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="107.136" rot="R180"/>
-<element name="LIGHT_C_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="103.176" rot="R180"/>
-<element name="LIGHT_C_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="99.216" rot="R180"/>
-<element name="LIGHT_C_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="95.256" rot="R180"/>
-<element name="LIGHT_C_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="91.296" rot="R180"/>
-<element name="LIGHT_C_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="11.43" y="87.336" rot="R180"/>
-<element name="GND" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="7.493" y="139.319"/>
-<element name="12V" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="7.493" y="135.89"/>
-<element name="5V" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="7.493" y="132.461"/>
-<element name="OPTO_1_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="92.3" y="139.954"/>
-<element name="OPTO_2_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="74.266" y="139.954"/>
-<element name="OPTO_3_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="92.3" y="127.762"/>
-<element name="OPTO_4_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="74.266" y="127.762"/>
-<element name="OPTO_5_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="92.3" y="116.332"/>
-<element name="OPTO_6_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="74.266" y="116.332"/>
-<element name="OPTO_7_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="92.3" y="104.902"/>
-<element name="SERVO_0_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="107.95" y="143.891"/>
-<element name="SERVO_1_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="116.84" y="143.891"/>
-<element name="SERVO_2_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="107.95" y="136.271"/>
-<element name="SERVO_3_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="116.84" y="136.271"/>
-<element name="SERVO_4_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="107.95" y="128.905"/>
-<element name="EXT_RGB_CLK" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="133.887" y="140.716" rot="R270"/>
-<element name="EXT_RGB_DATA" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="137.847" y="140.716" rot="R270"/>
-<element name="PROP_AUX0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="141.807" y="140.843" rot="R270"/>
-<element name="PROP_AUX1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="145.767" y="140.716" rot="R270"/>
-<element name="RGB_ROUT_R" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="161.175" y="140.716" rot="R270"/>
-<element name="RGB_GOUT_R" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="165.135" y="140.716" rot="R270"/>
-<element name="RGB_BOUT_R" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="169.095" y="140.716" rot="R270"/>
-<element name="RGB_ROUT_L" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="177.015" y="140.843" rot="R270"/>
-<element name="RGB_GOUT_L" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="180.975" y="140.716" rot="R270"/>
-<element name="RGB_BOUT_L" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="184.935" y="140.716" rot="R270"/>
-<element name="DMD_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="212.471" y="139.827" rot="R270"/>
-<element name="DMD_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="215.9" y="139.827" rot="R270"/>
-<element name="DMD_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="219.329" y="139.827" rot="R270"/>
-<element name="DMD_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="222.758" y="139.827" rot="R270"/>
-<element name="DMD_9" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="226.187" y="139.827" rot="R270"/>
-<element name="DMD_11" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="229.616" y="139.827" rot="R270"/>
-<element name="DMD_13" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="233.045" y="139.827" rot="R270"/>
-<element name="SD_CS" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="288.036" y="116.205" rot="R270"/>
-<element name="SD_DI" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="291.465" y="116.205" rot="R270"/>
-<element name="SD_SCLK" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="294.894" y="116.205" rot="R270"/>
-<element name="SD_DO" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="298.323" y="116.205" rot="R270"/>
-<element name="S_L" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="319.278" y="138.049" rot="R270"/>
-<element name="S_R" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="322.707" y="138.049" rot="R270"/>
-<element name="L_FLIP_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.488" y="130.175"/>
-<element name="R_FLIP_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.488" y="126.365"/>
-<element name="USER_0_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.488" y="122.301"/>
-<element name="DOOR_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.488" y="118.491"/>
-<element name="BACK_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.488" y="114.427"/>
-<element name="ENTER_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.488" y="110.363"/>
-<element name="COIN_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.488" y="106.553"/>
-<element name="TILT_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.488" y="102.489"/>
-<element name="ST_BU_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.488" y="98.425"/>
-<element name="ST_LI_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.488" y="94.996"/>
-<element name="GI_R_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.615" y="58.293"/>
-<element name="GI_R_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.615" y="54.229"/>
-<element name="GI_R_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.615" y="50.292"/>
-<element name="GI_R_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.615" y="46.228"/>
-<element name="GI_R_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.615" y="42.291"/>
-<element name="GI_R_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.615" y="38.354"/>
-<element name="GI_R_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.615" y="34.417"/>
-<element name="GI_R_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="348.615" y="30.353"/>
-<element name="GI_R_15" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="334.01" y="11.049" rot="R90"/>
-<element name="GI_R_14" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="330.073" y="11.049" rot="R90"/>
-<element name="GI_R_13" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="326.136" y="11.049" rot="R90"/>
-<element name="GI_R_12" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="322.072" y="11.049" rot="R90"/>
-<element name="GI_R_11" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="318.135" y="11.049" rot="R90"/>
-<element name="GI_R_10" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="314.198" y="11.049" rot="R90"/>
-<element name="GI_R_9" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="310.261" y="11.049" rot="R90"/>
-<element name="GI_R_8" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="306.324" y="11.049" rot="R90"/>
-<element name="SOL_PWR_23" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="255.016" y="11.049" rot="R90"/>
-<element name="SOL_PWR_22" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="251.079" y="11.049" rot="R90"/>
-<element name="SOL_PWR_21" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="243.205" y="11.049" rot="R90"/>
-<element name="SOL_PWR_20" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="239.141" y="11.049" rot="R90"/>
-<element name="SOL_PWR_19" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="235.331" y="11.049" rot="R90"/>
-<element name="SOL_PWR_18" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="231.394" y="11.049" rot="R90"/>
-<element name="SOL_PWR_17" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="227.33" y="11.049" rot="R90"/>
-<element name="SOL_PWR_16" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="223.266" y="11.049" rot="R90"/>
-<element name="SOL_PWR_15" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="202.946" y="11.049" rot="R90"/>
-<element name="SOL_PWR_14" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="199.009" y="11.049" rot="R90"/>
-<element name="SOL_PWR_13" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="195.072" y="11.049" rot="R90"/>
-<element name="SOL_PWR_12" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="187.198" y="11.049" rot="R90"/>
-<element name="SOL_PWR_11" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="183.134" y="11.049" rot="R90"/>
-<element name="SOL_PWR_10" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="179.197" y="11.049" rot="R90"/>
-<element name="SOL_PWR_9" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="175.26" y="11.049" rot="R90"/>
-<element name="SOL_PWR_8" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="171.323" y="11.049" rot="R90"/>
-<element name="SOL_PWR_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="151.257" y="11.049" rot="R90"/>
-<element name="SOL_PWR_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="147.193" y="11.049" rot="R90"/>
-<element name="SOL_PWR_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="143.256" y="11.049" rot="R90"/>
-<element name="SOL_PWR_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="139.319" y="11.049" rot="R90"/>
-<element name="SOL_PWR_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="131.445" y="11.049" rot="R90"/>
-<element name="SOL_PWR_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="127.381" y="11.049" rot="R90"/>
-<element name="SOL_PWR_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="123.444" y="11.049" rot="R90"/>
-<element name="SOL_PWR_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="119.507" y="11.176" rot="R90"/>
-<element name="SOL_GND" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="275.59" y="11.176" rot="R90"/>
-<element name="50V" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="283.591" y="11.176" rot="R90"/>
-<element name="3.3V" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="39.497" y="139.319"/>
+<element name="SW_R_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="12.954" y="11.176" rot="R90"/>
+<element name="SW_R_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="16.92875" y="11.176" rot="R90"/>
+<element name="SW_R_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="24.84875" y="11.176" rot="R90"/>
+<element name="SW_R_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="28.80875" y="11.176" rot="R90"/>
+<element name="SW_R_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="32.766" y="11.176" rot="R90"/>
+<element name="SW_R_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="36.72875" y="11.176" rot="R90"/>
+<element name="SW_R_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="40.68875" y="11.176" rot="R90"/>
+<element name="SW_R_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="44.704" y="11.176" rot="R90"/>
+<element name="SW_C_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="66.658" y="11.049" rot="R90"/>
+<element name="SW_C_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="70.618" y="11.176" rot="R90"/>
+<element name="SW_C_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="74.578" y="11.176" rot="R90"/>
+<element name="SW_C_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="82.498" y="11.176" rot="R90"/>
+<element name="SW_C_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="86.458" y="11.176" rot="R90"/>
+<element name="SW_C_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="90.418" y="11.176" rot="R90"/>
+<element name="SW_C_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="94.378" y="11.176" rot="R90"/>
+<element name="SW_C_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="98.338" y="11.176" rot="R90"/>
+<element name="LIGHT_R_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="59.944"/>
+<element name="LIGHT_R_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="52.00925"/>
+<element name="LIGHT_R_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="48.04925"/>
+<element name="LIGHT_R_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="44.08925"/>
+<element name="LIGHT_R_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="40.12925"/>
+<element name="LIGHT_R_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="36.16925"/>
+<element name="LIGHT_R_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="32.20925"/>
+<element name="LIGHT_R_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="28.24925"/>
+<element name="LIGHT_C_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="115.056" rot="R180"/>
+<element name="LIGHT_C_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="111.096" rot="R180"/>
+<element name="LIGHT_C_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="107.136" rot="R180"/>
+<element name="LIGHT_C_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="103.176" rot="R180"/>
+<element name="LIGHT_C_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="99.216" rot="R180"/>
+<element name="LIGHT_C_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="95.256" rot="R180"/>
+<element name="LIGHT_C_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="91.296" rot="R180"/>
+<element name="LIGHT_C_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="11.43" y="87.336" rot="R180"/>
+<element name="GND" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="7.493" y="139.319"/>
+<element name="12V" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="7.493" y="135.89"/>
+<element name="5V" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="7.493" y="132.461"/>
+<element name="OPTO_1_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="92.3" y="139.954"/>
+<element name="OPTO_2_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="74.266" y="139.954"/>
+<element name="OPTO_3_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="92.3" y="127.762"/>
+<element name="OPTO_4_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="74.266" y="127.762"/>
+<element name="OPTO_5_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="92.3" y="116.332"/>
+<element name="OPTO_6_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="74.266" y="116.332"/>
+<element name="OPTO_7_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="92.3" y="104.902"/>
+<element name="SERVO_0_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="107.95" y="143.891"/>
+<element name="SERVO_1_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="116.84" y="143.891"/>
+<element name="SERVO_2_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="107.95" y="136.271"/>
+<element name="SERVO_3_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="116.84" y="136.271"/>
+<element name="SERVO_4_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="107.95" y="128.905"/>
+<element name="EXT_RGB_CLK" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="133.887" y="140.716" rot="R270"/>
+<element name="EXT_RGB_DATA" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="137.847" y="140.716" rot="R270"/>
+<element name="PROP_AUX0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="141.807" y="140.843" rot="R270"/>
+<element name="PROP_AUX1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="145.767" y="140.716" rot="R270"/>
+<element name="RGB_ROUT_R" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="161.175" y="140.716" rot="R270"/>
+<element name="RGB_GOUT_R" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="165.135" y="140.716" rot="R270"/>
+<element name="RGB_BOUT_R" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="169.095" y="140.716" rot="R270"/>
+<element name="RGB_ROUT_L" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="177.015" y="140.843" rot="R270"/>
+<element name="RGB_GOUT_L" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="180.975" y="140.716" rot="R270"/>
+<element name="RGB_BOUT_L" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="184.935" y="140.716" rot="R270"/>
+<element name="DMD_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="212.471" y="139.827" rot="R270"/>
+<element name="DMD_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="215.9" y="139.827" rot="R270"/>
+<element name="DMD_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="219.329" y="139.827" rot="R270"/>
+<element name="DMD_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="222.758" y="139.827" rot="R270"/>
+<element name="DMD_9" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="226.187" y="139.827" rot="R270"/>
+<element name="DMD_11" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="229.616" y="139.827" rot="R270"/>
+<element name="DMD_13" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="233.045" y="139.827" rot="R270"/>
+<element name="SD_CS" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="288.036" y="116.205" rot="R270"/>
+<element name="SD_DI" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="291.465" y="116.205" rot="R270"/>
+<element name="SD_SCLK" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="294.894" y="116.205" rot="R270"/>
+<element name="SD_DO" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="298.323" y="116.205" rot="R270"/>
+<element name="S_L" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="319.278" y="138.049" rot="R270"/>
+<element name="S_R" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="322.707" y="138.049" rot="R270"/>
+<element name="L_FLIP_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.488" y="130.175"/>
+<element name="R_FLIP_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.488" y="126.365"/>
+<element name="USER_0_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.488" y="122.301"/>
+<element name="DOOR_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.488" y="118.491"/>
+<element name="BACK_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.488" y="114.427"/>
+<element name="ENTER_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.488" y="110.363"/>
+<element name="COIN_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.488" y="106.553"/>
+<element name="TILT_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.488" y="102.489"/>
+<element name="ST_BU_OUT" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.488" y="98.425"/>
+<element name="ST_LI_" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.488" y="94.996"/>
+<element name="GI_R_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.615" y="58.293"/>
+<element name="GI_R_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.615" y="54.229"/>
+<element name="GI_R_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.615" y="50.292"/>
+<element name="GI_R_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.615" y="46.228"/>
+<element name="GI_R_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.615" y="42.291"/>
+<element name="GI_R_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.615" y="38.354"/>
+<element name="GI_R_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.615" y="34.417"/>
+<element name="GI_R_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="348.615" y="30.353"/>
+<element name="GI_R_15" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="334.01" y="11.049" rot="R90"/>
+<element name="GI_R_14" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="330.073" y="11.049" rot="R90"/>
+<element name="GI_R_13" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="326.136" y="11.049" rot="R90"/>
+<element name="GI_R_12" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="322.072" y="11.049" rot="R90"/>
+<element name="GI_R_11" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="318.135" y="11.049" rot="R90"/>
+<element name="GI_R_10" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="314.198" y="11.049" rot="R90"/>
+<element name="GI_R_9" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="310.261" y="11.049" rot="R90"/>
+<element name="GI_R_8" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="306.324" y="11.049" rot="R90"/>
+<element name="SOL_PWR_23" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="255.016" y="11.049" rot="R90"/>
+<element name="SOL_PWR_22" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="251.079" y="11.049" rot="R90"/>
+<element name="SOL_PWR_21" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="243.205" y="11.049" rot="R90"/>
+<element name="SOL_PWR_20" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="239.141" y="11.049" rot="R90"/>
+<element name="SOL_PWR_19" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="235.331" y="11.049" rot="R90"/>
+<element name="SOL_PWR_18" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="231.394" y="11.049" rot="R90"/>
+<element name="SOL_PWR_17" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="227.33" y="11.049" rot="R90"/>
+<element name="SOL_PWR_16" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="223.266" y="11.049" rot="R90"/>
+<element name="SOL_PWR_15" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="202.946" y="11.049" rot="R90"/>
+<element name="SOL_PWR_14" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="199.009" y="11.049" rot="R90"/>
+<element name="SOL_PWR_13" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="195.072" y="11.049" rot="R90"/>
+<element name="SOL_PWR_12" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="187.198" y="11.049" rot="R90"/>
+<element name="SOL_PWR_11" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="183.134" y="11.049" rot="R90"/>
+<element name="SOL_PWR_10" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="179.197" y="11.049" rot="R90"/>
+<element name="SOL_PWR_9" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="175.26" y="11.049" rot="R90"/>
+<element name="SOL_PWR_8" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="171.323" y="11.049" rot="R90"/>
+<element name="SOL_PWR_7" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="151.257" y="11.049" rot="R90"/>
+<element name="SOL_PWR_6" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="147.193" y="11.049" rot="R90"/>
+<element name="SOL_PWR_5" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="143.256" y="11.049" rot="R90"/>
+<element name="SOL_PWR_4" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="139.319" y="11.049" rot="R90"/>
+<element name="SOL_PWR_3" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="131.445" y="11.049" rot="R90"/>
+<element name="SOL_PWR_2" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="127.381" y="11.049" rot="R90"/>
+<element name="SOL_PWR_1" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="123.444" y="11.049" rot="R90"/>
+<element name="SOL_PWR_0" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="119.507" y="11.176" rot="R90"/>
+<element name="SOL_GND" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="275.59" y="11.176" rot="R90"/>
+<element name="50V" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="283.591" y="11.176" rot="R90"/>
+<element name="3.3V" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="39.497" y="139.319"/>
 <element name="U1" library="MF_IC_Digital" package="LQFP44" value="P8X32A-Q44" x="127.254" y="163.576"/>
 <element name="X1" library="MF_Frequency_Control" package="7MMX5MM" value="ABMM-6.000MHZ-B2-T" x="142.367" y="163.957" rot="R270"/>
 <element name="C2" library="MF_Passives" package="C0603" value="0.1uF" x="136.906" y="165.354">
@@ -1163,14 +1168,15 @@
 <attribute name="VOLTAGE" value="N/A" x="132.461" y="266.192" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="WATTAGE" value="N/A" x="132.461" y="266.192" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J2" library="MF_Connectors" package="DC_PWR_JACK" value="" x="8.001" y="176.403"/>
-<element name="PICKIT3_IN" library="PP_Connectors" package="2.54MM_01X06_PIN_HEADER" value="" x="174.879" y="182.88" rot="R180">
-<attribute name="LABEL02" value="VDD" x="174.879" y="182.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL03" value="VSS" x="174.879" y="182.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL04" value="ICSPDAT" x="174.879" y="182.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL05" value="ICSPCLK" x="174.879" y="182.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL06" value="PGM" x="174.879" y="182.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LABEL01" value="!MCLR!/VPP" x="174.879" y="182.88" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J2" library="MF_Connectors" package="DC_PWR_JACK" value="" x="9.525" y="180.848" rot="R270"/>
+<element name="PICKIT3_IN" library="PP_Connectors" package="2.54MM_01X06_PIN_HEADER" value="" x="174.879" y="183.388" smashed="yes" rot="R180">
+<attribute name="LABEL02" value="VDD" x="178.689" y="180.34" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right"/>
+<attribute name="LABEL03" value="VSS" x="176.149" y="180.34" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
+<attribute name="LABEL04" value="ICSPDAT" x="173.609" y="180.34" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
+<attribute name="LABEL05" value="ICSPCLK" x="171.069" y="180.34" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
+<attribute name="LABEL06" value="PGM" x="168.529" y="180.34" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
+<attribute name="LABEL01" value="!MCLR!/VPP" x="181.229" y="180.34" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right"/>
+<attribute name="NAME" x="182.499" y="181.8005" size="0.8128" layer="21" font="vector" ratio="16" rot="R180"/>
 </element>
 <element name="U5" library="PP_PowerIC" package="NCP1117DT_DPAK-3" value="NCP1117DT33G" x="42.418" y="170.18" rot="R270"/>
 <element name="U6" library="PP_PowerIC" package="NCP1117DT_DPAK-3" value="NCP1117DT50G" x="63.754" y="170.18" rot="R270"/>
@@ -1228,7 +1234,7 @@
 <element name="C21" library="PP_Passives" package="0805" value="0.1uF" x="24.13" y="155.194" rot="R180"/>
 <element name="C22" library="PP_Passives" package="0805" value="0.1uF" x="66.421" y="137.922" rot="R180"/>
 <element name="C23" library="PP_Passives" package="0805" value="0.1uF" x="78.613" y="152.908" rot="R180"/>
-<element name="TVS1" library="PP_Passives" package="2220" value="V18AUMLA2220H" x="22.733" y="173.863" rot="R270"/>
+<element name="TVS1" library="PP_Passives" package="2220" value="V18AUMLA2220H" x="21.844" y="177.927" rot="R90"/>
 <element name="U10" library="PP_DiscreteSemi" package="DSO-8" value="BSO080P03NS3E G" x="15.748" y="164.465"/>
 <element name="U12" library="PP_DiscreteSemi" package="SOT-23-3" value="MF-DSC-SOT233-MMBT3904" x="16.002" y="156.21" rot="R90"/>
 <element name="R18" library="PP_Passives" package="0805" value="10K" x="15.748" y="160.528" rot="R180"/>
@@ -1239,8 +1245,8 @@
 <element name="R21" library="PP_Passives" package="0805" value="10K" x="62.484" y="138.557" rot="R180"/>
 <element name="U14" library="PP_DigitalIC" package="CD74HC595_SOIC-16" value="CD74HC595M96" x="335.788" y="112.649" rot="R180"/>
 <element name="U15" library="PP_DigitalIC" package="CD74HC595_SOIC-16" value="CD74HC595M96" x="28.321" y="24.892" rot="R90"/>
-<element name="C1" library="PP_Passives" package="0805" value="0.1uF" x="174.498" y="49.403" rot="R90"/>
-<element name="C24" library="PP_Passives" package="0805" value="0.1uF" x="177.673" y="49.403" rot="R90"/>
+<element name="C1" library="PP_Passives" package="0805" value="0.1uF" x="329.692" y="109.22" rot="R90"/>
+<element name="C24" library="PP_Passives" package="0805" value="0.1uF" x="21.59" y="24.765" rot="R270"/>
 <element name="U16" library="PP_DigitalIC" package="CD74HC165_SOIC-16" value="CD74HC165M96" x="320.929" y="124.333" rot="R180"/>
 <element name="U17" library="PP_DigitalIC" package="CD74HC165_SOIC-16" value="CD74HC165M96" x="335.407" y="44.45" rot="R90"/>
 <element name="U18" library="PP_DigitalIC" package="CD74HC165_SOIC-16" value="CD74HC165M96" x="320.167" y="30.861"/>
@@ -1261,12 +1267,12 @@
 <element name="VSS" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="106.426" y="65.024"/>
 <element name="VDD" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="106.426" y="62.484"/>
 <element name="!MCLR!/VPP" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="106.426" y="59.944"/>
-<element name="!RES!_PROP" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="106.426" y="26.289"/>
-<element name="TX_PROP" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="106.426" y="23.749"/>
-<element name="RX_PROP" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="106.426" y="21.209"/>
-<element name="!RST!_PIC32" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="106.426" y="44.577"/>
-<element name="TX_PIC32" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="106.426" y="42.037"/>
-<element name="RX_PIC32" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="" x="106.426" y="39.497"/>
+<element name="!RES!_PROP" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="106.426" y="26.289"/>
+<element name="TX_PROP" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="106.426" y="23.749"/>
+<element name="RX_PROP" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="106.426" y="21.209"/>
+<element name="!RST!_PIC32" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="106.426" y="44.577"/>
+<element name="TX_PIC32" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="106.426" y="42.037"/>
+<element name="RX_PIC32" library="PP_Connectors" package="0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0" x="106.426" y="39.497"/>
 <element name="R1" library="MF_Passives" package="R0603" value="10K" x="356.108" y="55.245" rot="R180">
 <attribute name="TOLERANCE" value="N/A" x="356.108" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG#" value="N/A" x="356.108" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1741,6 +1747,90 @@
 <attribute name="VOLTAGE" value="N/A" x="126.492" y="175.133" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP_COF" value="N/A" x="126.492" y="175.133" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C26" library="MF_Passives" package="C0603" value="0.1uF" x="39.751" y="38.989" rot="R270">
+<attribute name="TOLERANCE" value="N/A" x="39.751" y="38.989" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG#" value="N/A" x="39.751" y="38.989" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="39.751" y="38.989" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="39.751" y="38.989" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C27" library="MF_Passives" package="C0603" value="0.1uF" x="40.767" y="96.901" rot="R270">
+<attribute name="TOLERANCE" value="N/A" x="37.465" y="100.33" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG#" value="N/A" x="37.465" y="100.33" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="37.465" y="100.33" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="37.465" y="100.33" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C28" library="MF_Passives" package="C0603" value="0.1uF" x="78.994" y="106.426" rot="R180">
+<attribute name="TOLERANCE" value="N/A" x="78.994" y="109.728" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG#" value="N/A" x="78.994" y="109.728" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="78.994" y="109.728" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="78.994" y="109.728" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C29" library="MF_Passives" package="C0603" value="0.1uF" x="114.427" y="105.41" rot="R180">
+<attribute name="TOLERANCE" value="N/A" x="117.856" y="112.014" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG#" value="N/A" x="117.856" y="112.014" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="117.856" y="112.014" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="117.856" y="112.014" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C30" library="MF_Passives" package="C0603" value="0.1uF" x="144.78" y="108.331" rot="R90">
+<attribute name="TOLERANCE" value="N/A" x="151.384" y="108.331" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG#" value="N/A" x="151.384" y="108.331" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="151.384" y="108.331" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="151.384" y="108.331" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C31" library="MF_Passives" package="C0603" value="0.1uF" x="181.991" y="107.95" rot="R90">
+<attribute name="TOLERANCE" value="N/A" x="181.991" y="107.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG#" value="N/A" x="181.991" y="107.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="181.991" y="107.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="181.991" y="107.95" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C32" library="MF_Passives" package="C0603" value="0.1uF" x="208.28" y="109.093" rot="R90">
+<attribute name="TOLERANCE" value="N/A" x="211.582" y="105.664" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG#" value="N/A" x="211.582" y="105.664" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="211.582" y="105.664" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="211.582" y="105.664" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C33" library="MF_Passives" package="C0603" value="0.1uF" x="315.087" y="118.745" rot="R90">
+<attribute name="TOLERANCE" value="N/A" x="318.389" y="118.745" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG#" value="N/A" x="318.389" y="118.745" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="318.389" y="118.745" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="318.389" y="118.745" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C34" library="MF_Passives" package="C0603" value="0.1uF" x="88.392" y="40.005" rot="R270">
+<attribute name="TOLERANCE" value="N/A" x="81.788" y="43.434" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG#" value="N/A" x="81.788" y="43.434" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="81.788" y="43.434" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="81.788" y="43.434" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C35" library="MF_Passives" package="C0603" value="0.1uF" x="141.605" y="38.481" rot="R270">
+<attribute name="TOLERANCE" value="N/A" x="135.001" y="38.481" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG#" value="N/A" x="135.001" y="38.481" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="135.001" y="38.481" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="135.001" y="38.481" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C36" library="MF_Passives" package="C0603" value="0.1uF" x="244.856" y="36.068" rot="R270">
+<attribute name="TOLERANCE" value="N/A" x="244.856" y="36.068" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG#" value="N/A" x="244.856" y="36.068" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="244.856" y="36.068" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="244.856" y="36.068" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C37" library="MF_Passives" package="C0603" value="0.1uF" x="193.421" y="37.465" rot="R270">
+<attribute name="TOLERANCE" value="N/A" x="190.119" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG#" value="N/A" x="190.119" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="190.119" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="190.119" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C38" library="MF_Passives" package="C0603" value="0.1uF" x="329.692" y="50.038">
+<attribute name="TOLERANCE" value="N/A" x="329.692" y="46.736" size="1.778" layer="27" display="off"/>
+<attribute name="MFG#" value="N/A" x="329.692" y="46.736" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="329.692" y="46.736" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="329.692" y="46.736" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C39" library="MF_Passives" package="C0603" value="0.1uF" x="325.882" y="36.195" rot="R270">
+<attribute name="TOLERANCE" value="N/A" x="319.278" y="39.624" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG#" value="N/A" x="319.278" y="39.624" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="N/A" x="319.278" y="39.624" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMP_COF" value="N/A" x="319.278" y="39.624" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1866,20 +1956,7 @@
 <wire x1="127.254" y1="175.121" x2="127.242" y2="175.133" width="0.254" layer="1"/>
 <wire x1="145.786" y1="175.641" x2="143.117" y2="175.641" width="0.254" layer="1"/>
 <wire x1="143.117" y1="175.641" x2="143.002" y2="175.756" width="0.254" layer="1"/>
-<wire x1="11.751" y1="171.603" x2="21.918" y2="171.603" width="0.254" layer="1"/>
-<wire x1="21.918" y1="171.603" x2="22.733" y2="170.788" width="0.254" layer="1"/>
-<wire x1="8.001" y1="176.403" x2="8.001" y2="175.353" width="0.254" layer="1"/>
-<wire x1="8.001" y1="175.353" x2="11.751" y2="171.603" width="0.254" layer="1"/>
-<polygon width="0.254" layer="1" isolate="0.3048" thermals="no" rank="5">
-<vertex x="26.543" y="173.609"/>
-<vertex x="11.176" y="173.609"/>
-<vertex x="10.033" y="174.752"/>
-<vertex x="10.033" y="178.435"/>
-<vertex x="5.969" y="178.435"/>
-<vertex x="5.969" y="173.228"/>
-<vertex x="9.652" y="169.545"/>
-<vertex x="26.543" y="169.545"/>
-</polygon>
+<wire x1="4.699" y1="175.353" x2="4.725" y2="177.098" width="0.254" layer="1"/>
 <wire x1="32.766" y1="21.792" x2="32.766" y2="20.447" width="0.254" layer="1"/>
 <wire x1="32.766" y1="20.447" x2="33.274" y2="19.939" width="0.254" layer="1"/>
 <wire x1="33.274" y1="19.939" x2="34.417" y2="19.939" width="0.254" layer="1"/>
@@ -2014,9 +2091,9 @@
 <wire x1="141.478" y1="36.576" x2="141.605" y2="36.703" width="0.254" layer="1"/>
 <via x="141.605" y="36.703" extent="1-16" drill="0.5"/>
 <wire x1="141.605" y1="36.703" x2="141.605" y2="36.83" width="0.254" layer="16"/>
-<wire x1="86.031" y1="37.846" x2="88.646" y2="37.846" width="0.254" layer="1"/>
-<via x="88.646" y="37.846" extent="1-16" drill="0.5"/>
-<wire x1="88.646" y1="37.846" x2="88.646" y2="37.465" width="0.254" layer="16"/>
+<wire x1="86.031" y1="37.846" x2="88.392" y2="37.846" width="0.254" layer="1"/>
+<via x="88.392" y="37.846" extent="1-16" drill="0.5"/>
+<wire x1="88.392" y1="37.846" x2="88.392" y2="37.465" width="0.254" layer="16"/>
 <wire x1="79.831" y1="30.226" x2="77.216" y2="30.226" width="0.254" layer="1"/>
 <via x="77.216" y="30.226" extent="1-16" drill="0.5"/>
 <wire x1="77.216" y1="30.226" x2="77.216" y2="29.845" width="0.254" layer="16"/>
@@ -2182,11 +2259,77 @@
 <wire x1="152.156" y1="178.181" x2="154.432" y2="178.181" width="0.254" layer="1"/>
 <via x="154.432" y="178.181" extent="1-16" drill="0.5"/>
 <wire x1="154.432" y1="178.181" x2="154.432" y2="178.435" width="0.254" layer="16"/>
-<wire x1="174.498" y1="50.303" x2="177.673" y2="50.303" width="0" layer="19" extent="1-1"/>
-<wire x1="190.298" y1="35.306" x2="177.673" y2="50.303" width="0" layer="19" extent="1-1"/>
-<wire x1="35.052" y1="180.213" x2="34.925" y2="180.213" width="0" layer="19" extent="1-1"/>
+<wire x1="127.254" y1="169.276" x2="127.254" y2="173.99" width="0.254" layer="1"/>
+<wire x1="127.254" y1="173.99" x2="127" y2="173.99" width="0.254" layer="1"/>
+<via x="127" y="173.99" extent="1-16" drill="0.5"/>
+<wire x1="127" y1="173.99" x2="127" y2="173.736" width="0.254" layer="16"/>
+<wire x1="127" y1="173.736" x2="126.873" y2="173.736" width="0.254" layer="16"/>
+<wire x1="21.59" y1="23.865" x2="21.59" y2="23.114" width="0.254" layer="1"/>
+<wire x1="21.59" y1="23.114" x2="20.955" y2="22.479" width="0.254" layer="1"/>
+<via x="20.955" y="22.479" extent="1-16" drill="0.5"/>
+<wire x1="20.955" y1="22.479" x2="20.955" y2="21.59" width="0.254" layer="16"/>
+<wire x1="20.955" y1="21.59" x2="20.828" y2="21.463" width="0.254" layer="16"/>
+<wire x1="330.2" y1="111.887" x2="330.327" y2="112.014" width="0.254" layer="1"/>
+<wire x1="329.692" y1="110.12" x2="329.692" y2="111.379" width="0.254" layer="1"/>
+<wire x1="329.692" y1="111.379" x2="330.327" y2="112.014" width="0.254" layer="1"/>
+<contactref element="C39" pad="P$2"/>
+<contactref element="C26" pad="P$2"/>
+<contactref element="C27" pad="P$2"/>
+<contactref element="C28" pad="P$2"/>
+<contactref element="C29" pad="P$2"/>
+<contactref element="C30" pad="P$2"/>
+<contactref element="C31" pad="P$2"/>
+<contactref element="C32" pad="P$2"/>
+<contactref element="C33" pad="P$2"/>
+<contactref element="C34" pad="P$2"/>
+<contactref element="C35" pad="P$2"/>
+<contactref element="C36" pad="P$2"/>
+<contactref element="C37" pad="P$2"/>
+<contactref element="C38" pad="P$2"/>
+<wire x1="36.322" y1="37.465" x2="38.977" y2="37.465" width="0.254" layer="1"/>
+<wire x1="38.977" y1="37.465" x2="39.751" y2="38.239" width="0.254" layer="1"/>
+<wire x1="40.767" y1="96.151" x2="37.834" y2="96.151" width="0.254" layer="1"/>
+<wire x1="37.834" y1="96.151" x2="37.592" y2="96.393" width="0.254" layer="1"/>
+<wire x1="78.244" y1="106.426" x2="78.244" y2="107.581" width="0.254" layer="1"/>
+<wire x1="78.244" y1="107.581" x2="78.867" y2="108.204" width="0.254" layer="1"/>
+<wire x1="78.867" y1="108.204" x2="80.137" y2="108.204" width="0.254" layer="1"/>
+<wire x1="113.677" y1="105.41" x2="113.677" y2="106.438" width="0.254" layer="1"/>
+<wire x1="113.677" y1="106.438" x2="114.173" y2="106.934" width="0.254" layer="1"/>
+<wire x1="114.173" y1="106.934" x2="115.062" y2="106.934" width="0.254" layer="1"/>
+<wire x1="144.78" y1="109.081" x2="145.808" y2="109.081" width="0.254" layer="1"/>
+<wire x1="145.808" y1="109.081" x2="146.304" y2="108.585" width="0.254" layer="1"/>
+<wire x1="146.304" y1="108.585" x2="146.304" y2="106.934" width="0.254" layer="1"/>
+<wire x1="181.991" y1="108.7" x2="183.019" y2="108.7" width="0.254" layer="1"/>
+<wire x1="183.019" y1="108.7" x2="183.515" y2="108.204" width="0.254" layer="1"/>
+<wire x1="183.515" y1="108.204" x2="183.515" y2="107.061" width="0.254" layer="1"/>
+<wire x1="208.28" y1="109.843" x2="208.8" y2="109.843" width="0.254" layer="1"/>
+<wire x1="208.8" y1="109.843" x2="209.296" y2="109.347" width="0.254" layer="1"/>
+<wire x1="209.296" y1="109.347" x2="209.296" y2="107.061" width="0.254" layer="1"/>
+<wire x1="315.087" y1="119.495" x2="315.087" y2="121.158" width="0.254" layer="1"/>
+<wire x1="88.392" y1="39.255" x2="88.392" y2="37.846" width="0.254" layer="1"/>
+<wire x1="141.605" y1="37.731" x2="141.605" y2="36.703" width="0.254" layer="1"/>
+<wire x1="193.421" y1="36.715" x2="193.421" y2="35.433" width="0.254" layer="1"/>
+<wire x1="244.856" y1="35.318" x2="244.856" y2="34.036" width="0.254" layer="1"/>
+<wire x1="325.882" y1="35.445" x2="325.882" y2="34.036" width="0.254" layer="1"/>
+<wire x1="330.442" y1="50.038" x2="332.232" y2="50.038" width="0.254" layer="1"/>
+<polygon width="0.254" layer="1" isolate="0.3048" thermals="no" rank="5">
+<vertex x="27.686" y="178.816"/>
+<vertex x="7.874" y="178.816"/>
+<vertex x="6.731" y="177.673"/>
+<vertex x="6.731" y="173.99"/>
+<vertex x="2.667" y="173.99"/>
+<vertex x="2.667" y="179.197"/>
+<vertex x="6.35" y="182.88"/>
+<vertex x="27.686" y="182.88"/>
+</polygon>
+<via x="26.67" y="181.864" extent="1-16" drill="0.5"/>
+<via x="26.67" y="180.594" extent="1-16" drill="0.5"/>
+<via x="26.67" y="179.324" extent="1-16" drill="0.5"/>
+<via x="17.018" y="181.864" extent="1-16" drill="0.5"/>
+<via x="17.018" y="180.594" extent="1-16" drill="0.5"/>
+<via x="17.018" y="179.324" extent="1-16" drill="0.5"/>
+<wire x1="34.925" y1="180.213" x2="35.052" y2="180.213" width="0" layer="19" extent="1-1"/>
 <wire x1="35.781" y1="162.4" x2="35.814" y2="162.56" width="0" layer="19" extent="1-1"/>
-<wire x1="127.254" y1="169.276" x2="121.554" y2="164.376" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SERVO_1">
 <contactref element="SERVO_1_" pad="P$1"/>
@@ -2400,9 +2543,31 @@
 <vertex x="359.156" y="185.293"/>
 <vertex x="359.156" y="0"/>
 </polygon>
+<wire x1="86.031" y1="39.116" x2="83.693" y2="39.116" width="0.254" layer="1"/>
+<wire x1="83.693" y1="39.116" x2="81.788" y2="37.211" width="0.254" layer="1"/>
+<wire x1="81.788" y1="37.211" x2="77.851" y2="37.211" width="0.254" layer="1"/>
+<wire x1="77.851" y1="37.211" x2="77.724" y2="37.084" width="0.254" layer="1"/>
+<wire x1="139.117" y1="37.846" x2="136.906" y2="37.846" width="0.254" layer="1"/>
+<wire x1="136.906" y1="37.846" x2="135.001" y2="35.941" width="0.254" layer="1"/>
+<wire x1="135.001" y1="35.941" x2="130.683" y2="35.941" width="0.254" layer="1"/>
+<wire x1="130.683" y1="35.941" x2="130.556" y2="35.814" width="0.254" layer="1"/>
+<contactref element="C39" pad="P$1"/>
+<contactref element="C38" pad="P$1"/>
+<contactref element="C37" pad="P$1"/>
+<contactref element="C36" pad="P$1"/>
+<contactref element="C35" pad="P$1"/>
+<contactref element="C34" pad="P$1"/>
+<contactref element="C33" pad="P$1"/>
+<contactref element="C32" pad="P$1"/>
+<contactref element="C31" pad="P$1"/>
+<contactref element="C30" pad="P$1"/>
+<contactref element="C29" pad="P$1"/>
+<contactref element="C28" pad="P$1"/>
+<contactref element="C27" pad="P$1"/>
+<contactref element="C26" pad="P$1"/>
+<wire x1="233.807" y1="33.401" x2="237.744" y2="33.401" width="0.254" layer="1"/>
+<wire x1="315.341" y1="33.401" x2="318.77" y2="33.401" width="0.254" layer="1"/>
 <wire x1="103.378" y1="176.669" x2="106.426" y2="176.669" width="0" layer="19" extent="1-1"/>
-<wire x1="139.117" y1="37.846" x2="139.319" y2="5.854" width="0" layer="19" extent="1-1"/>
-<wire x1="86.031" y1="39.116" x2="86.487" y2="5.854" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DMD_1">
 <contactref element="DMD_1" pad="P$1"/>
@@ -3777,38 +3942,36 @@
 <contactref element="TVS1" pad="P$1"/>
 <contactref element="U7" pad="3"/>
 <contactref element="R14" pad="1"/>
-<wire x1="14.251" y1="176.403" x2="22.198" y2="176.403" width="0.254" layer="1"/>
-<wire x1="22.198" y1="176.403" x2="22.733" y2="176.938" width="0.254" layer="1"/>
-<polygon width="0.254" layer="1" isolate="0.3048" thermals="no">
-<vertex x="12.192" y="174.244"/>
-<vertex x="12.192" y="178.562"/>
-<vertex x="31.242" y="178.562"/>
-<vertex x="31.242" y="160.401"/>
-<vertex x="33.909" y="157.734"/>
-<vertex x="38.481" y="157.734"/>
-<vertex x="38.481" y="166.116"/>
-<vertex x="36.576" y="166.116"/>
-<vertex x="36.576" y="170.053"/>
-<vertex x="41.021" y="170.053"/>
-<vertex x="41.021" y="166.497"/>
-<vertex x="43.434" y="164.084"/>
-<vertex x="43.434" y="157.734"/>
-<vertex x="59.944" y="157.734"/>
-<vertex x="59.944" y="166.243"/>
-<vertex x="57.912" y="166.243"/>
-<vertex x="57.912" y="169.926"/>
-<vertex x="62.484" y="169.926"/>
-<vertex x="62.484" y="166.37"/>
-<vertex x="64.897" y="163.957"/>
-<vertex x="64.897" y="154.051"/>
-<vertex x="32.639" y="154.051"/>
-<vertex x="28.194" y="158.496"/>
-<vertex x="28.194" y="174.244"/>
-</polygon>
 <wire x1="25.403" y1="164.592" x2="25.403" y2="161.354" width="0.254" layer="1"/>
 <wire x1="25.403" y1="161.354" x2="25.4" y2="161.351" width="0.254" layer="1"/>
 <wire x1="25.403" y1="164.592" x2="28.956" y2="164.592" width="1.6764" layer="1"/>
 <wire x1="28.956" y1="164.592" x2="29.337" y2="164.973" width="1.6764" layer="1"/>
+<polygon width="0.254" layer="1" isolate="0.3048" thermals="no">
+<vertex x="7.239" y="171.704"/>
+<vertex x="7.239" y="178.308"/>
+<vertex x="31.369" y="178.308"/>
+<vertex x="31.496" y="160.401"/>
+<vertex x="34.163" y="157.734"/>
+<vertex x="38.735" y="157.734"/>
+<vertex x="38.735" y="166.116"/>
+<vertex x="36.83" y="166.116"/>
+<vertex x="36.83" y="170.053"/>
+<vertex x="41.275" y="170.053"/>
+<vertex x="41.275" y="166.497"/>
+<vertex x="43.688" y="164.084"/>
+<vertex x="43.688" y="157.734"/>
+<vertex x="60.198" y="157.734"/>
+<vertex x="60.198" y="166.243"/>
+<vertex x="58.166" y="166.243"/>
+<vertex x="58.166" y="169.926"/>
+<vertex x="62.738" y="169.926"/>
+<vertex x="62.738" y="166.37"/>
+<vertex x="65.151" y="163.957"/>
+<vertex x="65.151" y="154.051"/>
+<vertex x="32.893" y="154.051"/>
+<vertex x="28.448" y="158.496"/>
+<vertex x="28.321" y="171.704"/>
+</polygon>
 </signal>
 <signal name="5.0V">
 <contactref element="U6" pad="TAB"/>
@@ -3915,7 +4078,7 @@
 <wire x1="125.654" y1="171.653" x2="124.46" y2="172.847" width="0.254" layer="1"/>
 <wire x1="124.46" y1="172.847" x2="119.888" y2="172.847" width="0.254" layer="1"/>
 <wire x1="119.888" y1="172.847" x2="115.443" y2="168.402" width="0.254" layer="1"/>
-<via x="115.443" y="168.402" extent="1-16" drill="1.2"/>
+<via x="115.443" y="168.402" extent="1-16" drill="0.5"/>
 <wire x1="115.443" y1="168.402" x2="100.203" y2="153.162" width="0.254" layer="16"/>
 <wire x1="100.203" y1="153.162" x2="96.647" y2="153.162" width="0.254" layer="16"/>
 <wire x1="96.647" y1="153.162" x2="86.995" y2="143.51" width="0.254" layer="16"/>
@@ -4500,7 +4663,7 @@
 <wire x1="257.81" y1="132.334" x2="216.154" y2="173.99" width="0.254" layer="1"/>
 <wire x1="216.154" y1="173.99" x2="186.309" y2="173.99" width="0.254" layer="1"/>
 <wire x1="186.309" y1="173.99" x2="181.229" y2="179.07" width="0.254" layer="1"/>
-<wire x1="181.229" y1="179.07" x2="181.229" y2="182.88" width="0.254" layer="1"/>
+<wire x1="181.229" y1="179.07" x2="181.229" y2="183.388" width="0.254" layer="1"/>
 </signal>
 <signal name="N$31">
 <contactref element="PICKIT3_IN" pad="2"/>
@@ -4511,7 +4674,7 @@
 <wire x1="257.175" y1="132.08" x2="215.9" y2="173.355" width="0.254" layer="1"/>
 <wire x1="215.9" y1="173.355" x2="184.404" y2="173.355" width="0.254" layer="1"/>
 <wire x1="184.404" y1="173.355" x2="178.689" y2="179.07" width="0.254" layer="1"/>
-<wire x1="178.689" y1="179.07" x2="178.689" y2="182.88" width="0.254" layer="1"/>
+<wire x1="178.689" y1="179.07" x2="178.689" y2="183.388" width="0.254" layer="1"/>
 </signal>
 <signal name="N$33">
 <contactref element="PICKIT3_IN" pad="3"/>
@@ -4522,7 +4685,7 @@
 <wire x1="256.667" y1="131.826" x2="215.646" y2="172.847" width="0.254" layer="1"/>
 <wire x1="215.646" y1="172.847" x2="182.372" y2="172.847" width="0.254" layer="1"/>
 <wire x1="182.372" y1="172.847" x2="176.149" y2="179.07" width="0.254" layer="1"/>
-<wire x1="176.149" y1="179.07" x2="176.149" y2="182.88" width="0.254" layer="1"/>
+<wire x1="176.149" y1="179.07" x2="176.149" y2="183.388" width="0.254" layer="1"/>
 </signal>
 <signal name="N$34">
 <contactref element="PICKIT3_IN" pad="4"/>
@@ -4533,7 +4696,7 @@
 <wire x1="256.159" y1="131.572" x2="215.392" y2="172.339" width="0.254" layer="1"/>
 <wire x1="215.392" y1="172.339" x2="180.34" y2="172.339" width="0.254" layer="1"/>
 <wire x1="180.34" y1="172.339" x2="173.609" y2="179.07" width="0.254" layer="1"/>
-<wire x1="173.609" y1="179.07" x2="173.609" y2="182.88" width="0.254" layer="1"/>
+<wire x1="173.609" y1="179.07" x2="173.609" y2="183.388" width="0.254" layer="1"/>
 </signal>
 <signal name="N$35">
 <contactref element="PICKIT3_IN" pad="5"/>
@@ -4544,7 +4707,7 @@
 <wire x1="255.651" y1="131.318" x2="215.138" y2="171.831" width="0.254" layer="1"/>
 <wire x1="215.138" y1="171.831" x2="178.308" y2="171.831" width="0.254" layer="1"/>
 <wire x1="178.308" y1="171.831" x2="171.069" y2="179.07" width="0.254" layer="1"/>
-<wire x1="171.069" y1="179.07" x2="171.069" y2="182.88" width="0.254" layer="1"/>
+<wire x1="171.069" y1="179.07" x2="171.069" y2="183.388" width="0.254" layer="1"/>
 </signal>
 <signal name="N$36">
 <contactref element="PICKIT3_IN" pad="6"/>
@@ -4555,7 +4718,7 @@
 <wire x1="255.143" y1="131.064" x2="214.884" y2="171.323" width="0.254" layer="1"/>
 <wire x1="214.884" y1="171.323" x2="176.276" y2="171.323" width="0.254" layer="1"/>
 <wire x1="176.276" y1="171.323" x2="168.529" y2="179.07" width="0.254" layer="1"/>
-<wire x1="168.529" y1="179.07" x2="168.529" y2="182.88" width="0.254" layer="1"/>
+<wire x1="168.529" y1="179.07" x2="168.529" y2="183.388" width="0.254" layer="1"/>
 </signal>
 <signal name="RX_PROP">
 <contactref element="RX_PROP" pad="P$1"/>
@@ -4721,6 +4884,18 @@
 </signal>
 <signal name="3.3V_SENSE">
 <contactref element="3.3V" pad="P$1"/>
+<contactref element="U9" pad="P$3"/>
+<wire x1="39.497" y1="139.319" x2="48.006" y2="139.319" width="0.254" layer="1"/>
+<wire x1="48.006" y1="139.319" x2="54.102" y2="133.223" width="0.254" layer="1"/>
+<wire x1="54.102" y1="133.223" x2="71.374" y2="133.223" width="0.254" layer="1"/>
+<wire x1="71.374" y1="133.223" x2="73.279" y2="135.128" width="0.254" layer="1"/>
+<wire x1="73.279" y1="135.128" x2="73.279" y2="137.414" width="0.254" layer="1"/>
+<wire x1="73.279" y1="137.414" x2="70.993" y2="139.7" width="0.254" layer="1"/>
+<wire x1="70.993" y1="139.7" x2="70.993" y2="140.208" width="0.254" layer="1"/>
+<wire x1="70.993" y1="140.208" x2="73.787" y2="143.002" width="0.254" layer="1"/>
+<wire x1="73.787" y1="143.002" x2="73.787" y2="149.479" width="0.254" layer="1"/>
+<wire x1="73.787" y1="149.479" x2="74.097" y2="149.789" width="0.254" layer="1"/>
+<wire x1="74.097" y1="149.789" x2="75.574" y2="149.789" width="0.254" layer="1"/>
 </signal>
 <signal name="P7">
 <contactref element="U1" pad="4"/>

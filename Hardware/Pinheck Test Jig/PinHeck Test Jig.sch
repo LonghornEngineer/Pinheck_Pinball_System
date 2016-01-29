@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="13" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="13" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -3009,129 +3009,129 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <part name="H15" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H17" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H16" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="SW_R_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_R_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_R_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_R_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_R_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_R_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_R_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_R_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_C_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_C_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_C_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_C_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_C_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_C_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_C_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SW_C_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_R_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_R_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_R_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_R_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_R_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_R_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_R_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_R_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_C_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_C_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_C_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_C_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_C_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_C_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_C_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="LIGHT_C_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GND" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="12V" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="5V" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="OPTO_1_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="OPTO_2_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="OPTO_3_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="OPTO_4_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="OPTO_5_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="OPTO_6_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="OPTO_7_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SERVO_0_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SERVO_1_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SERVO_2_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SERVO_3_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SERVO_4_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="EXT_RGB_CLK" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="EXT_RGB_DATA" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="PROP_AUX0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="PROP_AUX1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="RGB_ROUT_R" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="RGB_GOUT_R" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="RGB_BOUT_R" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="RGB_ROUT_L" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="RGB_GOUT_L" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="RGB_BOUT_L" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="DMD_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="DMD_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="DMD_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="DMD_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="DMD_9" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="DMD_11" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="DMD_13" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SD_CS" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SD_DI" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SD_SCLK" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SD_DO" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="S_L" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="S_R" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="L_FLIP_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="R_FLIP_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="USER_0_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="DOOR_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="BACK_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="ENTER_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="COIN_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="TILT_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="ST_BU_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="ST_LI_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_15" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_14" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_13" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_12" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_11" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_10" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_9" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="GI_R_8" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_23" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_22" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_21" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_20" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_19" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_18" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_17" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_16" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_15" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_14" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_13" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_12" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_11" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_10" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_9" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_8" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_PWR_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="SOL_GND" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="50V" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="3.3V" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
+<part name="SW_R_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_R_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_R_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_R_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_R_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_R_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_R_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_R_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_C_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_C_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_C_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_C_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_C_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_C_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_C_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SW_C_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_R_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_R_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_R_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_R_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_R_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_R_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_R_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_R_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_C_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_C_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_C_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_C_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_C_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_C_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_C_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="LIGHT_C_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GND" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="12V" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="5V" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="OPTO_1_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="OPTO_2_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="OPTO_3_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="OPTO_4_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="OPTO_5_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="OPTO_6_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="OPTO_7_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SERVO_0_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SERVO_1_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SERVO_2_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SERVO_3_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SERVO_4_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="EXT_RGB_CLK" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="EXT_RGB_DATA" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="PROP_AUX0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="PROP_AUX1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="RGB_ROUT_R" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="RGB_GOUT_R" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="RGB_BOUT_R" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="RGB_ROUT_L" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="RGB_GOUT_L" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="RGB_BOUT_L" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="DMD_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="DMD_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="DMD_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="DMD_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="DMD_9" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="DMD_11" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="DMD_13" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SD_CS" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SD_DI" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SD_SCLK" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SD_DO" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="S_L" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="S_R" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="L_FLIP_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="R_FLIP_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="USER_0_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="DOOR_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="BACK_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="ENTER_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="COIN_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="TILT_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="ST_BU_OUT" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="ST_LI_" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_15" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_14" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_13" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_12" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_11" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_10" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_9" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="GI_R_8" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_23" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_22" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_21" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_20" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_19" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_18" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_17" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_16" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_15" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_14" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_13" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_12" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_11" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_10" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_9" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_8" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_4" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_3" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_2" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_1" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_PWR_0" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="SOL_GND" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="50V" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="3.3V" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
 <part name="U1" library="MF_IC_Digital" deviceset="P8X32A" device="-Q44"/>
 <part name="X1" library="MF_Frequency_Control" deviceset="XTL" device="_7MMX5MM" value="ABMM-6.000MHZ-B2-T"/>
 <part name="C2" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
@@ -3254,12 +3254,12 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <part name="VSS" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
 <part name="VDD" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
 <part name="!MCLR!/VPP" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="!RES!_PROP" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="TX_PROP" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="RX_PROP" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="!RST!_PIC32" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="TX_PIC32" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
-<part name="RX_PIC32" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0"/>
+<part name="!RES!_PROP" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="TX_PROP" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="RX_PROP" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="!RST!_PIC32" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="TX_PIC32" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
+<part name="RX_PIC32" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
 <part name="R1" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="10K"/>
 <part name="R2" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="10K"/>
 <part name="R22" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="10K"/>
@@ -3339,6 +3339,20 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <part name="R93" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="10K"/>
 <part name="R94" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="10K"/>
 <part name="C25" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C26" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C27" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C28" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C29" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C30" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C31" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C32" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C33" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C34" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C35" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C36" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C37" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C38" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="C39" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -3362,102 +3376,102 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <instance part="H15" gate="G$1" x="-15.24" y="-22.86"/>
 <instance part="H17" gate="G$1" x="-15.24" y="-30.48"/>
 <instance part="H16" gate="G$1" x="-2.54" y="-22.86"/>
-<instance part="SW_R_7" gate="G$1" x="-127" y="30.48" rot="R180"/>
-<instance part="SW_R_6" gate="G$1" x="-127" y="25.4" rot="R180"/>
-<instance part="SW_R_5" gate="G$1" x="-127" y="20.32" rot="R180"/>
-<instance part="SW_R_4" gate="G$1" x="-127" y="15.24" rot="R180"/>
-<instance part="SW_R_3" gate="G$1" x="-127" y="10.16" rot="R180"/>
-<instance part="SW_R_2" gate="G$1" x="-127" y="5.08" rot="R180"/>
-<instance part="SW_R_1" gate="G$1" x="-127" y="0" rot="R180"/>
-<instance part="SW_R_0" gate="G$1" x="-127" y="-5.08" rot="R180"/>
-<instance part="SW_C_7" gate="G$1" x="-127" y="-10.16" rot="R180"/>
-<instance part="SW_C_6" gate="G$1" x="-127" y="-15.24" rot="R180"/>
-<instance part="SW_C_5" gate="G$1" x="-127" y="-20.32" rot="R180"/>
-<instance part="SW_C_4" gate="G$1" x="-127" y="-25.4" rot="R180"/>
-<instance part="SW_C_3" gate="G$1" x="-127" y="-30.48" rot="R180"/>
-<instance part="SW_C_2" gate="G$1" x="-127" y="-35.56" rot="R180"/>
-<instance part="SW_C_1" gate="G$1" x="-127" y="-40.64" rot="R180"/>
-<instance part="SW_C_0" gate="G$1" x="-127" y="-45.72" rot="R180"/>
-<instance part="LIGHT_R_0" gate="G$1" x="-127" y="-50.8" rot="R180"/>
-<instance part="LIGHT_R_1" gate="G$1" x="-127" y="-55.88" rot="R180"/>
-<instance part="LIGHT_R_2" gate="G$1" x="-127" y="-60.96" rot="R180"/>
-<instance part="LIGHT_R_3" gate="G$1" x="-127" y="-66.04" rot="R180"/>
-<instance part="LIGHT_R_4" gate="G$1" x="-127" y="-71.12" rot="R180"/>
-<instance part="LIGHT_R_5" gate="G$1" x="-127" y="-76.2" rot="R180"/>
-<instance part="LIGHT_R_6" gate="G$1" x="-127" y="-81.28" rot="R180"/>
-<instance part="LIGHT_R_7" gate="G$1" x="-127" y="-86.36" rot="R180"/>
-<instance part="LIGHT_C_0" gate="G$1" x="-127" y="-91.44" rot="R180"/>
-<instance part="LIGHT_C_1" gate="G$1" x="-127" y="-96.52" rot="R180"/>
-<instance part="LIGHT_C_2" gate="G$1" x="-127" y="-101.6" rot="R180"/>
-<instance part="LIGHT_C_3" gate="G$1" x="-127" y="-106.68" rot="R180"/>
-<instance part="LIGHT_C_4" gate="G$1" x="-127" y="-111.76" rot="R180"/>
-<instance part="LIGHT_C_5" gate="G$1" x="-127" y="-116.84" rot="R180"/>
-<instance part="LIGHT_C_6" gate="G$1" x="-127" y="-121.92" rot="R180"/>
-<instance part="LIGHT_C_7" gate="G$1" x="-127" y="-127" rot="R180"/>
-<instance part="GND" gate="G$1" x="-99.06" y="30.48" rot="R180"/>
-<instance part="12V" gate="G$1" x="-99.06" y="25.4" rot="R180"/>
-<instance part="5V" gate="G$1" x="-99.06" y="20.32" rot="R180"/>
-<instance part="OPTO_1_" gate="G$1" x="-99.06" y="15.24" rot="R180"/>
-<instance part="OPTO_2_" gate="G$1" x="-99.06" y="10.16" rot="R180"/>
-<instance part="OPTO_3_" gate="G$1" x="-99.06" y="5.08" rot="R180"/>
-<instance part="OPTO_4_" gate="G$1" x="-99.06" y="0" rot="R180"/>
-<instance part="OPTO_5_" gate="G$1" x="-99.06" y="-5.08" rot="R180"/>
-<instance part="OPTO_6_" gate="G$1" x="-99.06" y="-10.16" rot="R180"/>
-<instance part="OPTO_7_" gate="G$1" x="-99.06" y="-15.24" rot="R180"/>
-<instance part="SERVO_0_" gate="G$1" x="-99.06" y="-20.32" rot="R180"/>
-<instance part="SERVO_1_" gate="G$1" x="-99.06" y="-25.4" rot="R180"/>
-<instance part="SERVO_2_" gate="G$1" x="-99.06" y="-30.48" rot="R180"/>
-<instance part="SERVO_3_" gate="G$1" x="-99.06" y="-35.56" rot="R180"/>
-<instance part="SERVO_4_" gate="G$1" x="-99.06" y="-40.64" rot="R180"/>
-<instance part="EXT_RGB_CLK" gate="G$1" x="-99.06" y="-45.72" rot="R180"/>
-<instance part="EXT_RGB_DATA" gate="G$1" x="-99.06" y="-50.8" rot="R180"/>
-<instance part="PROP_AUX0" gate="G$1" x="-99.06" y="-55.88" rot="R180"/>
-<instance part="PROP_AUX1" gate="G$1" x="-99.06" y="-60.96" rot="R180"/>
-<instance part="RGB_ROUT_R" gate="G$1" x="-99.06" y="-66.04" rot="R180"/>
-<instance part="RGB_GOUT_R" gate="G$1" x="-99.06" y="-71.12" rot="R180"/>
-<instance part="RGB_BOUT_R" gate="G$1" x="-99.06" y="-76.2" rot="R180"/>
-<instance part="RGB_ROUT_L" gate="G$1" x="-99.06" y="-81.28" rot="R180"/>
-<instance part="RGB_GOUT_L" gate="G$1" x="-99.06" y="-86.36" rot="R180"/>
-<instance part="RGB_BOUT_L" gate="G$1" x="-99.06" y="-91.44" rot="R180"/>
-<instance part="DMD_1" gate="G$1" x="-99.06" y="-96.52" rot="R180"/>
-<instance part="DMD_3" gate="G$1" x="-99.06" y="-101.6" rot="R180"/>
-<instance part="DMD_5" gate="G$1" x="-99.06" y="-106.68" rot="R180"/>
-<instance part="DMD_7" gate="G$1" x="-99.06" y="-111.76" rot="R180"/>
-<instance part="DMD_9" gate="G$1" x="-99.06" y="-116.84" rot="R180"/>
-<instance part="DMD_11" gate="G$1" x="-99.06" y="-121.92" rot="R180"/>
-<instance part="DMD_13" gate="G$1" x="-99.06" y="-127" rot="R180"/>
-<instance part="SD_CS" gate="G$1" x="-71.12" y="30.48" rot="R180"/>
-<instance part="SD_DI" gate="G$1" x="-71.12" y="25.4" rot="R180"/>
-<instance part="SD_SCLK" gate="G$1" x="-71.12" y="20.32" rot="R180"/>
-<instance part="SD_DO" gate="G$1" x="-71.12" y="15.24" rot="R180"/>
-<instance part="S_L" gate="G$1" x="-71.12" y="10.16" rot="R180"/>
-<instance part="S_R" gate="G$1" x="-71.12" y="5.08" rot="R180"/>
-<instance part="L_FLIP_OUT" gate="G$1" x="-71.12" y="0" rot="R180"/>
-<instance part="R_FLIP_OUT" gate="G$1" x="-71.12" y="-5.08" rot="R180"/>
-<instance part="USER_0_OUT" gate="G$1" x="-71.12" y="-10.16" rot="R180"/>
-<instance part="DOOR_OUT" gate="G$1" x="-71.12" y="-15.24" rot="R180"/>
-<instance part="BACK_OUT" gate="G$1" x="-71.12" y="-20.32" rot="R180"/>
-<instance part="ENTER_OUT" gate="G$1" x="-71.12" y="-25.4" rot="R180"/>
-<instance part="COIN_OUT" gate="G$1" x="-71.12" y="-30.48" rot="R180"/>
-<instance part="TILT_OUT" gate="G$1" x="-71.12" y="-35.56" rot="R180"/>
-<instance part="ST_BU_OUT" gate="G$1" x="-71.12" y="-40.64" rot="R180"/>
-<instance part="ST_LI_" gate="G$1" x="-71.12" y="-45.72" rot="R180"/>
-<instance part="GI_R_7" gate="G$1" x="-71.12" y="-50.8" rot="R180"/>
-<instance part="GI_R_6" gate="G$1" x="-71.12" y="-55.88" rot="R180"/>
-<instance part="GI_R_5" gate="G$1" x="-71.12" y="-60.96" rot="R180"/>
-<instance part="GI_R_4" gate="G$1" x="-71.12" y="-66.04" rot="R180"/>
-<instance part="GI_R_3" gate="G$1" x="-71.12" y="-71.12" rot="R180"/>
-<instance part="GI_R_2" gate="G$1" x="-71.12" y="-76.2" rot="R180"/>
-<instance part="GI_R_1" gate="G$1" x="-71.12" y="-81.28" rot="R180"/>
-<instance part="GI_R_0" gate="G$1" x="-71.12" y="-86.36" rot="R180"/>
-<instance part="GI_R_15" gate="G$1" x="-71.12" y="-91.44" rot="R180"/>
-<instance part="GI_R_14" gate="G$1" x="-71.12" y="-96.52" rot="R180"/>
-<instance part="GI_R_13" gate="G$1" x="-71.12" y="-101.6" rot="R180"/>
-<instance part="GI_R_12" gate="G$1" x="-71.12" y="-106.68" rot="R180"/>
-<instance part="GI_R_11" gate="G$1" x="-71.12" y="-111.76" rot="R180"/>
-<instance part="GI_R_10" gate="G$1" x="-71.12" y="-116.84" rot="R180"/>
-<instance part="GI_R_9" gate="G$1" x="-71.12" y="-121.92" rot="R180"/>
-<instance part="GI_R_8" gate="G$1" x="-71.12" y="-127" rot="R180"/>
+<instance part="SW_R_7" gate="G$1" x="-172.72" y="30.48" rot="R180"/>
+<instance part="SW_R_6" gate="G$1" x="-172.72" y="25.4" rot="R180"/>
+<instance part="SW_R_5" gate="G$1" x="-172.72" y="20.32" rot="R180"/>
+<instance part="SW_R_4" gate="G$1" x="-172.72" y="15.24" rot="R180"/>
+<instance part="SW_R_3" gate="G$1" x="-172.72" y="10.16" rot="R180"/>
+<instance part="SW_R_2" gate="G$1" x="-172.72" y="5.08" rot="R180"/>
+<instance part="SW_R_1" gate="G$1" x="-172.72" y="0" rot="R180"/>
+<instance part="SW_R_0" gate="G$1" x="-172.72" y="-5.08" rot="R180"/>
+<instance part="SW_C_7" gate="G$1" x="-172.72" y="-10.16" rot="R180"/>
+<instance part="SW_C_6" gate="G$1" x="-172.72" y="-15.24" rot="R180"/>
+<instance part="SW_C_5" gate="G$1" x="-172.72" y="-20.32" rot="R180"/>
+<instance part="SW_C_4" gate="G$1" x="-172.72" y="-25.4" rot="R180"/>
+<instance part="SW_C_3" gate="G$1" x="-172.72" y="-30.48" rot="R180"/>
+<instance part="SW_C_2" gate="G$1" x="-172.72" y="-35.56" rot="R180"/>
+<instance part="SW_C_1" gate="G$1" x="-172.72" y="-40.64" rot="R180"/>
+<instance part="SW_C_0" gate="G$1" x="-172.72" y="-45.72" rot="R180"/>
+<instance part="LIGHT_R_0" gate="G$1" x="-172.72" y="-50.8" rot="R180"/>
+<instance part="LIGHT_R_1" gate="G$1" x="-172.72" y="-55.88" rot="R180"/>
+<instance part="LIGHT_R_2" gate="G$1" x="-172.72" y="-60.96" rot="R180"/>
+<instance part="LIGHT_R_3" gate="G$1" x="-172.72" y="-66.04" rot="R180"/>
+<instance part="LIGHT_R_4" gate="G$1" x="-172.72" y="-71.12" rot="R180"/>
+<instance part="LIGHT_R_5" gate="G$1" x="-172.72" y="-76.2" rot="R180"/>
+<instance part="LIGHT_R_6" gate="G$1" x="-172.72" y="-81.28" rot="R180"/>
+<instance part="LIGHT_R_7" gate="G$1" x="-172.72" y="-86.36" rot="R180"/>
+<instance part="LIGHT_C_0" gate="G$1" x="-172.72" y="-91.44" rot="R180"/>
+<instance part="LIGHT_C_1" gate="G$1" x="-172.72" y="-96.52" rot="R180"/>
+<instance part="LIGHT_C_2" gate="G$1" x="-172.72" y="-101.6" rot="R180"/>
+<instance part="LIGHT_C_3" gate="G$1" x="-172.72" y="-106.68" rot="R180"/>
+<instance part="LIGHT_C_4" gate="G$1" x="-172.72" y="-111.76" rot="R180"/>
+<instance part="LIGHT_C_5" gate="G$1" x="-172.72" y="-116.84" rot="R180"/>
+<instance part="LIGHT_C_6" gate="G$1" x="-172.72" y="-121.92" rot="R180"/>
+<instance part="LIGHT_C_7" gate="G$1" x="-172.72" y="-127" rot="R180"/>
+<instance part="GND" gate="G$1" x="-132.08" y="30.48" rot="R180"/>
+<instance part="12V" gate="G$1" x="-132.08" y="25.4" rot="R180"/>
+<instance part="5V" gate="G$1" x="-132.08" y="20.32" rot="R180"/>
+<instance part="OPTO_1_" gate="G$1" x="-132.08" y="15.24" rot="R180"/>
+<instance part="OPTO_2_" gate="G$1" x="-132.08" y="10.16" rot="R180"/>
+<instance part="OPTO_3_" gate="G$1" x="-132.08" y="5.08" rot="R180"/>
+<instance part="OPTO_4_" gate="G$1" x="-132.08" y="0" rot="R180"/>
+<instance part="OPTO_5_" gate="G$1" x="-132.08" y="-5.08" rot="R180"/>
+<instance part="OPTO_6_" gate="G$1" x="-132.08" y="-10.16" rot="R180"/>
+<instance part="OPTO_7_" gate="G$1" x="-132.08" y="-15.24" rot="R180"/>
+<instance part="SERVO_0_" gate="G$1" x="-132.08" y="-20.32" rot="R180"/>
+<instance part="SERVO_1_" gate="G$1" x="-132.08" y="-25.4" rot="R180"/>
+<instance part="SERVO_2_" gate="G$1" x="-132.08" y="-30.48" rot="R180"/>
+<instance part="SERVO_3_" gate="G$1" x="-132.08" y="-35.56" rot="R180"/>
+<instance part="SERVO_4_" gate="G$1" x="-132.08" y="-40.64" rot="R180"/>
+<instance part="EXT_RGB_CLK" gate="G$1" x="-132.08" y="-45.72" rot="R180"/>
+<instance part="EXT_RGB_DATA" gate="G$1" x="-132.08" y="-50.8" rot="R180"/>
+<instance part="PROP_AUX0" gate="G$1" x="-132.08" y="-55.88" rot="R180"/>
+<instance part="PROP_AUX1" gate="G$1" x="-132.08" y="-60.96" rot="R180"/>
+<instance part="RGB_ROUT_R" gate="G$1" x="-132.08" y="-66.04" rot="R180"/>
+<instance part="RGB_GOUT_R" gate="G$1" x="-132.08" y="-71.12" rot="R180"/>
+<instance part="RGB_BOUT_R" gate="G$1" x="-132.08" y="-76.2" rot="R180"/>
+<instance part="RGB_ROUT_L" gate="G$1" x="-132.08" y="-81.28" rot="R180"/>
+<instance part="RGB_GOUT_L" gate="G$1" x="-132.08" y="-86.36" rot="R180"/>
+<instance part="RGB_BOUT_L" gate="G$1" x="-132.08" y="-91.44" rot="R180"/>
+<instance part="DMD_1" gate="G$1" x="-132.08" y="-96.52" rot="R180"/>
+<instance part="DMD_3" gate="G$1" x="-132.08" y="-101.6" rot="R180"/>
+<instance part="DMD_5" gate="G$1" x="-132.08" y="-106.68" rot="R180"/>
+<instance part="DMD_7" gate="G$1" x="-132.08" y="-111.76" rot="R180"/>
+<instance part="DMD_9" gate="G$1" x="-132.08" y="-116.84" rot="R180"/>
+<instance part="DMD_11" gate="G$1" x="-132.08" y="-121.92" rot="R180"/>
+<instance part="DMD_13" gate="G$1" x="-132.08" y="-127" rot="R180"/>
+<instance part="SD_CS" gate="G$1" x="-86.36" y="30.48" rot="R180"/>
+<instance part="SD_DI" gate="G$1" x="-86.36" y="25.4" rot="R180"/>
+<instance part="SD_SCLK" gate="G$1" x="-86.36" y="20.32" rot="R180"/>
+<instance part="SD_DO" gate="G$1" x="-86.36" y="15.24" rot="R180"/>
+<instance part="S_L" gate="G$1" x="-86.36" y="10.16" rot="R180"/>
+<instance part="S_R" gate="G$1" x="-86.36" y="5.08" rot="R180"/>
+<instance part="L_FLIP_OUT" gate="G$1" x="-86.36" y="0" rot="R180"/>
+<instance part="R_FLIP_OUT" gate="G$1" x="-86.36" y="-5.08" rot="R180"/>
+<instance part="USER_0_OUT" gate="G$1" x="-86.36" y="-10.16" rot="R180"/>
+<instance part="DOOR_OUT" gate="G$1" x="-86.36" y="-15.24" rot="R180"/>
+<instance part="BACK_OUT" gate="G$1" x="-86.36" y="-20.32" rot="R180"/>
+<instance part="ENTER_OUT" gate="G$1" x="-86.36" y="-25.4" rot="R180"/>
+<instance part="COIN_OUT" gate="G$1" x="-86.36" y="-30.48" rot="R180"/>
+<instance part="TILT_OUT" gate="G$1" x="-86.36" y="-35.56" rot="R180"/>
+<instance part="ST_BU_OUT" gate="G$1" x="-86.36" y="-40.64" rot="R180"/>
+<instance part="ST_LI_" gate="G$1" x="-86.36" y="-45.72" rot="R180"/>
+<instance part="GI_R_7" gate="G$1" x="-86.36" y="-50.8" rot="R180"/>
+<instance part="GI_R_6" gate="G$1" x="-86.36" y="-55.88" rot="R180"/>
+<instance part="GI_R_5" gate="G$1" x="-86.36" y="-60.96" rot="R180"/>
+<instance part="GI_R_4" gate="G$1" x="-86.36" y="-66.04" rot="R180"/>
+<instance part="GI_R_3" gate="G$1" x="-86.36" y="-71.12" rot="R180"/>
+<instance part="GI_R_2" gate="G$1" x="-86.36" y="-76.2" rot="R180"/>
+<instance part="GI_R_1" gate="G$1" x="-86.36" y="-81.28" rot="R180"/>
+<instance part="GI_R_0" gate="G$1" x="-86.36" y="-86.36" rot="R180"/>
+<instance part="GI_R_15" gate="G$1" x="-86.36" y="-91.44" rot="R180"/>
+<instance part="GI_R_14" gate="G$1" x="-86.36" y="-96.52" rot="R180"/>
+<instance part="GI_R_13" gate="G$1" x="-86.36" y="-101.6" rot="R180"/>
+<instance part="GI_R_12" gate="G$1" x="-86.36" y="-106.68" rot="R180"/>
+<instance part="GI_R_11" gate="G$1" x="-86.36" y="-111.76" rot="R180"/>
+<instance part="GI_R_10" gate="G$1" x="-86.36" y="-116.84" rot="R180"/>
+<instance part="GI_R_9" gate="G$1" x="-86.36" y="-121.92" rot="R180"/>
+<instance part="GI_R_8" gate="G$1" x="-86.36" y="-127" rot="R180"/>
 <instance part="SOL_PWR_23" gate="G$1" x="-43.18" y="30.48" rot="R180"/>
 <instance part="SOL_PWR_22" gate="G$1" x="-43.18" y="25.4" rot="R180"/>
 <instance part="SOL_PWR_21" gate="G$1" x="-43.18" y="20.32" rot="R180"/>
@@ -3580,7 +3594,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <instance part="C24" gate="G$1" x="93.98" y="0" rot="MR0"/>
 <instance part="U16" gate="G$1" x="167.64" y="63.5"/>
 <instance part="U$25" gate="G$1" x="144.78" y="76.2"/>
-<instance part="U$26" gate="G$1" x="147.32" y="-426.72"/>
+<instance part="U$26" gate="G$1" x="147.32" y="-452.12"/>
 <instance part="U17" gate="G$1" x="167.64" y="25.4"/>
 <instance part="U18" gate="G$1" x="167.64" y="-10.16"/>
 <instance part="U19" gate="G$1" x="167.64" y="-45.72"/>
@@ -3685,6 +3699,20 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <instance part="R93" gate="G$1" x="198.12" y="-358.14" rot="R270"/>
 <instance part="R94" gate="G$1" x="203.2" y="-358.14" rot="R270"/>
 <instance part="C25" gate="G$1" x="134.62" y="101.6"/>
+<instance part="C26" gate="G$1" x="154.94" y="-436.88"/>
+<instance part="C27" gate="G$1" x="165.1" y="-436.88"/>
+<instance part="C28" gate="G$1" x="175.26" y="-436.88"/>
+<instance part="C29" gate="G$1" x="185.42" y="-436.88"/>
+<instance part="C30" gate="G$1" x="195.58" y="-436.88"/>
+<instance part="C31" gate="G$1" x="205.74" y="-436.88"/>
+<instance part="C32" gate="G$1" x="215.9" y="-436.88"/>
+<instance part="C33" gate="G$1" x="226.06" y="-436.88"/>
+<instance part="C34" gate="G$1" x="236.22" y="-436.88"/>
+<instance part="C35" gate="G$1" x="246.38" y="-436.88"/>
+<instance part="C36" gate="G$1" x="256.54" y="-436.88"/>
+<instance part="C37" gate="G$1" x="266.7" y="-436.88"/>
+<instance part="C38" gate="G$1" x="276.86" y="-436.88"/>
+<instance part="C39" gate="G$1" x="287.02" y="-436.88"/>
 </instances>
 <busses>
 </busses>
@@ -3692,8 +3720,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GND" class="0">
 <segment>
 <pinref part="GND" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="30.48" x2="-88.9" y2="30.48" width="0.1524" layer="91"/>
-<label x="-93.98" y="30.48" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="30.48" x2="-121.92" y2="30.48" width="0.1524" layer="91"/>
+<label x="-127" y="30.48" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="BOE'"/>
@@ -3987,7 +4015,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="147.32" y1="-383.54" x2="147.32" y2="-386.08" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-386.08" x2="147.32" y2="-419.1" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-419.1" x2="147.32" y2="-421.64" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="-421.64" x2="147.32" y2="-424.18" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-421.64" x2="147.32" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-444.5" x2="147.32" y2="-449.58" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="5.08" x2="147.32" y2="5.08" width="0.1524" layer="91"/>
 <junction x="147.32" y="5.08"/>
 <pinref part="U16" gate="G$1" pin="C_INH"/>
@@ -4118,6 +4147,62 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <junction x="271.78" y="-256.54"/>
 <junction x="276.86" y="-256.54"/>
 <junction x="281.94" y="-256.54"/>
+<pinref part="C39" gate="G$1" pin="P$2"/>
+<wire x1="287.02" y1="-441.96" x2="287.02" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="-444.5" x2="276.86" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C26" gate="G$1" pin="P$2"/>
+<wire x1="276.86" y1="-444.5" x2="266.7" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="-444.5" x2="256.54" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="-444.5" x2="246.38" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="-444.5" x2="236.22" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-444.5" x2="226.06" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-444.5" x2="215.9" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-444.5" x2="205.74" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-444.5" x2="195.58" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-444.5" x2="185.42" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-444.5" x2="175.26" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-444.5" x2="165.1" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-444.5" x2="154.94" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-444.5" x2="147.32" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-444.5" x2="154.94" y2="-441.96" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="P$2"/>
+<wire x1="165.1" y1="-441.96" x2="165.1" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="P$2"/>
+<wire x1="175.26" y1="-441.96" x2="175.26" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C29" gate="G$1" pin="P$2"/>
+<wire x1="185.42" y1="-441.96" x2="185.42" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C30" gate="G$1" pin="P$2"/>
+<wire x1="195.58" y1="-441.96" x2="195.58" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C31" gate="G$1" pin="P$2"/>
+<wire x1="205.74" y1="-441.96" x2="205.74" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C32" gate="G$1" pin="P$2"/>
+<wire x1="215.9" y1="-441.96" x2="215.9" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C33" gate="G$1" pin="P$2"/>
+<wire x1="226.06" y1="-441.96" x2="226.06" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C34" gate="G$1" pin="P$2"/>
+<wire x1="236.22" y1="-441.96" x2="236.22" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C35" gate="G$1" pin="P$2"/>
+<wire x1="246.38" y1="-441.96" x2="246.38" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C36" gate="G$1" pin="P$2"/>
+<wire x1="256.54" y1="-441.96" x2="256.54" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C37" gate="G$1" pin="P$2"/>
+<wire x1="266.7" y1="-441.96" x2="266.7" y2="-444.5" width="0.1524" layer="91"/>
+<pinref part="C38" gate="G$1" pin="P$2"/>
+<wire x1="276.86" y1="-441.96" x2="276.86" y2="-444.5" width="0.1524" layer="91"/>
+<junction x="154.94" y="-444.5"/>
+<junction x="165.1" y="-444.5"/>
+<junction x="175.26" y="-444.5"/>
+<junction x="185.42" y="-444.5"/>
+<junction x="195.58" y="-444.5"/>
+<junction x="205.74" y="-444.5"/>
+<junction x="215.9" y="-444.5"/>
+<junction x="226.06" y="-444.5"/>
+<junction x="236.22" y="-444.5"/>
+<junction x="246.38" y="-444.5"/>
+<junction x="256.54" y="-444.5"/>
+<junction x="266.7" y="-444.5"/>
+<junction x="276.86" y="-444.5"/>
+<junction x="147.32" y="-444.5"/>
 </segment>
 <segment>
 <pinref part="SOL_GND" gate="G$1" pin="P$1"/>
@@ -4128,8 +4213,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SERVO_1" class="0">
 <segment>
 <pinref part="SERVO_1_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-25.4" x2="-88.9" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-93.98" y="-25.4" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-25.4" x2="-121.92" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-127" y="-25.4" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U27" gate="G$1" pin="D1"/>
@@ -4140,8 +4225,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SERVO_0" class="0">
 <segment>
 <pinref part="SERVO_0_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-20.32" x2="-88.9" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-93.98" y="-20.32" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-20.32" x2="-121.92" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-127" y="-20.32" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U27" gate="G$1" pin="D0"/>
@@ -4152,8 +4237,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SERVO_3" class="0">
 <segment>
 <pinref part="SERVO_3_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-35.56" x2="-88.9" y2="-35.56" width="0.1524" layer="91"/>
-<label x="-93.98" y="-35.56" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-35.56" x2="-121.92" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-127" y="-35.56" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="-302.26" x2="180.34" y2="-302.26" width="0.1524" layer="91"/>
@@ -4164,8 +4249,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SERVO_4" class="0">
 <segment>
 <pinref part="SERVO_4_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-40.64" x2="-88.9" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-93.98" y="-40.64" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-40.64" x2="-121.92" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-127" y="-40.64" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U27" gate="G$1" pin="D4"/>
@@ -4176,8 +4261,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SERVO_2" class="0">
 <segment>
 <pinref part="SERVO_2_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-30.48" x2="-88.9" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-93.98" y="-30.48" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-30.48" x2="-121.92" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-127" y="-30.48" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U27" gate="G$1" pin="D2"/>
@@ -4660,13 +4745,70 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="203.2" y1="-350.52" x2="203.2" y2="-353.06" width="0.1524" layer="91"/>
 <junction x="203.2" y="-350.52"/>
 <junction x="241.3" y="-314.96"/>
+<pinref part="C39" gate="G$1" pin="P$1"/>
+<wire x1="287.02" y1="-431.8" x2="287.02" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="-429.26" x2="276.86" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="-429.26" x2="266.7" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="-429.26" x2="246.38" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-429.26" x2="175.26" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-429.26" x2="165.1" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-429.26" x2="154.94" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-429.26" x2="144.78" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-429.26" x2="144.78" y2="-401.32" width="0.1524" layer="91"/>
+<junction x="144.78" y="-401.32"/>
+<pinref part="C38" gate="G$1" pin="P$1"/>
+<wire x1="276.86" y1="-431.8" x2="276.86" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C37" gate="G$1" pin="P$1"/>
+<wire x1="266.7" y1="-431.8" x2="266.7" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C36" gate="G$1" pin="P$1"/>
+<wire x1="266.7" y1="-429.26" x2="256.54" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="-429.26" x2="256.54" y2="-431.8" width="0.1524" layer="91"/>
+<pinref part="C35" gate="G$1" pin="P$1"/>
+<wire x1="246.38" y1="-431.8" x2="246.38" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C34" gate="G$1" pin="P$1"/>
+<wire x1="246.38" y1="-429.26" x2="236.22" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-431.8" x2="236.22" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C33" gate="G$1" pin="P$1"/>
+<wire x1="236.22" y1="-429.26" x2="226.06" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-431.8" x2="226.06" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C32" gate="G$1" pin="P$1"/>
+<wire x1="226.06" y1="-429.26" x2="215.9" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-431.8" x2="215.9" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C31" gate="G$1" pin="P$1"/>
+<wire x1="215.9" y1="-429.26" x2="205.74" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-431.8" x2="205.74" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C30" gate="G$1" pin="P$1"/>
+<wire x1="205.74" y1="-429.26" x2="195.58" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-431.8" x2="195.58" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C29" gate="G$1" pin="P$1"/>
+<wire x1="195.58" y1="-429.26" x2="185.42" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-431.8" x2="185.42" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="P$1"/>
+<wire x1="175.26" y1="-431.8" x2="175.26" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="P$1"/>
+<wire x1="165.1" y1="-431.8" x2="165.1" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="C26" gate="G$1" pin="P$1"/>
+<wire x1="154.94" y1="-431.8" x2="154.94" y2="-429.26" width="0.1524" layer="91"/>
+<junction x="154.94" y="-429.26"/>
+<junction x="165.1" y="-429.26"/>
+<junction x="175.26" y="-429.26"/>
+<junction x="185.42" y="-429.26"/>
+<junction x="195.58" y="-429.26"/>
+<junction x="205.74" y="-429.26"/>
+<junction x="215.9" y="-429.26"/>
+<junction x="226.06" y="-429.26"/>
+<junction x="236.22" y="-429.26"/>
+<junction x="246.38" y="-429.26"/>
+<junction x="256.54" y="-429.26"/>
+<junction x="266.7" y="-429.26"/>
+<junction x="276.86" y="-429.26"/>
 </segment>
 </net>
 <net name="DMD_1" class="0">
 <segment>
 <pinref part="DMD_1" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-96.52" x2="-88.9" y2="-96.52" width="0.1524" layer="91"/>
-<label x="-93.98" y="-96.52" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-96.52" x2="-121.92" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-127" y="-96.52" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U29" gate="G$1" pin="D2"/>
@@ -4677,8 +4819,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="DMD_3" class="0">
 <segment>
 <pinref part="DMD_3" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-101.6" x2="-88.9" y2="-101.6" width="0.1524" layer="91"/>
-<label x="-93.98" y="-101.6" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-101.6" x2="-121.92" y2="-101.6" width="0.1524" layer="91"/>
+<label x="-127" y="-101.6" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="-373.38" x2="180.34" y2="-373.38" width="0.1524" layer="91"/>
@@ -4689,8 +4831,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="DMD_5" class="0">
 <segment>
 <pinref part="DMD_5" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-106.68" x2="-88.9" y2="-106.68" width="0.1524" layer="91"/>
-<label x="-93.98" y="-106.68" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-106.68" x2="-121.92" y2="-106.68" width="0.1524" layer="91"/>
+<label x="-127" y="-106.68" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U29" gate="G$1" pin="D4"/>
@@ -4701,8 +4843,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="DMD_7" class="0">
 <segment>
 <pinref part="DMD_7" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-111.76" x2="-88.9" y2="-111.76" width="0.1524" layer="91"/>
-<label x="-93.98" y="-111.76" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-111.76" x2="-121.92" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-127" y="-111.76" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U29" gate="G$1" pin="D5"/>
@@ -4713,8 +4855,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="DMD_9" class="0">
 <segment>
 <pinref part="DMD_9" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-116.84" x2="-88.9" y2="-116.84" width="0.1524" layer="91"/>
-<label x="-93.98" y="-116.84" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-116.84" x2="-121.92" y2="-116.84" width="0.1524" layer="91"/>
+<label x="-127" y="-116.84" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U29" gate="G$1" pin="D6"/>
@@ -4725,8 +4867,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="DMD_11" class="0">
 <segment>
 <pinref part="DMD_11" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-121.92" x2="-88.9" y2="-121.92" width="0.1524" layer="91"/>
-<label x="-93.98" y="-121.92" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-121.92" x2="-121.92" y2="-121.92" width="0.1524" layer="91"/>
+<label x="-127" y="-121.92" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U29" gate="G$1" pin="D7"/>
@@ -4737,8 +4879,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SD_SCLK" class="0">
 <segment>
 <pinref part="SD_SCLK" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="20.32" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
-<label x="-66.04" y="20.32" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="20.32" x2="-76.2" y2="20.32" width="0.1524" layer="91"/>
+<label x="-81.28" y="20.32" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U16" gate="G$1" pin="D2"/>
@@ -4749,8 +4891,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SD_DI" class="0">
 <segment>
 <pinref part="SD_DI" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="25.4" x2="-60.96" y2="25.4" width="0.1524" layer="91"/>
-<label x="-66.04" y="25.4" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="25.4" x2="-76.2" y2="25.4" width="0.1524" layer="91"/>
+<label x="-81.28" y="25.4" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U16" gate="G$1" pin="D1"/>
@@ -4761,8 +4903,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="DMD_13" class="0">
 <segment>
 <pinref part="DMD_13" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-127" x2="-88.9" y2="-127" width="0.1524" layer="91"/>
-<label x="-93.98" y="-127" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-127" x2="-121.92" y2="-127" width="0.1524" layer="91"/>
+<label x="-127" y="-127" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U30" gate="G$1" pin="D0"/>
@@ -4773,8 +4915,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SD_CS" class="0">
 <segment>
 <pinref part="SD_CS" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="30.48" x2="-60.96" y2="30.48" width="0.1524" layer="91"/>
-<label x="-66.04" y="30.48" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="30.48" x2="-76.2" y2="30.48" width="0.1524" layer="91"/>
+<label x="-81.28" y="30.48" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U16" gate="G$1" pin="D0"/>
@@ -4785,8 +4927,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SD_DO" class="0">
 <segment>
 <pinref part="SD_DO" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="15.24" x2="-60.96" y2="15.24" width="0.1524" layer="91"/>
-<label x="-66.04" y="15.24" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="15.24" x2="-76.2" y2="15.24" width="0.1524" layer="91"/>
+<label x="-81.28" y="15.24" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="55.88" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
@@ -4797,8 +4939,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="S_L" class="0">
 <segment>
 <pinref part="S_L" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="10.16" x2="-60.96" y2="10.16" width="0.1524" layer="91"/>
-<label x="-66.04" y="10.16" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="10.16" x2="-76.2" y2="10.16" width="0.1524" layer="91"/>
+<label x="-81.28" y="10.16" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U16" gate="G$1" pin="D4"/>
@@ -4809,8 +4951,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="S_R" class="0">
 <segment>
 <pinref part="S_R" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="5.08" x2="-60.96" y2="5.08" width="0.1524" layer="91"/>
-<label x="-66.04" y="5.08" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="5.08" x2="-76.2" y2="5.08" width="0.1524" layer="91"/>
+<label x="-81.28" y="5.08" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U16" gate="G$1" pin="D5"/>
@@ -4821,8 +4963,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="ST_LI" class="0">
 <segment>
 <pinref part="ST_LI_" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-45.72" x2="-60.96" y2="-45.72" width="0.1524" layer="91"/>
-<label x="-66.04" y="-45.72" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-45.72" x2="-76.2" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-81.28" y="-45.72" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U16" gate="G$1" pin="D6"/>
@@ -5176,8 +5318,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_R_6" class="0">
 <segment>
 <pinref part="SW_R_6" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="25.4" x2="-116.84" y2="25.4" width="0.1524" layer="91"/>
-<label x="-121.92" y="25.4" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="25.4" x2="-162.56" y2="25.4" width="0.1524" layer="91"/>
+<label x="-167.64" y="25.4" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="Q1"/>
@@ -5188,8 +5330,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_R_5" class="0">
 <segment>
 <pinref part="SW_R_5" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="20.32" x2="-116.84" y2="20.32" width="0.1524" layer="91"/>
-<label x="-121.92" y="20.32" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="20.32" x2="-162.56" y2="20.32" width="0.1524" layer="91"/>
+<label x="-167.64" y="20.32" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="Q2"/>
@@ -5200,8 +5342,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_R_4" class="0">
 <segment>
 <pinref part="SW_R_4" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="15.24" x2="-116.84" y2="15.24" width="0.1524" layer="91"/>
-<label x="-121.92" y="15.24" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="15.24" x2="-162.56" y2="15.24" width="0.1524" layer="91"/>
+<label x="-167.64" y="15.24" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="Q3"/>
@@ -5212,8 +5354,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_R_3" class="0">
 <segment>
 <pinref part="SW_R_3" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="10.16" x2="-116.84" y2="10.16" width="0.1524" layer="91"/>
-<label x="-121.92" y="10.16" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="10.16" x2="-162.56" y2="10.16" width="0.1524" layer="91"/>
+<label x="-167.64" y="10.16" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="Q4"/>
@@ -5224,8 +5366,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_R_1" class="0">
 <segment>
 <pinref part="SW_R_1" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="0" x2="-116.84" y2="0" width="0.1524" layer="91"/>
-<label x="-121.92" y="0" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="0" x2="-162.56" y2="0" width="0.1524" layer="91"/>
+<label x="-167.64" y="0" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="Q6"/>
@@ -5236,8 +5378,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_R_0" class="0">
 <segment>
 <pinref part="SW_R_0" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-5.08" x2="-116.84" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-121.92" y="-5.08" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-5.08" x2="-162.56" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-167.64" y="-5.08" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="Q7"/>
@@ -5248,8 +5390,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_C_7" class="0">
 <segment>
 <pinref part="SW_C_7" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-10.16" x2="-116.84" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-121.92" y="-10.16" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-10.16" x2="-162.56" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-167.64" y="-10.16" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="D7"/>
@@ -5262,8 +5404,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_C_6" class="0">
 <segment>
 <pinref part="SW_C_6" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-15.24" x2="-116.84" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-121.92" y="-15.24" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-15.24" x2="-162.56" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-167.64" y="-15.24" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="D6"/>
@@ -5276,8 +5418,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_C_4" class="0">
 <segment>
 <pinref part="SW_C_4" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-25.4" x2="-116.84" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-121.92" y="-25.4" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-25.4" x2="-162.56" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-167.64" y="-25.4" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="D4"/>
@@ -5290,8 +5432,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_C_5" class="0">
 <segment>
 <pinref part="SW_C_5" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-20.32" x2="-116.84" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-121.92" y="-20.32" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-20.32" x2="-162.56" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-167.64" y="-20.32" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="D5"/>
@@ -5304,8 +5446,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_C_3" class="0">
 <segment>
 <pinref part="SW_C_3" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-30.48" x2="-116.84" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-121.92" y="-30.48" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-30.48" x2="-162.56" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-167.64" y="-30.48" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="D3"/>
@@ -5318,8 +5460,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_C_2" class="0">
 <segment>
 <pinref part="SW_C_2" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-35.56" x2="-116.84" y2="-35.56" width="0.1524" layer="91"/>
-<label x="-121.92" y="-35.56" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-35.56" x2="-162.56" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-167.64" y="-35.56" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="D2"/>
@@ -5332,8 +5474,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_C_1" class="0">
 <segment>
 <pinref part="SW_C_1" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-40.64" x2="-116.84" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-121.92" y="-40.64" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-40.64" x2="-162.56" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-167.64" y="-40.64" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="D1"/>
@@ -5346,8 +5488,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_C_0" class="0">
 <segment>
 <pinref part="SW_C_0" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-45.72" x2="-116.84" y2="-45.72" width="0.1524" layer="91"/>
-<label x="-121.92" y="-45.72" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-45.72" x2="-162.56" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-167.64" y="-45.72" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="D0"/>
@@ -5360,8 +5502,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_R_7" class="0">
 <segment>
 <pinref part="SW_R_7" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="30.48" x2="-116.84" y2="30.48" width="0.1524" layer="91"/>
-<label x="-121.92" y="30.48" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="30.48" x2="-162.56" y2="30.48" width="0.1524" layer="91"/>
+<label x="-167.64" y="30.48" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="Q0"/>
@@ -5372,8 +5514,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="SW_R_2" class="0">
 <segment>
 <pinref part="SW_R_2" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="5.08" x2="-116.84" y2="5.08" width="0.1524" layer="91"/>
-<label x="-121.92" y="5.08" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="5.08" x2="-162.56" y2="5.08" width="0.1524" layer="91"/>
+<label x="-167.64" y="5.08" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="Q5"/>
@@ -5384,8 +5526,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_R_0" class="0">
 <segment>
 <pinref part="LIGHT_R_0" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-50.8" x2="-116.84" y2="-50.8" width="0.1524" layer="91"/>
-<label x="-121.92" y="-50.8" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-50.8" x2="-162.56" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-167.64" y="-50.8" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U23" gate="G$1" pin="D7"/>
@@ -5398,8 +5540,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_R_1" class="0">
 <segment>
 <pinref part="LIGHT_R_1" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-55.88" x2="-116.84" y2="-55.88" width="0.1524" layer="91"/>
-<label x="-121.92" y="-55.88" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-55.88" x2="-162.56" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-167.64" y="-55.88" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U23" gate="G$1" pin="D6"/>
@@ -5412,8 +5554,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_R_2" class="0">
 <segment>
 <pinref part="LIGHT_R_2" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-60.96" x2="-116.84" y2="-60.96" width="0.1524" layer="91"/>
-<label x="-121.92" y="-60.96" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-60.96" x2="-162.56" y2="-60.96" width="0.1524" layer="91"/>
+<label x="-167.64" y="-60.96" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U23" gate="G$1" pin="D5"/>
@@ -5426,8 +5568,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_R_3" class="0">
 <segment>
 <pinref part="LIGHT_R_3" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-66.04" x2="-116.84" y2="-66.04" width="0.1524" layer="91"/>
-<label x="-121.92" y="-66.04" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-66.04" x2="-162.56" y2="-66.04" width="0.1524" layer="91"/>
+<label x="-167.64" y="-66.04" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U23" gate="G$1" pin="D4"/>
@@ -5440,8 +5582,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_R_4" class="0">
 <segment>
 <pinref part="LIGHT_R_4" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-71.12" x2="-116.84" y2="-71.12" width="0.1524" layer="91"/>
-<label x="-121.92" y="-71.12" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-71.12" x2="-162.56" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-167.64" y="-71.12" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U23" gate="G$1" pin="D3"/>
@@ -5454,8 +5596,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_R_5" class="0">
 <segment>
 <pinref part="LIGHT_R_5" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-76.2" x2="-116.84" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-121.92" y="-76.2" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-76.2" x2="-162.56" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-167.64" y="-76.2" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U23" gate="G$1" pin="D2"/>
@@ -5468,8 +5610,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_R_6" class="0">
 <segment>
 <pinref part="LIGHT_R_6" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-81.28" x2="-116.84" y2="-81.28" width="0.1524" layer="91"/>
-<label x="-121.92" y="-81.28" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-81.28" x2="-162.56" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-167.64" y="-81.28" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U23" gate="G$1" pin="D1"/>
@@ -5482,8 +5624,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_R_7" class="0">
 <segment>
 <pinref part="LIGHT_R_7" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-86.36" x2="-116.84" y2="-86.36" width="0.1524" layer="91"/>
-<label x="-121.92" y="-86.36" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-86.36" x2="-162.56" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-167.64" y="-86.36" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U23" gate="G$1" pin="D0"/>
@@ -5496,8 +5638,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_C_0" class="0">
 <segment>
 <pinref part="LIGHT_C_0" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-91.44" x2="-116.84" y2="-91.44" width="0.1524" layer="91"/>
-<label x="-121.92" y="-91.44" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-91.44" x2="-162.56" y2="-91.44" width="0.1524" layer="91"/>
+<label x="-167.64" y="-91.44" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="287.02" y1="-210.82" x2="287.02" y2="-203.2" width="0.1524" layer="91"/>
@@ -5508,8 +5650,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_C_1" class="0">
 <segment>
 <pinref part="LIGHT_C_1" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-96.52" x2="-116.84" y2="-96.52" width="0.1524" layer="91"/>
-<label x="-121.92" y="-96.52" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-96.52" x2="-162.56" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-167.64" y="-96.52" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="281.94" y1="-203.2" x2="281.94" y2="-210.82" width="0.1524" layer="91"/>
@@ -5520,8 +5662,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_C_2" class="0">
 <segment>
 <pinref part="LIGHT_C_2" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-101.6" x2="-116.84" y2="-101.6" width="0.1524" layer="91"/>
-<label x="-121.92" y="-101.6" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-101.6" x2="-162.56" y2="-101.6" width="0.1524" layer="91"/>
+<label x="-167.64" y="-101.6" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="276.86" y1="-210.82" x2="276.86" y2="-203.2" width="0.1524" layer="91"/>
@@ -5532,8 +5674,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_C_3" class="0">
 <segment>
 <pinref part="LIGHT_C_3" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-106.68" x2="-116.84" y2="-106.68" width="0.1524" layer="91"/>
-<label x="-121.92" y="-106.68" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-106.68" x2="-162.56" y2="-106.68" width="0.1524" layer="91"/>
+<label x="-167.64" y="-106.68" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="271.78" y1="-210.82" x2="271.78" y2="-203.2" width="0.1524" layer="91"/>
@@ -5544,8 +5686,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_C_4" class="0">
 <segment>
 <pinref part="LIGHT_C_4" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-111.76" x2="-116.84" y2="-111.76" width="0.1524" layer="91"/>
-<label x="-121.92" y="-111.76" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-111.76" x2="-162.56" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-167.64" y="-111.76" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="266.7" y1="-203.2" x2="266.7" y2="-210.82" width="0.1524" layer="91"/>
@@ -5556,8 +5698,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_C_5" class="0">
 <segment>
 <pinref part="LIGHT_C_5" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-116.84" x2="-116.84" y2="-116.84" width="0.1524" layer="91"/>
-<label x="-121.92" y="-116.84" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-116.84" x2="-162.56" y2="-116.84" width="0.1524" layer="91"/>
+<label x="-167.64" y="-116.84" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="261.62" y1="-210.82" x2="261.62" y2="-203.2" width="0.1524" layer="91"/>
@@ -5568,8 +5710,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_C_6" class="0">
 <segment>
 <pinref part="LIGHT_C_6" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-121.92" x2="-116.84" y2="-121.92" width="0.1524" layer="91"/>
-<label x="-121.92" y="-121.92" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-121.92" x2="-162.56" y2="-121.92" width="0.1524" layer="91"/>
+<label x="-167.64" y="-121.92" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="256.54" y1="-210.82" x2="256.54" y2="-203.2" width="0.1524" layer="91"/>
@@ -5580,8 +5722,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="LIGHT_C_7" class="0">
 <segment>
 <pinref part="LIGHT_C_7" gate="G$1" pin="P$1"/>
-<wire x1="-124.46" y1="-127" x2="-116.84" y2="-127" width="0.1524" layer="91"/>
-<label x="-121.92" y="-127" size="1.016" layer="95" font="vector"/>
+<wire x1="-170.18" y1="-127" x2="-162.56" y2="-127" width="0.1524" layer="91"/>
+<label x="-167.64" y="-127" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="251.46" y1="-210.82" x2="251.46" y2="-203.2" width="0.1524" layer="91"/>
@@ -5592,8 +5734,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="RGB_BOUT_L" class="0">
 <segment>
 <pinref part="RGB_BOUT_L" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-91.44" x2="-88.9" y2="-91.44" width="0.1524" layer="91"/>
-<label x="-93.98" y="-91.44" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-91.44" x2="-121.92" y2="-91.44" width="0.1524" layer="91"/>
+<label x="-127" y="-91.44" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U29" gate="G$1" pin="D1"/>
@@ -5606,8 +5748,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="RGB_GOUT_L" class="0">
 <segment>
 <pinref part="RGB_GOUT_L" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-86.36" x2="-88.9" y2="-86.36" width="0.1524" layer="91"/>
-<label x="-93.98" y="-86.36" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-86.36" x2="-121.92" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-127" y="-86.36" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U29" gate="G$1" pin="D0"/>
@@ -5620,8 +5762,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="RGB_ROUT_L" class="0">
 <segment>
 <pinref part="RGB_ROUT_L" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-81.28" x2="-88.9" y2="-81.28" width="0.1524" layer="91"/>
-<label x="-93.98" y="-81.28" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-81.28" x2="-121.92" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-127" y="-81.28" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U28" gate="G$1" pin="D7"/>
@@ -5634,8 +5776,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="RGB_BOUT_R" class="0">
 <segment>
 <pinref part="RGB_BOUT_R" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-76.2" x2="-88.9" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-93.98" y="-76.2" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-76.2" x2="-121.92" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-127" y="-76.2" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U28" gate="G$1" pin="D6"/>
@@ -5648,8 +5790,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="RGB_GOUT_R" class="0">
 <segment>
 <pinref part="RGB_GOUT_R" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-71.12" x2="-88.9" y2="-71.12" width="0.1524" layer="91"/>
-<label x="-93.98" y="-71.12" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-71.12" x2="-121.92" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-127" y="-71.12" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U28" gate="G$1" pin="D5"/>
@@ -5662,8 +5804,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="RGB_ROUT_R" class="0">
 <segment>
 <pinref part="RGB_ROUT_R" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-66.04" x2="-88.9" y2="-66.04" width="0.1524" layer="91"/>
-<label x="-93.98" y="-66.04" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-66.04" x2="-121.92" y2="-66.04" width="0.1524" layer="91"/>
+<label x="-127" y="-66.04" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U28" gate="G$1" pin="D4"/>
@@ -5676,8 +5818,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_0" class="0">
 <segment>
 <pinref part="GI_R_0" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-86.36" x2="-60.96" y2="-86.36" width="0.1524" layer="91"/>
-<label x="-66.04" y="-86.36" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-86.36" x2="-76.2" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-81.28" y="-86.36" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U17" gate="G$1" pin="D7"/>
@@ -5690,8 +5832,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_1" class="0">
 <segment>
 <pinref part="GI_R_1" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-81.28" x2="-60.96" y2="-81.28" width="0.1524" layer="91"/>
-<label x="-66.04" y="-81.28" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-81.28" x2="-76.2" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-81.28" y="-81.28" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U17" gate="G$1" pin="D6"/>
@@ -5704,8 +5846,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_2" class="0">
 <segment>
 <pinref part="GI_R_2" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-76.2" x2="-60.96" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-66.04" y="-76.2" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-76.2" x2="-76.2" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-81.28" y="-76.2" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U17" gate="G$1" pin="D5"/>
@@ -5718,8 +5860,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_3" class="0">
 <segment>
 <pinref part="GI_R_3" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-71.12" x2="-60.96" y2="-71.12" width="0.1524" layer="91"/>
-<label x="-66.04" y="-71.12" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-71.12" x2="-76.2" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-81.28" y="-71.12" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U17" gate="G$1" pin="D4"/>
@@ -5732,8 +5874,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_7" class="0">
 <segment>
 <pinref part="GI_R_7" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-50.8" x2="-60.96" y2="-50.8" width="0.1524" layer="91"/>
-<label x="-66.04" y="-50.8" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-50.8" x2="-76.2" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-81.28" y="-50.8" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U17" gate="G$1" pin="D0"/>
@@ -5746,8 +5888,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_6" class="0">
 <segment>
 <pinref part="GI_R_6" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-55.88" x2="-60.96" y2="-55.88" width="0.1524" layer="91"/>
-<label x="-66.04" y="-55.88" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-55.88" x2="-76.2" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-81.28" y="-55.88" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U17" gate="G$1" pin="D1"/>
@@ -5760,8 +5902,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_5" class="0">
 <segment>
 <pinref part="GI_R_5" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-60.96" x2="-60.96" y2="-60.96" width="0.1524" layer="91"/>
-<label x="-66.04" y="-60.96" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-60.96" x2="-76.2" y2="-60.96" width="0.1524" layer="91"/>
+<label x="-81.28" y="-60.96" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U17" gate="G$1" pin="D2"/>
@@ -5774,8 +5916,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_4" class="0">
 <segment>
 <pinref part="GI_R_4" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-66.04" x2="-60.96" y2="-66.04" width="0.1524" layer="91"/>
-<label x="-66.04" y="-66.04" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-66.04" x2="-76.2" y2="-66.04" width="0.1524" layer="91"/>
+<label x="-81.28" y="-66.04" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U17" gate="G$1" pin="D3"/>
@@ -5788,8 +5930,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_8" class="0">
 <segment>
 <pinref part="GI_R_8" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-127" x2="-60.96" y2="-127" width="0.1524" layer="91"/>
-<label x="-66.04" y="-127" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-127" x2="-76.2" y2="-127" width="0.1524" layer="91"/>
+<label x="-81.28" y="-127" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U18" gate="G$1" pin="D7"/>
@@ -5802,8 +5944,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_9" class="0">
 <segment>
 <pinref part="GI_R_9" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-121.92" x2="-60.96" y2="-121.92" width="0.1524" layer="91"/>
-<label x="-66.04" y="-121.92" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-121.92" x2="-76.2" y2="-121.92" width="0.1524" layer="91"/>
+<label x="-81.28" y="-121.92" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U18" gate="G$1" pin="D6"/>
@@ -5816,8 +5958,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_10" class="0">
 <segment>
 <pinref part="GI_R_10" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-116.84" x2="-60.96" y2="-116.84" width="0.1524" layer="91"/>
-<label x="-66.04" y="-116.84" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-116.84" x2="-76.2" y2="-116.84" width="0.1524" layer="91"/>
+<label x="-81.28" y="-116.84" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U18" gate="G$1" pin="D5"/>
@@ -5830,8 +5972,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_11" class="0">
 <segment>
 <pinref part="GI_R_11" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-111.76" x2="-60.96" y2="-111.76" width="0.1524" layer="91"/>
-<label x="-66.04" y="-111.76" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-111.76" x2="-76.2" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-81.28" y="-111.76" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U18" gate="G$1" pin="D4"/>
@@ -5844,8 +5986,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_12" class="0">
 <segment>
 <pinref part="GI_R_12" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-106.68" x2="-60.96" y2="-106.68" width="0.1524" layer="91"/>
-<label x="-66.04" y="-106.68" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-106.68" x2="-76.2" y2="-106.68" width="0.1524" layer="91"/>
+<label x="-81.28" y="-106.68" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U18" gate="G$1" pin="D3"/>
@@ -5858,8 +6000,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_13" class="0">
 <segment>
 <pinref part="GI_R_13" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-101.6" x2="-60.96" y2="-101.6" width="0.1524" layer="91"/>
-<label x="-66.04" y="-101.6" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-101.6" x2="-76.2" y2="-101.6" width="0.1524" layer="91"/>
+<label x="-81.28" y="-101.6" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U18" gate="G$1" pin="D2"/>
@@ -5872,8 +6014,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI_R_14" class="0">
 <segment>
 <pinref part="GI_R_14" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-96.52" x2="-60.96" y2="-96.52" width="0.1524" layer="91"/>
-<label x="-66.04" y="-96.52" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-96.52" x2="-76.2" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-81.28" y="-96.52" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U18" gate="G$1" pin="D1"/>
@@ -5886,8 +6028,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="GI15" class="0">
 <segment>
 <pinref part="GI_R_15" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-91.44" x2="-60.96" y2="-91.44" width="0.1524" layer="91"/>
-<label x="-66.04" y="-91.44" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-91.44" x2="-76.2" y2="-91.44" width="0.1524" layer="91"/>
+<label x="-81.28" y="-91.44" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U18" gate="G$1" pin="D0"/>
@@ -5900,8 +6042,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="OPTO_2" class="0">
 <segment>
 <pinref part="OPTO_2_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="10.16" x2="-88.9" y2="10.16" width="0.1524" layer="91"/>
-<label x="-93.98" y="10.16" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="10.16" x2="-121.92" y2="10.16" width="0.1524" layer="91"/>
+<label x="-127" y="10.16" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U26" gate="G$1" pin="D1"/>
@@ -5912,8 +6054,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="OPTO_1" class="0">
 <segment>
 <pinref part="OPTO_1_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="15.24" x2="-88.9" y2="15.24" width="0.1524" layer="91"/>
-<label x="-93.98" y="15.24" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="15.24" x2="-121.92" y2="15.24" width="0.1524" layer="91"/>
+<label x="-127" y="15.24" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U26" gate="G$1" pin="D0"/>
@@ -5924,8 +6066,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="OPTO_3" class="0">
 <segment>
 <pinref part="OPTO_3_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="5.08" x2="-88.9" y2="5.08" width="0.1524" layer="91"/>
-<label x="-93.98" y="5.08" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="5.08" x2="-121.92" y2="5.08" width="0.1524" layer="91"/>
+<label x="-127" y="5.08" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U26" gate="G$1" pin="D2"/>
@@ -5936,8 +6078,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="OPTO_4" class="0">
 <segment>
 <pinref part="OPTO_4_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="0" x2="-88.9" y2="0" width="0.1524" layer="91"/>
-<label x="-93.98" y="0" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="0" x2="-121.92" y2="0" width="0.1524" layer="91"/>
+<label x="-127" y="0" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="-266.7" x2="180.34" y2="-266.7" width="0.1524" layer="91"/>
@@ -5948,8 +6090,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="OPTO_5" class="0">
 <segment>
 <pinref part="OPTO_5_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-5.08" x2="-88.9" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-93.98" y="-5.08" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-5.08" x2="-121.92" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-127" y="-5.08" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U26" gate="G$1" pin="D4"/>
@@ -5960,8 +6102,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="OPTO_6" class="0">
 <segment>
 <pinref part="OPTO_6_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-10.16" x2="-88.9" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-93.98" y="-10.16" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-10.16" x2="-121.92" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-127" y="-10.16" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U26" gate="G$1" pin="D5"/>
@@ -5972,8 +6114,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="OPTO_7" class="0">
 <segment>
 <pinref part="OPTO_7_" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-15.24" x2="-88.9" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-93.98" y="-15.24" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-15.24" x2="-121.92" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-127" y="-15.24" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U26" gate="G$1" pin="D6"/>
@@ -5984,8 +6126,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="EXT_RGB_DATA" class="0">
 <segment>
 <pinref part="EXT_RGB_DATA" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-50.8" x2="-88.9" y2="-50.8" width="0.1524" layer="91"/>
-<label x="-93.98" y="-50.8" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-50.8" x2="-121.92" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-127" y="-50.8" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U28" gate="G$1" pin="D1"/>
@@ -5996,8 +6138,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="EXT_RGB_CLK" class="0">
 <segment>
 <pinref part="EXT_RGB_CLK" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-45.72" x2="-88.9" y2="-45.72" width="0.1524" layer="91"/>
-<label x="-93.98" y="-45.72" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-45.72" x2="-121.92" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-127" y="-45.72" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U28" gate="G$1" pin="D0"/>
@@ -6008,8 +6150,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="PROP_AUX0" class="0">
 <segment>
 <pinref part="PROP_AUX0" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-55.88" x2="-88.9" y2="-55.88" width="0.1524" layer="91"/>
-<label x="-93.98" y="-55.88" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-55.88" x2="-121.92" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-127" y="-55.88" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U28" gate="G$1" pin="D2"/>
@@ -6020,8 +6162,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="PROP_AUX1" class="0">
 <segment>
 <pinref part="PROP_AUX1" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="-60.96" x2="-88.9" y2="-60.96" width="0.1524" layer="91"/>
-<label x="-93.98" y="-60.96" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="-60.96" x2="-121.92" y2="-60.96" width="0.1524" layer="91"/>
+<label x="-127" y="-60.96" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="-337.82" x2="180.34" y2="-337.82" width="0.1524" layer="91"/>
@@ -6032,15 +6174,15 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="ST_BU_OUT" class="0">
 <segment>
 <pinref part="ST_BU_OUT" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-40.64" x2="-60.96" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-66.04" y="-40.64" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-40.64" x2="-76.2" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-81.28" y="-40.64" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="TILT_OUT" class="0">
 <segment>
 <pinref part="TILT_OUT" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-35.56" x2="-60.96" y2="-35.56" width="0.1524" layer="91"/>
-<label x="-66.04" y="-35.56" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-35.56" x2="-76.2" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-81.28" y="-35.56" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U14" gate="G$1" pin="Q1"/>
@@ -6051,8 +6193,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="COIN_OUT" class="0">
 <segment>
 <pinref part="COIN_OUT" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-30.48" x2="-60.96" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-66.04" y="-30.48" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-30.48" x2="-76.2" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-81.28" y="-30.48" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U14" gate="G$1" pin="Q2"/>
@@ -6063,8 +6205,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="ENTER_OUT" class="0">
 <segment>
 <pinref part="ENTER_OUT" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-25.4" x2="-60.96" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-66.04" y="-25.4" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-25.4" x2="-76.2" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-81.28" y="-25.4" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U14" gate="G$1" pin="Q3"/>
@@ -6075,8 +6217,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="BACK_OUT" class="0">
 <segment>
 <pinref part="BACK_OUT" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-20.32" x2="-60.96" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-66.04" y="-20.32" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-20.32" x2="-76.2" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-81.28" y="-20.32" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U14" gate="G$1" pin="Q4"/>
@@ -6087,8 +6229,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="DOOR_OUT" class="0">
 <segment>
 <pinref part="DOOR_OUT" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-15.24" x2="-60.96" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-66.04" y="-15.24" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-15.24" x2="-76.2" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-81.28" y="-15.24" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U14" gate="G$1" pin="Q5"/>
@@ -6099,8 +6241,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="USER_0_OUT" class="0">
 <segment>
 <pinref part="USER_0_OUT" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-10.16" x2="-60.96" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-66.04" y="-10.16" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-10.16" x2="-76.2" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-81.28" y="-10.16" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U14" gate="G$1" pin="Q6"/>
@@ -6111,8 +6253,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="R_FLIP_OUT" class="0">
 <segment>
 <pinref part="R_FLIP_OUT" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="-5.08" x2="-60.96" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-66.04" y="-5.08" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="-5.08" x2="-76.2" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-81.28" y="-5.08" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U14" gate="G$1" pin="Q7"/>
@@ -6123,8 +6265,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="L_FLIP_OUT" class="0">
 <segment>
 <pinref part="L_FLIP_OUT" gate="G$1" pin="P$1"/>
-<wire x1="-68.58" y1="0" x2="-60.96" y2="0" width="0.1524" layer="91"/>
-<label x="-66.04" y="0" size="1.016" layer="95" font="vector"/>
+<wire x1="-83.82" y1="0" x2="-76.2" y2="0" width="0.1524" layer="91"/>
+<label x="-81.28" y="0" size="1.016" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U14" gate="G$1" pin="Q0"/>
@@ -6651,8 +6793,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 </segment>
 <segment>
 <pinref part="12V" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="25.4" x2="-88.9" y2="25.4" width="0.1524" layer="91"/>
-<label x="-93.98" y="25.4" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="25.4" x2="-121.92" y2="25.4" width="0.1524" layer="91"/>
+<label x="-127" y="25.4" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -6701,8 +6843,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 </segment>
 <segment>
 <pinref part="5V" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="20.32" x2="-88.9" y2="20.32" width="0.1524" layer="91"/>
-<label x="-93.98" y="20.32" size="1.016" layer="95" font="vector"/>
+<wire x1="-129.54" y1="20.32" x2="-121.92" y2="20.32" width="0.1524" layer="91"/>
+<label x="-127" y="20.32" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="595_DATA" class="0">
@@ -7262,6 +7404,11 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="3.3V" gate="G$1" pin="P$1"/>
 <wire x1="-40.64" y1="-101.6" x2="-33.02" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-38.1" y="-101.6" size="1.016" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="A_2"/>
+<wire x1="63.5" y1="276.86" x2="71.12" y2="276.86" width="0.1524" layer="91"/>
+<label x="66.04" y="276.86" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P7" class="0">
