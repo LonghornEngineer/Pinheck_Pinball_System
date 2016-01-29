@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4187,11 +4187,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="3.3V" gate="G$1" pin="P$1"/>
-<wire x1="-40.64" y1="-101.6" x2="-33.02" y2="-101.6" width="0.1524" layer="91"/>
-<label x="-38.1" y="-101.6" size="1.016" layer="95" font="vector"/>
-</segment>
-<segment>
 <pinref part="R5" gate="G$1" pin="P$2"/>
 <wire x1="81.28" y1="180.34" x2="81.28" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
@@ -6169,13 +6164,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="73.66" y1="165.1" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="P13" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P13"/>
-<wire x1="99.06" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
-<label x="86.36" y="127" size="1.016" layer="95" font="vector"/>
-</segment>
-</net>
 <net name="P14" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P14"/>
@@ -7158,9 +7146,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="RX_PROP" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P10"/>
-<wire x1="86.36" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
-<label x="86.36" y="134.62" size="1.016" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="P13"/>
+<wire x1="99.06" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
+<label x="86.36" y="127" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="TX_PROP" class="0">
@@ -7170,9 +7158,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="TX_PROP" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P11"/>
-<wire x1="99.06" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
-<label x="86.36" y="132.08" size="1.016" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="P12"/>
+<wire x1="86.36" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+<label x="86.36" y="129.54" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="!RES!_PROP" class="0">
@@ -7182,9 +7170,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="!RES!_PROP" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P12"/>
-<wire x1="86.36" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
-<label x="86.36" y="129.54" size="1.016" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="P11"/>
+<wire x1="99.06" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
+<label x="86.36" y="132.08" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="RX_PIC32" class="0">
@@ -7194,9 +7182,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="RX_PIC32" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P7"/>
-<wire x1="99.06" y1="142.24" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
-<label x="86.36" y="142.24" size="1.016" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="P10"/>
+<wire x1="86.36" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+<label x="86.36" y="134.62" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="TX_PIC32" class="0">
@@ -7206,9 +7194,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="TX_PIC32" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P8"/>
-<wire x1="86.36" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
-<label x="86.36" y="139.7" size="1.016" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="P9"/>
+<wire x1="99.06" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
+<label x="86.36" y="137.16" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="!RST!_PIC32" class="0">
@@ -7218,9 +7206,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="!RST!_PIC32" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P9"/>
-<wire x1="99.06" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
-<label x="86.36" y="137.16" size="1.016" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="P8"/>
+<wire x1="86.36" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
+<label x="86.36" y="139.7" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -7309,6 +7297,20 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="287.02" y1="-241.3" x2="287.02" y2="-243.84" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-241.3" x2="287.02" y2="-241.3" width="0.1524" layer="91"/>
 <junction x="287.02" y="-241.3"/>
+</segment>
+</net>
+<net name="3.3V_SENSE" class="0">
+<segment>
+<pinref part="3.3V" gate="G$1" pin="P$1"/>
+<wire x1="-40.64" y1="-101.6" x2="-33.02" y2="-101.6" width="0.1524" layer="91"/>
+<label x="-38.1" y="-101.6" size="1.016" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="P7" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="P7"/>
+<wire x1="99.06" y1="142.24" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
+<label x="86.36" y="142.24" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 </nets>
