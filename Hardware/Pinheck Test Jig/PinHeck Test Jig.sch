@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -232,6 +232,22 @@
 <pad name="P$1" x="0" y="0" drill="0.7366" diameter="1.9304"/>
 <text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="16" align="center-left">&gt;NAME</text>
 </package>
+<package name="MOUNT_HOLE_120MIL">
+<hole x="0" y="0" drill="3.048"/>
+<circle x="0" y="0" radius="4.572" width="0.127" layer="21"/>
+<polygon width="0.127" layer="41">
+<vertex x="0" y="-4.572" curve="-90"/>
+<vertex x="-4.572" y="0" curve="-90"/>
+<vertex x="0" y="4.572" curve="-90"/>
+<vertex x="4.572" y="0" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="0" y="-4.572" curve="-90"/>
+<vertex x="-4.572" y="0" curve="-90"/>
+<vertex x="0" y="4.572" curve="-90"/>
+<vertex x="4.572" y="0" curve="-90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="MOUNT_HOLE">
@@ -287,6 +303,11 @@
 </technologies>
 </device>
 <device name="150MIL" package="MOUNT_HOLE_150MIL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="120MIL" package="MOUNT_HOLE_120MIL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2337,7 +2358,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <connect gate="G$1" pin="D-" pad="2"/>
 <connect gate="G$1" pin="GND" pad="5"/>
 <connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SLD" pad="S1 S2 S3 S4 S5 S6 S7 S8"/>
+<connect gate="G$1" pin="SLD" pad="S3 S4 S5 S6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2992,23 +3013,23 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 </class>
 </classes>
 <parts>
-<part name="H2" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H4" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H6" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H8" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H10" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H12" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H1" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H3" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H5" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H7" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H9" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H11" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H13" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H14" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H15" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H17" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="H16" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
+<part name="H2" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H4" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H6" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H8" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H10" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H12" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H1" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H3" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H5" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H7" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H9" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H11" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H13" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H14" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H15" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H17" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H16" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
 <part name="SW_R_7" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
 <part name="SW_R_6" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
 <part name="SW_R_5" library="PP_Connectors" deviceset="POGO_PIN" device="_0914-3-15-20-77-14-11-0" value="0914-3-15-20-77-14-11-0"/>
@@ -3353,6 +3374,10 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <part name="C37" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
 <part name="C38" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
 <part name="C39" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
+<part name="H18" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H19" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H20" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
+<part name="H21" library="PP_Connectors" deviceset="MOUNT_HOLE" device="120MIL" value="2263-2"/>
 </parts>
 <sheets>
 <sheet>
@@ -3713,6 +3738,10 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <instance part="C37" gate="G$1" x="266.7" y="-436.88"/>
 <instance part="C38" gate="G$1" x="276.86" y="-436.88"/>
 <instance part="C39" gate="G$1" x="287.02" y="-436.88"/>
+<instance part="H18" gate="G$1" x="-2.54" y="-30.48"/>
+<instance part="H19" gate="G$1" x="-15.24" y="-38.1"/>
+<instance part="H20" gate="G$1" x="-2.54" y="-38.1"/>
+<instance part="H21" gate="G$1" x="-15.24" y="-45.72"/>
 </instances>
 <busses>
 </busses>
