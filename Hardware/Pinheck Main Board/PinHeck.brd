@@ -133,7 +133,7 @@
 <text x="268.478" y="53.594" size="1.4224" layer="21" font="vector" ratio="16">SOLENOID FUSES</text>
 <text x="269.494" y="51.562" size="1.4224" layer="21" font="vector" ratio="16">3A SLOW BLOW</text>
 <text x="259.842" y="69.596" size="1.27" layer="21" ratio="16">PinHeck Pinball System</text>
-<text x="259.842" y="67.564" size="1.27" layer="21" ratio="16">REV: 7</text>
+<text x="259.842" y="67.564" size="1.27" layer="21" ratio="16">REV: 7B</text>
 <text x="259.842" y="62.738" size="1.27" layer="21" ratio="16">Designers:</text>
 <text x="259.842" y="66.04" size="1.27" layer="21" ratio="16">www.benheck.com</text>
 <text x="259.842" y="64.516" size="1.27" layer="21" ratio="16">www.spookypinball.com</text>
@@ -380,8 +380,8 @@ AUDIO</text>
 <wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.0508" layer="21"/>
 </package>
 <package name="4628">
-<pad name="P$1" x="-11.2522" y="0" drill="1.27" shape="square"/>
-<pad name="P$2" x="11.2522" y="0" drill="1.27" shape="square"/>
+<pad name="P$1" x="-11.2522" y="0" drill="1.524" shape="square"/>
+<pad name="P$2" x="11.2522" y="0" drill="1.524" shape="square"/>
 <wire x1="-12.1031" y1="4.4958" x2="12.1031" y2="4.4958" width="0.127" layer="21"/>
 <wire x1="12.1031" y1="4.4958" x2="12.1031" y2="1.27" width="0.127" layer="21"/>
 <wire x1="12.1031" y1="-1.27" x2="12.1031" y2="-4.4958" width="0.127" layer="21"/>
@@ -17806,7 +17806,9 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <element name="SERVO_3_" library="PP_Connectors" package="100MIL_TP" value="" x="116.84" y="136.271" rot="MR0"/>
 <element name="SERVO_4_" library="PP_Connectors" package="100MIL_TP" value="" x="107.95" y="128.905" rot="MR0"/>
 <element name="EXT_RGB_CLK" library="PP_Connectors" package="100MIL_TP" value="" x="133.887" y="140.716" rot="MR270"/>
-<element name="EXT_RGB_DATA" library="PP_Connectors" package="100MIL_TP" value="" x="137.847" y="140.716" rot="MR270"/>
+<element name="EXT_RGB_DATA" library="PP_Connectors" package="100MIL_TP" value="" x="137.847" y="140.716" smashed="yes" rot="MR270">
+<attribute name="NAME" x="139.244" y="138.176" size="0.8128" layer="22" font="vector" ratio="16" rot="MR270"/>
+</element>
 <element name="PROP_AUX0" library="PP_Connectors" package="100MIL_TP" value="" x="141.807" y="140.843" rot="MR270"/>
 <element name="PROP_AUX1" library="PP_Connectors" package="100MIL_TP" value="" x="145.767" y="140.716" rot="MR270"/>
 <element name="RGB_ROUT_R" library="PP_Connectors" package="100MIL_TP" value="" x="161.175" y="140.716" rot="MR270"/>

@@ -1468,8 +1468,8 @@
 <wire x1="-6.35" y1="-7.62" x2="-6.35" y2="10.16" width="0.127" layer="21"/>
 </package>
 <package name="4628">
-<pad name="P$1" x="-11.2522" y="0" drill="1.27" shape="square"/>
-<pad name="P$2" x="11.2522" y="0" drill="1.27" shape="square"/>
+<pad name="P$1" x="-11.2522" y="0" drill="1.524" shape="square"/>
+<pad name="P$2" x="11.2522" y="0" drill="1.524" shape="square"/>
 <wire x1="-12.1031" y1="4.4958" x2="12.1031" y2="4.4958" width="0.127" layer="21"/>
 <wire x1="12.1031" y1="4.4958" x2="12.1031" y2="1.27" width="0.127" layer="21"/>
 <wire x1="12.1031" y1="-1.27" x2="12.1031" y2="-4.4958" width="0.127" layer="21"/>
@@ -3958,6 +3958,22 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <circle x="0" y="0" radius="1.524" width="0.08" layer="21"/>
 <text x="2.54" y="0.635" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="MOUNT_HOLE_120MIL">
+<hole x="0" y="0" drill="3.048"/>
+<circle x="0" y="0" radius="4.572" width="0.127" layer="21"/>
+<polygon width="0.127" layer="41">
+<vertex x="0" y="-4.572" curve="-90"/>
+<vertex x="-4.572" y="0" curve="-90"/>
+<vertex x="0" y="4.572" curve="-90"/>
+<vertex x="4.572" y="0" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="0" y="-4.572" curve="-90"/>
+<vertex x="-4.572" y="0" curve="-90"/>
+<vertex x="0" y="4.572" curve="-90"/>
+<vertex x="4.572" y="0" curve="-90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="SD_CARD">
@@ -5134,6 +5150,11 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 </technologies>
 </device>
 <device name="150MIL" package="MOUNT_HOLE_150MIL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="120MIL" package="MOUNT_HOLE_120MIL">
 <technologies>
 <technology name=""/>
 </technologies>
