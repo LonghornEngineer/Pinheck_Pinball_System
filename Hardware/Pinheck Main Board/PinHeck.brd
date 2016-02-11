@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1063,16 +1063,16 @@ AUDIO</text>
 <hole x="0" y="-4.24" drill="1.63"/>
 </package>
 <package name="2.54MM_01X20_PIN_HEADER">
-<pad name="5" x="-13.97" y="0" drill="0.8"/>
-<pad name="6" x="-11.43" y="0" drill="0.8"/>
-<pad name="4" x="-16.51" y="0" drill="0.8"/>
-<pad name="7" x="-8.89" y="0" drill="0.8"/>
-<pad name="3" x="-19.05" y="0" drill="0.8"/>
-<pad name="8" x="-6.35" y="0" drill="0.8"/>
-<pad name="2" x="-21.59" y="0" drill="0.8"/>
-<pad name="9" x="-3.81" y="0" drill="0.8"/>
-<pad name="1" x="-24.13" y="0" drill="0.8"/>
-<pad name="10" x="-1.27" y="0" drill="0.8"/>
+<pad name="5" x="-13.97" y="0" drill="1"/>
+<pad name="6" x="-11.43" y="0" drill="1"/>
+<pad name="4" x="-16.51" y="0" drill="1"/>
+<pad name="7" x="-8.89" y="0" drill="1"/>
+<pad name="3" x="-19.05" y="0" drill="1"/>
+<pad name="8" x="-6.35" y="0" drill="1"/>
+<pad name="2" x="-21.59" y="0" drill="1"/>
+<pad name="9" x="-3.81" y="0" drill="1"/>
+<pad name="1" x="-24.13" y="0" drill="1"/>
+<pad name="10" x="-1.27" y="0" drill="1"/>
 <wire x1="-25.4" y1="1.27" x2="-25.4" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-25.4" y1="-1.27" x2="25.4" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="25.4" y1="-1.27" x2="25.4" y2="1.27" width="0.127" layer="21"/>
@@ -1089,16 +1089,16 @@ AUDIO</text>
 <text x="-21.59" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL02</text>
 <text x="-24.13" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL01</text>
 <text x="-1.27" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL10</text>
-<pad name="11" x="1.27" y="0" drill="0.8"/>
-<pad name="12" x="3.81" y="0" drill="0.8"/>
-<pad name="13" x="6.35" y="0" drill="0.8"/>
-<pad name="14" x="8.89" y="0" drill="0.8"/>
-<pad name="15" x="11.43" y="0" drill="0.8"/>
-<pad name="16" x="13.97" y="0" drill="0.8"/>
-<pad name="17" x="16.51" y="0" drill="0.8" rot="R90"/>
-<pad name="18" x="19.05" y="0" drill="0.8"/>
-<pad name="19" x="21.59" y="0" drill="0.8"/>
-<pad name="20" x="24.13" y="0" drill="0.8"/>
+<pad name="11" x="1.27" y="0" drill="1"/>
+<pad name="12" x="3.81" y="0" drill="1"/>
+<pad name="13" x="6.35" y="0" drill="1"/>
+<pad name="14" x="8.89" y="0" drill="1"/>
+<pad name="15" x="11.43" y="0" drill="1"/>
+<pad name="16" x="13.97" y="0" drill="1"/>
+<pad name="17" x="16.51" y="0" drill="1" rot="R90"/>
+<pad name="18" x="19.05" y="0" drill="1"/>
+<pad name="19" x="21.59" y="0" drill="1"/>
+<pad name="20" x="24.13" y="0" drill="1"/>
 <text x="1.27" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL11</text>
 <text x="3.81" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL12</text>
 <text x="6.35" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL13</text>
@@ -1112,12 +1112,12 @@ AUDIO</text>
 </package>
 <package name="2.54MM_01X06_PIN_HEADER">
 <description>6 pin header</description>
-<pad name="1" x="-6.35" y="0" drill="0.8" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="0.8" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="0.8" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="0.8" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="0.8" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="0.8" rot="R90"/>
+<pad name="1" x="-6.35" y="0" drill="1" rot="R90"/>
+<pad name="2" x="-3.81" y="0" drill="1" rot="R90"/>
+<pad name="3" x="-1.27" y="0" drill="1" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="1" rot="R90"/>
+<pad name="5" x="3.81" y="0" drill="1" rot="R90"/>
+<pad name="6" x="6.35" y="0" drill="1" rot="R90"/>
 <wire x1="-7.62" y1="1.27" x2="-7.62" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-1.27" x2="7.62" y2="1.27" width="0.127" layer="21"/>
