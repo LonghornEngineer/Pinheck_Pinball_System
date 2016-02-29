@@ -223,6 +223,10 @@ AUDIO</text>
 </polygon>
 <text x="68.072" y="71.247" size="1.27" layer="21" font="vector" ratio="16" align="center">POSITIVE
 SIDE UP</text>
+<text x="80.518" y="104.14" size="1.016" layer="21" font="vector" ratio="16" rot="R180" align="center">5V</text>
+<text x="84.328" y="104.14" size="1.016" layer="21" font="vector" ratio="16" rot="R180" align="center">GND</text>
+<text x="88.392" y="104.14" size="1.016" layer="21" font="vector" ratio="16" rot="R180" align="center">3.3V</text>
+<text x="92.329" y="104.14" size="1.016" layer="21" font="vector" ratio="16" rot="R180" align="center">OPTO</text>
 </plain>
 <libraries>
 <library name="Microchip">
