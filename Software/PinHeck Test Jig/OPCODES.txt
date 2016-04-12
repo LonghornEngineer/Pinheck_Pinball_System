@@ -1,0 +1,37 @@
+Tell PIC to set states that the PROP can detect: (PIC -> PROP)
+
+[aXXY] - I/O test (returns {aACK})
+
+Set pin XX to state Y (numeric)
+
+[bXXZ] - GI bank set (returns {bACK})
+
+Set GI bank to state xx bits
+
+[aXXZ] - Light matrix set (returns {cACK})
+
+Set light matrix to state xx bits (row and column)
+
+[aXZZ] - Switch column set (returns {dACK})
+
+Set switch column to state x
+
+[aZZZ] - RGB set (returns {eACK})
+
+Set on-board RGB bank to xxx (RGB) 
+
+[aZZZ] - RGB set (returns {fACK})
+
+Set external RGB bank to xxx (RGB) 
+
+
+
+Report states detected on pinHeck board (PROP -> PIC)
+
+[mZZZ] -I/O state (returns {mXXZ})
+
+Sends the state of the 16 bits of cabinet switches
+
+[nZZZ] -I/O state (returns {nXZZ})
+
+Sends switch row I/O state (8 bits)
