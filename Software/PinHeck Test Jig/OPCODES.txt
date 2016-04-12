@@ -8,19 +8,19 @@ Set pin XX to state Y (numeric)
 
 Set GI bank to state xx bits
 
-[aXXZ] - Light matrix set (returns {cACK})
+[cXXZ] - Light matrix set (returns {cACK})
 
 Set light matrix to state xx bits (row and column)
 
-[aXZZ] - Switch column set (returns {dACK})
+[dXZZ] - Switch column set (returns {dACK})
 
 Set switch column to state x
 
-[aZZZ] - RGB set (returns {eACK})
+[eZZZ] - RGB set (returns {eACK})
 
 Set on-board RGB bank to xxx (RGB) 
 
-[aZZZ] - RGB set (returns {fACK})
+[fZZZ] - RGB set (returns {fACK})
 
 Set external RGB bank to xxx (RGB) 
 

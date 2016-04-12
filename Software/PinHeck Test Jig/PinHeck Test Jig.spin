@@ -32,6 +32,10 @@ VAR
 
   byte PICcode[128]
 
+  byte shiftin
+
+  byte ERROR
+
   word output 
    
 OBJ
@@ -43,10 +47,10 @@ OBJ
   ADC : "MAX11613"
   
                        
-PUB MAIN | i
+PUB MAIN | i,j
 
-  DIRA[RST_PIC32]~~
-  OUTA[RST_PIC32]~~
+  'DIRA[RST_PIC32]~~
+  'OUTA[RST_PIC32]~~
 
   DIRA[CLK_165]~~
   DIRA[LAT_165]~~
@@ -120,13 +124,107 @@ PUB MAIN | i
     PST.Newline  
 
   PST.Str(STRING("PWR on. Begining Tests."))
+  PST.NewLine
+  
+  'Test Solenoids
+
+  PST.NewLine
+  PST.STR(STRING("SOLENOID TESTING..."))
+  PST.NewLine
+
+  PIC.RxFlush
+  
+  repeat i from 0 to 23
+    PIC.Str(STRING("[a"))
+
+    if (solPins[i] < 10)
+      PIC.Dec(0)
+      PIC.Dec(solPins[i])
+    else
+      PIC.Dec(solPins[i])
+    PIC.Dec(1)
+    PIC.Str(STRING("]"))
+    PIC.StrIn(@PICcode)
+    
+    waitcnt((clkfreq>>1) + cnt)
+
+    GetIO
+    if(solignore[i] == 1)
+      PST.STR(STRING("SOLENOID SKIP: "))
+      PST.Dec(i)
+      PST.NewLine    
+    elseif (inputs[5] <> solcheck0[i])
+      PST.STR(STRING("ERROR SOLENOID: "))
+      ERROR++
+      PST.DEC(i)
+      PST.NewLine 
+    elseif (inputs[4] <> solcheck1[i]) 
+      PST.STR(STRING("ERROR SOLENOID: "))
+      ERROR++ 
+      PST.DEC(i)
+      PST.NewLine
+    elseif (inputs[3] <> solcheck2[i]) 
+      PST.STR(STRING("ERROR SOLENOID: "))
+      ERROR++ 
+      PST.DEC(i)
+      PST.NewLine
+    else
+      PST.STR(STRING("SOLENOID PASS: "))
+      PST.DEC(i)
+      PST.NewLine
+
+    PIC.Str(STRING("[a"))
+
+    if (solPins[i] < 10)
+      PIC.Dec(0)
+      PIC.Dec(solPins[i])
+    else
+      PIC.Dec(solPins[i])
+    PIC.Dec(0)
+    PIC.Str(STRING("]"))
+    PIC.StrIn(@PICcode)
+
+    waitcnt((clkfreq>>1) + cnt)
+    
+  'Test GI
+  
+  PST.NewLine
+  PST.STR(STRING("GI TESTING..."))
+  PST.NewLine
+
+  PIC.RxFlush
+
+  repeat i from 0 to 15
+   
+    PIC.Str(STRING("[b"))
+    PIC.Char(giPins[i*2])
+    PIC.Char(giPins[(i*2)+1])
+    PIC.Str(STRING("Z]"))
+   
+    waitcnt((clkfreq>>1) + cnt)  
+   
+    GetIO
+   
+    if(giignore[i] == 1)
+      PST.STR(STRING("GI SKIP: "))
+      PST.Dec(i)
+      PST.NewLine    
+    elseif (inputs[1] <> gicheck0[i])
+      PST.STR(STRING("ERROR GI: "))
+      ERROR++
+      PST.DEC(i)
+      PST.NewLine 
+    elseif (inputs[2] <> gicheck1[i]) 
+      PST.STR(STRING("ERROR GI: "))
+      ERROR++ 
+      PST.DEC(i)
+      PST.NewLine
+    else
+      PST.STR(STRING("GI PASS: "))
+      PST.DEC(i)
+      PST.NewLine
   
   repeat
-    PIC.Str(STRING("[a000]"))
-    PIC.StrIn(@PICcode)
-    PST.Str(@PICcode)
-    PST.NewLine
-
 
   repeat                                    
     PST.StrIn(@str_test)
@@ -149,27 +247,24 @@ PUB MAIN | i
   repeat
 
 
-PRI GetIO | temp, i
+PRI GetIO | i
 
   OUTA[LAT_165]~
-  OUTA[CLK_165]~
   OUTA[LAT_165]~~
-  OUTA[CLK_165]~~
   
   waitcnt(clkfreq/1000 + cnt)
-  OUTA[CLK_165]~  
 
   repeat i from 0 to 13
     repeat 8
-      OUTA[CLK_165]~~
-      temp := temp << 1 + INA[DAT_165]
       OUTA[CLK_165]~
+      shiftin := shiftin << 1 + INA[DAT_165]
+      OUTA[CLK_165]~~
       waitcnt(clkfreq/1000 + cnt)
 
-    inputs[i] := temp
+    inputs[i] := shiftin
 
-  OUTA[CLK_165] := TRUE
-  OUTA[LAT_165] := TRUE
+  OUTA[CLK_165]~~
+  OUTA[LAT_165]~~
 
   return
 
@@ -226,4 +321,23 @@ PRI StrParse (strAddr, start, count)
   bytemove(@ostr, strAddr + start, count)                                       ' just move the selected section
 
   ostr[count] := 0                                                              ' terminate string
-  RETURN @ostr  
+  RETURN @ostr
+
+DAT
+
+     solPins   BYTE 22, 23, 32, 25, 31, 30, 2, 4, 7, 11, 12, 70, 71, 72, 73, 75, 78, 79, 80, 81, 82, 83, 84, 85
+
+     solcheck0 BYTE %01111111, %10111111, %11011111, %11101111, %11110111, %11111011, %11111101, %11111110, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111   
+     solcheck1 BYTE %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %01111111, %10111111, %11011111, %11101111, %11110111, %11111011, %11111101, %11111110, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111
+     solcheck2 BYTE %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %01111111, %10111111, %11011111, %11101111, %11110111, %11111011, %11111101, %11111110
+
+     solignore BYTE 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1
+
+     giPins    BYTE %10000000, %00000000, %01000000, %00000000, %00100000, %00000000, %00010000, %00000000, %00001000, %00000000, %00000100, %00000000, %00000010, %00000000, %00000001, %00000000, %00000000, %10000000, %00000000, %01000000, %00000000, %00100000, %00000000, %00010000, %00000000, %00001000, %00000000, %00000100, %00000000, %00000010, %00000000, %00000001
+
+     gicheck0  BYTE %01111111, %10111111, %11011111, %11101111, %11110111, %11111011, %11111101, %11111110, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111
+     gicheck1  BYTE %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %11111111, %01111111, %10111111, %11011111, %11101111, %11110111, %11111011, %11111101, %11111110
+
+     giignore BYTE 1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0
+
+     
