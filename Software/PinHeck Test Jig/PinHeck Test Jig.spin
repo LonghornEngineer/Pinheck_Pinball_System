@@ -38,6 +38,8 @@ VAR
 
   byte temp_char
 
+  byte debug
+
   word temp_word
 
   word output 
@@ -142,23 +144,6 @@ PUB MAIN | i,j
       PST.Str(STRING("WRONG CMD"))
       PST.Newline
 
-  PST.Str(STRING("Reseting PIC32...PWR OFF"))
-  PST.NewLine
-
-  OUTA[PWR_ON] := FALSE
-
-  repeat i from 1 to 5
-    waitcnt(clkfreq + cnt)
-    PST.Dec(i)
-    PST.Str(STRING("..."))
-    PST.Newline
-
-  PST.Str(STRING("Turn on PWR. Please wait..."))
-  PST.Newline  
-
-  OUTA[PWR_ON] := TRUE
-
-
   repeat i from 1 to 5
     waitcnt(clkfreq + cnt)
     PST.Dec(i)
@@ -183,6 +168,13 @@ PUB MAIN | i,j
       PST.Str(STRING("WATCHDOGE OR PIC32 CODE NOT RUNNING"))
       PST.NewLine
       TURNOFF
+    elseif StrCount(STRING("d"),@opcode)
+      PST.NewLine
+      PST.Str(STRING("Debug Active"))
+      PST.NewLine
+      debug := 1
+      QUIT
+    
     else
       PST.Str(STRING("WRONG CMD"))
       PST.Newline
@@ -210,6 +202,16 @@ PUB MAIN | i,j
     waitcnt((clkfreq>>4) + cnt)
 
     GetIO
+
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[5],8)
+      PST.NewLine
+      PST.BIN(inputs[4],8)
+      PST.NewLine
+      PST.BIN(inputs[3],8)
+      PST.NewLine
+    
     if(solignore[i] == 1)
       PST.STR(STRING("SOLENOID SKIP: "))
       PST.Dec(i)
@@ -266,6 +268,13 @@ PUB MAIN | i,j
     waitcnt((clkfreq>>4) + cnt)  
    
     GetIO
+
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[1],8)
+      PST.NewLine
+      PST.BIN(inputs[2],8)
+      PST.NewLine
    
     if(giignore[i] == 1)
       PST.STR(STRING("GI SKIP: "))
@@ -304,7 +313,12 @@ PUB MAIN | i,j
     waitcnt((clkfreq>>4) + cnt)
    
     GetIO
-    
+
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[7],8)
+      PST.NewLine
+
     if (inputs[7] <> lrcheck0[i])
       PST.STR(STRING("ERROR LIGHT ROW: "))
       ERROR++
@@ -334,6 +348,11 @@ PUB MAIN | i,j
     waitcnt((clkfreq>>4) + cnt)
 
     GetIO
+
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[8],8)
+      PST.NewLine
     
     if (inputs[8] <> lccheck0[i])
       PST.STR(STRING("ERROR LIGHT COLUMN: "))
@@ -366,6 +385,11 @@ PUB MAIN | i,j
     PIC.CharIn
     PIC.CharIn
     temp_char := PIC.CharIn
+
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(temp_char,8)
+      PST.NewLine
      
     if(temp_char <> srcheck0[i])
       PST.STR(STRING("ERROR SWITCH ROW: "))
@@ -395,6 +419,12 @@ PUB MAIN | i,j
     waitcnt((clkfreq>>4) + cnt)
 
     GetIO
+
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[6],8)
+      PST.NewLine
+
     
     if (inputs[6] <> sccheck0[i])
       PST.STR(STRING("ERROR SWITCH COLUMN: "))
@@ -428,12 +458,19 @@ PUB MAIN | i,j
 
     GetIO
 
-    if (inputs[12] <> rgbcheck0[i])
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[12] & %00000011,8)
+      PST.NewLine
+      PST.BIN(inputs[11] & %11110000,8)
+      PST.NewLine
+
+    if ((inputs[12] & %00000011) <> rgbcheck0[i])
       PST.STR(STRING("ERROR RGB ONBOARD: "))
       ERROR++
       PST.DEC(i)
       PST.NewLine
-    elseif (inputs[11] <> rgbcheck1[i])
+    elseif ((inputs[11] & %11110000) <> rgbcheck1[i])
       PST.STR(STRING("ERROR RGB ONBOARD: "))
       ERROR++
       PST.DEC(i)
@@ -466,6 +503,11 @@ PUB MAIN | i,j
     waitcnt((clkfreq>>4) + cnt)
 
     GetIO
+
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[10],8)
+      PST.NewLine
 
     if ((inputs[10] & %00011111) <> servocheck0[i])
       PST.STR(STRING("ERROR SERVO: "))
@@ -513,6 +555,11 @@ PUB MAIN | i,j
     temp_word := temp_word << 8
     temp_char :=  PIC.CharIn
     temp_word := temp_word + temp_char
+
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(temp_word, 16)
+      PST.NewLine
     
     if(temp_word <> cabcheck0[i])
       PST.STR(STRING("ERROR CABINET I/O: "))
@@ -690,7 +737,7 @@ DAT
 
      rgbcheck0 BYTE %00000011, %00000010, %00000001
 
-     rgbcheck1 BYTE %01100001, %11010001, %10110001
+     rgbcheck1 BYTE %01100000, %11010000, %10110000
 
      servoPins BYTE 46, 44, 17, 34, 33
 
@@ -699,4 +746,3 @@ DAT
      caboutput WORD %11111110_00000000, %11111101_00000000, %11111011_00000000, %11110111_00000000, %11101111_00000000, %11011111_00000000, %10111111_00000000, %01111111_00000000
 
      cabcheck0 WORD %11101110_00001001, %11101110_00000101, %11101110_00000011, %11101110_00100001, %11101110_01000001, %11101110_10000001, %11101111_00000001, %11101110_00010001
-
