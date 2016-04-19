@@ -1,6 +1,3 @@
-{Object_Title_and_Purpose}
-
-
 CON
         _clkmode  = xtal1 + pll16x                                               'Standard clock mode * crystal frequency = 80 MHz
         _xinfreq  = 6_000_000
@@ -52,8 +49,22 @@ OBJ
 
   ADC : "MAX11613"
   
+  loader : "PropellerLoader"
+  
                        
 PUB MAIN | i,j
+
+  PST.Start(115200)
+
+  PST.Str(STRING("STARTING PinHeck Test Jig."))
+  PST.Newline
+  PST.Str(STRING("LOADING PROP CODE ONTO PINHECK.."))
+  PST.NewLine
+
+  loader.Connect(RST_PROP, TX_PROP, RX_PROP, 1, loader#LoadRun, @loadme)
+
+  PST.Str(STRING("PINHECK PROP LOADED."))
+  PST.NewLine
 
   DIRA[RST_PIC32]~
   'OUTA[RST_PIC32]~~
@@ -76,10 +87,6 @@ PUB MAIN | i,j
   
   ADC.Init(28)
 
-  PST.Start(115200)
-
-  PST.Str(STRING("STARTING PinHeck Test Jig."))
-  PST.Newline
   PST.Str(STRING("STARTING PIC32 COM."))
   PST.Newline
   
@@ -696,7 +703,7 @@ PRI StrParse (strAddr, start, count)
   ostr[count] := 0                                                              ' terminate string
   RETURN @ostr
 
-DAT
+DAT  loadme file "loadme.binary" 
 
      solPins   BYTE 22, 23, 32, 25, 31, 30, 2, 4, 7, 11, 12, 70, 71, 72, 73, 75, 78, 79, 80, 81, 82, 83, 84, 85
 
