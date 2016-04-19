@@ -25,9 +25,12 @@ VAR
   byte opcode[32]
   byte ostr[32]
 
+  byte derp[32]
+
   byte inputs[14]
 
   byte PICcode[128]
+  byte PRPcode[128]
 
   byte shiftin
 
@@ -54,20 +57,7 @@ OBJ
                        
 PUB MAIN | i,j
 
-  PST.Start(115200)
-
-  PST.Str(STRING("STARTING PinHeck Test Jig."))
-  PST.Newline
-  PST.Str(STRING("LOADING PROP CODE ONTO PINHECK.."))
-  PST.NewLine
-
-  loader.Connect(RST_PROP, TX_PROP, RX_PROP, 1, loader#LoadRun, @loadme)
-
-  PST.Str(STRING("PINHECK PROP LOADED."))
-  PST.NewLine
-
   DIRA[RST_PIC32]~
-  'OUTA[RST_PIC32]~~
 
   DIRA[CLK_165]~~
   DIRA[LAT_165]~~
@@ -87,27 +77,10 @@ PUB MAIN | i,j
   
   ADC.Init(28)
 
-  PST.Str(STRING("STARTING PIC32 COM."))
-  PST.Newline
-  
-  if(PIC.StartRxTx(TX_PIC32, RX_PIC32, 0, 115200))
-    PST.Str(STRING("PIC32 COM Success."))
-    PST.Newline
-  else
-    PST.Str(STRING("PIC32 COM FAIL."))
-    PST.Newline
-  
-  PST.Str(STRING("STARTING PROP COM."))
-  PST.Newline
-  
-  if(PRP.StartRxTx(RX_PROP, TX_PROP, 0, 115200))
-    PST.Str(STRING("PROP COM Success."))
-    PST.Newline
-  else
-    PST.Str(STRING("PROP COM FAIL."))
-    PST.Newline
+  PST.Start(115200)
 
-  'READY?!
+  PST.Str(STRING("STARTING PinHeck Test Jig."))
+  PST.Newline
 
   PST.Str(STRING("Ready."))
   PST.Newline
@@ -137,6 +110,38 @@ PUB MAIN | i,j
 
   PST.Str(STRING("PWR on..."))
   PST.NewLine
+  
+  PST.Str(STRING("LOADING PROP CODE ONTO PINHECK.."))
+  PST.NewLine
+
+  loader.Connect(RST_PROP, RX_PROP, TX_PROP, 1, loader#ProgramRun, @loadme)
+
+  PST.Str(STRING("PINHECK PROP LOADED."))
+  PST.NewLine
+
+  PST.Str(STRING("STARTING PIC32 COM."))
+  PST.Newline
+  
+  if(PIC.StartRxTx(TX_PIC32, RX_PIC32, 0, 115200))
+    PST.Str(STRING("PIC32 COM Success."))
+    PST.Newline
+  else
+    PST.Str(STRING("PIC32 COM FAIL."))
+    PST.Newline
+  
+  PST.Str(STRING("STARTING PROP COM."))
+  PST.Newline
+
+  if(PRP.StartRxTx(TX_PROP, RX_PROP, %0000, 9600))
+    PST.Str(STRING("PROP COM Success."))
+    PST.Newline
+  else
+    PST.Str(STRING("PROP COM FAIL."))
+    PST.Newline
+
+  waitcnt(clkfreq*2+cnt)
+
+  'READY?!
 
   PST.Str(STRING("Program PIC32 with the PICKIT3 and then enter y."))
   PST.NewLine
@@ -185,7 +190,26 @@ PUB MAIN | i,j
     else
       PST.Str(STRING("WRONG CMD"))
       PST.Newline
- 
+
+  PST.Str(STRING("PROP ACT LED BLINKING? Enter y if yes. Enter n if no."))
+  PST.NewLine
+
+  repeat                                    
+    PST.StrIn(@str_test)
+    Parse(@str_test, @opcode, 0,5)
+    
+    if StrCount(STRING("y"),@opcode)
+      QUIT
+    elseif StrCount(STRING("n"),@opcode)
+      PST.NewLine
+      PST.Str(STRING("PROP CODE NOT RUNNING"))
+      PST.NewLine
+      TURNOFF
+
+    else
+      PST.Str(STRING("WRONG CMD"))
+      PST.Newline
+
   'Test Solenoids
 
   PST.NewLine
@@ -576,7 +600,208 @@ PUB MAIN | i,j
     else
       PST.STR(STRING("CABINET I/O PASS: "))
       PST.DEC(i)
+      PST.NewLine    
+
+  'Test Prop
+  
+  PST.NewLine
+  PST.STR(STRING("PINHECK PROP I/O TESTING..."))
+  PST.NewLine
+
+  'SD Card
+
+  repeat i from 0 to 3
+    PRP.RxFlush
+   
+    PRP.Str(STRING("[w"))
+   
+    if (sdcPins[i] < 10)
+      PRP.Dec(0)
+      PRP.Dec(sdcPins[i])
+    else
+      PRP.Dec(sdcPins[i])
+    PRP.Dec(0)
+    PRP.Str(STRING("]"))
+    PRP.NewLine
+    PRP.StrIn(@PRPcode)
+   
+    waitcnt((clkfreq>>6) + cnt)
+   
+    GetIO
+   
+    if ((inputs[0] & %00001111) <> sdccheck0[i])
+      PST.STR(STRING("ERROR SD I/O: "))
+      ERROR++
+      PST.DEC(i)
       PST.NewLine 
+    else
+      PST.STR(STRING("SD I/O PASS: "))
+      PST.DEC(i)
+      PST.NewLine
+   
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[0],8)
+      PST.NewLine
+   
+    PRP.Str(STRING("[w"))
+    
+    if (sdcPins[i] < 10)
+      PRP.Dec(0)
+      PRP.Dec(sdcPins[i])
+    else
+      PRP.Dec(sdcPins[i])
+    PRP.Dec(1)
+    PRP.Str(STRING("]"))
+    PRP.NewLine
+    PRP.StrIn(@PRPcode)   
+
+    
+  
+  repeat i from 0 to 1
+    PRP.RxFlush
+   
+    PRP.Str(STRING("[w"))
+   
+    if (sndPins[i] < 10)
+      PRP.Dec(0)
+      PRP.Dec(sndPins[i])
+    else
+      PRP.Dec(sndPins[i])
+    PRP.Dec(1)
+    PRP.Str(STRING("]"))
+    PRP.NewLine
+    PRP.StrIn(@PRPcode)
+   
+    waitcnt((clkfreq>>6) + cnt)
+   
+    GetIO
+   
+    if ((inputs[0] & %00110000) <> sndcheck0[i])
+      PST.STR(STRING("ERROR SOUND I/O: "))
+      ERROR++
+      PST.DEC(i)
+      PST.NewLine 
+    else
+      PST.STR(STRING("SOUND I/O PASS: "))
+      PST.DEC(i)
+      PST.NewLine
+   
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[0],8)
+      PST.NewLine
+   
+    PRP.Str(STRING("[w"))
+    
+    if (sndPins[i] < 10)
+      PRP.Dec(0)
+      PRP.Dec(sndPins[i])
+    else
+      PRP.Dec(sndPins[i])
+    PRP.Dec(0)
+    PRP.Str(STRING("]"))
+    PRP.NewLine
+    PRP.StrIn(@PRPcode)   
+
+  repeat i from 0 to 1
+    PRP.RxFlush
+   
+    PRP.Str(STRING("[w"))
+   
+    if (pauxPins[i] < 10)
+      PRP.Dec(0)
+      PRP.Dec(pauxPins[i])
+    else
+      PRP.Dec(pauxPins[i])
+    PRP.Dec(1)
+    PRP.Str(STRING("]"))
+    PRP.NewLine
+    PRP.StrIn(@PRPcode)
+   
+    waitcnt((clkfreq>>6) + cnt)
+   
+    GetIO
+   
+    if ((inputs[11] & %00001100) <> pauxcheck0[i])
+      PST.STR(STRING("ERROR PROP AUX I/O: "))
+      ERROR++
+      PST.DEC(i)
+      PST.NewLine 
+    else
+      PST.STR(STRING("PROP AUX I/O PASS: "))
+      PST.DEC(i)
+      PST.NewLine
+   
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[11],8)
+      PST.NewLine
+   
+    PRP.Str(STRING("[w"))
+    
+    if (pauxPins[i] < 10)
+      PRP.Dec(0)
+      PRP.Dec(pauxPins[i])
+    else
+      PRP.Dec(pauxPins[i])
+    PRP.Dec(0)
+    PRP.Str(STRING("]"))
+    PRP.NewLine
+    PRP.StrIn(@PRPcode) 
+ 
+  repeat i from 0 to 6
+    PRP.RxFlush
+    
+    PRP.Str(STRING("[w"))
+   
+    if (dmdPins[i] < 10)
+      PRP.Dec(0)
+      PRP.Dec(dmdPins[i])
+    else
+      PRP.Dec(dmdPins[i])
+    PRP.Dec(1)
+    PRP.Str(STRING("]"))
+    PRP.NewLine
+    PRP.StrIn(@PRPcode)
+    
+    waitcnt((clkfreq>>6) + cnt)
+   
+    GetIO
+   
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[12],8)
+      PST.NewLine
+      PST.BIN(inputs[13],8)
+      PST.NewLine
+   
+    if ((inputs[12] & %11111100) <> dmdcheck0[i])
+      PST.STR(STRING("ERROR DMD: "))
+      ERROR++
+      PST.DEC(i)
+      PST.NewLine 
+    elseif ((inputs[13] & %00000001) <> dmdcheck1[i]) 
+      PST.STR(STRING("ERROR DMD: "))
+      ERROR++ 
+      PST.DEC(i)
+      PST.NewLine
+    else
+      PST.STR(STRING("DMD PASS: "))
+      PST.DEC(i)
+      PST.NewLine
+   
+    PRP.Str(STRING("[w"))
+   
+    if (dmdPins[i] < 10)
+      PRP.Dec(0)
+      PRP.Dec(dmdPins[i])
+    else
+      PRP.Dec(dmdPins[i])
+    PRP.Dec(0)
+    PRP.Str(STRING("]"))
+    PRP.NewLine 
+    PRP.StrIn(@PRPcode)   
                
   PST.NewLine
   PST.STR(STRING("TEST COMPLETED."))
@@ -625,7 +850,7 @@ PRI TURNOFF | i
       PST.Newline
 
   REBOOT
-
+  
 PRI GetIO | i
 
   OUTA[LAT_165]~
@@ -753,3 +978,21 @@ DAT  loadme file "loadme.binary"
      caboutput WORD %11111110_00000000, %11111101_00000000, %11111011_00000000, %11110111_00000000, %11101111_00000000, %11011111_00000000, %10111111_00000000, %01111111_00000000
 
      cabcheck0 WORD %11101110_00001001, %11101110_00000101, %11101110_00000011, %11101110_00100001, %11101110_01000001, %11101110_10000001, %11101111_00000001, %11101110_00010001
+
+     sdcPins   BYTE 3, 2, 1, 0
+
+     sdccheck0 BYTE %00001110, %00001101, %00001011, %00000111
+
+     sndPins   BYTE 14, 15
+
+     sndcheck0 BYTE %00100000, %00010000
+
+     pauxPins  BYTE 4, 5
+
+     pauxcheck0 BYTE %00000100, %00001000
+
+     dmdPins   BYTE 22, 21, 20, 19, 18, 17, 16
+
+     dmdcheck0 BYTE %00000100, %00001000, %00010000, %00100000, %01000000, %10000000, %00000000
+
+     dmdcheck1 BYTE %00000000, %00000000, %00000000, %00000000, %00000000, %00000000, %00000001 

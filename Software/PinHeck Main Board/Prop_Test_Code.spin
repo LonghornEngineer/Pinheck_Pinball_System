@@ -18,16 +18,21 @@ OBJ
         
 VAR
   byte opcode[32]
+  long blinkstack[50]
 
 PUB MAIN | temp0, temp1, temp2
 
-  PST.Start(115200) 
+  PST.StartRxTx(31, 30, %0000, 9600)
+
+  cognew(Blink, @blinkstack)
+
 
   repeat                                    
     PST.StrIn(@opcode)
 
     if (LEFT_BRACKET <> opcode[0]) OR (RIGHT_BRACKET <> opcode[5])
       PST.Str(STRING("{ERRO}"))
+      PST.NewLine
 
     elseif (W_OP == opcode[1])
     
@@ -41,6 +46,7 @@ PUB MAIN | temp0, temp1, temp2
 
       if (temp2 < 0) OR (temp2 > 31) OR ((opcode[4] - 48) < 0 ) OR ((opcode[4] - 48) > 1)
         PST.Str(STRING("{ERR2}"))
+        PST.NewLine
 
       else
         DIRA[temp2]~~
@@ -50,6 +56,7 @@ PUB MAIN | temp0, temp1, temp2
           OUTA[temp2]~~
           
         PST.Str(STRING("{wACK}"))
+        PST.NewLine
 
     elseif (R_OP == opcode[1])
       'for reading states and sending back to fixture. FU.  
@@ -57,6 +64,22 @@ PUB MAIN | temp0, temp1, temp2
 
     else
       PST.Str(STRING("{ERR1}"))
+      PST.NewLine
+
+    waitcnt(cnt+clkfreq)
 
 
 return
+
+PUB Blink
+
+  DIRA[27]~~
+
+
+  repeat
+    OUTA[27]~
+    waitcnt((clkfreq>>1)+cnt)
+    OUTA[27]~~
+    waitcnt((clkfreq>>1)+cnt)
+    
+
