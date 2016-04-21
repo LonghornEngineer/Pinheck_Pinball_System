@@ -1,37 +1,77 @@
-Tell PIC to set states that the PROP can detect: (PIC -> PROP)
+----------Tell PIC to set states that the PROP can detect: (PIC -> PROP)-----------
+
 
 [aXXY] - I/O test (returns {aACK})
 
 Set pin XX to state Y (numeric)
 
+
 [bXXZ] - GI bank set (returns {bACK})
 
 Set GI bank to state xx bits
+
 
 [cXXZ] - Light matrix set (returns {cACK})
 
 Set light matrix to state xx bits (row and column)
 
+
 [dXZZ] - Switch column set (returns {dACK})
 
 Set switch column to state x
+
 
 [eZZZ] - RGB set (returns {eACK})
 
 Set on-board RGB bank to xxx (RGB) 
 
-[fZZZ] - RGB set (returns {fACK})
+
+[fZZZ] - External RGB set (returns {fACK})
 
 Set external RGB bank to xxx (RGB) 
+
+
+[gXYZ] - External RGB pin toggle (returns {gACK})
+
+Set external RGB data pin to state X (ASCII 0 or 1, low or high)
+Set external RGB clock pin to state Y (ASCII 0 or 1, low or high)
+
+
 
 
 
 Report states detected on pinHeck board (PROP -> PIC)
 
+
+[iYZZ] - Check I2C devices # Y (returns {iXZZ})
+
+Returns if I2C devices are present
+
+X = 1: I2C device at location Y is present
+X = 0: I2C device at location Y is not present
+
+Stores device number X in memory for further reads and writes
+
+
+[rXYZ] - Read I2C byte located at high byte X, low byte Y in memory
+
+Returns {rXYB} whereas XY is the address selected, and B is the byte read
+
+Returns {rZZZ} if fail
+
+
+[wXYB] - Write byte B at high byte X, low byte Y in memory
+
+Returns {wXYB} whereas XY is the address selected, and w is the byte that was written
+
+Returns {wZZZ} if fail
+
+
 [mZZZ] -I/O state (returns {mXXZ})
 
-Sends the state of the 16 bits of cabinet switches
+Sends the state of the 16 bits of cabinet switches as XX
+
 
 [nZZZ] -I/O state (returns {nXZZ})
 
-Sends switch row I/O state (8 bits)
+Sends switch row I/O state (8 bits) as X

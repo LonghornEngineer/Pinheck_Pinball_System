@@ -27,7 +27,7 @@ VAR
 
   byte derp[32]
 
-  byte inputs[14]
+  byte inputs[13]
 
   byte PICcode[128]
   byte PRPcode[128]
@@ -42,7 +42,9 @@ VAR
 
   word temp_word
 
-  word output 
+  word output
+
+  byte optoOP
    
 OBJ
 
@@ -209,9 +211,9 @@ PUB MAIN | i,j
     else
       PST.Str(STRING("WRONG CMD"))
       PST.Newline
-
+  
   'Test Solenoids
-
+  
   PST.NewLine
   PST.STR(STRING("SOLENOID TESTING..."))
   PST.NewLine
@@ -491,17 +493,17 @@ PUB MAIN | i,j
 
     if (debug == 1)
       PST.NewLine    
-      PST.BIN(inputs[12] & %00000011,8)
+      PST.BIN(inputs[11] & %00000011,8)
       PST.NewLine
-      PST.BIN(inputs[11] & %11110000,8)
+      PST.BIN(inputs[10] & %11110000,8)
       PST.NewLine
 
-    if ((inputs[12] & %00000011) <> rgbcheck0[i])
+    if ((inputs[11] & %00000011) <> rgbcheck0[i])
       PST.STR(STRING("ERROR RGB ONBOARD: "))
       ERROR++
       PST.DEC(i)
       PST.NewLine
-    elseif ((inputs[11] & %11110000) <> rgbcheck1[i])
+    elseif ((inputs[10] & %11110000) <> rgbcheck1[i])
       PST.STR(STRING("ERROR RGB ONBOARD: "))
       ERROR++
       PST.DEC(i)
@@ -509,7 +511,50 @@ PUB MAIN | i,j
     else
       PST.STR(STRING("RGB ONBOARD PASS: "))
       PST.DEC(i)
+      PST.NewLine
+
+  'Test EXT RGB
+
+  PST.NewLine
+  PST.STR(STRING("EXT RGB TESTING..."))
+  PST.NewLine
+
+  PIC.RxFlush
+
+  repeat i from 0 to 1
+    PIC.Str(STRING("[g"))
+   
+    if (ergbPins[i] < 10)
+      PIC.Dec(0)
+      PIC.Dec(ergbPins[i])
+    else
+      PIC.Dec(ergbPins[i])
+    PIC.Str(STRING("Z]"))
+    PIC.StrIn(@PICcode)
+   
+    waitcnt((clkfreq>>4) + cnt)
+   
+    GetIO
+   
+    if (debug == 1)
+      PST.NewLine    
+      PST.BIN(inputs[10],8)
+      PST.NewLine
+   
+    if ((inputs[10] & %00000011) <> ergbcheck0[i])
+      PST.STR(STRING("ERROR EXT RGB: "))
+      ERROR++
+      PST.DEC(i)
       PST.NewLine 
+    else
+      PST.STR(STRING("EXT RGB PASS: "))
+      PST.DEC(i)
+      PST.NewLine
+   
+    PIC.Str(STRING("[g00Z]"))
+    PIC.StrIn(@PICcode)
+   
+    waitcnt((clkfreq>>4) + cnt)
 
   'Test Servos
 
@@ -517,7 +562,7 @@ PUB MAIN | i,j
   PST.STR(STRING("SERVO TESTING..."))
   PST.NewLine
 
-  'PIC.RxFlush
+  PIC.RxFlush
 
   repeat i from 0 to 4
     PIC.Str(STRING("[a"))
@@ -537,10 +582,10 @@ PUB MAIN | i,j
 
     if (debug == 1)
       PST.NewLine    
-      PST.BIN(inputs[10],8)
+      PST.BIN(inputs[9],8)
       PST.NewLine
 
-    if ((inputs[10] & %00011111) <> servocheck0[i])
+    if ((inputs[9] & %00011111) <> servocheck0[i])
       PST.STR(STRING("ERROR SERVO: "))
       ERROR++
       PST.DEC(i)
@@ -592,7 +637,7 @@ PUB MAIN | i,j
       PST.BIN(temp_word, 16)
       PST.NewLine
     
-    if(temp_word <> cabcheck0[i])
+    if((temp_word & %00000000_11111111) <> cabcheck0[i])
       PST.STR(STRING("ERROR CABINET I/O: "))
       ERROR++
       PST.DEC(i)
@@ -600,9 +645,49 @@ PUB MAIN | i,j
     else
       PST.STR(STRING("CABINET I/O PASS: "))
       PST.DEC(i)
-      PST.NewLine    
+      PST.NewLine      
 
-  'Test Prop
+  'Test OPTO I/O
+
+  PST.NewLine
+  PST.STR(STRING("OPTO I/O TESTING..."))
+  PST.NewLine
+
+    repeat i from 0 to 6
+      PIC.RxFlush
+     
+      output := %11111111_11111111
+      optoOP := optooutput[i]
+     
+      PushIO 
+     
+      waitcnt((clkfreq>>4) + cnt)            
+     
+      PIC.Str(STRING("[mZZZ]"))
+      PIC.CharIn
+      PIC.CharIn
+      temp_char := PIC.CharIn
+      temp_word := temp_char
+      temp_word := temp_word << 8
+      temp_char :=  PIC.CharIn
+      temp_word := temp_word + temp_char
+     
+      if (debug == 1)
+        PST.NewLine    
+        PST.BIN(temp_word, 16)
+        PST.NewLine
+      
+      if((temp_word & %11110111_00000000) <> optocheck0[i])
+        PST.STR(STRING("ERROR OPTO I/O: "))
+        ERROR++
+        PST.DEC(i)
+        PST.NewLine 
+      else
+        PST.STR(STRING("OPTO I/O PASS: "))
+        PST.DEC(i)
+        PST.NewLine   
+
+ 'Test Prop
   
   PST.NewLine
   PST.STR(STRING("PINHECK PROP I/O TESTING..."))
@@ -723,7 +808,7 @@ PUB MAIN | i,j
    
     GetIO
    
-    if ((inputs[11] & %00001100) <> pauxcheck0[i])
+    if ((inputs[10] & %00001100) <> pauxcheck0[i])
       PST.STR(STRING("ERROR PROP AUX I/O: "))
       ERROR++
       PST.DEC(i)
@@ -735,7 +820,7 @@ PUB MAIN | i,j
    
     if (debug == 1)
       PST.NewLine    
-      PST.BIN(inputs[11],8)
+      PST.BIN(inputs[10],8)
       PST.NewLine
    
     PRP.Str(STRING("[w"))
@@ -771,17 +856,17 @@ PUB MAIN | i,j
    
     if (debug == 1)
       PST.NewLine    
+      PST.BIN(inputs[11],8)
+      PST.NewLine
       PST.BIN(inputs[12],8)
       PST.NewLine
-      PST.BIN(inputs[13],8)
-      PST.NewLine
    
-    if ((inputs[12] & %11111100) <> dmdcheck0[i])
+    if ((inputs[11] & %11111100) <> dmdcheck0[i])
       PST.STR(STRING("ERROR DMD: "))
       ERROR++
       PST.DEC(i)
       PST.NewLine 
-    elseif ((inputs[13] & %00000001) <> dmdcheck1[i]) 
+    elseif ((inputs[12] & %00000001) <> dmdcheck1[i]) 
       PST.STR(STRING("ERROR DMD: "))
       ERROR++ 
       PST.DEC(i)
@@ -817,8 +902,8 @@ PUB MAIN | i,j
 
   PST.NewLine
   PST.NewLine
-
-  TURNOFF
+                 
+  TURNOFF  
 
 PRI TURNOFF | i
 
@@ -858,7 +943,7 @@ PRI GetIO | i
   
   waitcnt(clkfreq/1000 + cnt)
 
-  repeat i from 0 to 13
+  repeat i from 0 to 12
     repeat 8
       OUTA[CLK_165]~
       shiftin := shiftin << 1 + INA[DAT_165]
@@ -872,9 +957,18 @@ PRI GetIO | i
 
   return
 
-PRI PushIO 
+PRI PushIO
 
-  repeat 16
+  repeat 8 
+    OUTA[DAT_595] := optoOP
+    waitcnt(clkfreq/1000 + cnt)
+    optoOP := optoOP >> 1
+    OUTA[CLK_595]~
+    OUTA[CLK_595]~~
+    OUTA[CLK_595]~
+    waitcnt(clkfreq/1000 + cnt)    
+
+  repeat 16   
     OUTA[DAT_595] := output
     waitcnt(clkfreq/1000 + cnt)
     output := output >> 1
@@ -977,7 +1071,7 @@ DAT  loadme file "loadme.binary"
 
      caboutput WORD %11111110_00000000, %11111101_00000000, %11111011_00000000, %11110111_00000000, %11101111_00000000, %11011111_00000000, %10111111_00000000, %01111111_00000000
 
-     cabcheck0 WORD %11101110_00001001, %11101110_00000101, %11101110_00000011, %11101110_00100001, %11101110_01000001, %11101110_10000001, %11101111_00000001, %11101110_00010001
+     cabcheck0 WORD %00000000_00000100, %00000000_00000010, %00000000_00000001, %00000000_00010000, %00000000_00100000, %00000000_01000000, %00000000_10000000, %00000000_00001000
 
      sdcPins   BYTE 3, 2, 1, 0
 
@@ -995,4 +1089,12 @@ DAT  loadme file "loadme.binary"
 
      dmdcheck0 BYTE %00000100, %00001000, %00010000, %00100000, %01000000, %10000000, %00000000
 
-     dmdcheck1 BYTE %00000000, %00000000, %00000000, %00000000, %00000000, %00000000, %00000001 
+     dmdcheck1 BYTE %00000000, %00000000, %00000000, %00000000, %00000000, %00000000, %00000001
+
+     optooutput BYTE %11111110, %11111101, %11111011, %11110111, %11101111, %11011111, %10111111
+
+     optocheck0 WORD %00000001_00000000, %00000010_00000000, %00000100_00000000, %00010000_00000000, %00100000_00000000, %01000000_00000000, %10000000_00000000
+
+     ergbPins  BYTE 1, 10
+
+     ergbcheck0 BYTE %00000001, %00000010
