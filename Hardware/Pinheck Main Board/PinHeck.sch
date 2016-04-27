@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="13" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="13" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -2040,39 +2040,6 @@
 <wire x1="14.5" y1="-1" x2="-13" y2="-1" width="0.127" layer="21"/>
 <text x="10.9" y="-0.8" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
-<package name="STX_2500_3N">
-<smd name="3" x="0" y="-7.2" dx="2.3" dy="1.7" layer="1"/>
-<smd name="2" x="3.35" y="-0.75" dx="2.3" dy="1.7" layer="1" rot="R90"/>
-<smd name="1" x="-3.35" y="1.95" dx="2.3" dy="1.7" layer="1" rot="R90"/>
-<wire x1="-1.27" y1="-6.35" x2="-2.25" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="-6.35" x2="-2.25" y2="3.65" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="3.65" x2="-2" y2="3.65" width="0.127" layer="21"/>
-<wire x1="-2" y1="3.65" x2="2" y2="3.65" width="0.127" layer="21"/>
-<wire x1="2" y1="3.65" x2="2.25" y2="3.65" width="0.127" layer="21"/>
-<wire x1="2.25" y1="3.65" x2="2.25" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="2.25" y1="-6.35" x2="1.25" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-2" y1="3.65" x2="-2" y2="5.15" width="0.127" layer="21"/>
-<wire x1="-2" y1="5.15" x2="2" y2="5.15" width="0.127" layer="21"/>
-<wire x1="2" y1="5.15" x2="2" y2="3.65" width="0.127" layer="21"/>
-<hole x="0" y="2.15" drill="0.9"/>
-<hole x="0" y="-4.85" drill="0.9"/>
-<text x="3" y="-6.35" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
-</package>
-<package name="161-3507-E">
-<pad name="1" x="1.7" y="0" drill="1.3"/>
-<pad name="5" x="5.2" y="-4.6" drill="1.3"/>
-<pad name="2" x="10.2" y="5.4" drill="1.3"/>
-<wire x1="0" y1="5.8" x2="0" y2="1.8" width="0.127" layer="21"/>
-<wire x1="0" y1="1.8" x2="0" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.8" x2="0" y2="-5.8" width="0.127" layer="21"/>
-<wire x1="0" y1="-5.8" x2="14.2" y2="-5.8" width="0.127" layer="21"/>
-<wire x1="14.2" y1="-5.8" x2="14.2" y2="5.8" width="0.127" layer="21"/>
-<wire x1="14.2" y1="5.8" x2="0" y2="5.8" width="0.127" layer="21"/>
-<wire x1="0" y1="1.8" x2="-3.5" y2="1.8" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="1.8" x2="-3.5" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-1.8" x2="0" y2="-1.8" width="0.127" layer="21"/>
-<text x="0" y="6.35" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-</package>
 <package name="2.54MM_01X04_PIN_HEADER">
 <pad name="1" x="-3.81" y="0" drill="0.8" rot="R90"/>
 <pad name="2" x="-1.27" y="0" drill="0.8" rot="R90"/>
@@ -2586,26 +2553,6 @@
 <text x="3.96" y="6" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL03</text>
 <hole x="-1.98" y="-4.24" drill="1.63"/>
 <hole x="1.98" y="-4.24" drill="1.63"/>
-</package>
-<package name="SJ1-2503A">
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.6764" shape="long" rot="R90"/>
-<hole x="-0.14" y="0" drill="1.2"/>
-<pad name="3" x="2.36" y="1.85" drill="1" rot="R180"/>
-<pad name="2" x="2.36" y="-1.85" drill="1" rot="R180"/>
-<pad name="4" x="4.36" y="0" drill="1" rot="R90"/>
-<wire x1="-3.64" y1="2.5" x2="-3.64" y2="2" width="0.127" layer="21"/>
-<wire x1="-3.64" y1="2" x2="-3.64" y2="-2" width="0.127" layer="21"/>
-<wire x1="-3.64" y1="-2" x2="-3.64" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.64" y1="-2.5" x2="1.26" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.64" y1="2.5" x2="1.26" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.46" y1="2.5" x2="4.36" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4.36" y1="2.5" x2="4.36" y2="1.3" width="0.127" layer="21"/>
-<wire x1="3.46" y1="-2.5" x2="4.36" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="4.36" y1="-2.5" x2="4.36" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="-3.64" y1="2" x2="-6.64" y2="2" width="0.127" layer="21"/>
-<wire x1="-6.64" y1="2" x2="-6.64" y2="-2" width="0.127" layer="21"/>
-<wire x1="-6.64" y1="-2" x2="-3.64" y2="-2" width="0.127" layer="21"/>
-<text x="-3.54" y="3" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
 <package name="26-64-4090">
 <pad name="P$1" x="-15.88" y="0" drill="1.7"/>
@@ -3854,33 +3801,6 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <text x="21.74" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL11</text>
 <circle x="-1.98" y="0" radius="1.27" width="0.127" layer="21"/>
 </package>
-<package name="SJ1-351(3/4/5)-SMT">
-<smd name="1" x="2.8" y="5.875" dx="2.9" dy="1.75" layer="1"/>
-<smd name="5" x="6.1" y="5.875" dx="1.8" dy="1.75" layer="1"/>
-<smd name="3" x="9" y="5.875" dx="2.1" dy="1.75" layer="1"/>
-<smd name="4" x="4.9" y="-5.625" dx="2.1" dy="2.25" layer="1"/>
-<smd name="2" x="9.3" y="-5.625" dx="2.9" dy="2.25" layer="1"/>
-<hole x="3" y="0" drill="1.6"/>
-<hole x="9" y="0" drill="1.6"/>
-<wire x1="0" y1="5" x2="0" y2="2.5" width="0.127" layer="21"/>
-<wire x1="0" y1="2.5" x2="0" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.5" x2="0" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="0" y1="-4.5" x2="3.4" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="3.4" y1="-4.5" x2="3.4" y2="-4.1" width="0.127" layer="21"/>
-<wire x1="3.4" y1="-4.1" x2="11.2" y2="-4.1" width="0.127" layer="21"/>
-<wire x1="11.2" y1="-4.1" x2="11.2" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="11.2" y1="-4.5" x2="12" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="12" y1="-4.5" x2="12" y2="5" width="0.127" layer="21"/>
-<wire x1="12" y1="5" x2="10.4" y2="5" width="0.127" layer="21"/>
-<wire x1="10.4" y1="5" x2="10.4" y2="4.6" width="0.127" layer="21"/>
-<wire x1="10.4" y1="4.6" x2="1" y2="4.6" width="0.127" layer="21"/>
-<wire x1="1" y1="4.6" x2="1" y2="5" width="0.127" layer="21"/>
-<wire x1="1" y1="5" x2="0" y2="5" width="0.127" layer="21"/>
-<wire x1="0" y1="2.5" x2="-3" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="2.5" x2="-3" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="-2.5" x2="0" y2="-2.5" width="0.127" layer="21"/>
-<text x="0" y="7.2" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
-</package>
 <package name="KEYSTONE_5015">
 <smd name="P$1" x="0" y="0" dx="3.4" dy="1.8" layer="1"/>
 <text x="2.29" y="0.5" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
@@ -3974,6 +3894,54 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <vertex x="4.572" y="0" curve="-90"/>
 </polygon>
 </package>
+<package name="SJ1-3533NS">
+<smd name="1_A" x="-6" y="-0.4" dx="1.5" dy="2.5" layer="1" cream="no"/>
+<smd name="2_A" x="-3.6" y="1.6" dx="1.5" dy="2.5" layer="1" cream="no"/>
+<smd name="3_A" x="1.9" y="1.6" dx="1.5" dy="2.5" layer="1" cream="no"/>
+<smd name="S3" x="3.9" y="4.05" dx="1.5" dy="2.5" layer="1" rot="R90" cream="no"/>
+<smd name="S2" x="3.9" y="-4.55" dx="1.5" dy="2.5" layer="1" rot="R90" cream="no"/>
+<smd name="S1" x="-5" y="-4.55" dx="1.5" dy="2.5" layer="1" rot="R90" cream="no"/>
+<smd name="1_B" x="-6" y="-0.4" dx="1.5" dy="2.5" layer="16" rot="R180" cream="no"/>
+<smd name="2_B" x="-3.6" y="1.6" dx="1.5" dy="2.5" layer="16" cream="no"/>
+<smd name="3_B" x="1.9" y="1.6" dx="1.5" dy="2.5" layer="16" cream="no"/>
+<smd name="S4" x="3.9" y="4.05" dx="1.5" dy="2.5" layer="16" rot="R90" cream="no"/>
+<smd name="S5" x="3.9" y="-4.55" dx="1.5" dy="2.5" layer="16" rot="R90" cream="no"/>
+<smd name="S6" x="-5" y="-4.55" dx="1.5" dy="2.5" layer="16" rot="R90" cream="no"/>
+<wire x1="-6.5" y1="0.6" x2="-5.5" y2="0.6" width="0.127" layer="20"/>
+<wire x1="-5.5" y1="0.6" x2="-5.5" y2="-1.4" width="0.127" layer="20"/>
+<wire x1="-5.5" y1="-1.4" x2="-6.5" y2="-1.4" width="0.127" layer="20"/>
+<wire x1="-6.5" y1="-1.4" x2="-6.5" y2="0.6" width="0.127" layer="20"/>
+<wire x1="-4.1" y1="2.6" x2="-3.1" y2="2.6" width="0.127" layer="20"/>
+<wire x1="-3.1" y1="2.6" x2="-3.1" y2="0.6" width="0.127" layer="20"/>
+<wire x1="-3.1" y1="0.6" x2="-4.1" y2="0.6" width="0.127" layer="20"/>
+<wire x1="-4.1" y1="0.6" x2="-4.1" y2="2.6" width="0.127" layer="20"/>
+<wire x1="1.4" y1="2.6" x2="2.4" y2="2.6" width="0.127" layer="20"/>
+<wire x1="2.4" y1="2.6" x2="2.4" y2="0.6" width="0.127" layer="20"/>
+<wire x1="2.4" y1="0.6" x2="1.4" y2="0.6" width="0.127" layer="20"/>
+<wire x1="1.4" y1="0.6" x2="1.4" y2="2.6" width="0.127" layer="20"/>
+<wire x1="2.9" y1="3.55" x2="2.9" y2="4.55" width="0.127" layer="20"/>
+<wire x1="2.9" y1="4.55" x2="4.9" y2="4.55" width="0.127" layer="20"/>
+<wire x1="4.9" y1="4.55" x2="4.9" y2="3.55" width="0.127" layer="20"/>
+<wire x1="4.9" y1="3.55" x2="2.9" y2="3.55" width="0.127" layer="20"/>
+<wire x1="2.9" y1="-5.05" x2="2.9" y2="-4.05" width="0.127" layer="20"/>
+<wire x1="2.9" y1="-4.05" x2="4.9" y2="-4.05" width="0.127" layer="20"/>
+<wire x1="4.9" y1="-4.05" x2="4.9" y2="-5.05" width="0.127" layer="20"/>
+<wire x1="4.9" y1="-5.05" x2="2.9" y2="-5.05" width="0.127" layer="20"/>
+<wire x1="-6" y1="-5.05" x2="-6" y2="-4.05" width="0.127" layer="20"/>
+<wire x1="-6" y1="-4.05" x2="-4" y2="-4.05" width="0.127" layer="20"/>
+<wire x1="-4" y1="-4.05" x2="-4" y2="-5.05" width="0.127" layer="20"/>
+<wire x1="-4" y1="-5.05" x2="-6" y2="-5.05" width="0.127" layer="20"/>
+<wire x1="-7.5" y1="5.6" x2="-7.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="3.5" x2="-7.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="-2.5" x2="-7.5" y2="-5.65" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="-5.65" x2="7.4" y2="-5.65" width="0.127" layer="21"/>
+<wire x1="7.4" y1="-5.65" x2="7.4" y2="5.6" width="0.127" layer="21"/>
+<wire x1="7.4" y1="5.6" x2="-7.5" y2="5.6" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="3.5" x2="-11.1" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-11.1" y1="3.5" x2="-11.1" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-11.1" y1="-2.5" x2="-7.5" y2="-2.5" width="0.127" layer="21"/>
+<text x="-7.5" y="6" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SD_CARD">
@@ -4024,30 +3992,6 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <wire x1="11.43" y1="-7.35" x2="11.43" y2="-11.43" width="0.127" layer="94"/>
 <text x="7.62" y="1.27" size="1.016" layer="97" font="vector" align="center">SD CARD SLOT</text>
 <pin name="CD" x="-2.54" y="-17.78" visible="off" length="short"/>
-</symbol>
-<symbol name="TRS_JACK">
-<description>Symbol for TRS jacks</description>
-<pin name="S" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
-<pin name="R" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<pin name="T" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.016" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.524" x2="-2.032" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-3.556" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-3.556" y1="-1.016" x2="-4.572" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="2.54" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="1.27" x2="-7.112" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-7.112" y1="1.27" x2="-7.112" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.112" y1="-2.54" x2="-5.588" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.588" y1="-2.54" x2="-5.588" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-5.588" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-7.62" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
-<text x="2.54" y="-2.54" size="0.8128" layer="97" font="vector">T</text>
-<text x="2.54" y="0" size="0.8128" layer="97" font="vector">R</text>
-<text x="2.54" y="2.54" size="0.8128" layer="97" font="vector">S</text>
 </symbol>
 <symbol name="CON_01X04">
 <description>Symbol for 4 pin connectors.</description>
@@ -4515,6 +4459,31 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <text x="6.35" y="0.254" size="1.016" layer="95" font="vector">&gt;NAME</text>
 <text x="6.35" y="-0.254" size="1.016" layer="95" font="vector" align="top-left">&gt;VALUE</text>
 </symbol>
+<symbol name="TRS_SHIELD_JACK">
+<pin name="S" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
+<pin name="R" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="T" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.016" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.524" x2="-2.032" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-3.556" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="-1.016" x2="-4.572" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="1.27" x2="-7.112" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-7.112" y1="1.27" x2="-7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.112" y1="-2.54" x2="-5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="-2.54" x2="-5.588" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+<text x="2.54" y="-2.54" size="0.8128" layer="97" font="vector">T</text>
+<text x="2.54" y="0" size="0.8128" layer="97" font="vector">R</text>
+<text x="2.54" y="2.54" size="0.8128" layer="97" font="vector">S</text>
+<pin name="SHIELD" x="5.08" y="5.08" visible="off" length="short" rot="R180"/>
+<wire x1="2.54" y1="5.08" x2="-6.35" y2="5.08" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SD_CARD" prefix="SD" uservalue="yes">
@@ -4533,54 +4502,6 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <connect gate="G$1" pin="IRQ" pad="8"/>
 <connect gate="G$1" pin="RW" pad="9"/>
 <connect gate="G$1" pin="SCLK" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TRS_JACK" prefix="J" uservalue="yes">
-<description>TRS Jacks</description>
-<gates>
-<gate name="G$1" symbol="TRS_JACK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_SJ1-2503A" package="SJ1-2503A">
-<connects>
-<connect gate="G$1" pin="R" pad="4"/>
-<connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$1" pin="T" pad="2 3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_STX_2500_3N" package="STX_2500_3N">
-<connects>
-<connect gate="G$1" pin="R" pad="2"/>
-<connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$1" pin="T" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_161-3507-E" package="161-3507-E">
-<connects>
-<connect gate="G$1" pin="R" pad="2"/>
-<connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$1" pin="T" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SJ1-3513-SMT" package="SJ1-351(3/4/5)-SMT">
-<connects>
-<connect gate="G$1" pin="R" pad="3"/>
-<connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$1" pin="T" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6186,6 +6107,24 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <device name="_ROUND_100MIL" package="100MIL_TP">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRS_SHIELD_JACK" prefix="J" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TRS_SHIELD_JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SJ1-3533NS" package="SJ1-3533NS">
+<connects>
+<connect gate="G$1" pin="R" pad="3_A 3_B"/>
+<connect gate="G$1" pin="S" pad="1_A 1_B"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4 S5 S6"/>
+<connect gate="G$1" pin="T" pad="2_A 2_B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -28591,7 +28530,6 @@ ULN and UDN Series&lt;p&gt;
 <part name="H32" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H33" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
 <part name="H34" library="PP_Connectors" deviceset="MOUNT_HOLE" device="150MIL"/>
-<part name="AUDIO" library="PP_Connectors" deviceset="TRS_JACK" device="_SJ1-3513-SMT" value="SJ1-3513-SMT"/>
 <part name="U4" library="PP_DigitalIC" deviceset="EEPROM_I2C" device="DIP-8" value="CAT24M01LI-G"/>
 <part name="BOARD_POWER_IN" library="PP_Connectors" deviceset="CON_01X03" device="_26-64-4040_(KEYPIN2)" value="26-64-4040">
 <attribute name="LABEL01" value="5V"/>
@@ -28933,6 +28871,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="R163" library="PP_Passives" deviceset="RESISTOR" device="_2512" value="CRCW25125K60JNEG"/>
 <part name="R164" library="PP_Passives" deviceset="RESISTOR" device="_2512" value="CRCW25125K60JNEG"/>
 <part name="R165" library="PP_Passives" deviceset="RESISTOR" device="_2512" value="CRCW25125K60JNEG"/>
+<part name="AUDIO" library="PP_Connectors" deviceset="TRS_SHIELD_JACK" device="_SJ1-3533NS" value="SJ1-3533NS"/>
 </parts>
 <sheets>
 <sheet>
@@ -29262,7 +29201,6 @@ ULN and UDN Series&lt;p&gt;
 <instance part="H32" gate="G$1" x="284.48" y="-116.84"/>
 <instance part="H33" gate="G$1" x="297.18" y="-124.46"/>
 <instance part="H34" gate="G$1" x="284.48" y="-124.46"/>
-<instance part="AUDIO" gate="G$1" x="284.48" y="30.48" rot="R180"/>
 <instance part="U4" gate="G$1" x="157.48" y="17.78" rot="MR0"/>
 <instance part="BOARD_POWER_IN" gate="G$1" x="797.56" y="185.42"/>
 <instance part="SOLENOID_POWER_IN" gate="G$1" x="731.52" y="83.82"/>
@@ -29520,6 +29458,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="R163" gate="G$1" x="777.24" y="-78.74"/>
 <instance part="R164" gate="G$1" x="777.24" y="-86.36"/>
 <instance part="R165" gate="G$1" x="777.24" y="-93.98"/>
+<instance part="AUDIO" gate="G$1" x="284.48" y="30.48" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -29731,9 +29670,14 @@ ULN and UDN Series&lt;p&gt;
 <label x="157.48" y="-43.18" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<wire x1="279.4" y1="27.94" x2="271.78" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="27.94" x2="276.86" y2="27.94" width="0.1524" layer="91"/>
 <label x="271.78" y="27.94" size="0.8128" layer="95" font="vector"/>
 <pinref part="AUDIO" gate="G$1" pin="S"/>
+<pinref part="AUDIO" gate="G$1" pin="SHIELD"/>
+<wire x1="276.86" y1="27.94" x2="271.78" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="25.4" x2="276.86" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="25.4" x2="276.86" y2="27.94" width="0.1524" layer="91"/>
+<junction x="276.86" y="27.94"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="15.24" x2="330.2" y2="15.24" width="0.1524" layer="91"/>

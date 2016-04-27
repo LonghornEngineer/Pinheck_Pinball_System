@@ -404,10 +404,10 @@ PUB MAIN | i,j
   PST.NewLine
 
   PIC.RxFlush
-
+  
   repeat i from 0 to 7
     PIC.RxFlush
-
+  
     output := sroutput[i]
   
     PushIO 
@@ -418,7 +418,7 @@ PUB MAIN | i,j
     PIC.CharIn
     PIC.CharIn
     temp_char := PIC.CharIn
-
+  
     if (debug == 1)
       PST.NewLine    
       PST.BIN(temp_char,8)
@@ -565,6 +565,21 @@ PUB MAIN | i,j
   PIC.RxFlush
 
   repeat i from 0 to 4
+
+    PIC.Str(STRING("[a"))
+
+    if (servoPins[i] < 10)
+      PIC.Dec(0)
+      PIC.Dec(servoPins[i])
+    else
+      PIC.Dec(servoPins[i])
+    PIC.Dec(1)
+    PIC.Str(STRING("]"))
+    PIC.StrIn(@PICcode)
+  
+  PIC.RxFlush
+  
+  repeat i from 0 to 4
     PIC.Str(STRING("[a"))
 
     if (servoPins[i] < 10)
@@ -579,12 +594,12 @@ PUB MAIN | i,j
     waitcnt((clkfreq>>4) + cnt)
 
     GetIO
-
+     
     if (debug == 1)
       PST.NewLine    
       PST.BIN(inputs[9],8)
       PST.NewLine
-
+     
     if ((inputs[9] & %00011111) <> servocheck0[i])
       PST.STR(STRING("ERROR SERVO: "))
       ERROR++
@@ -710,7 +725,7 @@ PUB MAIN | i,j
     PRP.NewLine
     PRP.StrIn(@PRPcode)
    
-    waitcnt((clkfreq>>6) + cnt)
+    'waitcnt((clkfreq>>6) + cnt)
    
     GetIO
    
@@ -758,7 +773,7 @@ PUB MAIN | i,j
     PRP.NewLine
     PRP.StrIn(@PRPcode)
    
-    waitcnt((clkfreq>>6) + cnt)
+    'waitcnt((clkfreq>>6) + cnt)
    
     GetIO
    
@@ -790,6 +805,20 @@ PUB MAIN | i,j
     PRP.StrIn(@PRPcode)   
 
   repeat i from 0 to 1
+    PRP.RxFlush  
+    PRP.Str(STRING("[w"))
+    
+    if (pauxPins[i] < 10)
+      PRP.Dec(0)
+      PRP.Dec(pauxPins[i])
+    else
+      PRP.Dec(pauxPins[i])
+    PRP.Dec(0)
+    PRP.Str(STRING("]"))
+    PRP.NewLine
+    PRP.StrIn(@PRPcode)
+  
+  repeat i from 0 to 1
     PRP.RxFlush
    
     PRP.Str(STRING("[w"))
@@ -804,7 +833,7 @@ PUB MAIN | i,j
     PRP.NewLine
     PRP.StrIn(@PRPcode)
    
-    waitcnt((clkfreq>>6) + cnt)
+    waitcnt((clkfreq>>4) + cnt)
    
     GetIO
    
@@ -820,7 +849,7 @@ PUB MAIN | i,j
    
     if (debug == 1)
       PST.NewLine    
-      PST.BIN(inputs[10],8)
+      PST.BIN(inputs[10] & %00001100 ,8)
       PST.NewLine
    
     PRP.Str(STRING("[w"))
@@ -833,7 +862,21 @@ PUB MAIN | i,j
     PRP.Dec(0)
     PRP.Str(STRING("]"))
     PRP.NewLine
-    PRP.StrIn(@PRPcode) 
+    PRP.StrIn(@PRPcode)
+
+  repeat i from 0 to 6
+
+    PRP.Str(STRING("[w"))
+   
+    if (dmdPins[i] < 10)
+      PRP.Dec(0)
+      PRP.Dec(dmdPins[i])
+    else
+      PRP.Dec(dmdPins[i])
+    PRP.Dec(0)
+    PRP.Str(STRING("]"))
+    PRP.NewLine 
+    PRP.StrIn(@PRPcode)   
  
   repeat i from 0 to 6
     PRP.RxFlush
@@ -850,15 +893,15 @@ PUB MAIN | i,j
     PRP.NewLine
     PRP.StrIn(@PRPcode)
     
-    waitcnt((clkfreq>>6) + cnt)
+    waitcnt((clkfreq>>4) + cnt)
    
     GetIO
    
     if (debug == 1)
       PST.NewLine    
-      PST.BIN(inputs[11],8)
+      PST.BIN(inputs[11]& %11111100,8)
       PST.NewLine
-      PST.BIN(inputs[12],8)
+      PST.BIN(inputs[12]& %00000001,8)
       PST.NewLine
    
     if ((inputs[11] & %11111100) <> dmdcheck0[i])
