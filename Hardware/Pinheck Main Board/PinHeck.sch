@@ -28147,6 +28147,78 @@ ULN and UDN Series&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="MF_Discrete_Semiconductor">
+<packages>
+<package name="SOT-23-3">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard SOT-23-3 footprint.&lt;br/&gt;</description>
+<smd name="P$1" x="-0.95" y="-1" dx="0.9" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$2" x="0.95" y="-1" dx="0.9" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$3" x="0" y="1" dx="0.9" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-1.6" y1="-1.8" x2="1.6" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.8" x2="1.6" y2="1.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.8" x2="-1.6" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="1.8" x2="-1.6" y2="-1.8" width="0.127" layer="21"/>
+<text x="-1.6" y="2.2" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-2.2" y="-1.6" curve="-90"/>
+<vertex x="-2.4" y="-1.4" curve="-90"/>
+<vertex x="-2.2" y="-1.2" curve="-90"/>
+<vertex x="-2" y="-1.4" curve="-90"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="NPN_BJT">
+<description>&lt;b&gt;Description:&lt;/b&gt; Symbol for BJT NPN Transistors.&lt;br/&gt;</description>
+<pin name="BASE" x="-7.62" y="0" visible="off" length="short"/>
+<pin name="COLLECTOR" x="2.54" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="EMITTER" x="2.54" y="-7.62" visible="off" length="short" rot="R90"/>
+<circle x="0" y="0" radius="3.81845625" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.508" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.508" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.032" x2="-1.27" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.032" x2="-1.27" y2="-0.508" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="-2.032"/>
+<vertex x="1.905" y="-1.27"/>
+<vertex x="1.524" y="-2.159"/>
+</polygon>
+<text x="-5.08" y="0.254" size="1.016" layer="94" font="vector">B</text>
+<text x="2.794" y="3.81" size="1.016" layer="94" font="vector">C</text>
+<text x="2.794" y="-4.826" size="1.016" layer="94" font="vector">E</text>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="bottom-right">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.016" layer="96" font="vector" rot="R180">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NPN_BJT" prefix="U" uservalue="yes">
+<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Discrete_Semiconductor&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Device for Single NPN BJT Transistors. Manufacture part number (MFG#) can be added via Attributes.&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN_BJT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOT-23-3" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="BASE" pad="P$1"/>
+<connect gate="G$1" pin="COLLECTOR" pad="P$3"/>
+<connect gate="G$1" pin="EMITTER" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG#" value="N/A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -28872,6 +28944,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="R164" library="PP_Passives" deviceset="RESISTOR" device="_2512" value="CRCW25125K60JNEG"/>
 <part name="R165" library="PP_Passives" deviceset="RESISTOR" device="_2512" value="CRCW25125K60JNEG"/>
 <part name="AUDIO" library="PP_Connectors" deviceset="TRS_SHIELD_JACK" device="_SJ1-3533NS" value="SJ1-3533NS"/>
+<part name="U8" library="MF_Discrete_Semiconductor" deviceset="NPN_BJT" device="_SOT-23-3" value="MF-DSC-SOT233-MMBT3904"/>
 </parts>
 <sheets>
 <sheet>
@@ -29091,8 +29164,8 @@ ULN and UDN Series&lt;p&gt;
 <instance part="C43" gate="G$1" x="767.08" y="101.6"/>
 <instance part="C44" gate="G$1" x="774.7" y="101.6"/>
 <instance part="C45" gate="G$1" x="782.32" y="101.6"/>
-<instance part="R115" gate="G$1" x="845.82" y="198.12" rot="R270"/>
-<instance part="R116" gate="G$1" x="838.2" y="190.5" rot="R180"/>
+<instance part="R115" gate="G$1" x="876.3" y="200.66" rot="R270"/>
+<instance part="R116" gate="G$1" x="855.98" y="182.88" rot="R180"/>
 <instance part="R117" gate="G$1" x="795.02" y="119.38" rot="R90"/>
 <instance part="R118" gate="G$1" x="520.7" y="-33.02" rot="R180"/>
 <instance part="IC2" gate="PA" x="68.58" y="165.1"/>
@@ -29268,7 +29341,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="R145" gate="G$1" x="627.38" y="-162.56" rot="MR180"/>
 <instance part="C18" gate="G$1" x="668.02" y="-66.04"/>
 <instance part="C19" gate="G$1" x="693.42" y="-66.04"/>
-<instance part="ST_LI" gate="G$1" x="855.98" y="190.5" rot="MR180"/>
+<instance part="ST_LI" gate="G$1" x="886.46" y="193.04" rot="MR180"/>
 <instance part="F5" gate="G$1" x="472.44" y="-27.94"/>
 <instance part="C29" gate="G$1" x="949.96" y="38.1"/>
 <instance part="C30" gate="G$1" x="495.3" y="25.4" rot="R270"/>
@@ -29459,6 +29532,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="R164" gate="G$1" x="777.24" y="-86.36"/>
 <instance part="R165" gate="G$1" x="777.24" y="-93.98"/>
 <instance part="AUDIO" gate="G$1" x="284.48" y="30.48" rot="R180"/>
+<instance part="U8" gate="G$1" x="873.76" y="182.88"/>
 </instances>
 <busses>
 </busses>
@@ -30572,6 +30646,12 @@ ULN and UDN Series&lt;p&gt;
 <label x="787.4" y="-48.26" size="0.8128" layer="95" font="vector"/>
 <junction x="792.48" y="-55.88"/>
 <junction x="792.48" y="-63.5"/>
+</segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="EMITTER"/>
+<wire x1="876.3" y1="175.26" x2="876.3" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="876.3" y1="172.72" x2="838.2" y2="172.72" width="0.1524" layer="91"/>
+<label x="838.2" y="172.72" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="RX_PIC32" class="0">
@@ -32577,12 +32657,13 @@ ULN and UDN Series&lt;p&gt;
 </segment>
 <segment>
 <pinref part="ST_LI" gate="G$1" pin="EMITTER"/>
-<wire x1="858.52" y1="198.12" x2="858.52" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="858.52" y1="205.74" x2="845.82" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="889" y1="200.66" x2="889" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="889" y1="208.28" x2="876.3" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="R115" gate="G$1" pin="1"/>
-<wire x1="845.82" y1="205.74" x2="825.5" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="845.82" y1="203.2" x2="845.82" y2="205.74" width="0.1524" layer="91"/>
-<label x="825.5" y="205.74" size="0.8128" layer="95" font="vector"/>
+<wire x1="876.3" y1="208.28" x2="838.2" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="876.3" y1="205.74" x2="876.3" y2="208.28" width="0.1524" layer="91"/>
+<label x="838.2" y="208.28" size="0.8128" layer="95" font="vector"/>
+<junction x="876.3" y="208.28"/>
 </segment>
 <segment>
 <pinref part="F5" gate="G$1" pin="P$1"/>
@@ -32979,10 +33060,10 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="508" y1="83.82" x2="541.02" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="825.5" y1="180.34" x2="858.52" y2="180.34" width="0.1524" layer="91"/>
-<label x="825.5" y="180.34" size="0.8128" layer="95" font="vector"/>
+<wire x1="838.2" y1="167.64" x2="889" y2="167.64" width="0.1524" layer="91"/>
+<label x="838.2" y="167.64" size="0.8128" layer="95" font="vector"/>
 <pinref part="ST_LI" gate="G$1" pin="COLLECTOR"/>
-<wire x1="858.52" y1="180.34" x2="858.52" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="889" y1="167.64" x2="889" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ST_LI_" gate="G$1" pin="P$1"/>
@@ -35180,19 +35261,19 @@ ULN and UDN Series&lt;p&gt;
 <net name="N$49" class="0">
 <segment>
 <pinref part="R115" gate="G$1" pin="2"/>
-<wire x1="845.82" y1="193.04" x2="845.82" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="R116" gate="G$1" pin="1"/>
-<wire x1="843.28" y1="190.5" x2="845.82" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="876.3" y1="195.58" x2="876.3" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="ST_LI" gate="G$1" pin="BASE"/>
-<wire x1="845.82" y1="190.5" x2="848.36" y2="190.5" width="0.1524" layer="91"/>
-<junction x="845.82" y="190.5"/>
+<wire x1="876.3" y1="193.04" x2="878.84" y2="193.04" width="0.1524" layer="91"/>
+<junction x="876.3" y="193.04"/>
+<pinref part="U8" gate="G$1" pin="COLLECTOR"/>
+<wire x1="876.3" y1="190.5" x2="876.3" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ST_LI_GATE" class="0">
 <segment>
 <pinref part="R116" gate="G$1" pin="2"/>
-<wire x1="833.12" y1="190.5" x2="825.5" y2="190.5" width="0.1524" layer="91"/>
-<label x="825.5" y="190.5" size="0.8128" layer="95" font="vector"/>
+<wire x1="850.9" y1="182.88" x2="838.2" y2="182.88" width="0.1524" layer="91"/>
+<label x="838.2" y="182.88" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="170.18" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
@@ -36918,6 +36999,13 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="D11" gate="G$1" pin="CATHODE"/>
 <pinref part="R165" gate="G$1" pin="1"/>
 <wire x1="767.08" y1="-93.98" x2="772.16" y2="-93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="R116" gate="G$1" pin="1"/>
+<pinref part="U8" gate="G$1" pin="BASE"/>
+<wire x1="861.06" y1="182.88" x2="866.14" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -188,6 +188,11 @@ PUB MAIN | i,j
       PST.NewLine
       debug := 1
       QUIT
+    elseif StrCount(STRING("c"),@opcode)
+      PST.NewLine
+      PST.Str(STRING("ASSUME DIRECT CONTROL."))
+      PST.NewLine
+      Direct_Control
     
     else
       PST.Str(STRING("WRONG CMD"))
@@ -978,6 +983,28 @@ PRI TURNOFF | i
       PST.Newline
 
   REBOOT
+
+PRI Direct_Control
+
+  repeat
+    PIC.Str(STRING("[a"))
+
+    PIC.Str(STRING("]"))
+    PIC.StrIn(@PICcode)
+    
+    waitcnt((clkfreq) + cnt)
+  {
+  repeat
+    PST.StrIN(@str_test)
+    PST.Str(@str_test)
+    PST.NewLine
+    PIC.Str(@str_test)
+    PIC.StrIN(@PICcode)
+    PST.Str(@PICcode)
+    PST.NewLine
+   }
+
+return
   
 PRI GetIO | i
 
