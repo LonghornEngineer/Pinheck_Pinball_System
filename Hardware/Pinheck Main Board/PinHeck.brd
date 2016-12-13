@@ -133,7 +133,7 @@
 <text x="268.478" y="53.594" size="1.4224" layer="21" font="vector" ratio="16">SOLENOID FUSES</text>
 <text x="269.494" y="51.562" size="1.4224" layer="21" font="vector" ratio="16">3A SLOW BLOW</text>
 <text x="259.842" y="69.596" size="1.27" layer="21" ratio="16">PinHeck Pinball System</text>
-<text x="259.842" y="67.564" size="1.27" layer="21" ratio="16">REV: 7C</text>
+<text x="259.842" y="67.564" size="1.27" layer="21" ratio="16">REV: 7D</text>
 <text x="259.842" y="62.738" size="1.27" layer="21" ratio="16">Designers:</text>
 <text x="259.842" y="66.04" size="1.27" layer="21" ratio="16">www.benheck.com</text>
 <text x="259.842" y="64.516" size="1.27" layer="21" ratio="16">www.spookypinball.com</text>
@@ -1000,41 +1000,6 @@ SIDE UP</text>
 <text x="2" y="6" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
 <text x="5.96" y="6" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL03</text>
 </package>
-<package name="26-64-4120(KEYPIN2)">
-<pad name="P$1" x="-21.78" y="0" drill="1.7"/>
-<pad name="P$2" x="-13.86" y="0" drill="1.7"/>
-<pad name="P$3" x="-9.9" y="0" drill="1.7"/>
-<pad name="P$4" x="-5.94" y="0" drill="1.7"/>
-<pad name="P$5" x="-1.98" y="0" drill="1.7"/>
-<pad name="P$6" x="1.98" y="0" drill="1.7"/>
-<pad name="P$7" x="5.94" y="0" drill="1.7"/>
-<pad name="P$8" x="9.9" y="0" drill="1.7"/>
-<text x="0" y="12.7762" size="1.016" layer="21" font="vector" ratio="16" align="center">&gt;NAME</text>
-<pad name="P$9" x="13.86" y="0" drill="1.7"/>
-<wire x1="-24.915" y1="5" x2="-24.915" y2="3.89" width="0.127" layer="21"/>
-<wire x1="-24.915" y1="3.89" x2="-24.915" y2="-5" width="0.127" layer="21"/>
-<wire x1="-24.915" y1="-5" x2="24.835" y2="-5" width="0.127" layer="21"/>
-<wire x1="24.835" y1="-5" x2="24.835" y2="3.89" width="0.127" layer="21"/>
-<wire x1="24.835" y1="3.89" x2="24.835" y2="5" width="0.127" layer="21"/>
-<wire x1="24.835" y1="5" x2="-24.915" y2="5" width="0.127" layer="21"/>
-<pad name="P$10" x="17.82" y="0" drill="1.7"/>
-<wire x1="-24.915" y1="3.89" x2="24.835" y2="3.89" width="0.127" layer="21"/>
-<text x="13.86" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL09</text>
-<text x="9.9" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL08</text>
-<text x="5.94" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL07</text>
-<text x="1.98" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL06</text>
-<text x="-1.98" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL05</text>
-<text x="-5.94" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL04</text>
-<text x="-9.9" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL03</text>
-<text x="-13.86" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL02</text>
-<text x="-21.78" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL01</text>
-<text x="17.82" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL10</text>
-<hole x="-19.8" y="-4.24" drill="1.6"/>
-<hole x="19.8" y="-4.24" drill="1.6"/>
-<pad name="P$11" x="21.78" y="0" drill="1.7"/>
-<text x="21.74" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL11</text>
-<circle x="-17.82" y="0" radius="1.27" width="0.127" layer="21"/>
-</package>
 <package name="26-64-4020">
 <pad name="P$1" x="-1.98" y="0" drill="1.7" shape="long" rot="R90"/>
 <pad name="P$2" x="1.98" y="0" drill="1.7" shape="long" rot="R90"/>
@@ -1145,16 +1110,6 @@ SIDE UP</text>
 <text x="1.27" y="3.81" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL06</text>
 <text x="-5.715" y="0" size="0.8128" layer="25" font="vector" ratio="16" rot="R90" align="center">&gt;NAME</text>
 </package>
-<package name="S8421-45R">
-<smd name="NEG" x="0" y="8.5" dx="2.6" dy="3" layer="1" rot="R180"/>
-<smd name="POS" x="0" y="-12.9" dx="3" dy="3.6" layer="1" rot="R270"/>
-<circle x="0" y="0" radius="11.15" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="-12.29" x2="-2.54" y2="-12.29" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-12.29" x2="6.5" y2="-12.29" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="-12.29" x2="-6.5" y2="-9.1" width="0.127" layer="21"/>
-<wire x1="6.5" y1="-12.29" x2="6.5" y2="-9.1" width="0.127" layer="21"/>
-<text x="2.54" y="-13.97" size="0.8128" layer="25" font="vector" ratio="18">&gt;NAME</text>
-</package>
 <package name="640454-3">
 <pad name="P$1" x="-2.54" y="0" drill="1"/>
 <pad name="P$2" x="0" y="0" drill="1"/>
@@ -1220,10 +1175,10 @@ SIDE UP</text>
 <circle x="-9.9" y="0" radius="1.016" width="0.127" layer="21"/>
 </package>
 <package name="2.54MM_01X04_PIN_HEADER">
-<pad name="1" x="-3.81" y="0" drill="0.8" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="0.8" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="0.8" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="0.8" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1" rot="R90"/>
 <wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
@@ -1287,6 +1242,51 @@ SIDE UP</text>
 <wire x1="-11.1" y1="3.5" x2="-11.1" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-11.1" y1="-2.5" x2="-7.5" y2="-2.5" width="0.127" layer="21"/>
 <text x="-7.5" y="6" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="26-64-4120">
+<pad name="P$1" x="-21.78" y="0" drill="1.7"/>
+<pad name="P$2" x="-17.82" y="0" drill="1.7"/>
+<pad name="P$3" x="-13.86" y="0" drill="1.7"/>
+<pad name="P$4" x="-9.9" y="0" drill="1.7"/>
+<pad name="P$5" x="-5.94" y="0" drill="1.7"/>
+<pad name="P$6" x="-1.98" y="0" drill="1.7"/>
+<pad name="P$7" x="1.98" y="0" drill="1.7"/>
+<pad name="P$8" x="5.94" y="0" drill="1.7"/>
+<text x="-0.04" y="12.7762" size="1.016" layer="21" font="vector" ratio="16" align="center">&gt;NAME</text>
+<pad name="P$9" x="9.9" y="0" drill="1.7"/>
+<wire x1="-24.915" y1="5" x2="-24.915" y2="3.89" width="0.127" layer="21"/>
+<wire x1="-24.915" y1="3.89" x2="-24.915" y2="-5" width="0.127" layer="21"/>
+<wire x1="-24.915" y1="-5" x2="24.835" y2="-5" width="0.127" layer="21"/>
+<wire x1="24.835" y1="-5" x2="24.835" y2="3.89" width="0.127" layer="21"/>
+<wire x1="24.835" y1="3.89" x2="24.835" y2="5" width="0.127" layer="21"/>
+<wire x1="24.835" y1="5" x2="-24.915" y2="5" width="0.127" layer="21"/>
+<pad name="P$10" x="13.86" y="0" drill="1.7"/>
+<wire x1="-24.915" y1="3.89" x2="24.835" y2="3.89" width="0.127" layer="21"/>
+<text x="9.9" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL09</text>
+<text x="5.94" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL08</text>
+<text x="1.98" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL07</text>
+<text x="-1.98" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL06</text>
+<text x="-5.94" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL05</text>
+<text x="-9.9" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL04</text>
+<text x="-13.86" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL03</text>
+<text x="-17.82" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL02</text>
+<text x="-21.78" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL01</text>
+<text x="13.86" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL10</text>
+<hole x="-19.8" y="-4.24" drill="1.6"/>
+<hole x="19.8" y="-4.24" drill="1.6"/>
+<pad name="P$11" x="17.82" y="0" drill="1.7"/>
+<pad name="P$12" x="21.78" y="0" drill="1.7"/>
+<text x="17.78" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL11</text>
+<text x="21.7" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL12</text>
+</package>
+<package name="1066">
+<pad name="NEG" x="-6.0706" y="0" drill="0.889" shape="octagon"/>
+<pad name="POS" x="13.9192" y="0" drill="0.889" shape="octagon"/>
+<circle x="0" y="0" radius="11.5062" width="0.127" layer="21"/>
+<wire x1="16.3068" y1="2.54" x2="16.3068" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="11.2395" y1="2.54" x2="16.3068" y2="2.54" width="0.127" layer="21"/>
+<wire x1="11.2395" y1="-2.54" x2="16.3068" y2="-2.54" width="0.127" layer="21"/>
+<text x="11.43" y="3.81" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -16843,8 +16843,12 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <element name="R48" library="PP_Passives" package="0805" value="10K" x="341.122" y="111.887"/>
 <element name="R49" library="PP_Passives" package="0805" value="10K" x="341.122" y="107.823"/>
 <element name="R50" library="PP_Passives" package="0805" value="10K" x="341.122" y="104.013"/>
-<element name="C32" library="PP_Passives" package="0805" value=".1uF" x="332.232" y="129.667"/>
-<element name="C33" library="PP_Passives" package="0805" value=".1uF" x="332.232" y="107.95"/>
+<element name="C32" library="PP_Passives" package="0805" value=".1uF" x="332.232" y="129.667" smashed="yes">
+<attribute name="NAME" x="333.883" y="129.413" size="0.8128" layer="25" font="vector" ratio="16"/>
+</element>
+<element name="C33" library="PP_Passives" package="0805" value=".1uF" x="332.232" y="107.95" smashed="yes">
+<attribute name="NAME" x="333.883" y="107.696" size="0.8128" layer="25" font="vector" ratio="16"/>
+</element>
 <element name="U14" library="PP_DigitalIC" package="MC74HC08_SOIC-14" value="MC74HC08ADR2G" x="149.606" y="53.594"/>
 <element name="U15" library="PP_DigitalIC" package="MC74HC08_SOIC-14" value="MC74HC08ADR2G" x="188.214" y="53.594"/>
 <element name="U16" library="PP_DigitalIC" package="MC74HC08_SOIC-14" value="MC74HC08ADR2G" x="226.822" y="53.594"/>
@@ -17448,20 +17452,6 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <attribute name="LABEL01" value="12V" x="251.491" y="139.8778" size="1.016" layer="25" font="vector" ratio="16" align="center-left"/>
 <attribute name="NAME" x="259.357" y="145.796" size="1.016" layer="25" font="vector" ratio="16" rot="R270" align="center"/>
 </element>
-<element name="CABINET_I/O" library="PP_Connectors" package="26-64-4120(KEYPIN2)" value="26-64-4120" x="353.568" y="109.855" smashed="yes" rot="R90">
-<attribute name="LABEL02" value="ST_LI" x="347.853" y="95.995" size="0.8128" layer="21" font="vector" ratio="16" align="center-right"/>
-<attribute name="LABEL03" value="ST_BU" x="347.853" y="99.955" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
-<attribute name="LABEL04" value="TILT" x="347.853" y="103.915" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
-<attribute name="LABEL05" value="COIN" x="347.853" y="107.875" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
-<attribute name="LABEL06" value="ENTER" x="347.853" y="111.835" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
-<attribute name="LABEL07" value="BACK" x="347.853" y="115.795" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
-<attribute name="LABEL08" value="DOOR" x="347.853" y="119.755" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
-<attribute name="LABEL09" value="USER_0" x="347.853" y="123.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
-<attribute name="LABEL10" value="R_FLIP" x="347.853" y="127.675" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
-<attribute name="LABEL11" value="L_FLIP" x="347.853" y="131.595" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
-<attribute name="LABEL01" value="GND" x="347.853" y="88.075" size="0.8128" layer="21" font="vector" ratio="16" align="center-right"/>
-<attribute name="NAME" x="353.568" y="135.6868" size="1.016" layer="21" font="vector" ratio="16" rot="R180" align="center"/>
-</element>
 <element name="KNOCKER" library="PP_Connectors" package="26-64-4020" value="26-64-4020" x="120.04675" y="37.719" smashed="yes">
 <attribute name="LABEL02" value="" x="122.02675" y="43.719" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center-left"/>
 <attribute name="LABEL01" value="" x="118.06675" y="43.719" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center-left"/>
@@ -17539,7 +17529,6 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <element name="C12" library="PP_Passives" package="0805" value=".1uF" x="95.25" y="87.884" smashed="yes" rot="R90">
 <attribute name="NAME" x="94.107" y="89.662" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="BATT1" library="PP_Connectors" package="S8421-45R" value="S8421-45R" x="75.438" y="86.36"/>
 <element name="C15" library="MF_Passives" package="CP12.5MM" value="MF-CAP-12.5MM-1000uF" x="49.276" y="128.016" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="N/A" x="49.276" y="128.016" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG#" value="N/A" x="49.276" y="128.016" size="1.778" layer="27" rot="R270" display="off"/>
@@ -17734,7 +17723,7 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <attribute name="VOLTAGE" value="N/A" x="112.903" y="117.094" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="119.234" y="110.854" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="ST_LI" library="PP_DiscreteSemi" package="TO-220AB" value="TIP107" x="333.502" y="91.948" rot="R180"/>
+<element name="ST_LI" library="PP_DiscreteSemi" package="TO-220AB" value="NDP6020P" x="333.502" y="91.948" rot="R180"/>
 <element name="F5" library="PP_Passives" package="4628" value="4628" x="327.66" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="323.149" y="42.672" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
@@ -17806,7 +17795,7 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <element name="F7" library="PP_Passives" package="4628" value="4628" x="327.66" y="29.464" smashed="yes" rot="R270">
 <attribute name="NAME" x="323.1769" y="16.256" size="0.8128" layer="21" font="vector" ratio="16"/>
 </element>
-<element name="R146" library="PP_Passives" package="0805" value="75K" x="32.766" y="130.048" smashed="yes">
+<element name="R146" library="PP_Passives" package="0805" value="130K" x="32.766" y="130.048" smashed="yes">
 <attribute name="NAME" x="34.036" y="128.27" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
 <element name="C58" library="PP_Passives" package="0805" value="0.1uF" x="27.94" y="134.112" smashed="yes" rot="R270">
@@ -18032,6 +18021,24 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <attribute name="MFG#" value="N/A" x="326.009" y="91.948" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="326.187" y="93.894" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
+<element name="CABINET_I/O" library="PP_Connectors" package="26-64-4120" value="26-64-4120" x="353.568" y="109.855" smashed="yes" rot="R90">
+<attribute name="LABEL06" value="COIN" x="347.853" y="107.875" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="LABEL08" value="BACK" x="347.853" y="115.795" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="LABEL10" value="USER_0" x="347.853" y="123.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="LABEL12" value="L_FLIP" x="347.853" y="131.555" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="LABEL03" value="ST_LI" x="347.853" y="95.995" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="LABEL04" value="ST_BU" x="347.853" y="99.955" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="LABEL05" value="TILT" x="347.853" y="103.915" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="LABEL07" value="ENTER" x="347.853" y="111.835" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="LABEL02" value="5V" x="347.853" y="92.035" size="0.8128" layer="21" font="vector" ratio="16" align="center-right"/>
+<attribute name="LABEL09" value="DOOR" x="347.853" y="119.755" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="LABEL11" value="R_FLIP" x="347.853" y="127.635" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="LABEL01" value="GND" x="347.853" y="88.075" size="0.8128" layer="21" font="vector" ratio="16" align="center-right"/>
+<attribute name="NAME" x="353.735" y="135.6868" size="1.016" layer="21" font="vector" ratio="16" rot="R180" align="center"/>
+</element>
+<element name="BATT1" library="PP_Connectors" package="1066" value="1066" x="75.438" y="86.36" smashed="yes" rot="R270">
+<attribute name="NAME" x="78.74" y="73.533" size="1.016" layer="25" font="vector" ratio="16"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -18211,7 +18218,6 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <contactref element="PIC32_TC" pad="P$5"/>
 <contactref element="PROP_TC" pad="P$5"/>
 <contactref element="C12" pad="1"/>
-<contactref element="BATT1" pad="NEG"/>
 <contactref element="U2" pad="4"/>
 <contactref element="C15" pad="P$2"/>
 <contactref element="C16" pad="P$2"/>
@@ -18502,9 +18508,6 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <via x="148.082" y="64.008" extent="1-16" drill="0.6"/>
 <wire x1="144.272" y1="62.876" x2="144.272" y2="64.008" width="0.3048" layer="1"/>
 <via x="144.272" y="64.008" extent="1-16" drill="0.6"/>
-<wire x1="75.438" y1="94.86" x2="75.438" y2="98.298" width="0.3048" layer="1"/>
-<via x="75.438" y="98.298" extent="1-16" drill="0.6"/>
-<wire x1="75.438" y1="98.298" x2="76.2" y2="98.298" width="0.3048" layer="2"/>
 <wire x1="92.583" y1="85.334" x2="92.583" y2="86.487" width="0.3048" layer="1"/>
 <wire x1="92.583" y1="86.487" x2="93.08" y2="86.984" width="0.3048" layer="1"/>
 <wire x1="93.08" y1="86.984" x2="95.25" y2="86.984" width="0.3048" layer="1"/>
@@ -18650,7 +18653,6 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <contactref element="PHABULOUS" pad="6"/>
 <contactref element="PHABULOUS" pad="8"/>
 <contactref element="PHABULOUS" pad="11"/>
-<contactref element="CABINET_I/O" pad="P$1"/>
 <wire x1="149.104" y1="100.426" x2="149.104" y2="102.368" width="0.2032" layer="1"/>
 <wire x1="149.104" y1="102.368" x2="152.146" y2="105.41" width="0.2032" layer="1"/>
 <wire x1="152.146" y1="105.41" x2="153.416" y2="105.41" width="0.2032" layer="1"/>
@@ -18879,6 +18881,8 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <wire x1="325.009" y1="89.646" x2="325.12" y2="89.535" width="0.2032" layer="1"/>
 <via x="325.12" y="89.535" extent="1-16" drill="0.6"/>
 <wire x1="325.12" y1="89.535" x2="325.755" y2="89.535" width="0.2032" layer="2"/>
+<contactref element="CABINET_I/O" pad="P$1"/>
+<contactref element="BATT1" pad="NEG"/>
 <wire x1="320.656" y1="150.78" x2="320.656" y2="150.78" width="0" layer="19" extent="1-16"/>
 <wire x1="320.675" y1="151.003" x2="320.656" y2="150.78" width="0" layer="19" extent="1-2"/>
 <wire x1="239.17275" y1="130.08325" x2="239.1918" y2="130.15595" width="0" layer="19" extent="1-1"/>
@@ -21349,6 +21353,7 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <wire x1="252.846" y1="57.15" x2="252.592" y2="57.404" width="0.254" layer="1"/>
 <wire x1="252.592" y1="57.404" x2="250.952" y2="57.404" width="0.254" layer="1"/>
 <contactref element="AUX_PWR" pad="3"/>
+<contactref element="CABINET_I/O" pad="P$2"/>
 </signal>
 <signal name="CAB_LAT">
 <contactref element="U11" pad="1"/>
@@ -21879,12 +21884,12 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <contactref element="ST_LI" pad="D"/>
 <wire x1="334.01" y1="94.996" x2="333.502" y2="94.488" width="0.4064" layer="1"/>
 <wire x1="333.502" y1="94.488" x2="333.502" y2="91.948" width="0.4064" layer="1"/>
-<contactref element="CABINET_I/O" pad="P$2"/>
+<contactref element="ST_LI_" pad="P$1"/>
+<contactref element="CABINET_I/O" pad="P$3"/>
 <wire x1="334.01" y1="94.996" x2="352.569" y2="94.996" width="0.4064" layer="1"/>
 <wire x1="352.569" y1="94.996" x2="353.568" y2="95.995" width="0.4064" layer="1"/>
-<contactref element="ST_LI_" pad="P$1"/>
-<wire x1="348.488" y1="94.996" x2="352.569" y2="94.996" width="0.254" layer="16"/>
-<wire x1="352.569" y1="94.996" x2="353.568" y2="95.995" width="0.254" layer="16"/>
+<wire x1="348.488" y1="94.996" x2="352.569" y2="94.996" width="0.4064" layer="16"/>
+<wire x1="352.569" y1="94.996" x2="353.568" y2="95.995" width="0.4064" layer="16"/>
 </signal>
 <signal name="ST_BU">
 <contactref element="U11" pad="14"/>
@@ -24841,13 +24846,13 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 <wire x1="87.808" y1="82.22" x2="87.808" y2="80.474" width="0.3048" layer="1"/>
 </signal>
 <signal name="BKUP_V">
-<contactref element="BATT1" pad="POS"/>
 <contactref element="U2" pad="3"/>
-<wire x1="75.438" y1="73.46" x2="75.438" y2="78.74" width="0.3048" layer="1"/>
 <wire x1="90.678" y1="87.376" x2="91.313" y2="86.741" width="0.3048" layer="1"/>
 <wire x1="91.313" y1="86.741" x2="91.313" y2="85.334" width="0.3048" layer="1"/>
 <wire x1="75.438" y1="78.74" x2="83.82" y2="87.376" width="0.3048" layer="1"/>
 <wire x1="83.82" y1="87.376" x2="90.678" y2="87.376" width="0.3048" layer="1"/>
+<contactref element="BATT1" pad="POS"/>
+<wire x1="75.438" y1="72.4408" x2="75.438" y2="78.74" width="0.3048" layer="1"/>
 </signal>
 <signal name="OPTO_2">
 <contactref element="R6" pad="2"/>
@@ -25311,84 +25316,84 @@ This DRC check is for 6-Layer Standard Capability boards to be manufactured thro
 </signal>
 <signal name="ST_BU_OUT">
 <contactref element="R148" pad="1"/>
-<contactref element="CABINET_I/O" pad="P$3"/>
+<contactref element="ST_BU_OUT" pad="P$1"/>
+<contactref element="CABINET_I/O" pad="P$4"/>
 <wire x1="347.356" y1="98.425" x2="352.038" y2="98.425" width="0.4064" layer="1"/>
 <wire x1="352.038" y1="98.425" x2="353.568" y2="99.955" width="0.4064" layer="1"/>
-<contactref element="ST_BU_OUT" pad="P$1"/>
-<wire x1="348.488" y1="98.425" x2="352.038" y2="98.425" width="0.254" layer="16"/>
-<wire x1="352.038" y1="98.425" x2="353.568" y2="99.955" width="0.254" layer="16"/>
+<wire x1="348.488" y1="98.425" x2="352.038" y2="98.425" width="0.4064" layer="16"/>
+<wire x1="352.038" y1="98.425" x2="353.568" y2="99.955" width="0.4064" layer="16"/>
 </signal>
 <signal name="TILT_OUT">
-<contactref element="CABINET_I/O" pad="P$4"/>
 <contactref element="R149" pad="1"/>
+<contactref element="TILT_OUT" pad="P$1"/>
+<contactref element="CABINET_I/O" pad="P$5"/>
 <wire x1="347.356" y1="102.489" x2="352.142" y2="102.489" width="0.4064" layer="1"/>
 <wire x1="352.142" y1="102.489" x2="353.568" y2="103.915" width="0.4064" layer="1"/>
-<contactref element="TILT_OUT" pad="P$1"/>
-<wire x1="348.488" y1="102.489" x2="352.142" y2="102.489" width="0.254" layer="16"/>
-<wire x1="352.142" y1="102.489" x2="353.568" y2="103.915" width="0.254" layer="16"/>
+<wire x1="348.488" y1="102.489" x2="352.142" y2="102.489" width="0.4064" layer="16"/>
+<wire x1="352.142" y1="102.489" x2="353.568" y2="103.915" width="0.4064" layer="16"/>
 </signal>
 <signal name="COIN_OUT">
 <contactref element="R150" pad="1"/>
-<contactref element="CABINET_I/O" pad="P$5"/>
+<contactref element="COIN_OUT" pad="P$1"/>
+<contactref element="CABINET_I/O" pad="P$6"/>
 <wire x1="347.356" y1="106.553" x2="352.246" y2="106.553" width="0.4064" layer="1"/>
 <wire x1="352.246" y1="106.553" x2="353.568" y2="107.875" width="0.4064" layer="1"/>
-<contactref element="COIN_OUT" pad="P$1"/>
-<wire x1="348.488" y1="106.553" x2="352.246" y2="106.553" width="0.254" layer="16"/>
-<wire x1="352.246" y1="106.553" x2="353.568" y2="107.875" width="0.254" layer="16"/>
+<wire x1="348.488" y1="106.553" x2="352.246" y2="106.553" width="0.4064" layer="16"/>
+<wire x1="352.246" y1="106.553" x2="353.568" y2="107.875" width="0.4064" layer="16"/>
 </signal>
 <signal name="ENTER_OUT">
-<contactref element="CABINET_I/O" pad="P$6"/>
 <contactref element="R151" pad="1"/>
+<contactref element="ENTER_OUT" pad="P$1"/>
+<contactref element="CABINET_I/O" pad="P$7"/>
 <wire x1="347.356" y1="110.363" x2="352.096" y2="110.363" width="0.4064" layer="1"/>
 <wire x1="352.096" y1="110.363" x2="353.568" y2="111.835" width="0.4064" layer="1"/>
-<contactref element="ENTER_OUT" pad="P$1"/>
-<wire x1="348.488" y1="110.363" x2="352.096" y2="110.363" width="0.254" layer="16"/>
-<wire x1="352.096" y1="110.363" x2="353.568" y2="111.835" width="0.254" layer="16"/>
+<wire x1="348.488" y1="110.363" x2="352.096" y2="110.363" width="0.4064" layer="16"/>
+<wire x1="352.096" y1="110.363" x2="353.568" y2="111.835" width="0.4064" layer="16"/>
 </signal>
 <signal name="BACK_OUT">
 <contactref element="R152" pad="1"/>
-<contactref element="CABINET_I/O" pad="P$7"/>
+<contactref element="BACK_OUT" pad="P$1"/>
+<contactref element="CABINET_I/O" pad="P$8"/>
 <wire x1="347.356" y1="114.427" x2="352.2" y2="114.427" width="0.4064" layer="1"/>
 <wire x1="352.2" y1="114.427" x2="353.568" y2="115.795" width="0.4064" layer="1"/>
-<contactref element="BACK_OUT" pad="P$1"/>
-<wire x1="348.488" y1="114.427" x2="352.2" y2="114.427" width="0.254" layer="16"/>
-<wire x1="352.2" y1="114.427" x2="353.568" y2="115.795" width="0.254" layer="16"/>
+<wire x1="348.488" y1="114.427" x2="352.2" y2="114.427" width="0.4064" layer="16"/>
+<wire x1="352.2" y1="114.427" x2="353.568" y2="115.795" width="0.4064" layer="16"/>
 </signal>
 <signal name="DOOR_OUT">
-<contactref element="CABINET_I/O" pad="P$8"/>
 <contactref element="R153" pad="1"/>
+<contactref element="DOOR_OUT" pad="P$1"/>
+<contactref element="CABINET_I/O" pad="P$9"/>
 <wire x1="347.356" y1="118.491" x2="352.304" y2="118.491" width="0.4064" layer="1"/>
 <wire x1="352.304" y1="118.491" x2="353.568" y2="119.755" width="0.4064" layer="1"/>
-<contactref element="DOOR_OUT" pad="P$1"/>
-<wire x1="348.488" y1="118.491" x2="352.304" y2="118.491" width="0.254" layer="16"/>
-<wire x1="352.304" y1="118.491" x2="353.568" y2="119.755" width="0.254" layer="16"/>
+<wire x1="348.488" y1="118.491" x2="352.304" y2="118.491" width="0.4064" layer="16"/>
+<wire x1="352.304" y1="118.491" x2="353.568" y2="119.755" width="0.4064" layer="16"/>
 </signal>
 <signal name="USER_0_OUT">
 <contactref element="R154" pad="1"/>
-<contactref element="CABINET_I/O" pad="P$9"/>
+<contactref element="USER_0_OUT" pad="P$1"/>
+<contactref element="CABINET_I/O" pad="P$10"/>
 <wire x1="347.356" y1="122.301" x2="352.154" y2="122.301" width="0.4064" layer="1"/>
 <wire x1="352.154" y1="122.301" x2="353.568" y2="123.715" width="0.4064" layer="1"/>
-<contactref element="USER_0_OUT" pad="P$1"/>
-<wire x1="348.488" y1="122.301" x2="352.154" y2="122.301" width="0.254" layer="16"/>
-<wire x1="352.154" y1="122.301" x2="353.568" y2="123.715" width="0.254" layer="16"/>
+<wire x1="348.488" y1="122.301" x2="352.154" y2="122.301" width="0.4064" layer="16"/>
+<wire x1="352.154" y1="122.301" x2="353.568" y2="123.715" width="0.4064" layer="16"/>
 </signal>
 <signal name="R_FLIP_OUT">
-<contactref element="CABINET_I/O" pad="P$10"/>
 <contactref element="R155" pad="1"/>
+<contactref element="R_FLIP_OUT" pad="P$1"/>
+<contactref element="CABINET_I/O" pad="P$11"/>
 <wire x1="347.356" y1="126.365" x2="352.258" y2="126.365" width="0.4064" layer="1"/>
 <wire x1="352.258" y1="126.365" x2="353.568" y2="127.675" width="0.4064" layer="1"/>
-<contactref element="R_FLIP_OUT" pad="P$1"/>
-<wire x1="348.488" y1="126.365" x2="352.258" y2="126.365" width="0.254" layer="16"/>
-<wire x1="352.258" y1="126.365" x2="353.568" y2="127.675" width="0.254" layer="16"/>
+<wire x1="348.488" y1="126.365" x2="352.258" y2="126.365" width="0.4064" layer="16"/>
+<wire x1="352.258" y1="126.365" x2="353.568" y2="127.675" width="0.4064" layer="16"/>
 </signal>
 <signal name="L_FLIP_OUT">
 <contactref element="R156" pad="1"/>
-<contactref element="CABINET_I/O" pad="P$11"/>
+<contactref element="L_FLIP_OUT" pad="P$1"/>
+<contactref element="CABINET_I/O" pad="P$12"/>
 <wire x1="347.356" y1="130.175" x2="352.108" y2="130.175" width="0.4064" layer="1"/>
 <wire x1="352.108" y1="130.175" x2="353.568" y2="131.635" width="0.4064" layer="1"/>
-<contactref element="L_FLIP_OUT" pad="P$1"/>
-<wire x1="348.488" y1="130.175" x2="352.108" y2="130.175" width="0.254" layer="16"/>
-<wire x1="352.108" y1="130.175" x2="353.568" y2="131.635" width="0.254" layer="16"/>
+<wire x1="348.488" y1="130.175" x2="352.108" y2="130.175" width="0.4064" layer="16"/>
+<wire x1="352.108" y1="130.175" x2="353.568" y2="131.635" width="0.4064" layer="16"/>
 </signal>
 <signal name="FLASH_12V">
 <contactref element="F7" pad="P$2"/>

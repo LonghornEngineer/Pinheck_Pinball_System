@@ -82,7 +82,7 @@ PUB MAIN | i,j
   PST.Start(115200)
 
   PST.Str(STRING("STARTING PinHeck Test Jig."))
-  PST.Newline
+  PST.Newline 
 
   PST.Str(STRING("Ready."))
   PST.Newline
@@ -778,7 +778,7 @@ PUB MAIN | i,j
     PRP.NewLine
     PRP.StrIn(@PRPcode)
    
-    'waitcnt((clkfreq>>6) + cnt)
+    waitcnt(clkfreq + cnt)
    
     GetIO
    
@@ -807,7 +807,10 @@ PUB MAIN | i,j
     PRP.Dec(0)
     PRP.Str(STRING("]"))
     PRP.NewLine
-    PRP.StrIn(@PRPcode)   
+    PRP.StrIn(@PRPcode)
+
+    waitcnt(clkfreq + cnt)
+  
 
   repeat i from 0 to 1
     PRP.RxFlush  
