@@ -14678,7 +14678,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="U$14" library="PP_Aesthetics" package="LHE_FRAME" value="LHE_FRAME" x="45.974" y="56.515" rot="MR0">
 <attribute name="DNAME" value="Parker Dillmann" x="45.974" y="56.515" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="REVNUM" value="REV: 1" x="45.974" y="56.515" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="REVNUM" value="REV: 2" x="45.974" y="56.515" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="LOGO1" library="PP_Aesthetics" package="SPOOKY_LOGO" value="SPOOKY_LOGOSPOOKY_LOGO" x="42.672" y="3.175" rot="R90"/>
 <element name="U$15" library="PP_Aesthetics" package="DB_SILK_MEDIUM" value="DB_LOGO_SILK_MEDIUM" x="18.796" y="48.514" rot="MR0"/>

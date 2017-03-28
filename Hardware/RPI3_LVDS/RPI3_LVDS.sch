@@ -25984,7 +25984,7 @@
 <part name="C22" library="MF_Passives" deviceset="CAPACITOR_P" device="_6.3MM" value="100uF"/>
 <part name="U$14" library="PP_Aesthetics" deviceset="LHE_FRAME" device="">
 <attribute name="DNAME" value="Parker Dillmann"/>
-<attribute name="REVNUM" value="REV: 1"/>
+<attribute name="REVNUM" value="REV: 2"/>
 </part>
 <part name="LOGO1" library="PP_Aesthetics" deviceset="SPOOKY_LOGO" device="SPOOKY_LOGO"/>
 <part name="U$15" library="PP_Aesthetics" deviceset="DB_LOGO" device="_SILK_MEDIUM"/>
