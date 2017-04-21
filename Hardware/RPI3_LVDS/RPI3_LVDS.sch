@@ -1894,9 +1894,9 @@
 </device>
 <device name="_LM1085" package="LM1085_TO-263-3">
 <connects>
-<connect gate="G$1" pin="GND" pad="P$2"/>
-<connect gate="G$1" pin="IN" pad="P$1"/>
-<connect gate="G$1" pin="OUT" pad="P$3 P$4"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="IN" pad="P$3"/>
+<connect gate="G$1" pin="OUT" pad="P$2 P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -25984,7 +25984,7 @@
 <part name="C22" library="MF_Passives" deviceset="CAPACITOR_P" device="_6.3MM" value="100uF"/>
 <part name="U$14" library="PP_Aesthetics" deviceset="LHE_FRAME" device="">
 <attribute name="DNAME" value="Parker Dillmann"/>
-<attribute name="REVNUM" value="REV: 2"/>
+<attribute name="REVNUM" value="REV: 3"/>
 </part>
 <part name="LOGO1" library="PP_Aesthetics" deviceset="SPOOKY_LOGO" device="SPOOKY_LOGO"/>
 <part name="U$15" library="PP_Aesthetics" deviceset="DB_LOGO" device="_SILK_MEDIUM"/>
